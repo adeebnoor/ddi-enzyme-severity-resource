@@ -1,0 +1,9 @@
+metric,value
+enzyme_pairs_total,20618.0
+in_clinical_trial_DDI,545.0
+pct_in_trials,2.6
+in_trueDDI_gold,4233.0
+pct_in_true,20.5
+graded_and_in_trials,79.0
+trial_validated_Major,7.0
+trial_validated_Moderate,29.0

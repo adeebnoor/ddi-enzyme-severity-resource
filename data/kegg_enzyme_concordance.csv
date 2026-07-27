@@ -1,0 +1,87 @@
+drug,our_enzymes,kegg_enzymes,agree
+Fulvestrant,['CYP3A4'],['CYP3A4'],True
+Bosentan,"['CYP2C9', 'CYP3A4']","['CYP2C9', 'CYP3A4']",True
+Tadalafil,['CYP3A4'],['CYP3A4'],True
+Almotriptan,['CYP2D6'],"['CYP2D6', 'CYP3A4']",True
+Vinblastine,"['ABCB1 (P-gp)', 'ABCC1', 'ABCC2 (MRP2)', 'CYP2D6', 'CYP3A4']",['CYP3A4'],True
+Ezetimibe,"['ABCB1 (P-gp)', 'ABCC2 (MRP2)', 'ABCG2 (BCRP)', 'CYP3A4', 'UGT1A1']","['UGT1A1', 'UGT1A3', 'UGT2B15']",True
+Erlotinib,"['ABCB1 (P-gp)', 'ABCG2 (BCRP)', 'CYP1A2', 'CYP2C8', 'CYP2D6', 'CYP3A4', 'UGT1A1']","['CYP1A2', 'CYP3A4']",True
+Phenytoin,"['ABCB1 (P-gp)', 'ABCC2 (MRP2)', 'CYP2C8', 'CYP2C9', 'CYP3A4']",['CYP2C19'],False
+Alfuzosin,['CYP3A4'],['CYP3A4'],True
+Alprazolam,"['CYP2C9', 'CYP3A4', 'CYP3A5']",['CYP3A'],False
+Theophylline,"['CYP2C9', 'CYP2D6']",['CYP1A2'],False
+Amitriptyline,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP2C19', 'CYP2D6', 'CYP3A4']",True
+Amlodipine,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2A6', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Verapamil,"['ABCB1 (P-gp)', 'ABCC1', 'ABCC2 (MRP2)', 'ABCC3', 'ABCC4 (MRP4)', 'ABCG2 (BCRP)', 'CYP1A2', 'CYP2C19', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Carbamazepine,"['ABCB1 (P-gp)', 'ABCC2 (MRP2)', 'CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Carisoprodol,['CYP2C19'],['CYP2C19'],True
+Carvedilol,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP1A2', 'CYP2C9', 'CYP2D6', 'CYP2E1', 'CYP3A4']",True
+Celecoxib,"['ABCC4 (MRP4)', 'CYP2C9', 'CYP2D6', 'CYP3A4']",['CYP2C9'],True
+Chloroquine,"['ABCB1 (P-gp)', 'CYP2D6', 'CYP3A4']","['CYP2C8', 'CYP3A4']",True
+Citalopram,"['CYP2C19', 'CYP2D6', 'CYP3A4']","['CYP2D6', 'CYP3A4']",True
+Clomipramine,"['ABCB1 (P-gp)', 'CYP2C19', 'CYP2D6', 'CYP3A4']","['CYP2C19', 'CYP2D6', 'CYP3A4']",True
+Cyclophosphamide,"['ABCB1 (P-gp)', 'CYP2A6', 'CYP2B6', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP2B6', 'CYP2C8', 'CYP2C9', 'CYP3A4']",True
+Dapsone,"['CYP2C19', 'CYP2C9', 'CYP3A4', 'CYP3A5']","['CYP2E1', 'CYP3A4']",True
+Diazepam,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2C19', 'CYP2C8', 'CYP2C9', 'CYP3A4', 'CYP3A5']","['CYP2C19', 'CYP3A4']",True
+Dasatinib,"['ABCB1 (P-gp)', 'ABCG2 (BCRP)', 'CYP1A1', 'CYP1A2', 'CYP3A4']",['CYP3A4'],True
+Anzemet,"['CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP2D6', 'CYP3A']",True
+Donepezil,"['CYP2C9', 'CYP2D6', 'CYP3A4']",['CYP3A4'],True
+Doxepin,"['ABCB1 (P-gp)', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP2C19', 'CYP2C9', 'CYP2D6']",True
+Felodipine,"['ABCB1 (P-gp)', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Fentanyl,"['ABCB1 (P-gp)', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Fluoxetine,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP3A4', 'CYP3A5']","['CYP2C9', 'CYP2D6']",True
+Flurbiprofen,"['ABCC4 (MRP4)', 'SLCO1B1 (OATP1B1)']",['CYP2C9'],False
+Glibenclamide,"['ABCB1 (P-gp)', 'ABCC1', 'ABCC2 (MRP2)', 'ABCC3', 'ABCG2 (BCRP)', 'CYP2C19', 'CYP2C9', 'CYP3A4']","['CYP2C9', 'CYP3A4']",True
+Haloperidol,"['ABCB1 (P-gp)', 'CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP2D6', 'CYP3A4']",True
+Hydroxychloroquine,['CYP2D6'],"['CYP2C8', 'CYP3A4']",False
+Lidocaine,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2A6', 'CYP2C9', 'CYP3A4', 'CYP3A5']","['CYP1A2', 'CYP3A4']",True
+Ifosfamide,"['CYP2B6', 'CYP2C19', 'CYP2C9', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Irbesartan,"['CYP1A2', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4']",['CYP2C9'],True
+Itrizole,"['ABCB1 (P-gp)', 'CYP1A1', 'CYP2B6', 'CYP2D6', 'CYP2E1', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Lamotrigine,['ABCB1 (P-gp)'],['UGT1A4'],False
+Lansoprazole,"['ABCB1 (P-gp)', 'ABCG2 (BCRP)', 'CYP1A2', 'CYP2C19', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP2C19', 'CYP3A4']",True
+Leflunomide,"['ABCG2 (BCRP)', 'CYP1A2', 'CYP2C9']",['CYP3A4'],False
+Letrozole,"['CYP19A1', 'CYP2A6', 'CYP3A4']","['CYP2A6', 'CYP3A4']",True
+Loratadine,"['ABCB1 (P-gp)', 'CYP2C19', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP2D6', 'CYP3A4']",True
+Losartan,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2C19', 'CYP2C8', 'CYP2C9', 'CYP3A4', 'CYP3A5', 'SLCO1B1 (OATP1B1)']",['CYP2C9'],True
+Mefenamic Acid,['CYP2C9'],['CYP2C9'],True
+Methadone,"['ABCB1 (P-gp)', 'CYP3A4']","['CYP2B6', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4']",True
+Metoclopramide,['CYP2D6'],['CYP2D6'],True
+Metoprolol,"['ABCB1 (P-gp)', 'CYP2C19', 'CYP2D6']",['CYP2D6'],True
+Metronidazole,"['CYP2C8', 'CYP2C9', 'CYP3A4']",['CYP2A6'],False
+Mexiletine,"['CYP1A2', 'CYP2D6', 'CYP3A4']","['CYP1A2', 'CYP2D6']",True
+Torasemide,"['CYP2C19', 'CYP2C9']","['CYP2C8', 'CYP2C9']",True
+Mirtazapine,"['CYP1A2', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4']","['CYP1A2', 'CYP2D6', 'CYP3A4']",True
+Modafinil,"['CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Nevirapine,"['CYP2D6', 'CYP3A4']","['CYP2B6', 'CYP2D6', 'CYP3A4']",True
+Nifedipine,"['ABCB1 (P-gp)', 'ABCC2 (MRP2)', 'ABCC3', 'CYP1A2', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Nisoldipine,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP3A4']",['CYP3A4'],True
+Norfloxacin,"['CYP1A2', 'CYP3A4', 'SLCO1B1 (OATP1B1)']",['CYP1A2'],True
+Nortriptyline,"['CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP2D6'],True
+Prilosec,"['CYP2C19', 'CYP3A4']",['CYP2C19'],True
+Ondansetron,"['CYP1A2', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP1A2', 'CYP2D6', 'CYP3A4']",True
+Oxybutynin,"['CYP2C8', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP3A4', 'CYP3A5']",True
+Pantoprazole,"['ABCB1 (P-gp)', 'ABCG2 (BCRP)', 'CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP3A4']",['CYP2C19'],True
+Perphenazine,['CYP2D6'],['CYP2D6'],True
+Pioglitazone,"['CYP2C19', 'CYP2C8', 'CYP2C9', 'CYP3A4', 'SLCO1B1']",['CYP2C8'],True
+Promethazine,"['ABCB1 (P-gp)', 'CYP2C9', 'CYP2D6']",['CYP2D6'],True
+Propafenone,['ABCB1 (P-gp)'],"['CYP1A2', 'CYP2D6', 'CYP3A4']",False
+Propranolol,"['ABCB1 (P-gp)', 'CYP1A2', 'CYP2C19', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP1A2', 'CYP2C19', 'CYP2D6']",True
+Quetiapine,"['ABCB1 (P-gp)', 'CYP2C19', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Risperidone,"['ABCB1 (P-gp)', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP2D6', 'CYP3A4']",True
+Ropinirole,"['CYP1A2', 'CYP2D6']",['CYP1A2'],True
+Salmeterol,"['CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Imatinib,"['ABCB1 (P-gp)', 'ABCG2 (BCRP)', 'CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']",['CYP3A4'],True
+Simvastatin,"['ABCB1 (P-gp)', 'ABCC2 (MRP2)', 'CYP2C8', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'SLCO1A2 (OATP1A2)']",['CYP3A4'],True
+Trazodone,"['ABCB1 (P-gp)', 'CYP2D6', 'CYP3A4']","['CYP2D6', 'CYP3A4']",True
+Triazolam,"['CYP2C9', 'CYP3A4']",['CYP3A4'],True
+Venlafaxine,"['ABCB1 (P-gp)', 'ABCG2 (BCRP)', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4']",['CYP2D6'],True
+Ranolazine,['CYP3A4'],['CYP3A'],False
+Zolpidem,"['CYP1A2', 'CYP2C19', 'CYP2C9', 'CYP2D6', 'CYP3A4', 'CYP3A5']","['CYP1A2', 'CYP3A4']",True
+Zonisamide,['CYP3A4'],['CYP3A'],False
+Zopiclone,"['CYP2C9', 'CYP3A4']",['CYP3A4'],True
+Vincristine,"['ABCB1 (P-gp)', 'ABCC1', 'ABCC2 (MRP2)', 'ABCC3', 'CYP3A4', 'CYP3A5']",['CYP3A'],False
+Exemestane,"['CYP19A1', 'CYP3A4']",['CYP3A4'],True
+Aripiprazole,['CYP2D6'],"['CYP2D6', 'CYP3A4']",True
+Capecitabine,['CYP2C9'],['CYP2C9'],True
+Eletriptan,"['CYP2D6', 'CYP3A4']",['CYP3A4'],True

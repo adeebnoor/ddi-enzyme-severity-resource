@@ -1,0 +1,14 @@
+hadm_id,drug_A,drug_B,enzymes,severity
+20285402,Metronidazole,Tamoxifen,CYP3A4,Minor
+20385771,Busulfan,Ciprofloxacin,CYP3A4,Minor
+21476294,Ciprofloxacin,Mitoxantrone,ABCB1 (P-gp);CYP3A4,Minor
+20285402,Ondansetron,Tamoxifen,CYP3A4,Moderate
+20385771,Acetaminophen,Busulfan,CYP3A4,Moderate
+20385771,Acetaminophen,Methotrexate,SLCO1B1 (OATP1B1),Moderate
+20385771,Clotrimazole,Methotrexate,ABCB1 (P-gp);ABCC2 (MRP2),Moderate
+20385771,Ciprofloxacin,Methotrexate,ABCB1 (P-gp),Moderate
+21476294,Ciprofloxacin,Tamoxifen,ABCB1 (P-gp);CYP3A4,Moderate
+21476294,Loperamide,Tamoxifen,ABCB1 (P-gp);CYP3A4,Moderate
+21476294,Mitoxantrone,Tamoxifen,ABCB1 (P-gp);CYP3A4,Moderate
+28477357,Fluconazole,Tamoxifen,ABCB1 (P-gp);CYP3A4,Moderate
+29276678,Quetiapine,Tamoxifen,ABCB1 (P-gp);CYP3A4,Moderate

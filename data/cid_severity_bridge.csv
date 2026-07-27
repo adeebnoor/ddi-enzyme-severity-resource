@@ -1,0 +1,449 @@
+CID_pubchem,drug_name,DDInterIDs,joined_to_ddinter,display_name
+1046,Pyrazinamide,DDInter1547,yes,Pyrazinamide
+104741,Fulvestrant,DDInter789,yes,Fulvestrant
+104865,Bosentan,DDInter223,yes,Bosentan
+10631,Medroxyprogesterone,DDInter1137,yes,Medroxyprogesterone
+1065,"Cinchonan-9-ol, 6'-methoxy-, (8alpha,9R)-",,no,
+1071,9-cis Retinol,,no,
+110634,,,no,
+110635,Tadalafil,DDInter1736,yes,Tadalafil
+115237,Paliperidone,DDInter1381,yes,
+119182,Clofarabine,DDInter405,yes,Clofarabine
+119607,Valdecoxib,DDInter1910,yes,Valdecoxib
+1206,DL-methamphetamine,,no,
+122316,Racemic rasagiline,DDInter1572,yes,
+123606,Almotriptan,DDInter49,yes,Almotriptan
+123620,B.Mometason,,no,
+123631,Gefitinib,DDInter810,yes,Gefitinib
+124087,Desloratadine,DDInter506,yes,Desloratadine
+125017,Desvenlafaxine,DDInter511,yes,
+13342,Vinblastine,DDInter1936,yes,Vinblastine
+1349907,Methimazole,DDInter1170,yes,Methimazole
+145068,Nitric Oxide,,no,
+147912,"4-[4-[4-[4-[[(5R)-5-(2,4-difluorophenyl)-5-(1,2,4-triazol-1-ylmethyl)oxolan-3-yl]methoxy]phenyl]piperazin-1-yl]phenyl]-2-[(2S,3S)-2-hydroxypentan-3-yl]-1,2,4-triazol-3-one",,no,
+148192,Atazanavir,DDInter129,yes,Atazanavir
+148211,"Palonosetron, (3aR)-",DDInter1382,yes,Palonosetron
+14888,Arsenic Trioxide,DDInter120,yes,Arsenic Trioxide
+150310,"methyl (1R,2S,9R,11S,14R,15S)-2,15-dimethyl-5,5'-dioxo-spiro[18-oxapentacyclo[8.8.0.01,17.02,7.011,15]octadec-6-ene-14,2'-tetrahydrofuran]-9-carboxylate",,no,
+150311,Ezetimibe,DDInter707,yes,Ezetimibe
+151165,,,no,
+152945,CID 152945,DDInter611,yes,CID 152945
+1546,2-Chloro-9-(2-deoxypentofuranosyl)-9H-purin-6-amine,,no,
+158,8-iso PROSTAGLANDIN E2,,no,
+159,"5-(5-Hydroxy-4-(3-hydroxyoct-1-enyl)-3,3a,4,5,6,6a-hexahydrocyclopenta(b)furan-2-ylidene)pentanoic acid",,no,
+1690,Doxorubicin (Adriamycin) HCl,DDInter596;DDInter597,yes,Doxorubicin
+176870,Erlotinib,DDInter667,yes,Erlotinib
+1775,Phenytoin,DDInter1460,yes,Phenytoin
+19090,Megestrol,DDInter1141,yes,Megestrol
+1971,4-(2-Amino-6-(cyclopropylamino)-9H-purin-9-yl)-2-cyclopentene-1-methanol,,no,
+1978,Acebutolol,DDInter12,yes,Acebutolol
+1983,Acetaminophen,DDInter14,yes,Acetaminophen
+1986,Acetazolamide,DDInter15,yes,Acetazolamide
+2019,Dactinomycin (USP),DDInter466,yes,Dactinomycin (USP)
+2022,,,no,
+2083,Salbutamol,DDInter1632,yes,Salbutamol
+2092,Alfuzosin,DDInter44,yes,Alfuzosin
+2099,Alosetron,DDInter52,yes,
+2118,Alprazolam,DDInter54,yes,Alprazolam
+2130,Amantadine,DDInter60,yes,
+213039,Darunavir,DDInter482,yes,
+214,8-iso Prostaglandin E1,DDInter55,yes,8-iso Prostaglandin E1
+2153,Theophylline,DDInter1791,yes,Theophylline
+2156,"[2-[4-[(2-Butylbenzofuran-3-yl)carbonyl]-2,6-diiodophenoxy]ethyl]diethylaminium",,no,
+2160,Amitriptyline,DDInter78,yes,Amitriptyline
+2162,Amlodipine,DDInter79,yes,Amlodipine
+216239,Sorafenib,DDInter1702,yes,Sorafenib
+216326,Lenalidomide,DDInter1035,yes,Lenalidomide
+2170,Amoxapine,DDInter82,yes,
+2171,"6-(2-Amino(4-hydroxyphenyl)acetamido)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo(3.2.0)heptane-2-carboxylic acid",DDInter83,yes,Amoxicillin
+2173,"6-{[Amino(phenyl)acetyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate",,no,
+2177,{3-[(4-Amino-benzenesulfonyl)-isobutyl-amino]-1-benzyl-2-hydroxy-propyl}-carbamic acid tetrahydro-furan-3-YL ester,,no,
+2187,Anastrozole,DDInter95,yes,Anastrozole
+2232,"1-[5-Carbamimidamido-2-(3-methyl-1,2,3,4-tetrahydroquinoline-8-sulfonamido)pentanoyl]-4-methylpiperidine-2-carboxylic acid",DDInter117,yes,
+2244,Aspirin,DDInter20,yes,Aspirin
+2250,Atorvastatin EP Impurity B,DDInter133,yes,Atorvastatin EP Impurity B
+2265,Azathioprine,DDInter150,yes,Azathioprine
+2267,Azelastine,DDInter153;DDInter154,yes,Azelastine
+2269,"11-[4-(Dimethylamino)-3-hydroxy-6-methyl-tetrahydropyran-2-yl]oxy-2-ethyl-3,4,10-trihydroxy-13-(5-hydroxy-4-methoxy-4,6-dimethyl-tetrahydropyran-2-yl)oxy-3,5,6,8,10,12,14-heptamethyl-1-oxa-6-azacyclopentadecan-15-one",,no,
+2284,Baclofen,DDInter162,yes,Baclofen
+2311,"3-[[1-(Ethoxycarbonyl)-3-phenylpropyl]amino]-2,3,4,5-tetrahydro-2-oxo-1H-1-benzazepine-1-acetic acid",,no,
+2349,Penicillins,,no,
+2369,Betaxolol,DDInter197;DDInter198,yes,
+2375,Bicalutamide,DDInter204,yes,Bicalutamide
+2405,Bisoprolol,DDInter216,yes,Bisoprolol
+2435,Brimonidine,DDInter234;DDInter235;DDInter236,yes,
+2462,Respules,DDInter246;DDInter247,yes,Respules
+2471,Bumetanide,DDInter248,yes,Bumetanide
+2474,Bupivacaine (USAN:INN:BAN),DDInter249,yes,
+2476,"17-(Cyclopropylmethyl)-18-(2-hydroxy-3,3-dimethylbutan-2-yl)-6-methoxy-18,19-dihydro-4,5-epoxy-6,14-ethenomorphinan-3-ol",,no,
+2477,Buspirone,DDInter254,yes,Buspirone
+2478,Busulfan,DDInter255,yes,Busulfan
+2512,"N-[3-(dimethylamino)propyl]-N-(ethylcarbamoyl)-7-prop-2-enyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide",,no,
+2519,Caffeine,DDInter263,yes,
+2520,Verapamil,DDInter1928,yes,Verapamil
+2522,"5-[2-[1-(5-cyclopropyl-5-hydroxypent-3-en-2-yl)-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylenecyclohexane-1,3-diol",,no,
+2524,"5-[2-[1-(5-hydroxy-1,5-dimethyl-hexyl)-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylene-cyclohexane-1,3-diol",,no,
+2541,Candesartan,,no,
+2550,1-(2-Methyl-3-sulfanylpropanoyl)proline,DDInter292,yes,1-(2-Methyl-3-sulfanylpropanoyl)proline
+2554,Carbamazepine,DDInter293,yes,Carbamazepine
+2576,Carisoprodol,DDInter301,yes,Carisoprodol
+2578,Carmustine,DDInter302,yes,Carmustine
+2585,Carvedilol,DDInter305,yes,Carvedilol
+2609,7-(2-Amino(phenyl)acetamido)-3-chloro-8-oxo-5-thia-1-azabicyclo(4.2.0)oct-2-ene-2-carboxylic acid,,no,
+2610,7-((2-Amino-2-(4-hydroxyphenyl)acetyl)amino)-3-methyl-8-oxo-5-thia-1-azabicyclo(4.2.0)oct-2-ene-2-carboxylic acid,,no,
+2617,"3-{[(5-methyl-1,3,4-thiadiazol-2-yl)sulfanyl]methyl}-8-oxo-7-[(1H-tetrazol-1-ylacetyl)amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate",,no,
+2622,"7-[[2-(2-Amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(1-methylpyrrolidin-1-ium-1-yl)methyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate",,no,
+2631,"3-(Acetyloxymethyl)-7-[[2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate",,no,
+2650,"Ceftazidime, Antibiotic for Culture Media Use Only",,no,
+2656,"7-[[2-(2-Amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(2-methyl-6-oxido-5-oxo-1,2,4-triazin-3-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate",,no,
+2658,3-(Carbamoyloxymethyl)-7-[[2-(furan-2-yl)-2-methoxyiminoacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate,,no,
+2662,Celecoxib,DDInter336,yes,Celecoxib
+2666,7-(2-Amino(phenyl)acetamido)-3-methyl-8-oxo-5-thia-1-azabicyclo(4.2.0)oct-2-ene-2-carboxylic acid,,no,
+2676,"7-[4-(4-Fluorophenyl)-5-(methoxymethyl)-2,6-di(propan-2-yl)pyridin-3-yl]-3,5-dihydroxyhept-6-enoic acid",DDInter341,yes,Cerivastatin
+2708,Chlorambucil,DDInter350,yes,Chlorambucil
+2712,"7-Chloro-2-(methylimino)-5-phenyl-2,3-dihydro-4H-1,4-benzodiazepin-4-ol",DDInter355,yes,Chlordiazepoxide
+2719,Chloroquine,DDInter359,yes,Chloroquine
+2720,Chlorothiazide,DDInter360,yes,
+2725,(+-)-Chlorpheniramine,DDInter362,yes,Chlorpheniramine
+2726,Chlorpromazine,DDInter363,yes,
+2727,Chlorpropamide,DDInter364,yes,
+2733,Chlorzoxazone,DDInter366,yes,
+2756,Cimetidine,DDInter380,yes,Cimetidine
+2764,Ciprofloxacin,DDInter384,yes,Ciprofloxacin
+27661,Isosorbide Mononitrate,DDInter990,yes,Isosorbide Mononitrate
+2771,Citalopram,DDInter388,yes,Citalopram
+2786,"Methyl 7-chloro-6,7,8-trideoxy-6-((1-methyl-4-propylprolyl)amino)-1-thiooctopyranoside",,no,
+27991,dAVP,DDInter507,yes,
+2800,Clomiphene,DDInter409,yes,
+2801,Clomipramine,DDInter410,yes,Clomipramine
+2802,Clonazepam,DDInter411,yes,Clonazepam
+2803,Clonidine,DDInter412,yes,Clonidine
+2806,(RS)-Clopidogrel,DDInter413,yes,Clopidogrel
+2812,Clotrimazole,DDInter416,yes,Clotrimazole
+2818,,,no,
+2895,Cyclobenzaprine,DDInter454,yes,Cyclobenzaprine
+2907,Cyclophosphamide,DDInter456,yes,Cyclophosphamide
+2909,"30-Ethyl-33-(1-hydroxy-2-methyl-hex-4-enyl)-6,9,18,24-tetraisobutyl-3,21-diisopropyl-1,4,7,10,12,15,19,25,28-nonamethyl-1,4,7,10,13,16,19,22,25,28,31-undecazacyclotritriacontane-2,5,8,11,14,17,20,23,26,29,32-undecone",,no,
+2949,"1-Ethynyl-10a,12a-dimethyl-2,3,3a,3b,4,5,10,10a,10b,11,12,12a-dodecahydro-1H-cyclopenta(7,8)phenanthro(3,2-d)(1,2)oxazol-1-ol",,no,
+2951,Dantrolene(1-),DDInter473,yes,
+2955,Dapsone,DDInter475;DDInter476,yes,Dapsone
+2973,Deferoxamine,DDInter490,yes,
+298,"2,2-dichloro-N-(1,3-dihydroxy-1-(4-nitrophenyl)propan-2-yl)acetamide",,no,
+2995,Desipramine,DDInter504,yes,
+3003,Celestone,,no,
+3007,Amphetamine,DDInter84,yes,Amphetamine
+3008,(+-)-3-Methoxy-17-methylmorphinan,,no,
+3016,Diazepam,DDInter534,yes,Diazepam
+3032,Arthrotec,DDInter537;DDInter538;DDInter539,yes,Arthrotec
+3040,"6-({[3-(2,6-Dichlorophenyl)-5-methyl-1,2-oxazol-4-yl]carbonyl}amino)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate",,no,
+3042,Dicyclomine,DDInter543,yes,
+3043,,,no,
+3059,Diflunisal,DDInter551,yes,Diflunisal
+3062,Lanicor,,no,
+3062316,Dasatinib,DDInter484,yes,Dasatinib
+3066,Dihydroegotamine,,no,
+3075,"2-[3-Acetyloxy-2-(4-methoxyphenyl)-4-oxo-2,3-dihydro-1,5-benzothiazepin-5-yl]ethyl-dimethylazanium",,no,
+3108,Dipyridamole,DDInter573,yes,Dipyridamole
+3114,Disopyramide,DDInter575,yes,
+3117,Disulfiram,DDInter576,yes,
+3121,Valproic Acid,DDInter1913,yes,Valproic Acid
+3143,Docetaxol,,no,
+3148,Anzemet,DDInter581,yes,Anzemet
+3152,Donepezil,DDInter583,yes,Donepezil
+3154,"4H-Thieno(2,3-b)thiopyran-2-sulfonamide, 4-(ethylamino)-5,6-dihydro-6-methyl-, 7,7-dioxide",,no,
+3157,Doxazosin,DDInter592,yes,Doxazosin
+3158,Doxepin,DDInter593;DDInter594,yes,Doxepin
+3198,Econazole,DDInter616,yes,
+3203,Rac-Efavirenz,DDInter624,yes,Rac-Efavirenz
+3222,1-(2-{[1-(Ethoxycarbonyl)-3-phenylpropyl]amino}propanoyl)proline maleate,DDInter638,yes,Enalapril
+3249,Npc67059,,no,
+3255,"6-((4-(Dimethylamino)-3-hydroxy-6-methyloxan-2-yl)oxy)-14-ethyl-7,12,13-trihydroxy-4-((5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl)oxy)-3,5,7,9,11,13-hexamethyl-1-oxacyclotetradecane-2,10-dione",DDInter670,yes,Erythromycin
+3261,Estazolam,DDInter677,yes,
+3278,Ethacrynic Acid,DDInter686,yes,
+32797,"(9R,17R)-17-(2-chloroacetyl)-9-fluoro-11,17-dihydroxy-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one",,no,
+3291,Ethosuximide,DDInter695,yes,
+3308,Etodolac,DDInter699,yes,Etodolac
+3310,"Furo(3',4':6,7)naphtho(2,3-d)-1,3-dioxol-6(5aH)-one, 9-((4,6-O-ethylidene-beta-D-glucopyranosyl)oxy)-5,8,8a,9-tetrahydro-5-(4-hydroxy-3,5-dimethoxyphenyl)-, (5R-(5alpha,5abeta,8aalpha,9beta(R*)))-",,no,
+3324,Famciclovir,DDInter711,yes,Famciclovir
+3325,Gastro,,no,
+3333,Felodipine,DDInter716,yes,Felodipine
+3339,Fenofibrate,DDInter718,yes,Fenofibrate
+3345,Fentanyl,DDInter722,yes,Fentanyl
+3348,Fexofenadine,DDInter732,yes,Fexofenadine
+3350,"4a,6a-Dimethyl-2-oxo-2,4a,4b,5,6,6a,7,8,9,9a,9b,10,11,11a-tetradecahydro-1H-indeno(5,4-f)quinoline-7-carboxylic acid tert-butylamide",,no,
+3355,"[2,5-Bis(2,2,2-trifluoroethoxy)benzoyl]-(piperidin-2-ylmethyl)azanium",,no,
+3365,Fluconazole,DDInter743,yes,Fluconazole
+3372,Fluphenazine,DDInter760,yes,
+3379,"12-Fluoro-5-hydroxy-6b-(hydroxyacetyl)-4a,6a,8,8-tetramethyl-4a,4b,5,6,6a,6b,9a,10,10a,10b,11,12-dodecahydro-2H,8H-naphtho(2',1':4,5)indeno(1,2-d)(1,3)dioxol-2-one",,no,
+3384,"9-Fluoro-11,17-dihydroxy-6-methylpregna-1,4-diene-3,20-dione",,no,
+3385,5-Fluorouracil,DDInter757,yes,5-Fluorouracil
+3386,Fluoxetine,DDInter758,yes,Fluoxetine
+3393,Flurazepam,DDInter762,yes,
+3394,Flurbiprofen,DDInter763;DDInter764,yes,Flurbiprofen
+3397,Flutamide,DDInter765,yes,Flutamide
+3403,"7-[3-(4-Fluorophenyl)-1-propan-2-yl-2-indolyl]-3,5-dihydroxy-6-heptenoic acid",,no,
+3404,5-Methoxy-1-(4-(trifluoromethyl)phenyl)-1-pentanone O-(2-aminoethyl)oxime,DDInter770,yes,Fluvoxamine
+3405,,,no,
+3410,Formoterol,DDInter776,yes,Formoterol
+3414,Phosphonatoformate,DDInter779,yes,Phosphonatoformate
+3419,4-Cyclohexyl-1-[2-[(2-methyl-1-propanoyloxypropoxy)-(4-phenylbutyl)phosphoryl]acetyl]pyrrolidine-2-carboxylate,,no,
+34312,Oxcarbazepine,DDInter1360,yes,Oxcarbazepine
+3440,Furosemide,DDInter790,yes,Furosemide
+3449,Galantamin,,no,
+3454,,,no,
+3461,"4-Amino-1-[3,3-difluoro-4-hydroxy-5-(hydroxymethyl)-2-oxolanyl]-2-pyrimidinone",,no,
+3463,Gemfibrozil,DDInter812,yes,Gemfibrozil
+3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",DDInter825,yes,Glimepiride
+3478,Glipizide,DDInter826,yes,Glipizide
+3488,Glibenclamide,DDInter831,yes,Glibenclamide
+3510,(3H)granisetron,DDInter840,yes,(3H)granisetron
+3559,Haloperidol,DDInter853,yes,Haloperidol
+36339,Ethnor,DDInter700,yes,
+3637,Hydralazine,DDInter882,yes,Hydralazine
+3639,Hydrochlorothiazide,DDInter883,yes,Hydrochlorothiazide
+3640,"11,17,21-Trihydroxypregn-4-ene-3,20-dione",,no,
+3648,"4,5alpha-Epoxy-3-hydroxy-17-methylmorphinan-6-one",,no,
+3652,Hydroxychloroquine,DDInter893,yes,Hydroxychloroquine
+3657,Hydroxyurea,DDInter894,yes,Hydroxyurea
+3658,Hydroxyzine,DDInter895,yes,Hydroxyzine
+3672,"Ibuprofen, (+-)-",DDInter900,yes,Ibuprofen
+3675,Phenelzine,DDInter1440,yes,
+3676,Lidocaine,DDInter1066;DDInter1067;DDInter1068,yes,Lidocaine
+3690,Ifosfamide,DDInter906,yes,Ifosfamide
+3696,Imipramine,DDInter912,yes,Imipramine
+3702,Indapamide,DDInter916,yes,Indapamide
+3706,"1-(4-Benzyl-2-hydroxy-5-((2-hydroxy-2,3-dihydro-1H-inden-1-yl)amino)-5-oxopentyl)-N-tert-butyl-4-((pyridin-3-yl)methyl)piperazine-2-carboxamide",,no,
+3715,Indomethacin,DDInter921,yes,Indomethacin
+3749,Irbesartan,DDInter972,yes,Irbesartan
+3750,"4,11-Diethyl-4-hydroxy-3,14-dioxo-3,4,12,14-tetrahydro-1H-pyrano(3',4':6,7)indolizino(1,2-b)quinolin-9-yl (1,4'-bipiperidine)-1'-carboxylate",,no,
+3763,Isoflurane,DDInter983,yes,
+3767,Isoniazid,DDInter986,yes,Isoniazid
+3780,Isosorbide dinitrate mixture,,no,
+3784,Isradipine,DDInter993,yes,Isradipine
+3793,Itrizole,DDInter995,yes,Itrizole
+3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",DDInter1008,yes,Ketoconazole
+3825,Ketoprofen,DDInter1009,yes,Ketoprofen
+3826,Ketorolac,DDInter1010;DDInter1011,yes,Ketorolac
+3827,Ketotifen,DDInter1012,yes,Ketotifen
+3869,Labetalol,DDInter1013,yes,Labetalol
+3877,Mls003373964,,no,
+3878,Lamotrigine,DDInter1020,yes,Lamotrigine
+3883,Lansoprazole,DDInter1022,yes,Lansoprazole
+3890,"Isopropyl 7-((1R,2R,3R,5S)-3,5-dihydroxy-2-((R)-3-hydroxy-5-phenylpentyl)cyclopentyl)hept-5-enoate",,no,
+38904,"Azane;cyclobutane-1,1-dicarboxylic acid;platinum",DDInter298,yes,Carboplatin
+3899,Leflunomide,DDInter1033,yes,Leflunomide
+3902,Letrozole,DDInter1040,yes,Letrozole
+3929,rac-Linezolid,DDInter1073,yes,
+3937,1-{6-Amino-2-[(1-carboxy-3-phenylpropyl)amino]hexanoyl}pyrrolidine-2-carboxylic acid,,no,
+3954,Loperamide(1+),DDInter1088,yes,Loperamide
+3957,Loratadine,DDInter1091,yes,Loratadine
+3961,Losartan,DDInter1095,yes,Losartan
+3962,"8-(2-(4-Hydroxy-6-oxooxan-2-yl)ethyl)-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl 2-methylbutanoate",DDInter1098,yes,Lovastatin
+4011,Maprotiline,DDInter1124,yes,
+4034,Meclizine,DDInter1134,yes,Meclizine
+4044,Mefenamic Acid,DDInter1139,yes,Mefenamic Acid
+4046,Mefloquine,DDInter1140,yes,
+4053,Sarcolysin,,no,
+4054,Memantine,DDInter1146,yes,Memantine
+4058,Meperidine,DDInter1150,yes,Meperidine
+4064,Meprobamate,DDInter1154,yes,
+4075,5-Aminosalicylic Acid,DDInter1158,yes,5-Aminosalicylic Acid
+4091,Metformin,DDInter1164,yes,Metformin
+4095,Methadone,DDInter1166,yes,Methadone
+40976,"(17R)-13-ethyl-17-ethynyl-17-hydroxy-11-methylidene-2,6,7,8,9,10,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one",,no,
+4112,"Methotrexate, (A+-)-",DDInter1174,yes,Methotrexate
+4140,Isomethergine,,no,
+4158,Methylphenidate,DDInter1189,yes,Methylphenidate
+4159,6-alpha-Methylprednisolone,,no,
+4168,Metoclopramide,DDInter1197,yes,Metoclopramide
+41693,Sufentanil,DDInter1718,yes,
+4171,Metoprolol,DDInter1200,yes,Metoprolol
+4173,Metronidazole,DDInter1202,yes,Metronidazole
+4178,Mexiletine,DDInter1206,yes,Mexiletine
+41781,Torasemide,DDInter1836,yes,Torasemide
+4189,Miconazole,DDInter1209,yes,Miconazole
+4192,Midazolam,DDInter1212,yes,
+4195,Midodrine,DDInter1213,yes,Midodrine
+4201,Minoxidil,DDInter1226,yes,Minoxidil
+4205,Mirtazapine,DDInter1230,yes,Mirtazapine
+4211,Mitotane,DDInter1233,yes,
+4212,Mitoxantrone,DDInter1234,yes,Mitoxantrone
+4236,Modafinil,DDInter1236,yes,Modafinil
+4253,"Morphinan-3,6alpha-diol, 7,8-didehydro-4,5alpha-epoxy-17-methyl-",,no,
+4409,Nabumetone,DDInter1254,yes,Nabumetone
+4411,"5-[3-(Tert-butylamino)-2-hydroxypropoxy]-1,2,3,4-tetrahydronaphthalene-2,3-diol",DDInter1255,yes,Nadolol
+4425,"4a,9-dihydroxy-3-prop-2-enyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro(3,2-e)isoquinoline-7-one",DDInter1262,yes,Naloxone
+4428,"3-(cyclopropylmethyl)-4a,9-dihydroxy-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one",DDInter1263,yes,
+444,Bupropion,DDInter252,yes,Bupropion
+4440,Naratriptan,DDInter1267,yes,
+444033,"2-[(1S,2S,4R,8S,9S,11S,12S,13R)-6-cyclohexyl-11-hydroxy-9,13-dimethyl-16-oxo-5,7-dioxapentacyclo[10.8.0.0^{2,9}.0^{4,8}.0^{13,18}]icosa-14,17-dien-8-yl]-2-oxoethyl 2-methylpropanoate",DDInter375;DDInter376,yes,
+4449,Nefazodone,DDInter1274,yes,Nefazodone
+4451,"N-tert-butyl-2-[2-hydroxy-3-[(3-hydroxy-2-methylbenzoyl)amino]-4-phenylsulfanylbutyl]-3,4,4a,5,6,7,8,8a-octahydro-1H-isoquinoline-3-carboxamide",,no,
+4463,Nevirapine,DDInter1285,yes,Nevirapine
+4473,"Benzyl-[2-[5-methoxycarbonyl-2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3-carbonyl]oxyethyl]-methylazanium",,no,
+4485,Nifedipine,DDInter1291,yes,Nifedipine
+4497,Nimodipine,DDInter1295,yes,
+4499,Nisoldipine,DDInter1298,yes,Nisoldipine
+4506,Nitrazepam,DDInter1301,yes,Nitrazepam
+4509,Furantoin,,no,
+4513,Nizatidine,DDInter1309,yes,Nizatidine
+4536,"1-Ethynyl-1-hydroxy-11a-methyl-1H,2H,3H,3aH,3bH,4H,5H,7H,8H,9H,9aH,9bH,10H,11H,11aH-cyclopenta(a)phenanthren-7-one",,no,
+4539,Norfloxacin,DDInter1313,yes,Norfloxacin
+4543,Nortriptyline,DDInter1316,yes,Nortriptyline
+4547,2-Ethoxy-4-(2-((3-methyl-1-(2-(piperidin-1-yl)phenyl)butyl)amino)-2-oxoethyl)benzoic acid,,no,
+4583,Ofloxacin,DDInter1325,yes,Ofloxacin
+4585,,,no,
+4594,Prilosec,DDInter1340,yes,Prilosec
+4595,Ondansetron,DDInter1342,yes,Ondansetron
+4599,1-(3-Hexyl-4-oxooxetan-2-yl)tridecan-2-yl 2-formamido-4-methylpentanoate,,no,
+4603,Ethyl 4-acetamido-5-amino-3-((pentan-3-yl)oxy)cyclohex-1-ene-1-carboxylate,,no,
+4607,"3,3-Dimethyl-6-{[(5-methyl-3-phenyl-1,2-oxazol-4-yl)carbonyl]amino}-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate",,no,
+4609,"Platinum,2-cyclohexanediamine-N,N')[ethanedioato(2-)-O,O']-, [SP-4-2-(cis)]-",,no,
+4614,Oxaprozin,DDInter1358,yes,Oxaprozin
+4616,Oxazepam,DDInter1359,yes,Oxazepam
+4634,Oxybutynin,DDInter1365,yes,Oxybutynin
+4635,"4a-Hydroxy-9-methoxy-3-methyl-2,3,4,4a,5,6-hexahydro-1H-4,12-methano(1)benzofuro(3,2-e)isoquinolin-7(7aH)-one",,no,
+4659569,Tolcapone,DDInter1829,yes,Tolcapone
+4666,"4,10-Bis(acetyloxy)-13-((3-benzamido-2-hydroxy-3-phenylpropanoyl)oxy)-1,7-dihydroxy-9-oxo-5,20-epoxytax-11-en-2-yl benzoate",,no,
+4675,"[17-acetyloxy-10,13-dimethyl-2,16-bis(1-methylpiperidin-1-ium-1-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl] acetate",,no,
+4679,Pantoprazole,DDInter1388,yes,Pantoprazole
+4691,"3-(1,3-Benzodioxol-5-yloxymethyl)-4-(4-fluorophenyl)piperidine",DDInter1397,yes,Paroxetine
+4727,(+-)-Penicillamine,DDInter1419,yes,
+4740,Pentoxifylline,DDInter1426,yes,
+4745,8beta-[(Methylthio)methyl]-6-propylergoline,,no,
+4748,Perphenazine,DDInter1432,yes,Perphenazine
+4771,Phentermine,DDInter1447,yes,Phentermine
+4819,"2(3H)-Furanone, 3-ethyldihydro-4-((1-methyl-1H-imidazol-5-yl)methyl)-, (3S-cis)-",DDInter1465,yes,Pilocarpine
+4828,Pindolol,DDInter1471,yes,
+4829,Pioglitazone,DDInter1472,yes,Pioglitazone
+4834,"6-{[{[(4-Ethyl-2,3-dioxopiperazin-1-yl)carbonyl]amino}(phenyl)acetyl]amino}-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate",,no,
+4885,"4,5,6,7-Tetrahydro-N6-propyl-2,6-benzothiazolediamine",DDInter1505,yes,
+4889,"3,5-Dihydroxy-7-(6-hydroxy-2-methyl-8-((2-methylbutanoyl)oxy)-1,2,6,7,8,8a-hexahydronaphthalen-1-yl)heptanoic acid",,no,
+4893,Prazosin,DDInter1511,yes,Prazosin
+4894,"11,17,21-Trihydroxypregna-1,4-diene-3,20-dione",,no,
+4900,"17,21-Dihydroxypregna-1,4-diene-3,11,20-trione",,no,
+4909,Primidone,DDInter1521,yes,Primidone
+4911,Probenecid,DDInter1522,yes,Probenecid
+4913,Procainamide,DDInter1524,yes,
+4917,Prochlorperazine,DDInter1527,yes,Prochlorperazine
+4920,"1-acetyl-9a,11a-dimethyl-1H,2H,3H,3aH,3bH,4H,5H,7H,8H,9H,9aH,9bH,10H,11H,11aH-cyclopenta[a]phenanthren-7-one",,no,
+4927,Promethazine,DDInter1533,yes,Promethazine
+4932,Propafenone,DDInter1534,yes,Propafenone
+4943,Propofol,DDInter1538,yes,Propofol
+4946,Propranolol,DDInter1539,yes,Propranolol
+4991,Pyridostigmine,DDInter1548,yes,Pyridostigmine
+4993,Pyrimethamine,DDInter1550,yes,
+4999,Quazepam,DDInter1552,yes,
+5002,Quetiapine,DDInter1553,yes,Quetiapine
+5005,"2-(N-(1-Ethoxy-1-oxo-4-phenylbutan-2-yl)alanyl)-1,2,3,4-tetrahydroisoquinoline-3-carboxylic acid",,no,
+5035,Raloxifene,DDInter1562,yes,Raloxifene
+5038,1-(2-((1-Ethoxy-1-oxo-4-phenylbutan-2-yl)amino)propanoyl)octahydrocyclopenta(b)pyrrole-2-carboxylic acid,DDInter1565,yes,
+5039,Ranisen,,no,
+5040,(RS)-rapamycin,,no,
+5052,Hydroflumethiazide; reserpine,,no,
+5070,Riluzole,DDInter1596,yes,
+5073,Risperidone,DDInter1605,yes,Risperidone
+5076,"N-[3-hydroxy-5-[[3-methyl-2-[[[methyl-[(2-propan-2-yl-4-thiazolyl)methyl]amino]-oxomethyl]amino]-1-oxobutyl]amino]-1,6-diphenylhexan-2-yl]carbamic acid 5-thiazolylmethyl ester",DDInter1607,yes,Ritonavir
+5077,3-[1-(Dimethylamino)ethyl]phenyl ethyl(methyl)carbamate,DDInter1610,yes,Rivastigmine
+5078,Rizatriptan,DDInter1611,yes,
+5090,Rofecoxib,DDInter1613,yes,Rofecoxib
+5095,Ropinirole,DDInter1619,yes,Ropinirole
+51263,Alfentanil,DDInter43,yes,
+5152,Salmeterol,DDInter1635,yes,Salmeterol
+5155,"1-[5-(Hydroxymethyl)-2,5-dihydrofuran-2-yl]-5-methyl-1,2,3,4-tetrahydropyrimidine-2,4-dione",,no,
+5184,"9-Methyl-3-oxa-9-azatricyclo(3.3.1.02,4)nonan-7-yl tropate",DDInter1647,yes,Scopolamine
+5195,(+-)-Selegiline,DDInter1653,yes,
+5203,"4-(3,4-Dichlorophenyl)-1,2,3,4-tetrahydro-N-methyl-1-naphthalenamine",,no,
+5206,Sevoflurane,DDInter1664,yes,
+5210,Sibutramine,DDInter1665,yes,
+5212,,,no,
+5215,Sulfadiazine,DDInter1721,yes,Sulfadiazine
+5267,Duraspiron,,no,
+5281007,,,no,
+5291,Imatinib,DDInter909,yes,Imatinib
+5297,Strept-omycin,,no,
+5352,5-Fluoro-2-methyl-1-((4-(methylsulfinyl)phenyl)methylene)-1H-indene-3-acetic acid,,no,
+5353980,,,no,
+5358,Sumatriptan,DDInter1730,yes,Sumatriptan
+5362070,,,no,
+5372,"Tacrolimus-13C,D2",,no,
+5376,"(E,Z)-Tamoxifen",DDInter1744,yes,Tamoxifen
+5381226,,,no,
+5391,Temazepam,DDInter1761,yes,Temazepam
+5394,Temozolomide,DDInter1762,yes,Temozolomide
+5401,Terazosin,DDInter1767,yes,Terazosin
+5402,"N,6,6-Trimethyl-N-((naphthalen-1-yl)methyl)hept-2-en-4-yn-1-amine",,no,
+5408,"17-Hydroxy-10,13-Dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-Dodecahydrocyclopenta(A)Phenanthren-3-One",,no,
+5426,Thalidomide,DDInter1789,yes,Thalidomide
+54454,Simvastatin,DDInter1675,yes,Simvastatin
+5453,Thiotepa,DDInter1797,yes,Thiotepa
+5454,Thiothixene (USAN:USP),DDInter1798,yes,Thiothixene (USAN:USP)
+5466,"1-[4,4-Bis(3-methylthiophen-2-yl)but-3-en-1-yl]piperidine-3-carboxylic acid",,no,
+54688,"11-(4-dimethylamino-3-hydroxy-6-methyltetrahydro-2H-2-pyranyloxy)-3-ethyl-4,5-dihydroxy-13-(5-hydroxy-4-methoxy-4,6-dimethyltetrahydro-2H-2-pyranyloxy)-10-methoxy-4,6,8,10,12,14-hexamethyl-2-oxacyclotetradecane-1,7-dione",,no,
+5472,Ticlopidine,DDInter1804,yes,Ticlopidine
+5478,(+-)-Timolol,DDInter1809;DDInter1810,yes,Timolol
+54786,Treprostinil Impurity 19,DDInter1852,yes,
+5487,Tizanidine,DDInter1821,yes,
+5493381,,,no,
+5505,Tolbutamide,DDInter1828,yes,
+5512,2-(3-(Di(propan-2-yl)amino)-1-phenylpropyl)-4-methylphenol,DDInter1832,yes,Tolterodine
+5514,"(2,2,7,7-Tetramethyltetrahydro-2H,3aH,7H-bis(1,3)dioxolo(4,5-b:4',5'-d)pyran-3a-yl)methyl sulfamate",,no,
+5515,"10-[(Dimethylamino)methyl]-4-ethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2-b]quinoline-3,14(4H,12H)-dione",,no,
+5523,2-((Dimethylamino)methyl)-1-(3-methoxyphenyl)cyclohexanol,DDInter1841,yes,Tramadol
+5530,Tranylcypromine,DDInter1845,yes,
+5533,Trazodone,DDInter1851,yes,Trazodone
+5538,"3,7-Dimethyl-9-(2,6,6-trimethylcyclohex-1-en-1-yl)nona-2,4,6,8-tetraenoic acid",,no,
+5544,Mycolog,,no,
+5556,Triazolam,DDInter1860,yes,Triazolam
+5578,Trimethoprim,DDInter1874,yes,Trimethoprim
+5584,Trimipramine,DDInter1876,yes,Trimipramine
+5596,Trosec,,no,
+5645,Tauroursodiol,,no,
+5647,,,no,
+5650,"N-(1-Oxopentyl)-N-((2'-(2H-tetrazol-5-yl)(1,1'-biphenyl)-4-yl)methyl)valine",,no,
+5651,"48-[3-(4-Amino-5-hydroxy-4,6-dimethyloxan-2-yl)oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-22-(2-amino-2-oxoethyl)-5,15-dichloro-2,18,32,35,37-pentahydroxy-19-[[4-methyl-2-(methylamino)pentanoyl]amino]-20,23,26,42,44-pentaoxo-7,13-dioxa-21,24,27,41,43-pentazaoctacyclo[26.14.2.23,6.214,17.18,12.129,33.010,25.034,39]pentaconta-3,5,8(48),9,11,14,16,29(45),30,32,34(39),35,37,46,49-pentadecaene-40-carboxylic acid",,no,
+5656,Venlafaxine,DDInter1927,yes,Venlafaxine
+5672,"Methyl 4-(acetyloxy)-15-(4-ethyl-8-(methoxycarbonyl)-1,3,6,7,8,9-hexahydro-2,6-methanoazecino(4,3-b)indol-8-yl)-3-hydroxy-16-methoxy-1-methyl-6,7-didehydroaspidospermidine-3-carboxylate",,no,
+56959,Ranolazine,DDInter1570,yes,Ranolazine
+5717,Zafirlukast,DDInter1955,yes,Zafirlukast
+5719,Zaleplon,DDInter1957,yes,
+5731,"4-((3-(2-(Dimethylamino)ethyl)-1H-indol-5-yl)methyl)-1,3-oxazolidin-2-one",,no,
+5732,Zolpidem,DDInter1970,yes,Zolpidem
+5734,Zonisamide,DDInter1971,yes,Zonisamide
+5735,Zopiclone,DDInter1972,yes,Zopiclone
+5746,Mitomycin C,DDInter1232,yes,Mitomycin C
+57469,Imiquimod,DDInter913;DDInter914,yes,
+581,N-Acetyl-DL-cysteine,,no,
+596,4-Amino-1-pentofuranosyl-2(1H)-pyrimidinone,,no,
+59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,DDInter1046,yes,Levetiracetam
+5978,Vincristine,DDInter1937;DDInter1938,yes,Vincristine
+60184,"2'-epi-Perindopril, (2'R)-",,no,
+60198,Exemestane,DDInter705,yes,Exemestane
+60612,Levomedetomidine,,no,
+60787,"Butanediamide, N1-((1S,2R)-3-((3S)-3-(((1,1-dimethylethyl)amino)carbonyl)octahydro-2(1H)-isoquinolinyl)-2-hydroxy-1-(phenylmethyl)propyl)-2-((2-quinolinylcarbonyl)amino)-, (2S)-",,no,
+60795,Aripiprazole,DDInter118,yes,Aripiprazole
+60843,,,no,
+60871,Adefovir Dipivoxil,DDInter30,yes,
+60953,Capecitabine,DDInter285,yes,Capecitabine
+6398970,"(6R,7R)-7-[[2-(2-amino-4-thiazolyl)-2-hydroxyimino-1-oxoethyl]amino]-3-ethenyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid",DDInter315,yes,
+64147,,,no,
+6435110,Ivermectin (USAN:USP:INN:BAN),DDInter998,yes,
+65999,Telmisartan,DDInter1759,yes,Telmisartan
+667490,6-Mercaptopurine,DDInter1156,yes,6-Mercaptopurine
+68740,Zoledronic Acid,DDInter1968,yes,Zoledronic Acid
+68844,Brinzolamide,DDInter237,yes,
+71273,"N-(2,6-Dimethylphenyl)-1-propyl-2-piperidinecarboxamide",DDInter1620,yes,
+71329,Dofetilide,DDInter580,yes,
+71616,Voriconazole,DDInter1946,yes,Voriconazole
+72054,(+-)-Darifenacin,DDInter480,yes,Darifenacin
+74989,"3-(4-(4-Chlorophenyl)cyclohexyl)-4-hydroxynaphthalene-1,2-dione",DDInter134,yes,Atovaquone
+772,2-O-Sulfohexopyranuronosyl-(1->4)-2-deoxy-3-O-sulfo-2-(sulfoamino)hexopyranosyl-(1->4)-2-O-sulfohexopyranuronosyl-(1->4)-2-acetamido-2-deoxy-6-O-sulfohexopyranose,,no,
+77992,Frovatriptan,DDInter788,yes,
+77993,Eletriptan,DDInter627,yes,Eletriptan
+82146,Bexarotene,DDInter202;DDInter203,yes,Bexarotene
+838,(+-)-Adrenaline,DDInter1560,yes,
+85,"1-propanaminium, 3-carboxy-2-hydroxy-n,n,n-trimethyl-, inner salt",,no,
+937,Nicotinate,,no,
+93860,"Bortezomib, (1S,2R)-",DDInter222,yes,Bortezomib
+942,3-(1-Methylpyrrolidin-2-yl)pyridine,DDInter1290,yes,3-(1-Methylpyrrolidin-2-yl)pyridine
+9433,Aminophylline,DDInter74,yes,

@@ -1,0 +1,9 @@
+metric,value
+enzyme DB-mapped pairs,1172
+DrugBank hard-proven confirmed,73
+Major,11
+Moderate,37
+Minor,2
+Unknown,23
+Micromedex pairs mapped,72
+Micromedex ∩ hard-proven,35

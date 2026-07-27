@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: >-
+  An enzyme-resolved dataset linking drug interaction mechanisms to
+  clinical severity grades
+message: >-
+  If you use this dataset, please cite it using the metadata from this file.
+type: dataset
+authors:
+  - family-names: Noor
+    given-names: Adeeb
+    orcid: "https://orcid.org/0000-0002-8251-1853"
+    affiliation: >-
+      Department of Information Technology, Faculty of Computing and
+      Information Technology, King Abdulaziz University, Jeddah, Saudi Arabia
+    email: arnoor@kau.edu.sa
+abstract: >-
+  A harmonised, enzyme-resolved drug-drug interaction resource that joins a
+  mechanistic DDI corpus (GoldD3R, D3-derived, UMLS CUI-indexed) to a
+  severity-graded clinical corpus (DDInter 2.0) and attributes each
+  interaction to the specific cytochrome P450 enzyme or membrane transporter
+  responsible for it. Contains 1,900 enzyme-annotated drug pairs spanning 240
+  drugs and 35 enzymes and transporters, per-enzyme association statistics
+  with FDR control and E-values, enzyme-phenotype enrichment signatures, and
+  four independent external validations (DrugBank hard-proven set, curated
+  KEGG DDI set, clinical-trial adverse-event reports, trueDDI gold set). A
+  self-contained interactive browser is included.
+keywords:
+  - drug-drug interactions
+  - pharmacokinetics
+  - cytochrome P450
+  - drug transporters
+  - DDInter
+  - DrugBank
+  - KEGG
+  - pharmacovigilance
+  - data harmonisation
+license: CC-BY-4.0
+repository-code: "https://github.com/adeebnoor/ddi-enzyme-severity-resource"
+url: "https://github.com/adeebnoor/ddi-enzyme-severity-resource"
+version: "1.0.0"
+date-released: "2026-07-26"

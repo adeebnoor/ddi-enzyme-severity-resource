@@ -1,0 +1,14 @@
+metric,value
+drugs_mapped_to_KEGG,228.0
+KEGG_DDI_pairs_in_set,3034.0
+testable_pairs,1243.0
+Major_confirm_pct,35.1
+Moderate_confirm_pct,35.4
+Minor_confirm_pct,14.3
+Unknown_confirm_pct,9.6
+Cochran_Armitage_z,10.49
+Cochran_Armitage_p,9.6e-26
+graded_vs_unknown_OR,4.82
+graded_vs_unknown_p,7.95e-23
+enzyme_concordance_pct,86.0
+enzyme_concordance_n,86.0

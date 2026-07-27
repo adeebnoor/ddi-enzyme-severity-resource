@@ -1,0 +1,8 @@
+metric,value
+LIDDI_unique_pairs,4070
+GoldD3R_mechanism_pairs,12493
+shared_drugs_CUI,169
+shared_interaction_pairs,0
+LIDDI_drugs,265
+GoldD3R_drugs,1078
+LIDDI_pairs_novel_vs_GoldD3R,4070

@@ -1,0 +1,1800 @@
+CID_A,drug_A,CID_B,drug_B,enzyme_gene,direction,severity,DB_A,DB_B,drugbank_hard_proven
+2187,Anastrozole,60198,Exemestane,CYP19A1,inhibition,Unknown,DB01217,DB00990,Yes
+1983,Acetaminophen,3902,Letrozole,CYP3A4,induction,Unknown,DB00316,DB01006,No
+1983,Acetaminophen,3902,Letrozole,CYP2A6,inhibition,Unknown,DB00316,DB01006,No
+2907,Cyclophosphamide,3016,Diazepam,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00829,No
+2907,Cyclophosphamide,3016,Diazepam,CYP3A4,induction,Unknown,DB00531,DB00829,No
+2907,Cyclophosphamide,3016,Diazepam,CYP3A4,inhibition,Unknown,DB00531,DB00829,No
+3386,Fluoxetine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00472,DB00619,No
+3386,Fluoxetine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00472,DB00619,No
+2662,Celecoxib,3715,Indomethacin,ABCC4 (MRP4),transporter_inhibition,Moderate,DB00482,DB00328,No
+2662,Celecoxib,3715,Indomethacin,PTGS2,inhibition,Moderate,DB00482,DB00328,No
+4171,Metoprolol,5291,Imatinib,CYP2D6,inhibition,Moderate,DB00264,DB00619,No
+4171,Metoprolol,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00264,DB00619,No
+2907,Cyclophosphamide,2955,Dapsone,CYP3A4,inhibition,Unknown,DB00531,DB00250,No
+2907,Cyclophosphamide,2955,Dapsone,CYP2C9,induction,Unknown,DB00531,DB00250,No
+2162,Amlodipine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00381,DB00531,No
+2162,Amlodipine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00381,DB00531,No
+2162,Amlodipine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00381,DB00531,No
+2907,Cyclophosphamide,5578,Trimethoprim,ABCB1 (P-gp),transporter_induction,Unknown,DB00531,DB00440,Yes
+2907,Cyclophosphamide,5578,Trimethoprim,CYP3A4,induction,Unknown,DB00531,DB00440,Yes
+2907,Cyclophosphamide,5578,Trimethoprim,CYP2C9,inhibition,Unknown,DB00531,DB00440,Yes
+2907,Cyclophosphamide,5578,Trimethoprim,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00440,Yes
+2662,Celecoxib,3365,Fluconazole,CYP3A4,inhibition,Moderate,DB00482,DB00196,Yes
+2907,Cyclophosphamide,4943,Propofol,CYP3A4,inhibition,Unknown,DB00531,DB00818,No
+2907,Cyclophosphamide,4943,Propofol,CYP3A4,induction,Unknown,DB00531,DB00818,No
+2662,Celecoxib,5732,Zolpidem,CYP2D6,inhibition,Unknown,DB00482,DB00425,No
+3902,Letrozole,3957,Loratadine,CYP3A4,induction,Unknown,DB01006,DB00455,No
+3902,Letrozole,3957,Loratadine,CYP3A4,inhibition,Unknown,DB01006,DB00455,No
+2662,Celecoxib,3957,Loratadine,CYP3A4,induction,Moderate,DB00482,DB00455,No
+2662,Celecoxib,3957,Loratadine,CYP3A4,inhibition,Moderate,DB00482,DB00455,No
+5391,Temazepam,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00231,DB00398,No
+2244,Aspirin,216239,Sorafenib,CYP2C19,induction,Unknown,DB00945,DB00398,No
+2244,Aspirin,216239,Sorafenib,CYP2C9,inhibition,Unknown,DB00945,DB00398,No
+2244,Aspirin,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00945,DB00398,No
+2662,Celecoxib,5073,Risperidone,CYP3A4,inhibition,Moderate,DB00482,DB00734,No
+2907,Cyclophosphamide,4594,Prilosec,CYP3A4,induction,Unknown,DB00531,DB00338,Yes
+2907,Cyclophosphamide,4594,Prilosec,CYP2C19,inhibition,Unknown,DB00531,DB00338,Yes
+1983,Acetaminophen,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00531,No
+1983,Acetaminophen,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00316,DB00531,No
+1983,Acetaminophen,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00316,DB00531,No
+2187,Anastrozole,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01217,DB01101,Yes
+3899,Leflunomide,5735,Zopiclone,CYP2C9,inhibition,Unknown,DB01097,DB01198,No
+2662,Celecoxib,3883,Lansoprazole,CYP3A4,induction,Unknown,DB00482,DB00448,No
+2662,Celecoxib,3883,Lansoprazole,CYP3A4,inhibition,Unknown,DB00482,DB00448,No
+1983,Acetaminophen,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00316,DB00570,No
+1983,Acetaminophen,13342,Vinblastine,CYP3A4,induction,Unknown,DB00316,DB00570,No
+1983,Acetaminophen,13342,Vinblastine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00570,No
+1983,Acetaminophen,13342,Vinblastine,ABCB1 (P-gp),transporter_induction,Unknown,DB00316,DB00570,No
+2585,Carvedilol,2662,Celecoxib,CYP2D6,inhibition,Moderate,DB01136,DB00482,Yes
+2907,Cyclophosphamide,3652,Hydroxychloroquine,CYP2D6,inhibition,Unknown,DB00531,DB01611,No
+3385,5-Fluorouracil,4485,Nifedipine,CYP1A2,inhibition,Unknown,DB00544,DB01115,No
+3385,5-Fluorouracil,4485,Nifedipine,ABCC3,transporter_induction,Unknown,DB00544,DB01115,No
+3385,5-Fluorouracil,4485,Nifedipine,CYP2C9,induction,Unknown,DB00544,DB01115,No
+444,Bupropion,3899,Leflunomide,CYP2C9,inhibition,Major,DB01156,DB01097,No
+3657,Hydroxyurea,4171,Metoprolol,CYP2D6,inhibition,Unknown,DB01005,DB00264,No
+5732,Zolpidem,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00425,DB01101,No
+2662,Celecoxib,4499,Nisoldipine,CYP3A4,inhibition,Unknown,DB00482,DB00401,No
+2895,Cyclobenzaprine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00924,DB00531,No
+2895,Cyclobenzaprine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00924,DB00531,No
+2187,Anastrozole,4679,Pantoprazole,CYP1A2,induction,Unknown,DB01217,DB00213,No
+2187,Anastrozole,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB01217,DB00213,No
+3385,5-Fluorouracil,54454,Simvastatin,CYP2C9,inhibition,Unknown,DB00544,DB00641,No
+3385,5-Fluorouracil,54454,Simvastatin,CYP2C9,induction,Unknown,DB00544,DB00641,No
+2662,Celecoxib,3672,"Ibuprofen, (+-)-",ABCC4 (MRP4),transporter_inhibition,Moderate,DB00482,DB01050,No
+2662,Celecoxib,3672,"Ibuprofen, (+-)-",CYP2C9,inhibition,Moderate,DB00482,DB01050,No
+3883,Lansoprazole,3899,Leflunomide,CYP1A2,induction,Unknown,DB00448,DB01097,No
+3883,Lansoprazole,3899,Leflunomide,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00448,DB01097,No
+3883,Lansoprazole,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00448,DB01097,No
+2662,Celecoxib,2771,Citalopram,CYP2D6,inhibition,Moderate,DB00482,DB00215,No
+2162,Amlodipine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00381,DB00619,No
+2162,Amlodipine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00381,DB00619,No
+5732,Zolpidem,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00425,DB00398,No
+3899,Leflunomide,5090,Rofecoxib,CYP1A2,inhibition,Major,DB01097,DB00533,No
+2764,Ciprofloxacin,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB00537,DB01041,No
+2764,Ciprofloxacin,5426,Thalidomide,CYP3A5,induction,Moderate,DB00537,DB01041,No
+2907,Cyclophosphamide,3559,Haloperidol,CYP3A4,inhibition,Unknown,DB00531,DB00502,No
+2907,Cyclophosphamide,3559,Haloperidol,CYP2D6,induction,Unknown,DB00531,DB00502,No
+2907,Cyclophosphamide,3559,Haloperidol,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00502,No
+4173,Metronidazole,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00916,DB00853,No
+4173,Metronidazole,5394,Temozolomide,CYP3A4,induction,Unknown,DB00916,DB00853,No
+3386,Fluoxetine,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00472,DB01006,No
+2662,Celecoxib,3345,Fentanyl,CYP3A4,inhibition,Unknown,DB00482,DB00813,No
+2662,Celecoxib,3157,Doxazosin,CYP2D6,inhibition,Unknown,DB00482,DB00590,No
+2662,Celecoxib,3784,Isradipine,CYP3A4,inhibition,Unknown,DB00482,DB00270,No
+2907,Cyclophosphamide,4829,Pioglitazone,CYP2C9,inhibition,Unknown,DB00531,DB01132,No
+2907,Cyclophosphamide,4829,Pioglitazone,CYP3A4,induction,Unknown,DB00531,DB01132,No
+3385,5-Fluorouracil,4595,Ondansetron,CYP1A2,inhibition,Unknown,DB00544,DB00904,No
+3385,5-Fluorouracil,4946,Propranolol,CYP1A2,inhibition,Unknown,DB00544,DB00571,No
+3883,Lansoprazole,216239,Sorafenib,CYP1A2,induction,Unknown,DB00448,DB00398,No
+3883,Lansoprazole,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00448,DB00398,No
+3883,Lansoprazole,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00448,DB00398,No
+2662,Celecoxib,3488,Glibenclamide,CYP3A4,inhibition,Moderate,DB00482,DB01016,No
+3902,Letrozole,1349907,Methimazole,CYP3A4,inhibition,Unknown,DB01006,DB00763,No
+2662,Celecoxib,4634,Oxybutynin,CYP3A4,inhibition,Unknown,DB00482,DB01062,No
+2662,Celecoxib,5095,Ropinirole,CYP2D6,inhibition,Unknown,DB00482,DB00268,No
+4236,Modafinil,60953,Capecitabine,CYP2C9,induction,Unknown,DB00745,DB01101,No
+4236,Modafinil,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00745,DB01101,No
+2662,Celecoxib,4946,Propranolol,CYP2D6,inhibition,Moderate,DB00482,DB00571,Yes
+2662,Celecoxib,3333,Felodipine,CYP3A4,inhibition,Unknown,DB00482,DB01023,No
+2662,Celecoxib,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00482,DB00544,No
+2662,Celecoxib,3385,5-Fluorouracil,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00482,DB00544,No
+3385,5-Fluorouracil,3961,Losartan,CYP1A2,inhibition,Unknown,DB00544,DB00678,No
+2477,Buspirone,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00490,DB00482,No
+4212,Mitoxantrone,4595,Ondansetron,CYP3A4,inhibition,Unknown,DB01204,DB00904,No
+3899,Leflunomide,5578,Trimethoprim,CYP2C9,inhibition,Unknown,DB01097,DB00440,No
+2585,Carvedilol,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB00531,No
+2585,Carvedilol,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB01136,DB00531,No
+2585,Carvedilol,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB01136,DB00531,No
+4205,Mirtazapine,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00370,DB00990,No
+2907,Cyclophosphamide,4168,Metoclopramide,CYP2D6,inhibition,Unknown,DB00531,DB01233,No
+2662,Celecoxib,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB00482,DB00973,No
+2153,Theophylline,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00277,DB00482,No
+4594,Prilosec,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00338,DB01041,No
+3657,Hydroxyurea,4917,Prochlorperazine,CYP2D6,inhibition,Unknown,DB01005,DB00433,No
+2585,Carvedilol,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01136,DB00619,No
+2585,Carvedilol,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01136,DB00619,No
+1983,Acetaminophen,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00480,No
+1983,Acetaminophen,216326,Lenalidomide,PTGS2,inhibition,Unknown,DB00316,DB00480,No
+4212,Mitoxantrone,4917,Prochlorperazine,CYP3A4,inhibition,Unknown,DB01204,DB00433,No
+4236,Modafinil,176870,Erlotinib,CYP1A2,induction,Minor,DB00745,DB00530,No
+4236,Modafinil,176870,Erlotinib,CYP1A2,inhibition,Minor,DB00745,DB00530,No
+2771,Citalopram,5291,Imatinib,CYP3A4,inhibition,Minor,DB00215,DB00619,No
+3690,Ifosfamide,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01181,DB00619,No
+3690,Ifosfamide,5291,Imatinib,CYP3A4,induction,Moderate,DB01181,DB00619,No
+3676,Lidocaine,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00281,DB01097,No
+5394,Temozolomide,54454,Simvastatin,CYP3A4,induction,Unknown,DB00853,DB00641,No
+5394,Temozolomide,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB00853,DB00641,No
+3657,Hydroxyurea,54454,Simvastatin,CYP2D6,inhibition,Unknown,DB01005,DB00641,No
+3957,Loratadine,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00455,DB00398,No
+3957,Loratadine,216239,Sorafenib,CYP3A4,induction,Unknown,DB00455,DB00398,No
+3957,Loratadine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00455,DB00398,No
+2187,Anastrozole,3957,Loratadine,CYP3A4,induction,Unknown,DB01217,DB00455,No
+2187,Anastrozole,3957,Loratadine,CYP3A4,inhibition,Unknown,DB01217,DB00455,No
+3899,Leflunomide,4173,Metronidazole,CYP2C9,inhibition,Moderate,DB01097,DB00916,No
+2187,Anastrozole,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB01217,DB00973,No
+2907,Cyclophosphamide,13342,Vinblastine,CYP3A4,inhibition,Moderate,DB00531,DB00570,Yes
+2907,Cyclophosphamide,13342,Vinblastine,CYP3A4,induction,Moderate,DB00531,DB00570,Yes
+2907,Cyclophosphamide,13342,Vinblastine,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00531,DB00570,Yes
+2907,Cyclophosphamide,13342,Vinblastine,ABCB1 (P-gp),transporter_induction,Moderate,DB00531,DB00570,Yes
+3333,Felodipine,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01023,DB00398,No
+3333,Felodipine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01023,DB00398,No
+2662,Celecoxib,5656,Venlafaxine,CYP3A4,inhibition,Moderate,DB00482,DB00285,No
+2662,Celecoxib,4171,Metoprolol,CYP2D6,inhibition,Moderate,DB00482,DB00264,Yes
+4583,Ofloxacin,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB01165,DB01041,No
+3339,Fenofibrate,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB01039,DB00544,No
+4594,Prilosec,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00338,DB00619,No
+3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",5291,Imatinib,CYP2C9,inhibition,Moderate,DB00222,DB00619,No
+3899,Leflunomide,4485,Nifedipine,CYP1A2,inhibition,Unknown,DB01097,DB01115,No
+3899,Leflunomide,4485,Nifedipine,CYP2C9,induction,Unknown,DB01097,DB01115,No
+60953,Capecitabine,124087,Desloratadine,CYP2C9,inhibition,Unknown,DB01101,DB00967,No
+5391,Temazepam,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00231,DB01041,No
+2662,Celecoxib,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB00482,DB00213,No
+2662,Celecoxib,4679,Pantoprazole,CYP3A4,induction,Unknown,DB00482,DB00213,No
+2267,Azelastine,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00972,DB00482,No
+2756,Cimetidine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_induction,Unknown,DB00501,DB00531,No
+2756,Cimetidine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00501,DB00531,No
+2756,Cimetidine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00501,DB00531,No
+2756,Cimetidine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00501,DB00531,No
+2907,Cyclophosphamide,74989,"3-(4-(4-Chlorophenyl)cyclohexyl)-4-hydroxynaphthalene-1,2-dione",CYP2C9,inhibition,Unknown,DB00531,DB01117,No
+2907,Cyclophosphamide,74989,"3-(4-(4-Chlorophenyl)cyclohexyl)-4-hydroxynaphthalene-1,2-dione",CYP2C9,induction,Unknown,DB00531,DB01117,No
+2244,Aspirin,3899,Leflunomide,CYP2C9,inhibition,Major,DB00945,DB01097,No
+2662,Celecoxib,4449,Nefazodone,CYP3A4,inhibition,Unknown,DB00482,DB01149,No
+4168,Metoclopramide,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB01233,DB00530,No
+3121,Valproic Acid,5394,Temozolomide,CYP3A4,inhibition,Minor,DB00313,DB00853,Yes
+3121,Valproic Acid,5394,Temozolomide,CYP3A4,induction,Minor,DB00313,DB00853,Yes
+2662,Celecoxib,3825,Ketoprofen,ABCC4 (MRP4),transporter_inhibition,Moderate,DB00482,DB01009,No
+2662,Celecoxib,3825,Ketoprofen,CYP2C9,inhibition,Moderate,DB00482,DB01009,No
+2771,Citalopram,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00215,DB01204,No
+3657,Hydroxyurea,5291,Imatinib,CYP2D6,inhibition,Moderate,DB01005,DB00619,Yes
+2162,Amlodipine,5426,Thalidomide,CYP3A5,induction,Moderate,DB00381,DB01041,No
+2162,Amlodipine,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB00381,DB01041,No
+3488,Glibenclamide,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01016,DB00317,No
+3488,Glibenclamide,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01016,DB00317,No
+2160,Amitriptyline,5426,Thalidomide,CYP3A5,induction,Moderate,DB00321,DB01041,No
+2160,Amitriptyline,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00321,DB01041,No
+2907,Cyclophosphamide,3749,Irbesartan,CYP3A4,induction,Unknown,DB00531,DB01029,No
+2907,Cyclophosphamide,3749,Irbesartan,CYP3A4,inhibition,Unknown,DB00531,DB01029,No
+3899,Leflunomide,5656,Venlafaxine,ABCG2 (BCRP),transporter_induction,Unknown,DB01097,DB00285,No
+3899,Leflunomide,5656,Venlafaxine,CYP2C9,inhibition,Unknown,DB01097,DB00285,No
+2083,Salbutamol,2187,Anastrozole,CYP3A4,inhibition,Unknown,DB01001,DB01217,No
+2771,Citalopram,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00215,DB01041,No
+2907,Cyclophosphamide,5426,Thalidomide,CYP3A5,induction,Major,DB00531,DB01041,Yes
+2907,Cyclophosphamide,5426,Thalidomide,CYP2C19,inhibition,Major,DB00531,DB01041,Yes
+3385,5-Fluorouracil,60953,Capecitabine,CYP2C9,inhibition,Moderate,DB00544,DB01101,Yes
+2907,Cyclophosphamide,3365,Fluconazole,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00196,Yes
+2907,Cyclophosphamide,3365,Fluconazole,CYP3A4,induction,Unknown,DB00531,DB00196,Yes
+2907,Cyclophosphamide,3365,Fluconazole,CYP3A4,inhibition,Unknown,DB00531,DB00196,Yes
+4173,Metronidazole,5426,Thalidomide,CYP2C9,inhibition,Moderate,DB00916,DB01041,No
+2375,Bicalutamide,3488,Glibenclamide,CYP3A4,inhibition,Unknown,DB01128,DB01016,No
+4946,Propranolol,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00571,DB00530,No
+4946,Propranolol,176870,Erlotinib,CYP1A2,inhibition,Unknown,DB00571,DB00530,No
+5291,Imatinib,124087,Desloratadine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00619,DB00967,No
+5291,Imatinib,124087,Desloratadine,CYP1A2,inhibition,Unknown,DB00619,DB00967,No
+4485,Nifedipine,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01115,DB00530,No
+4485,Nifedipine,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB01115,DB00530,No
+4485,Nifedipine,176870,Erlotinib,CYP3A4,induction,Unknown,DB01115,DB00530,No
+4485,Nifedipine,176870,Erlotinib,ABCB1 (P-gp),transporter_induction,Unknown,DB01115,DB00530,No
+4679,Pantoprazole,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00213,DB00619,No
+4679,Pantoprazole,5291,Imatinib,CYP1A2,induction,Unknown,DB00213,DB00619,No
+4679,Pantoprazole,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00213,DB00619,No
+2187,Anastrozole,2585,Carvedilol,CYP1A2,inhibition,Unknown,DB01217,DB01136,No
+2662,Celecoxib,4917,Prochlorperazine,CYP2D6,inhibition,Moderate,DB00482,DB00433,No
+2662,Celecoxib,3559,Haloperidol,CYP3A4,inhibition,Moderate,DB00482,DB00502,No
+2662,Celecoxib,3559,Haloperidol,CYP2D6,induction,Moderate,DB00482,DB00502,No
+4058,Meperidine,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00454,DB00570,No
+2662,Celecoxib,4173,Metronidazole,CYP3A4,inhibition,Moderate,DB00482,DB00916,No
+2244,Aspirin,5426,Thalidomide,CYP2C19,induction,Unknown,DB00945,DB01041,No
+2244,Aspirin,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00945,DB01041,No
+3385,5-Fluorouracil,4173,Metronidazole,CYP2C9,inhibition,Moderate,DB00544,DB00916,No
+2662,Celecoxib,3463,Gemfibrozil,CYP3A4,induction,Moderate,DB00482,DB01241,No
+2662,Celecoxib,3463,Gemfibrozil,CYP3A4,inhibition,Moderate,DB00482,DB01241,No
+2895,Cyclobenzaprine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00924,DB01204,No
+4679,Pantoprazole,5426,Thalidomide,CYP1A2,induction,Unknown,DB00213,DB01041,No
+4679,Pantoprazole,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00213,DB01041,No
+4583,Ofloxacin,176870,Erlotinib,CYP1A2,inhibition,Unknown,DB01165,DB00530,No
+2160,Amitriptyline,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00321,DB01097,No
+2244,Aspirin,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00945,DB01101,No
+2375,Bicalutamide,4171,Metoprolol,CYP2D6,inhibition,Unknown,DB01128,DB00264,No
+54454,Simvastatin,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00641,DB01101,No
+54454,Simvastatin,60953,Capecitabine,CYP2C9,induction,Unknown,DB00641,DB01101,No
+2162,Amlodipine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00381,DB01101,No
+2478,Busulfan,3365,Fluconazole,CYP3A4,inhibition,Unknown,DB01008,DB00196,No
+1775,Phenytoin,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00252,DB00531,No
+1775,Phenytoin,2907,Cyclophosphamide,CYP3A4,induction,Moderate,DB00252,DB00531,No
+1775,Phenytoin,2907,Cyclophosphamide,CYP3A4,inhibition,Moderate,DB00252,DB00531,No
+5426,Thalidomide,5656,Venlafaxine,CYP2C19,inhibition,Moderate,DB01041,DB00285,No
+2244,Aspirin,5291,Imatinib,CYP2C9,inhibition,Unknown,DB00945,DB00619,No
+2244,Aspirin,5291,Imatinib,CYP2C19,induction,Unknown,DB00945,DB00619,No
+2244,Aspirin,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00945,DB00619,No
+2662,Celecoxib,2895,Cyclobenzaprine,CYP2D6,inhibition,Unknown,DB00482,DB00924,No
+4917,Prochlorperazine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00433,DB00619,No
+3676,Lidocaine,5426,Thalidomide,CYP1A2,inhibition,Unknown,DB00281,DB01041,No
+3676,Lidocaine,5426,Thalidomide,CYP3A5,induction,Unknown,DB00281,DB01041,No
+2907,Cyclophosphamide,3883,Lansoprazole,CYP3A4,induction,Unknown,DB00531,DB00448,No
+2907,Cyclophosphamide,3883,Lansoprazole,CYP3A4,inhibition,Unknown,DB00531,DB00448,No
+2907,Cyclophosphamide,3883,Lansoprazole,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00448,No
+3385,5-Fluorouracil,3672,"Ibuprofen, (+-)-",ABCC4 (MRP4),transporter_inhibition,Unknown,DB00544,DB01050,No
+3385,5-Fluorouracil,3672,"Ibuprofen, (+-)-",CYP2C9,inhibition,Unknown,DB00544,DB01050,No
+2662,Celecoxib,4829,Pioglitazone,CYP2C9,inhibition,Unknown,DB00482,DB01132,No
+2662,Celecoxib,4829,Pioglitazone,CYP3A4,induction,Unknown,DB00482,DB01132,No
+2662,Celecoxib,3826,Ketorolac,PTGS2,inhibition,Major,DB00482,DB00465,Yes
+1775,Phenytoin,2662,Celecoxib,CYP2C9,inhibition,Unknown,DB00252,DB00482,Yes
+1775,Phenytoin,2662,Celecoxib,CYP3A4,induction,Unknown,DB00252,DB00482,Yes
+2520,Verapamil,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00661,DB01006,No
+3961,Losartan,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00678,DB00530,No
+3961,Losartan,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00678,DB00530,No
+3899,Leflunomide,5391,Temazepam,CYP2C9,inhibition,Unknown,DB01097,DB00231,No
+4173,Metronidazole,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00916,DB01204,No
+4595,Ondansetron,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00904,DB00317,No
+5291,Imatinib,5426,Thalidomide,CYP3A5,induction,Moderate,DB00619,DB01041,No
+5291,Imatinib,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00619,DB01041,No
+2662,Celecoxib,4927,Promethazine,CYP2C9,inhibition,Moderate,DB00482,DB01069,No
+2802,Clonazepam,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB01068,DB01181,No
+2802,Clonazepam,3690,Ifosfamide,CYP3A4,induction,Moderate,DB01068,DB01181,No
+3385,5-Fluorouracil,5095,Ropinirole,CYP1A2,inhibition,Unknown,DB00544,DB00268,No
+3386,Fluoxetine,5426,Thalidomide,CYP3A5,induction,Moderate,DB00472,DB01041,No
+3386,Fluoxetine,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00472,DB01041,No
+3385,5-Fluorouracil,5090,Rofecoxib,CYP1A2,inhibition,Unknown,DB00544,DB00533,No
+3385,5-Fluorouracil,5090,Rofecoxib,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00544,DB00533,No
+3345,Fentanyl,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00813,DB00947,No
+3961,Losartan,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00678,DB00317,No
+3961,Losartan,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00678,DB00317,No
+3825,Ketoprofen,3899,Leflunomide,CYP2C9,inhibition,Major,DB01009,DB01097,No
+2187,Anastrozole,3016,Diazepam,CYP1A2,inhibition,Unknown,DB01217,DB00829,No
+1983,Acetaminophen,2662,Celecoxib,CYP3A4,induction,Unknown,DB00316,DB00482,No
+1983,Acetaminophen,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00316,DB00482,No
+2187,Anastrozole,27661,Isosorbide Mononitrate,CYP3A4,inhibition,Unknown,DB01217,DB01020,No
+444,Bupropion,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB01156,DB01005,No
+4212,Mitoxantrone,4594,Prilosec,CYP3A4,inhibition,Unknown,DB01204,DB00338,No
+2162,Amlodipine,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00381,DB00990,No
+2764,Ciprofloxacin,3899,Leflunomide,CYP1A2,inhibition,Unknown,DB00537,DB01097,No
+3365,Fluconazole,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00196,DB00544,No
+2907,Cyclophosphamide,3488,Glibenclamide,CYP3A4,inhibition,Moderate,DB00531,DB01016,No
+2907,Cyclophosphamide,3488,Glibenclamide,CYP3A4,induction,Moderate,DB00531,DB01016,No
+2907,Cyclophosphamide,3488,Glibenclamide,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00531,DB01016,No
+2662,Celecoxib,3676,Lidocaine,CYP3A4,inhibition,Unknown,DB00482,DB00281,No
+5291,Imatinib,5732,Zolpidem,CYP3A4,inhibition,Moderate,DB00619,DB00425,No
+2520,Verapamil,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00661,DB01101,No
+2118,Alprazolam,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00404,DB00544,No
+5426,Thalidomide,54454,Simvastatin,CYP2C9,inhibition,Moderate,DB01041,DB00641,No
+5426,Thalidomide,54454,Simvastatin,CYP2C9,induction,Moderate,DB01041,DB00641,No
+2662,Celecoxib,3899,Leflunomide,CYP2C9,inhibition,Major,DB00482,DB01097,No
+2244,Aspirin,216326,Lenalidomide,PTGS2,inhibition,Unknown,DB00945,DB00480,No
+2907,Cyclophosphamide,71616,Voriconazole,CYP3A4,induction,Unknown,DB00531,DB00582,No
+2907,Cyclophosphamide,71616,Voriconazole,CYP3A4,inhibition,Unknown,DB00531,DB00582,No
+2907,Cyclophosphamide,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB00531,DB00213,No
+2907,Cyclophosphamide,4679,Pantoprazole,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00213,No
+2907,Cyclophosphamide,4679,Pantoprazole,CYP3A4,induction,Unknown,DB00531,DB00213,No
+3899,Leflunomide,4946,Propranolol,CYP1A2,inhibition,Unknown,DB01097,DB00571,No
+4212,Mitoxantrone,71616,Voriconazole,CYP3A4,inhibition,Unknown,DB01204,DB00582,No
+3308,Etodolac,3899,Leflunomide,CYP2C9,inhibition,Major,DB00749,DB01097,No
+2162,Amlodipine,3902,Letrozole,CYP2A6,inhibition,Unknown,DB00381,DB01006,No
+3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00222,DB01101,No
+2187,Anastrozole,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB01217,DB00544,Yes
+3385,5-Fluorouracil,4829,Pioglitazone,CYP2C9,inhibition,Unknown,DB00544,DB01132,No
+4616,Oxazepam,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00842,DB00398,No
+3899,Leflunomide,4499,Nisoldipine,CYP1A2,inhibition,Unknown,DB01097,DB00401,No
+2520,Verapamil,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00661,DB00544,No
+2520,Verapamil,3385,5-Fluorouracil,ABCC3,transporter_inhibition,Unknown,DB00661,DB00544,No
+2662,Celecoxib,2764,Ciprofloxacin,CYP3A4,inhibition,Moderate,DB00482,DB00537,No
+4173,Metronidazole,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00916,DB00619,No
+3957,Loratadine,5426,Thalidomide,CYP2C19,induction,Unknown,DB00455,DB01041,No
+3957,Loratadine,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00455,DB01041,No
+2907,Cyclophosphamide,3961,Losartan,CYP3A4,inhibition,Unknown,DB00531,DB00678,No
+2907,Cyclophosphamide,3961,Losartan,CYP3A4,induction,Unknown,DB00531,DB00678,No
+2907,Cyclophosphamide,3961,Losartan,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00678,No
+2662,Celecoxib,5002,Quetiapine,CYP2D6,inhibition,Unknown,DB00482,DB01224,No
+2662,Celecoxib,4543,Nortriptyline,CYP2D6,inhibition,Moderate,DB00482,DB00540,No
+3899,Leflunomide,5556,Triazolam,CYP2C9,inhibition,Unknown,DB01097,DB00897,No
+2162,Amlodipine,2375,Bicalutamide,CYP3A4,inhibition,Unknown,DB00381,DB01128,No
+2907,Cyclophosphamide,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00531,DB00853,No
+2907,Cyclophosphamide,5394,Temozolomide,CYP3A4,induction,Unknown,DB00531,DB00853,No
+2118,Alprazolam,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00404,DB01101,No
+4171,Metoprolol,216239,Sorafenib,CYP2C19,inhibition,Unknown,DB00264,DB00398,No
+4171,Metoprolol,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00264,DB00398,No
+2375,Bicalutamide,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB01128,DB00482,No
+3690,Ifosfamide,5732,Zolpidem,CYP3A4,inhibition,Moderate,DB01181,DB00425,No
+3690,Ifosfamide,5732,Zolpidem,CYP3A4,induction,Moderate,DB01181,DB00425,No
+1983,Acetaminophen,2478,Busulfan,CYP3A4,induction,Moderate,DB00316,DB01008,Yes
+1983,Acetaminophen,2478,Busulfan,CYP3A4,inhibition,Moderate,DB00316,DB01008,Yes
+4679,Pantoprazole,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00213,DB01101,No
+3488,Glibenclamide,3899,Leflunomide,ABCG2 (BCRP),transporter_inhibition,Moderate,DB01016,DB01097,No
+3488,Glibenclamide,3899,Leflunomide,CYP2C9,inhibition,Moderate,DB01016,DB01097,No
+3899,Leflunomide,4539,Norfloxacin,CYP1A2,inhibition,Unknown,DB01097,DB01059,No
+4616,Oxazepam,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00842,DB00619,No
+3345,Fentanyl,3062316,Dasatinib,CYP3A4,inhibition,Major,DB00813,DB01254,Yes
+3345,Fentanyl,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB00813,DB01254,Yes
+2244,Aspirin,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00945,DB00317,No
+2244,Aspirin,123631,Gefitinib,CYP2C19,induction,Unknown,DB00945,DB00317,No
+2244,Aspirin,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00945,DB00317,No
+4212,Mitoxantrone,5453,Thiotepa,CYP3A4,inhibition,Moderate,DB01204,DB04572,No
+2578,Carmustine,4595,Ondansetron,CYP1A2,inhibition,Unknown,DB00262,DB00904,No
+3657,Hydroxyurea,4595,Ondansetron,CYP2D6,inhibition,Unknown,DB01005,DB00904,No
+2907,Cyclophosphamide,5656,Venlafaxine,CYP3A4,inhibition,Unknown,DB00531,DB00285,No
+2907,Cyclophosphamide,5656,Venlafaxine,CYP3A4,induction,Unknown,DB00531,DB00285,No
+2907,Cyclophosphamide,5656,Venlafaxine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00285,No
+2662,Celecoxib,3749,Irbesartan,CYP3A4,inhibition,Moderate,DB00482,DB01029,No
+2662,Celecoxib,4943,Propofol,CYP3A4,inhibition,Unknown,DB00482,DB00818,No
+3825,Ketoprofen,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01009,DB00317,No
+444,Bupropion,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB01156,DB00482,No
+2187,Anastrozole,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB01217,DB00947,Yes
+4212,Mitoxantrone,4679,Pantoprazole,CYP3A4,inhibition,Unknown,DB01204,DB00213,No
+4212,Mitoxantrone,4679,Pantoprazole,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB00213,No
+4212,Mitoxantrone,4679,Pantoprazole,CYP3A4,induction,Unknown,DB01204,DB00213,No
+4212,Mitoxantrone,4679,Pantoprazole,ABCB1 (P-gp),transporter_induction,Unknown,DB01204,DB00213,No
+1983,Acetaminophen,216239,Sorafenib,CYP3A4,induction,Unknown,DB00316,DB00398,No
+1983,Acetaminophen,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00398,No
+1983,Acetaminophen,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00316,DB00398,No
+2802,Clonazepam,5426,Thalidomide,CYP2E1,inhibition,Moderate,DB01068,DB01041,No
+2764,Ciprofloxacin,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00537,DB01006,No
+2662,Celecoxib,3348,Fexofenadine,CYP2D6,inhibition,Unknown,DB00482,DB00950,No
+150311,Ezetimibe,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00973,DB00398,No
+150311,Ezetimibe,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00973,DB00398,No
+2662,Celecoxib,3386,Fluoxetine,CYP3A4,inhibition,Moderate,DB00482,DB00472,Yes
+2907,Cyclophosphamide,3902,Letrozole,CYP3A4,induction,Unknown,DB00531,DB01006,No
+2907,Cyclophosphamide,3902,Letrozole,CYP2A6,inhibition,Unknown,DB00531,DB01006,No
+2907,Cyclophosphamide,4205,Mirtazapine,CYP3A4,inhibition,Unknown,DB00531,DB00370,No
+2907,Cyclophosphamide,4205,Mirtazapine,CYP2D6,induction,Unknown,DB00531,DB00370,No
+2162,Amlodipine,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00381,DB01005,No
+2907,Cyclophosphamide,4173,Metronidazole,CYP3A4,inhibition,Moderate,DB00531,DB00916,No
+2907,Cyclophosphamide,4173,Metronidazole,CYP3A4,induction,Moderate,DB00531,DB00916,No
+2662,Celecoxib,119607,Valdecoxib,CYP2C9,inhibition,Unknown,DB00482,DB00580,No
+3672,"Ibuprofen, (+-)-",3690,Ifosfamide,CYP2C9,induction,Unknown,DB01050,DB01181,No
+3672,"Ibuprofen, (+-)-",3690,Ifosfamide,PTGS1,inhibition,Unknown,DB01050,DB01181,No
+2118,Alprazolam,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00404,DB00531,No
+2118,Alprazolam,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00404,DB00531,No
+2662,Celecoxib,3961,Losartan,CYP3A4,inhibition,Moderate,DB00482,DB00678,No
+3016,Diazepam,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00829,DB01101,No
+2662,Celecoxib,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00482,DB00317,No
+2662,Celecoxib,3059,Diflunisal,PTGS2,inhibition,Moderate,DB00482,DB00861,Yes
+3365,Fluconazole,5394,Temozolomide,CYP3A4,induction,Unknown,DB00196,DB00853,No
+3365,Fluconazole,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00196,DB00853,No
+2375,Bicalutamide,4917,Prochlorperazine,CYP3A4,inhibition,Moderate,DB01128,DB00433,No
+3657,Hydroxyurea,3883,Lansoprazole,CYP2D6,inhibition,Unknown,DB01005,DB00448,No
+3672,"Ibuprofen, (+-)-",5426,Thalidomide,CYP2C19,inhibition,Unknown,DB01050,DB01041,No
+2662,Celecoxib,4205,Mirtazapine,CYP3A4,inhibition,Moderate,DB00482,DB00370,No
+2662,Celecoxib,4205,Mirtazapine,CYP2D6,induction,Moderate,DB00482,DB00370,No
+3488,Glibenclamide,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01016,DB00619,No
+3488,Glibenclamide,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01016,DB00619,No
+2478,Busulfan,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01008,DB00619,No
+2907,Cyclophosphamide,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00531,DB00619,Yes
+2907,Cyclophosphamide,5291,Imatinib,CYP3A4,induction,Moderate,DB00531,DB00619,Yes
+2907,Cyclophosphamide,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00531,DB00619,Yes
+2244,Aspirin,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00945,DB00530,No
+2083,Salbutamol,2662,Celecoxib,CYP3A4,inhibition,Unknown,DB01001,DB00482,No
+2662,Celecoxib,4168,Metoclopramide,CYP2D6,inhibition,Unknown,DB00482,DB01233,No
+2662,Celecoxib,3869,Labetalol,CYP2D6,inhibition,Moderate,DB00482,DB00598,Yes
+2187,Anastrozole,3883,Lansoprazole,CYP3A4,inhibition,Unknown,DB01217,DB00448,No
+2187,Anastrozole,3883,Lansoprazole,CYP1A2,induction,Unknown,DB01217,DB00448,No
+2662,Celecoxib,3016,Diazepam,CYP3A4,inhibition,Unknown,DB00482,DB00829,Yes
+2812,Clotrimazole,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00257,DB01041,No
+3899,Leflunomide,124087,Desloratadine,CYP1A2,inhibition,Unknown,DB01097,DB00967,No
+2907,Cyclophosphamide,5453,Thiotepa,CYP3A4,induction,Major,DB00531,DB04572,Yes
+2907,Cyclophosphamide,5453,Thiotepa,CYP2B6,inhibition,Major,DB00531,DB04572,Yes
+2771,Citalopram,216239,Sorafenib,CYP3A4,inhibition,Major,DB00215,DB00398,No
+3657,Hydroxyurea,4463,Nevirapine,CYP2D6,inhibition,Unknown,DB01005,DB00238,No
+444,Bupropion,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB01156,DB00530,No
+5073,Risperidone,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00734,DB00853,No
+5073,Risperidone,5394,Temozolomide,CYP3A4,induction,Unknown,DB00734,DB00853,No
+2187,Anastrozole,3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",CYP2C9,inhibition,Unknown,DB01217,DB00222,No
+2662,Celecoxib,4771,Phentermine,CYP2C9,induction,Unknown,DB00482,DB00191,No
+2662,Celecoxib,4771,Phentermine,CYP2C9,inhibition,Unknown,DB00482,DB00191,No
+2907,Cyclophosphamide,54454,Simvastatin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00641,No
+2907,Cyclophosphamide,54454,Simvastatin,CYP3A4,induction,Unknown,DB00531,DB00641,No
+2907,Cyclophosphamide,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB00531,DB00641,No
+60198,Exemestane,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB00990,DB00973,No
+4409,Nabumetone,216326,Lenalidomide,PTGS2,inhibition,Unknown,DB00461,DB00480,No
+5291,Imatinib,65999,Telmisartan,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00619,DB00966,No
+5291,Imatinib,65999,Telmisartan,CYP2C19,inhibition,Unknown,DB00619,DB00966,No
+5426,Thalidomide,5732,Zolpidem,CYP3A5,induction,Moderate,DB01041,DB00425,No
+5426,Thalidomide,5732,Zolpidem,CYP2C19,inhibition,Moderate,DB01041,DB00425,No
+2662,Celecoxib,5472,Ticlopidine,CYP3A4,inhibition,Moderate,DB00482,DB00208,No
+1983,Acetaminophen,5291,Imatinib,CYP3A4,induction,Moderate,DB00316,DB00619,Yes
+1983,Acetaminophen,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00316,DB00619,Yes
+1983,Acetaminophen,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00316,DB00619,Yes
+2771,Citalopram,123631,Gefitinib,CYP2C19,inhibition,Unknown,DB00215,DB00317,No
+2907,Cyclophosphamide,4616,Oxazepam,CYP3A4,induction,Unknown,DB00531,DB00842,No
+2907,Cyclophosphamide,4616,Oxazepam,CYP3A4,inhibition,Unknown,DB00531,DB00842,No
+2662,Celecoxib,123606,Almotriptan,CYP2D6,inhibition,Unknown,DB00482,DB00918,No
+54454,Simvastatin,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00641,DB00398,No
+54454,Simvastatin,216239,Sorafenib,CYP3A4,induction,Unknown,DB00641,DB00398,No
+54454,Simvastatin,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00641,DB00398,No
+2907,Cyclophosphamide,4634,Oxybutynin,CYP3A4,inhibition,Unknown,DB00531,DB01062,No
+2907,Cyclophosphamide,4634,Oxybutynin,CYP3A4,induction,Unknown,DB00531,DB01062,No
+3016,Diazepam,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00829,DB00947,No
+4171,Metoprolol,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00264,DB01041,No
+5002,Quetiapine,5426,Thalidomide,CYP3A5,induction,Moderate,DB01224,DB01041,No
+5002,Quetiapine,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB01224,DB01041,No
+2895,Cyclobenzaprine,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00924,DB00317,No
+2771,Citalopram,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00215,DB00531,No
+2771,Citalopram,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00215,DB00531,No
+2083,Salbutamol,176870,Erlotinib,CYP3A4,inhibition,Unknown,DB01001,DB00530,No
+2083,Salbutamol,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB01001,DB00531,No
+2083,Salbutamol,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB01001,DB00531,No
+41781,Torasemide,216239,Sorafenib,CYP2C9,inhibition,Unknown,DB00214,DB00398,No
+2662,Celecoxib,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00482,DB00531,Yes
+2662,Celecoxib,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00482,DB00531,Yes
+3672,"Ibuprofen, (+-)-",216326,Lenalidomide,PTGS2,inhibition,Unknown,DB01050,DB00480,No
+4168,Metoclopramide,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB01233,DB00317,No
+3961,Losartan,5426,Thalidomide,CYP3A5,induction,Unknown,DB00678,DB01041,No
+3961,Losartan,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00678,DB01041,No
+2662,Celecoxib,2719,Chloroquine,CYP2D6,inhibition,Moderate,DB00482,DB00608,No
+2375,Bicalutamide,3672,"Ibuprofen, (+-)-",CYP2C9,inhibition,Unknown,DB01128,DB01050,No
+3365,Fluconazole,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00196,DB00530,No
+3365,Fluconazole,176870,Erlotinib,CYP3A4,inhibition,Unknown,DB00196,DB00530,No
+2187,Anastrozole,5035,Raloxifene,CYP3A4,inhibition,Unknown,DB01217,DB00481,No
+444,Bupropion,2187,Anastrozole,CYP1A2,inhibition,Unknown,DB01156,DB01217,No
+4595,Ondansetron,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00904,DB00619,No
+2907,Cyclophosphamide,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00317,No
+2907,Cyclophosphamide,123631,Gefitinib,CYP3A4,induction,Unknown,DB00531,DB00317,No
+2907,Cyclophosphamide,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00531,DB00317,No
+2764,Ciprofloxacin,3385,5-Fluorouracil,CYP1A2,inhibition,Minor,DB00537,DB00544,No
+2375,Bicalutamide,27661,Isosorbide Mononitrate,CYP3A4,inhibition,Unknown,DB01128,DB01020,No
+2907,Cyclophosphamide,4946,Propranolol,CYP3A4,induction,Unknown,DB00531,DB00571,No
+2907,Cyclophosphamide,4946,Propranolol,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00571,No
+2907,Cyclophosphamide,4946,Propranolol,CYP2D6,inhibition,Unknown,DB00531,DB00571,No
+2083,Salbutamol,3902,Letrozole,CYP3A4,inhibition,Unknown,DB01001,DB01006,No
+5291,Imatinib,5391,Temazepam,CYP3A4,inhibition,Unknown,DB00619,DB00231,No
+4212,Mitoxantrone,54454,Simvastatin,ABCB1 (P-gp),transporter_induction,Unknown,DB01204,DB00641,No
+4212,Mitoxantrone,54454,Simvastatin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB00641,No
+4212,Mitoxantrone,54454,Simvastatin,CYP3A4,induction,Unknown,DB01204,DB00641,No
+4212,Mitoxantrone,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB01204,DB00641,No
+3559,Haloperidol,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00502,DB00317,No
+3559,Haloperidol,123631,Gefitinib,CYP2D6,induction,Unknown,DB00502,DB00317,No
+3559,Haloperidol,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00502,DB00317,No
+1983,Acetaminophen,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00316,DB01005,No
+3883,Lansoprazole,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00448,DB00947,No
+3883,Lansoprazole,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00448,DB00947,No
+2764,Ciprofloxacin,4212,Mitoxantrone,CYP3A4,inhibition,Minor,DB00537,DB01204,No
+2764,Ciprofloxacin,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Minor,DB00537,DB01204,No
+2764,Ciprofloxacin,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Minor,DB00537,DB01204,No
+3899,Leflunomide,3957,Loratadine,CYP2C9,inhibition,Unknown,DB01097,DB00455,No
+3899,Leflunomide,4829,Pioglitazone,CYP2C9,inhibition,Major,DB01097,DB01132,No
+3345,Fentanyl,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00813,DB00398,No
+3345,Fentanyl,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00813,DB00398,No
+3157,Doxazosin,216239,Sorafenib,CYP2C19,inhibition,Unknown,DB00590,DB00398,No
+3157,Doxazosin,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00590,DB00398,No
+4034,Meclizine,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB00737,DB01041,No
+3385,5-Fluorouracil,3478,Glipizide,CYP2C9,inhibition,Unknown,DB00544,DB01067,No
+2520,Verapamil,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00661,DB00317,No
+2520,Verapamil,123631,Gefitinib,ABCB1 (P-gp),transporter_induction,Moderate,DB00661,DB00317,No
+2520,Verapamil,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00661,DB00317,No
+2907,Cyclophosphamide,4485,Nifedipine,ABCB1 (P-gp),transporter_induction,Unknown,DB00531,DB01115,No
+2907,Cyclophosphamide,4485,Nifedipine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01115,No
+2907,Cyclophosphamide,4485,Nifedipine,CYP3A4,induction,Unknown,DB00531,DB01115,No
+2907,Cyclophosphamide,4485,Nifedipine,CYP3A4,inhibition,Unknown,DB00531,DB01115,No
+2907,Cyclophosphamide,3324,Famciclovir,CYP3A4,induction,Unknown,DB00531,DB00426,No
+2907,Cyclophosphamide,3324,Famciclovir,CYP3A4,inhibition,Unknown,DB00531,DB00426,No
+5291,Imatinib,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00619,DB01254,Yes
+5291,Imatinib,3062316,Dasatinib,CYP3A4,inhibition,Moderate,DB00619,DB01254,Yes
+3016,Diazepam,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00829,DB00544,No
+2520,Verapamil,3899,Leflunomide,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00661,DB01097,No
+2520,Verapamil,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00661,DB01097,No
+3961,Losartan,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00678,DB00947,No
+3345,Fentanyl,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00813,DB00990,No
+3385,5-Fluorouracil,4927,Promethazine,CYP2C9,inhibition,Unknown,DB00544,DB01069,No
+2187,Anastrozole,54454,Simvastatin,CYP3A4,induction,Unknown,DB01217,DB00641,No
+2187,Anastrozole,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB01217,DB00641,No
+2771,Citalopram,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00215,DB01005,No
+3385,5-Fluorouracil,123631,Gefitinib,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00544,DB00317,Yes
+3385,5-Fluorouracil,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00544,DB00317,Yes
+2187,Anastrozole,2802,Clonazepam,CYP3A4,inhibition,Unknown,DB01217,DB01068,No
+3365,Fluconazole,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00196,DB01204,No
+3365,Fluconazole,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00196,DB01204,No
+3365,Fluconazole,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00196,DB01204,No
+2662,Celecoxib,216326,Lenalidomide,PTGS2,inhibition,Unknown,DB00482,DB00480,No
+2662,Celecoxib,3696,Imipramine,CYP2D6,inhibition,Moderate,DB00482,DB00458,No
+3715,Indomethacin,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00328,DB00480,No
+3715,Indomethacin,216326,Lenalidomide,PTGS2,inhibition,Unknown,DB00328,DB00480,No
+3157,Doxazosin,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00590,DB01041,No
+2375,Bicalutamide,5090,Rofecoxib,CYP3A4,induction,Unknown,DB01128,DB00533,No
+2375,Bicalutamide,5090,Rofecoxib,CYP3A4,inhibition,Unknown,DB01128,DB00533,No
+2662,Celecoxib,3394,Flurbiprofen,ABCC4 (MRP4),transporter_inhibition,Moderate,DB00482,DB00712,No
+2662,Celecoxib,3394,Flurbiprofen,PTGS2,inhibition,Moderate,DB00482,DB00712,No
+2160,Amitriptyline,2662,Celecoxib,CYP2D6,inhibition,Moderate,DB00321,DB00482,No
+444,Bupropion,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB01156,DB00398,No
+3899,Leflunomide,4679,Pantoprazole,CYP1A2,induction,Unknown,DB01097,DB00213,No
+3899,Leflunomide,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB01097,DB00213,No
+3899,Leflunomide,4679,Pantoprazole,ABCG2 (BCRP),transporter_inhibition,Unknown,DB01097,DB00213,No
+4829,Pioglitazone,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01132,DB00398,No
+4829,Pioglitazone,216239,Sorafenib,CYP3A4,induction,Unknown,DB01132,DB00398,No
+2662,Celecoxib,5533,Trazodone,CYP2D6,inhibition,Moderate,DB00482,DB00656,No
+2907,Cyclophosphamide,4917,Prochlorperazine,CYP3A4,induction,Unknown,DB00531,DB00433,No
+2907,Cyclophosphamide,4917,Prochlorperazine,CYP3A4,inhibition,Unknown,DB00531,DB00433,No
+3657,Hydroxyurea,5073,Risperidone,CYP2D6,inhibition,Unknown,DB01005,DB00734,No
+2187,Anastrozole,2803,Clonidine,CYP1A2,inhibition,Unknown,DB01217,DB00575,No
+2162,Amlodipine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00381,DB00317,No
+2162,Amlodipine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00381,DB00317,No
+2662,Celecoxib,4409,Nabumetone,PTGS2,inhibition,Moderate,DB00482,DB00461,No
+4595,Ondansetron,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00904,DB01101,No
+2907,Cyclophosphamide,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Moderate,DB00531,DB01204,Yes
+2907,Cyclophosphamide,4212,Mitoxantrone,CYP3A4,inhibition,Moderate,DB00531,DB01204,Yes
+2907,Cyclophosphamide,4212,Mitoxantrone,CYP3A4,induction,Moderate,DB00531,DB01204,Yes
+2907,Cyclophosphamide,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00531,DB01204,Yes
+4485,Nifedipine,5426,Thalidomide,CYP3A5,induction,Moderate,DB01115,DB01041,No
+4485,Nifedipine,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB01115,DB01041,No
+1983,Acetaminophen,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00316,DB00853,No
+1983,Acetaminophen,5394,Temozolomide,CYP3A4,induction,Unknown,DB00316,DB00853,No
+1983,Acetaminophen,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00317,No
+1983,Acetaminophen,123631,Gefitinib,CYP3A4,induction,Unknown,DB00316,DB00317,No
+1983,Acetaminophen,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00316,DB00317,No
+3961,Losartan,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00678,DB00398,No
+3961,Losartan,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00678,DB00398,No
+2162,Amlodipine,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00381,DB00530,No
+2162,Amlodipine,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00381,DB00530,No
+2585,Carvedilol,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB00398,No
+2585,Carvedilol,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB01136,DB00398,No
+2907,Cyclophosphamide,41781,Torasemide,CYP2C9,induction,Unknown,DB00531,DB00214,No
+2907,Cyclophosphamide,41781,Torasemide,CYP2C19,inhibition,Unknown,DB00531,DB00214,No
+3902,Letrozole,54454,Simvastatin,CYP3A4,induction,Unknown,DB01006,DB00641,No
+3902,Letrozole,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB01006,DB00641,No
+2662,Celecoxib,3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",CYP3A4,inhibition,Unknown,DB00482,DB01026,No
+2162,Amlodipine,3690,Ifosfamide,CYP3A4,inhibition,Unknown,DB00381,DB01181,No
+2162,Amlodipine,3690,Ifosfamide,CYP3A4,induction,Unknown,DB00381,DB01181,No
+5656,Venlafaxine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00285,DB01101,No
+2520,Verapamil,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00661,DB00619,No
+2520,Verapamil,5291,Imatinib,ABCB1 (P-gp),transporter_induction,Moderate,DB00661,DB00619,No
+2520,Verapamil,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00661,DB00619,No
+2187,Anastrozole,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB01217,DB00531,Yes
+2187,Anastrozole,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB01217,DB00531,Yes
+2162,Amlodipine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00381,DB00398,No
+2162,Amlodipine,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00381,DB00398,No
+2907,Cyclophosphamide,3345,Fentanyl,CYP3A4,inhibition,Unknown,DB00531,DB00813,No
+2907,Cyclophosphamide,3345,Fentanyl,CYP3A4,induction,Unknown,DB00531,DB00813,No
+2907,Cyclophosphamide,3345,Fentanyl,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00813,No
+2907,Cyclophosphamide,3385,5-Fluorouracil,CYP2C9,inhibition,Moderate,DB00531,DB00544,Yes
+2907,Cyclophosphamide,3385,5-Fluorouracil,CYP2C9,induction,Moderate,DB00531,DB00544,Yes
+1983,Acetaminophen,5426,Thalidomide,PTGS2,inhibition,Unknown,DB00316,DB01041,No
+3339,Fenofibrate,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01039,DB00398,No
+3672,"Ibuprofen, (+-)-",3899,Leflunomide,CYP2C9,inhibition,Major,DB01050,DB01097,No
+4594,Prilosec,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00338,DB00398,No
+4485,Nifedipine,216239,Sorafenib,ABCB1 (P-gp),transporter_induction,Unknown,DB01115,DB00398,No
+4485,Nifedipine,216239,Sorafenib,CYP3A4,induction,Unknown,DB01115,DB00398,No
+4485,Nifedipine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01115,DB00398,No
+4485,Nifedipine,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB01115,DB00398,No
+3339,Fenofibrate,3899,Leflunomide,CYP2C9,inhibition,Major,DB01039,DB01097,No
+2662,Celecoxib,5426,Thalidomide,PTGS2,inhibition,Unknown,DB00482,DB01041,No
+2187,Anastrozole,2662,Celecoxib,CYP3A4,inhibition,Unknown,DB01217,DB00482,No
+5291,Imatinib,60953,Capecitabine,CYP2C9,inhibition,Moderate,DB00619,DB01101,No
+2907,Cyclophosphamide,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00531,DB00947,No
+2907,Cyclophosphamide,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00531,DB00947,No
+2662,Celecoxib,4595,Ondansetron,CYP2D6,inhibition,Moderate,DB00482,DB00904,No
+2907,Cyclophosphamide,5090,Rofecoxib,CYP3A4,induction,Unknown,DB00531,DB00533,No
+2907,Cyclophosphamide,5090,Rofecoxib,CYP3A4,inhibition,Unknown,DB00531,DB00533,No
+3899,Leflunomide,4927,Promethazine,CYP2C9,inhibition,Unknown,DB01097,DB01069,No
+2895,Cyclobenzaprine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00924,DB00619,No
+2187,Anastrozole,4829,Pioglitazone,CYP2C9,inhibition,Unknown,DB01217,DB01132,No
+2187,Anastrozole,4829,Pioglitazone,CYP3A4,induction,Unknown,DB01217,DB01132,No
+2554,Carbamazepine,5426,Thalidomide,CYP3A5,induction,Moderate,DB00564,DB01041,No
+2554,Carbamazepine,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00564,DB01041,No
+3333,Felodipine,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB01023,DB01005,No
+3121,Valproic Acid,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00313,DB00317,No
+2907,Cyclophosphamide,4595,Ondansetron,CYP2D6,inhibition,Minor,DB00531,DB00904,No
+2907,Cyclophosphamide,4595,Ondansetron,CYP3A4,induction,Minor,DB00531,DB00904,No
+2812,Clotrimazole,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00257,DB00853,No
+2812,Clotrimazole,5394,Temozolomide,CYP3A4,induction,Unknown,DB00257,DB00853,No
+3308,Etodolac,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00749,DB00544,No
+3899,Leflunomide,41781,Torasemide,CYP2C9,inhibition,Moderate,DB01097,DB00214,No
+2662,Celecoxib,148192,Atazanavir,CYP3A4,inhibition,Unknown,DB00482,DB01072,No
+3385,5-Fluorouracil,3883,Lansoprazole,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00544,DB00448,No
+3385,5-Fluorouracil,3883,Lansoprazole,CYP2C9,inhibition,Unknown,DB00544,DB00448,No
+3385,5-Fluorouracil,3883,Lansoprazole,CYP1A2,induction,Unknown,DB00544,DB00448,No
+1983,Acetaminophen,2375,Bicalutamide,CYP3A4,induction,Unknown,DB00316,DB01128,No
+1983,Acetaminophen,2375,Bicalutamide,CYP3A4,inhibition,Unknown,DB00316,DB01128,No
+54454,Simvastatin,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00641,DB00317,No
+54454,Simvastatin,123631,Gefitinib,CYP3A4,induction,Unknown,DB00641,DB00317,No
+54454,Simvastatin,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00641,DB00317,No
+65999,Telmisartan,216239,Sorafenib,CYP2C19,inhibition,Unknown,DB00966,DB00398,No
+65999,Telmisartan,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00966,DB00398,No
+2662,Celecoxib,4485,Nifedipine,CYP3A4,induction,Unknown,DB00482,DB01115,Yes
+2662,Celecoxib,4485,Nifedipine,CYP3A4,inhibition,Unknown,DB00482,DB01115,Yes
+2662,Celecoxib,54454,Simvastatin,CYP3A4,induction,Unknown,DB00482,DB00641,No
+2662,Celecoxib,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB00482,DB00641,No
+2662,Celecoxib,3767,Isoniazid,CYP3A4,inhibition,Moderate,DB00482,DB00951,No
+2478,Busulfan,2764,Ciprofloxacin,CYP3A4,inhibition,Minor,DB01008,DB00537,No
+2187,Anastrozole,5002,Quetiapine,CYP3A4,inhibition,Unknown,DB01217,DB01224,No
+3385,5-Fluorouracil,4679,Pantoprazole,CYP1A2,induction,Unknown,DB00544,DB00213,No
+3385,5-Fluorouracil,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB00544,DB00213,No
+3385,5-Fluorouracil,4679,Pantoprazole,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00544,DB00213,No
+2554,Carbamazepine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_induction,Moderate,DB00564,DB00531,No
+2554,Carbamazepine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00564,DB00531,No
+2554,Carbamazepine,2907,Cyclophosphamide,CYP3A4,induction,Moderate,DB00564,DB00531,No
+2554,Carbamazepine,2907,Cyclophosphamide,CYP3A4,inhibition,Moderate,DB00564,DB00531,No
+2662,Celecoxib,4075,5-Aminosalicylic Acid,PTGS2,inhibition,Moderate,DB00482,DB00244,No
+5391,Temazepam,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00231,DB00317,No
+2801,Clomipramine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01242,DB00317,No
+2801,Clomipramine,123631,Gefitinib,CYP2C19,inhibition,Unknown,DB01242,DB00317,No
+2662,Celecoxib,5035,Raloxifene,CYP3A4,inhibition,Unknown,DB00482,DB00481,No
+4212,Mitoxantrone,5732,Zolpidem,CYP3A4,inhibition,Unknown,DB01204,DB00425,No
+3016,Diazepam,5426,Thalidomide,CYP3A5,induction,Moderate,DB00829,DB01041,No
+3016,Diazepam,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00829,DB01041,No
+3478,Glipizide,3899,Leflunomide,CYP2C9,inhibition,Moderate,DB01067,DB01097,No
+60953,Capecitabine,216239,Sorafenib,CYP2C9,inhibition,Moderate,DB01101,DB00398,No
+1983,Acetaminophen,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00316,DB01101,No
+3385,5-Fluorouracil,5556,Triazolam,CYP2C9,inhibition,Unknown,DB00544,DB00897,No
+2771,Citalopram,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB00215,DB01181,No
+2771,Citalopram,3690,Ifosfamide,CYP3A4,induction,Moderate,DB00215,DB01181,No
+3386,Fluoxetine,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00472,DB00853,No
+3386,Fluoxetine,5394,Temozolomide,CYP3A4,induction,Unknown,DB00472,DB00853,No
+3016,Diazepam,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00829,DB00398,No
+3016,Diazepam,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00829,DB00398,No
+3339,Fenofibrate,5426,Thalidomide,CYP2C9,inhibition,Unknown,DB01039,DB01041,No
+2662,Celecoxib,3652,Hydroxychloroquine,CYP2D6,inhibition,Unknown,DB00482,DB01611,No
+2771,Citalopram,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB00215,DB00530,No
+3385,5-Fluorouracil,4634,Oxybutynin,CYP2C8,inhibition,Unknown,DB00544,DB01062,No
+2162,Amlodipine,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00381,DB00853,No
+2162,Amlodipine,5394,Temozolomide,CYP3A4,induction,Unknown,DB00381,DB00853,No
+3339,Fenofibrate,82146,Bexarotene,CYP2C9,inhibition,Unknown,DB01039,DB00307,No
+3339,Fenofibrate,82146,Bexarotene,CYP3A4,induction,Unknown,DB01039,DB00307,No
+2554,Carbamazepine,2578,Carmustine,CYP1A2,inhibition,Unknown,DB00564,DB00262,No
+2554,Carbamazepine,2578,Carmustine,CYP1A2,induction,Unknown,DB00564,DB00262,No
+2662,Celecoxib,3308,Etodolac,CYP2C9,inhibition,Moderate,DB00482,DB00749,Yes
+4583,Ofloxacin,5291,Imatinib,CYP1A2,inhibition,Unknown,DB01165,DB00619,No
+2802,Clonazepam,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB01068,DB01204,No
+3345,Fentanyl,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00813,DB01204,No
+3345,Fentanyl,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00813,DB01204,No
+3345,Fentanyl,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00813,DB01204,No
+2244,Aspirin,2375,Bicalutamide,CYP2C19,induction,Unknown,DB00945,DB01128,No
+2244,Aspirin,2375,Bicalutamide,CYP2C9,inhibition,Unknown,DB00945,DB01128,No
+5002,Quetiapine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01224,DB00619,No
+5002,Quetiapine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01224,DB00619,No
+1983,Acetaminophen,60198,Exemestane,CYP3A4,induction,Unknown,DB00316,DB00990,No
+1983,Acetaminophen,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00316,DB00990,No
+2907,Cyclophosphamide,3121,Valproic Acid,CYP2A6,induction,Unknown,DB00531,DB00313,No
+2907,Cyclophosphamide,3121,Valproic Acid,CYP3A4,inhibition,Unknown,DB00531,DB00313,No
+3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",216239,Sorafenib,CYP2C9,inhibition,Unknown,DB00222,DB00398,No
+4212,Mitoxantrone,60198,Exemestane,CYP3A4,inhibition,Unknown,DB01204,DB00990,No
+3672,"Ibuprofen, (+-)-",123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01050,DB00317,No
+3672,"Ibuprofen, (+-)-",123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01050,DB00317,No
+3899,Leflunomide,4205,Mirtazapine,CYP2C9,inhibition,Unknown,DB01097,DB00370,No
+3902,Letrozole,60198,Exemestane,CYP19A1,inhibition,Unknown,DB01006,DB00990,Yes
+3016,Diazepam,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00829,DB00619,No
+3016,Diazepam,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00829,DB00619,No
+4543,Nortriptyline,5426,Thalidomide,CYP3A5,induction,Moderate,DB00540,DB01041,No
+4543,Nortriptyline,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00540,DB01041,No
+1983,Acetaminophen,3690,Ifosfamide,CYP3A4,inhibition,Unknown,DB00316,DB01181,No
+1983,Acetaminophen,3690,Ifosfamide,CYP3A4,induction,Unknown,DB00316,DB01181,No
+2520,Verapamil,2662,Celecoxib,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00661,DB00482,No
+2520,Verapamil,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00661,DB00482,No
+4634,Oxybutynin,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB01062,DB00317,No
+2187,Anastrozole,2771,Citalopram,CYP3A4,inhibition,Unknown,DB01217,DB00215,No
+2907,Cyclophosphamide,148192,Atazanavir,CYP3A4,inhibition,Unknown,DB00531,DB01072,No
+2907,Cyclophosphamide,148192,Atazanavir,CYP3A4,induction,Unknown,DB00531,DB01072,No
+2907,Cyclophosphamide,148192,Atazanavir,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01072,No
+4946,Propranolol,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00571,DB00398,No
+4946,Propranolol,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00571,DB00398,No
+3157,Doxazosin,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00590,DB00317,No
+3157,Doxazosin,123631,Gefitinib,CYP2C19,inhibition,Unknown,DB00590,DB00317,No
+2662,Celecoxib,4095,Methadone,CYP3A4,induction,Unknown,DB00482,DB00333,No
+2662,Celecoxib,4095,Methadone,CYP3A4,inhibition,Unknown,DB00482,DB00333,No
+3348,Fexofenadine,5291,Imatinib,CYP2D6,inhibition,Unknown,DB00950,DB00619,No
+3348,Fexofenadine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00950,DB00619,No
+2405,Bisoprolol,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00612,DB00482,Yes
+2520,Verapamil,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00661,DB01005,No
+3365,Fluconazole,5426,Thalidomide,CYP3A5,induction,Moderate,DB00196,DB01041,No
+3365,Fluconazole,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00196,DB01041,No
+4595,Ondansetron,3062316,Dasatinib,CYP1A2,inhibition,Moderate,DB00904,DB01254,No
+3348,Fexofenadine,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00950,DB00530,No
+3348,Fexofenadine,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB00950,DB00530,No
+4595,Ondansetron,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB00904,DB01041,No
+4595,Ondansetron,5426,Thalidomide,CYP3A5,induction,Moderate,DB00904,DB01041,No
+4927,Promethazine,5291,Imatinib,CYP2C9,inhibition,Moderate,DB01069,DB00619,No
+4927,Promethazine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01069,DB00619,No
+3478,Glipizide,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01067,DB00398,No
+4927,Promethazine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01069,DB01101,No
+2662,Celecoxib,2803,Clonidine,CYP2D6,inhibition,Unknown,DB00482,DB00575,No
+4173,Metronidazole,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00916,DB00317,No
+3478,Glipizide,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01067,DB01101,No
+2662,Celecoxib,4614,Oxaprozin,PTGS2,inhibition,Moderate,DB00482,DB00991,No
+3365,Fluconazole,3899,Leflunomide,CYP2C9,inhibition,Major,DB00196,DB01097,No
+2662,Celecoxib,4058,Meperidine,CYP2D6,inhibition,Unknown,DB00482,DB00454,No
+4485,Nifedipine,5291,Imatinib,ABCB1 (P-gp),transporter_induction,Moderate,DB01115,DB00619,No
+4485,Nifedipine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01115,DB00619,No
+4485,Nifedipine,5291,Imatinib,CYP3A4,induction,Moderate,DB01115,DB00619,No
+4485,Nifedipine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01115,DB00619,No
+2471,Bumetanide,2662,Celecoxib,PTGS2,inhibition,Moderate,DB00887,DB00482,No
+2471,Bumetanide,2662,Celecoxib,PTGS2,induction,Moderate,DB00887,DB00482,No
+3345,Fentanyl,176870,Erlotinib,CYP3A4,inhibition,Unknown,DB00813,DB00530,No
+3345,Fentanyl,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00813,DB00530,No
+4594,Prilosec,123631,Gefitinib,CYP2C19,inhibition,Moderate,DB00338,DB00317,No
+3345,Fentanyl,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00813,DB01006,No
+2187,Anastrozole,3902,Letrozole,CYP19A1,inhibition,Unknown,DB01217,DB01006,Yes
+2187,Anastrozole,5391,Temazepam,CYP3A4,inhibition,Unknown,DB01217,DB00231,No
+3957,Loratadine,5291,Imatinib,CYP3A4,induction,Moderate,DB00455,DB00619,No
+3957,Loratadine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00455,DB00619,No
+3957,Loratadine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00455,DB00619,No
+3385,5-Fluorouracil,5656,Venlafaxine,CYP2C9,inhibition,Unknown,DB00544,DB00285,No
+3385,5-Fluorouracil,5656,Venlafaxine,ABCG2 (BCRP),transporter_induction,Unknown,DB00544,DB00285,No
+2083,Salbutamol,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01001,DB00619,No
+3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",3899,Leflunomide,CYP2C9,inhibition,Moderate,DB00222,DB01097,No
+4927,Promethazine,5426,Thalidomide,CYP2C9,inhibition,Moderate,DB01069,DB01041,No
+1978,Acebutolol,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB01193,DB00482,Yes
+2083,Salbutamol,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB01001,DB00853,No
+2083,Salbutamol,5394,Temozolomide,CYP3A4,induction,Unknown,DB01001,DB00853,No
+4171,Metoprolol,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00264,DB00530,No
+4171,Metoprolol,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB00264,DB00530,No
+2375,Bicalutamide,5732,Zolpidem,CYP3A4,inhibition,Unknown,DB01128,DB00425,No
+2585,Carvedilol,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB01136,DB01005,No
+3902,Letrozole,5656,Venlafaxine,CYP3A4,inhibition,Unknown,DB01006,DB00285,No
+2907,Cyclophosphamide,3348,Fexofenadine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00950,No
+2907,Cyclophosphamide,3348,Fexofenadine,CYP2D6,inhibition,Unknown,DB00531,DB00950,No
+2907,Cyclophosphamide,3386,Fluoxetine,CYP3A4,induction,Unknown,DB00531,DB00472,No
+2907,Cyclophosphamide,3386,Fluoxetine,CYP3A4,inhibition,Unknown,DB00531,DB00472,No
+2907,Cyclophosphamide,3386,Fluoxetine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00472,No
+2907,Cyclophosphamide,60198,Exemestane,CYP3A4,induction,Unknown,DB00531,DB00990,No
+2907,Cyclophosphamide,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00531,DB00990,No
+2764,Ciprofloxacin,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00537,DB00990,No
+2907,Cyclophosphamide,3463,Gemfibrozil,CYP3A4,induction,Unknown,DB00531,DB01241,No
+2907,Cyclophosphamide,3463,Gemfibrozil,CYP3A4,inhibition,Unknown,DB00531,DB01241,No
+2083,Salbutamol,123631,Gefitinib,CYP3A4,inhibition,Unknown,DB01001,DB00317,No
+150311,Ezetimibe,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00973,DB00530,No
+150311,Ezetimibe,176870,Erlotinib,UGT1A1,inhibition,Unknown,DB00973,DB00530,No
+3488,Glibenclamide,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01016,DB00398,No
+3488,Glibenclamide,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01016,DB00398,No
+3899,Leflunomide,3961,Losartan,CYP1A2,inhibition,Moderate,DB01097,DB00678,No
+2162,Amlodipine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00381,DB01204,No
+2162,Amlodipine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00381,DB01204,No
+2162,Amlodipine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00381,DB01204,No
+5735,Zopiclone,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01198,DB00398,No
+3345,Fentanyl,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00813,DB00853,No
+3345,Fentanyl,5394,Temozolomide,CYP3A4,induction,Unknown,DB00813,DB00853,No
+5556,Triazolam,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00897,DB00317,No
+2662,Celecoxib,3121,Valproic Acid,CYP3A4,inhibition,Moderate,DB00482,DB00313,Yes
+2662,Celecoxib,3410,Formoterol,CYP2D6,inhibition,Unknown,DB00482,DB00983,No
+3676,Lidocaine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00281,DB01101,No
+5394,Temozolomide,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00853,DB00398,No
+5394,Temozolomide,216239,Sorafenib,CYP3A4,induction,Unknown,DB00853,DB00398,No
+3749,Irbesartan,3902,Letrozole,CYP3A4,inhibition,Unknown,DB01029,DB01006,No
+1775,Phenytoin,3899,Leflunomide,CYP2C9,inhibition,Major,DB00252,DB01097,No
+1775,Phenytoin,3899,Leflunomide,CYP2C9,induction,Major,DB00252,DB01097,No
+2187,Anastrozole,3333,Felodipine,CYP3A4,inhibition,Unknown,DB01217,DB01023,No
+2118,Alprazolam,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00404,DB00317,No
+2662,Celecoxib,4044,Mefenamic Acid,CYP2C9,inhibition,Moderate,DB00482,DB00784,No
+3016,Diazepam,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00829,DB00990,No
+3883,Lansoprazole,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00448,DB00853,No
+3883,Lansoprazole,5394,Temozolomide,CYP3A4,induction,Unknown,DB00448,DB00853,No
+3715,Indomethacin,3899,Leflunomide,CYP2C9,inhibition,Major,DB00328,DB01097,No
+54454,Simvastatin,60198,Exemestane,CYP3A4,induction,Unknown,DB00641,DB00990,No
+54454,Simvastatin,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00641,DB00990,No
+2907,Cyclophosphamide,3657,Hydroxyurea,CYP2D6,inhibition,Moderate,DB00531,DB01005,No
+5090,Rofecoxib,5426,Thalidomide,PTGS2,inhibition,Unknown,DB00533,DB01041,No
+444,Bupropion,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01156,DB01101,No
+1986,Acetazolamide,2662,Celecoxib,CYP3A4,inhibition,Unknown,DB00819,DB00482,No
+4485,Nifedipine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01115,DB01101,No
+4485,Nifedipine,60953,Capecitabine,CYP2C9,induction,Unknown,DB01115,DB01101,No
+4205,Mirtazapine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00370,DB01204,No
+2662,Celecoxib,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00482,DB01005,No
+3749,Irbesartan,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB01029,DB00530,No
+2478,Busulfan,4212,Mitoxantrone,CYP3A4,inhibition,Moderate,DB01008,DB01204,No
+2662,Celecoxib,5584,Trimipramine,CYP2D6,inhibition,Moderate,DB00482,DB00726,No
+2554,Carbamazepine,60953,Capecitabine,CYP2C9,induction,Unknown,DB00564,DB01101,No
+2554,Carbamazepine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00564,DB01101,No
+2187,Anastrozole,3478,Glipizide,CYP3A4,inhibition,Unknown,DB01217,DB01067,No
+2764,Ciprofloxacin,3062316,Dasatinib,CYP1A2,inhibition,Moderate,DB00537,DB01254,No
+2764,Ciprofloxacin,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00537,DB01254,No
+2803,Clonidine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00575,DB00531,No
+2803,Clonidine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00575,DB00531,No
+2803,Clonidine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00575,DB00531,No
+2907,Cyclophosphamide,3715,Indomethacin,ABCB1 (P-gp),transporter_inhibition,Minor,DB00531,DB00328,Yes
+2907,Cyclophosphamide,3715,Indomethacin,CYP2C9,induction,Minor,DB00531,DB00328,Yes
+2907,Cyclophosphamide,3715,Indomethacin,CYP2C19,inhibition,Minor,DB00531,DB00328,Yes
+2812,Clotrimazole,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00257,DB00317,No
+2812,Clotrimazole,123631,Gefitinib,CYP3A4,induction,Moderate,DB00257,DB00317,No
+2812,Clotrimazole,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00257,DB00317,No
+2812,Clotrimazole,123631,Gefitinib,ABCB1 (P-gp),transporter_induction,Moderate,DB00257,DB00317,No
+3385,5-Fluorouracil,4205,Mirtazapine,CYP2C9,inhibition,Unknown,DB00544,DB00370,No
+2907,Cyclophosphamide,3767,Isoniazid,CYP3A4,inhibition,Unknown,DB00531,DB00951,No
+2907,Cyclophosphamide,3767,Isoniazid,CYP3A4,induction,Unknown,DB00531,DB00951,No
+1983,Acetaminophen,3899,Leflunomide,CYP2C9,inhibition,Major,DB00316,DB01097,No
+3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00222,DB00317,No
+2187,Anastrozole,3345,Fentanyl,CYP3A4,inhibition,Unknown,DB01217,DB00813,No
+2187,Anastrozole,3672,"Ibuprofen, (+-)-",CYP2C9,inhibition,Unknown,DB01217,DB01050,No
+2187,Anastrozole,5090,Rofecoxib,CYP3A4,induction,Unknown,DB01217,DB00533,No
+2187,Anastrozole,5090,Rofecoxib,CYP1A2,inhibition,Unknown,DB01217,DB00533,No
+2662,Celecoxib,1349907,Methimazole,CYP3A4,inhibition,Unknown,DB00482,DB00763,No
+5656,Venlafaxine,176870,Erlotinib,ABCG2 (BCRP),transporter_induction,Unknown,DB00285,DB00530,No
+5656,Venlafaxine,176870,Erlotinib,CYP3A4,inhibition,Unknown,DB00285,DB00530,No
+5656,Venlafaxine,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00285,DB00530,No
+5391,Temazepam,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00231,DB00530,No
+3016,Diazepam,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00829,DB01204,No
+3016,Diazepam,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00829,DB01204,No
+3016,Diazepam,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00829,DB01204,No
+2907,Cyclophosphamide,3672,"Ibuprofen, (+-)-",ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01050,No
+2907,Cyclophosphamide,3672,"Ibuprofen, (+-)-",CYP2C9,inhibition,Unknown,DB00531,DB01050,No
+2907,Cyclophosphamide,3672,"Ibuprofen, (+-)-",CYP2C9,induction,Unknown,DB00531,DB01050,No
+2803,Clonidine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00575,DB00398,No
+2803,Clonidine,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00575,DB00398,No
+1983,Acetaminophen,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00316,DB01204,No
+1983,Acetaminophen,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00316,DB01204,No
+1983,Acetaminophen,4212,Mitoxantrone,CYP3A4,induction,Unknown,DB00316,DB01204,No
+1983,Acetaminophen,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB01204,No
+3386,Fluoxetine,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00472,DB01097,No
+2907,Cyclophosphamide,5732,Zolpidem,CYP3A4,induction,Unknown,DB00531,DB00425,No
+2907,Cyclophosphamide,5732,Zolpidem,CYP3A4,inhibition,Unknown,DB00531,DB00425,No
+3672,"Ibuprofen, (+-)-",60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01050,DB01101,No
+3883,Lansoprazole,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00448,DB00619,No
+3883,Lansoprazole,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00448,DB00619,No
+3883,Lansoprazole,5291,Imatinib,CYP1A2,induction,Moderate,DB00448,DB00619,No
+2187,Anastrozole,2764,Ciprofloxacin,CYP1A2,inhibition,Unknown,DB01217,DB00537,No
+123631,Gefitinib,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB00317,DB00530,No
+123631,Gefitinib,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00317,DB00530,No
+2662,Celecoxib,60795,Aripiprazole,CYP2D6,induction,Moderate,DB00482,DB01238,No
+2662,Celecoxib,60795,Aripiprazole,CYP2D6,inhibition,Moderate,DB00482,DB01238,No
+60953,Capecitabine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01101,DB00317,No
+444,Bupropion,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01156,DB00619,No
+2812,Clotrimazole,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00257,DB00544,No
+2812,Clotrimazole,3385,5-Fluorouracil,ABCC3,transporter_induction,Unknown,DB00257,DB00544,No
+4829,Pioglitazone,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB01132,DB01041,No
+2662,Celecoxib,2756,Cimetidine,CYP3A4,inhibition,Moderate,DB00482,DB00501,Yes
+2187,Anastrozole,2244,Aspirin,CYP2C9,inhibition,Unknown,DB01217,DB00945,No
+4917,Prochlorperazine,216239,Sorafenib,CYP3A4,inhibition,Moderate,DB00433,DB00398,No
+444,Bupropion,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB01156,DB01204,No
+3365,Fluconazole,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00196,DB01006,No
+2662,Celecoxib,2712,"7-Chloro-2-(methylimino)-5-phenyl-2,3-dihydro-4H-1,4-benzodiazepin-4-ol",CYP2D6,inhibition,Unknown,DB00482,DB00475,No
+2662,Celecoxib,4158,Methylphenidate,CYP2D6,inhibition,Unknown,DB00482,DB00422,No
+2764,Ciprofloxacin,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00537,DB00317,No
+2764,Ciprofloxacin,123631,Gefitinib,CYP3A4,inhibition,Moderate,DB00537,DB00317,No
+2764,Ciprofloxacin,5394,Temozolomide,CYP3A4,inhibition,Minor,DB00537,DB00853,No
+2764,Ciprofloxacin,5394,Temozolomide,CYP3A4,induction,Minor,DB00537,DB00853,No
+2662,Celecoxib,3152,Donepezil,CYP2D6,inhibition,Minor,DB00482,DB00843,No
+2478,Busulfan,4173,Metronidazole,CYP3A4,inhibition,Major,DB01008,DB00916,Yes
+2162,Amlodipine,2662,Celecoxib,CYP2D6,inhibition,Unknown,DB00381,DB00482,No
+2375,Bicalutamide,2771,Citalopram,CYP2D6,inhibition,Major,DB01128,DB00215,No
+5656,Venlafaxine,216239,Sorafenib,CYP3A4,inhibition,Moderate,DB00285,DB00398,No
+5656,Venlafaxine,216239,Sorafenib,ABCG2 (BCRP),transporter_induction,Moderate,DB00285,DB00398,No
+5656,Venlafaxine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00285,DB00398,No
+2118,Alprazolam,2187,Anastrozole,CYP3A4,inhibition,Unknown,DB00404,DB01217,No
+4679,Pantoprazole,123631,Gefitinib,CYP3A4,induction,Moderate,DB00213,DB00317,No
+4679,Pantoprazole,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00213,DB00317,No
+4679,Pantoprazole,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00213,DB00317,No
+3385,5-Fluorouracil,5732,Zolpidem,CYP2C9,inhibition,Unknown,DB00544,DB00425,No
+2187,Anastrozole,5732,Zolpidem,CYP1A2,inhibition,Unknown,DB01217,DB00425,No
+3883,Lansoprazole,176870,Erlotinib,CYP2C8,inhibition,Major,DB00448,DB00530,Yes
+3883,Lansoprazole,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Major,DB00448,DB00530,Yes
+3883,Lansoprazole,176870,Erlotinib,CYP1A2,induction,Major,DB00448,DB00530,Yes
+2662,Celecoxib,2812,Clotrimazole,CYP3A4,induction,Unknown,DB00482,DB00257,No
+2662,Celecoxib,2812,Clotrimazole,CYP3A4,inhibition,Unknown,DB00482,DB00257,No
+2907,Cyclophosphamide,150311,Ezetimibe,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00973,No
+2907,Cyclophosphamide,150311,Ezetimibe,CYP3A4,induction,Unknown,DB00531,DB00973,No
+2907,Cyclophosphamide,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB00531,DB00973,No
+3899,Leflunomide,5732,Zolpidem,CYP2C9,inhibition,Unknown,DB01097,DB00425,No
+4595,Ondansetron,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00904,DB00398,No
+27661,Isosorbide Mononitrate,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01020,DB00398,No
+2907,Cyclophosphamide,4171,Metoprolol,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00264,No
+2907,Cyclophosphamide,4171,Metoprolol,CYP2D6,inhibition,Unknown,DB00531,DB00264,No
+3957,Loratadine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00455,DB00317,No
+3957,Loratadine,123631,Gefitinib,CYP3A4,induction,Unknown,DB00455,DB00317,No
+3957,Loratadine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00455,DB00317,No
+2662,Celecoxib,5090,Rofecoxib,CYP3A4,induction,Unknown,DB00482,DB00533,No
+2662,Celecoxib,5090,Rofecoxib,PTGS2,inhibition,Unknown,DB00482,DB00533,No
+2662,Celecoxib,5090,Rofecoxib,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00482,DB00533,No
+4583,Ofloxacin,3062316,Dasatinib,CYP1A2,inhibition,Moderate,DB01165,DB01254,No
+2244,Aspirin,2662,Celecoxib,PTGS2,inhibition,Moderate,DB00945,DB00482,Yes
+2764,Ciprofloxacin,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Minor,DB00537,DB00531,No
+2764,Ciprofloxacin,2907,Cyclophosphamide,CYP3A4,induction,Minor,DB00537,DB00531,No
+2764,Ciprofloxacin,2907,Cyclophosphamide,CYP3A4,inhibition,Minor,DB00537,DB00531,No
+3690,Ifosfamide,5426,Thalidomide,CYP3A5,induction,Major,DB01181,DB01041,No
+3690,Ifosfamide,5426,Thalidomide,CYP2C19,inhibition,Major,DB01181,DB01041,No
+3348,Fexofenadine,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00950,DB01005,No
+3883,Lansoprazole,3902,Letrozole,CYP3A4,induction,Unknown,DB00448,DB01006,No
+3883,Lansoprazole,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00448,DB01006,No
+3478,Glipizide,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01067,DB00317,No
+5732,Zolpidem,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00425,DB00317,No
+2907,Cyclophosphamide,27661,Isosorbide Mononitrate,CYP3A4,induction,Unknown,DB00531,DB01020,No
+2907,Cyclophosphamide,27661,Isosorbide Mononitrate,CYP3A4,inhibition,Unknown,DB00531,DB01020,No
+3899,Leflunomide,5095,Ropinirole,CYP1A2,inhibition,Unknown,DB01097,DB00268,No
+3657,Hydroxyurea,5732,Zolpidem,CYP2D6,inhibition,Unknown,DB01005,DB00425,No
+5426,Thalidomide,71616,Voriconazole,CYP3A5,induction,Moderate,DB01041,DB00582,No
+5426,Thalidomide,71616,Voriconazole,CYP2C9,inhibition,Moderate,DB01041,DB00582,No
+3365,Fluconazole,5453,Thiotepa,CYP3A4,inhibition,Unknown,DB00196,DB04572,No
+3365,Fluconazole,216239,Sorafenib,CYP3A4,inhibition,Moderate,DB00196,DB00398,No
+3365,Fluconazole,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00196,DB00398,No
+3385,5-Fluorouracil,3488,Glibenclamide,ABCC3,transporter_inhibition,Unknown,DB00544,DB01016,No
+3385,5-Fluorouracil,3488,Glibenclamide,CYP2C9,inhibition,Unknown,DB00544,DB01016,No
+2375,Bicalutamide,4594,Prilosec,CYP2C19,inhibition,Unknown,DB01128,DB00338,No
+3899,Leflunomide,4614,Oxaprozin,CYP2C9,inhibition,Major,DB01097,DB00991,No
+2907,Cyclophosphamide,4927,Promethazine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01069,No
+2907,Cyclophosphamide,4927,Promethazine,CYP2C9,inhibition,Unknown,DB00531,DB01069,No
+2907,Cyclophosphamide,4927,Promethazine,CYP2C9,induction,Unknown,DB00531,DB01069,No
+3345,Fentanyl,123631,Gefitinib,CYP3A4,inhibition,Unknown,DB00813,DB00317,No
+3345,Fentanyl,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00813,DB00317,No
+2187,Anastrozole,3386,Fluoxetine,CYP1A2,inhibition,Unknown,DB01217,DB00472,No
+3749,Irbesartan,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB01029,DB00398,No
+2375,Bicalutamide,3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",CYP3A4,inhibition,Moderate,DB01128,DB01026,No
+2907,Cyclophosphamide,3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",CYP3A4,inhibition,Unknown,DB00531,DB01026,No
+2907,Cyclophosphamide,3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",CYP3A4,induction,Unknown,DB00531,DB01026,No
+2907,Cyclophosphamide,3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01026,No
+3749,Irbesartan,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01029,DB00619,No
+3672,"Ibuprofen, (+-)-",5291,Imatinib,CYP2C9,inhibition,Moderate,DB01050,DB00619,No
+3672,"Ibuprofen, (+-)-",5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01050,DB00619,No
+2187,Anastrozole,3749,Irbesartan,CYP1A2,inhibition,Unknown,DB01217,DB01029,No
+2662,Celecoxib,3339,Fenofibrate,CYP2C9,inhibition,Moderate,DB00482,DB01039,No
+3657,Hydroxyurea,3957,Loratadine,CYP2D6,inhibition,Unknown,DB01005,DB00455,No
+3657,Hydroxyurea,3957,Loratadine,CYP2D6,induction,Unknown,DB01005,DB00455,No
+2187,Anastrozole,4594,Prilosec,CYP3A4,inhibition,Unknown,DB01217,DB00338,No
+2187,Anastrozole,2520,Verapamil,CYP3A4,inhibition,Unknown,DB01217,DB00661,No
+4168,Metoclopramide,13342,Vinblastine,CYP2D6,inhibition,Unknown,DB01233,DB00570,No
+4168,Metoclopramide,5291,Imatinib,CYP2D6,inhibition,Unknown,DB01233,DB00619,No
+3339,Fenofibrate,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01039,DB00619,No
+3902,Letrozole,3961,Losartan,CYP3A4,inhibition,Unknown,DB01006,DB00678,No
+2764,Ciprofloxacin,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00537,DB00398,No
+2764,Ciprofloxacin,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00537,DB00398,No
+2160,Amitriptyline,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00321,DB00544,No
+3690,Ifosfamide,13342,Vinblastine,CYP3A4,inhibition,Moderate,DB01181,DB00570,Yes
+3690,Ifosfamide,13342,Vinblastine,CYP3A4,induction,Moderate,DB01181,DB00570,Yes
+2662,Celecoxib,5717,Zafirlukast,CYP3A4,inhibition,Moderate,DB00482,DB00549,No
+4212,Mitoxantrone,4634,Oxybutynin,CYP3A4,inhibition,Unknown,DB01204,DB01062,No
+3883,Lansoprazole,123631,Gefitinib,CYP3A4,induction,Moderate,DB00448,DB00317,No
+3883,Lansoprazole,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00448,DB00317,No
+3883,Lansoprazole,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00448,DB00317,No
+2083,Salbutamol,60198,Exemestane,CYP3A4,inhibition,Unknown,DB01001,DB00990,No
+3902,Letrozole,5035,Raloxifene,CYP3A4,inhibition,Unknown,DB01006,DB00481,No
+3385,5-Fluorouracil,3902,Letrozole,CYP2A6,inhibition,Unknown,DB00544,DB01006,No
+4173,Metronidazole,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00916,DB00530,No
+3883,Lansoprazole,60953,Capecitabine,CYP2C9,induction,Unknown,DB00448,DB01101,No
+3883,Lansoprazole,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00448,DB01101,No
+444,Bupropion,2907,Cyclophosphamide,CYP3A4,induction,Moderate,DB01156,DB00531,Yes
+444,Bupropion,2907,Cyclophosphamide,CYP3A4,inhibition,Moderate,DB01156,DB00531,Yes
+2118,Alprazolam,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00404,DB01097,No
+2907,Cyclophosphamide,3658,Hydroxyzine,CYP2D6,inhibition,Unknown,DB00531,DB00557,No
+3657,Hydroxyurea,4168,Metoclopramide,CYP2D6,inhibition,Unknown,DB01005,DB01233,No
+2907,Cyclophosphamide,3957,Loratadine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00455,No
+2907,Cyclophosphamide,3957,Loratadine,CYP3A4,induction,Unknown,DB00531,DB00455,No
+2907,Cyclophosphamide,3957,Loratadine,CYP3A4,inhibition,Unknown,DB00531,DB00455,No
+3016,Diazepam,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00829,DB00853,No
+3016,Diazepam,5394,Temozolomide,CYP3A4,induction,Unknown,DB00829,DB00853,No
+3690,Ifosfamide,54454,Simvastatin,CYP3A4,induction,Unknown,DB01181,DB00641,No
+3690,Ifosfamide,54454,Simvastatin,CYP3A4,inhibition,Unknown,DB01181,DB00641,No
+2160,Amitriptyline,2187,Anastrozole,CYP1A2,inhibition,Unknown,DB00321,DB01217,No
+2662,Celecoxib,3658,Hydroxyzine,CYP2D6,inhibition,Unknown,DB00482,DB00557,No
+3899,Leflunomide,5426,Thalidomide,CYP2C9,inhibition,Major,DB01097,DB01041,No
+2907,Cyclophosphamide,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00531,DB01101,Yes
+2907,Cyclophosphamide,60953,Capecitabine,CYP2C9,induction,Unknown,DB00531,DB01101,Yes
+3899,Leflunomide,4543,Nortriptyline,CYP2C9,inhibition,Unknown,DB01097,DB00540,No
+4946,Propranolol,5426,Thalidomide,CYP3A5,induction,Moderate,DB00571,DB01041,No
+4946,Propranolol,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00571,DB01041,No
+3385,5-Fluorouracil,3749,Irbesartan,CYP1A2,inhibition,Unknown,DB00544,DB01029,No
+2375,Bicalutamide,54454,Simvastatin,CYP3A4,induction,Moderate,DB01128,DB00641,No
+2375,Bicalutamide,54454,Simvastatin,CYP3A4,inhibition,Moderate,DB01128,DB00641,No
+3121,Valproic Acid,3902,Letrozole,CYP2A6,induction,Unknown,DB00313,DB01006,No
+3121,Valproic Acid,3902,Letrozole,CYP2A6,inhibition,Unknown,DB00313,DB01006,No
+3658,Hydroxyzine,216239,Sorafenib,CYP2D6,inhibition,Moderate,DB00557,DB00398,No
+5426,Thalidomide,34312,Oxcarbazepine,CYP3A5,induction,Moderate,DB01041,DB00776,No
+5426,Thalidomide,34312,Oxcarbazepine,CYP2C19,inhibition,Moderate,DB01041,DB00776,No
+3690,Ifosfamide,4212,Mitoxantrone,CYP3A4,inhibition,Moderate,DB01181,DB01204,No
+3690,Ifosfamide,4212,Mitoxantrone,CYP3A4,induction,Moderate,DB01181,DB01204,No
+2662,Celecoxib,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00482,DB00619,No
+2118,Alprazolam,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00404,DB00619,No
+3488,Glibenclamide,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB01016,DB01041,No
+3690,Ifosfamide,4917,Prochlorperazine,CYP3A4,inhibition,Moderate,DB01181,DB00433,No
+3690,Ifosfamide,4917,Prochlorperazine,CYP3A4,induction,Moderate,DB01181,DB00433,No
+4595,Ondansetron,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00904,DB00570,No
+2478,Busulfan,3016,Diazepam,CYP3A4,inhibition,Unknown,DB01008,DB00829,No
+2187,Anastrozole,2895,Cyclobenzaprine,CYP1A2,inhibition,Unknown,DB01217,DB00924,No
+4212,Mitoxantrone,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01204,DB00619,No
+4212,Mitoxantrone,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01204,DB00619,No
+4212,Mitoxantrone,5291,Imatinib,ABCB1 (P-gp),transporter_induction,Moderate,DB01204,DB00619,No
+2187,Anastrozole,4595,Ondansetron,CYP1A2,inhibition,Unknown,DB01217,DB00904,No
+2585,Carvedilol,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB01136,DB01097,No
+4917,Prochlorperazine,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00433,DB00570,No
+5035,Raloxifene,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00481,DB00530,No
+2187,Anastrozole,5656,Venlafaxine,CYP3A4,inhibition,Unknown,DB01217,DB00285,No
+1983,Acetaminophen,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00530,No
+1983,Acetaminophen,176870,Erlotinib,CYP3A4,induction,Unknown,DB00316,DB00530,No
+1983,Acetaminophen,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00316,DB00530,No
+5735,Zopiclone,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01198,DB01101,No
+3883,Lansoprazole,5426,Thalidomide,CYP1A2,induction,Unknown,DB00448,DB01041,No
+3883,Lansoprazole,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00448,DB01041,No
+4927,Promethazine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01069,DB00317,No
+4927,Promethazine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01069,DB00317,No
+2662,Celecoxib,5578,Trimethoprim,CYP2C9,inhibition,Unknown,DB00482,DB00440,No
+3333,Felodipine,5426,Thalidomide,CYP3A5,induction,Moderate,DB01023,DB01041,No
+3333,Felodipine,5426,Thalidomide,CYP2C9,inhibition,Moderate,DB01023,DB01041,No
+3672,"Ibuprofen, (+-)-",176870,Erlotinib,CYP2C8,inhibition,Unknown,DB01050,DB00530,No
+5656,Venlafaxine,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00285,DB00947,No
+2520,Verapamil,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00661,DB00990,No
+3696,Imipramine,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00458,DB01041,No
+2187,Anastrozole,4946,Propranolol,CYP1A2,inhibition,Unknown,DB01217,DB00571,No
+2554,Carbamazepine,3899,Leflunomide,CYP2C9,inhibition,Major,DB00564,DB01097,No
+2554,Carbamazepine,3899,Leflunomide,CYP1A2,induction,Major,DB00564,DB01097,No
+3385,5-Fluorouracil,4583,Ofloxacin,CYP1A2,inhibition,Minor,DB00544,DB01165,No
+2907,Cyclophosphamide,65999,Telmisartan,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00966,No
+2907,Cyclophosphamide,65999,Telmisartan,CYP2C19,inhibition,Unknown,DB00531,DB00966,No
+3152,Donepezil,216239,Sorafenib,CYP3A4,inhibition,Moderate,DB00843,DB00398,No
+4917,Prochlorperazine,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00433,DB00317,No
+54454,Simvastatin,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00641,DB01254,No
+54454,Simvastatin,3062316,Dasatinib,CYP3A4,induction,Moderate,DB00641,DB01254,No
+54454,Simvastatin,3062316,Dasatinib,CYP3A4,inhibition,Moderate,DB00641,DB01254,No
+3690,Ifosfamide,5453,Thiotepa,CYP2B6,inhibition,Major,DB01181,DB04572,No
+3690,Ifosfamide,5453,Thiotepa,CYP3A4,induction,Major,DB01181,DB04572,No
+3365,Fluconazole,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB00196,DB01181,No
+3365,Fluconazole,3690,Ifosfamide,CYP3A4,induction,Moderate,DB00196,DB01181,No
+3883,Lansoprazole,60198,Exemestane,CYP3A4,induction,Unknown,DB00448,DB00990,No
+3883,Lansoprazole,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00448,DB00990,No
+2478,Busulfan,3121,Valproic Acid,CYP3A4,inhibition,Unknown,DB01008,DB00313,No
+4212,Mitoxantrone,5656,Venlafaxine,ABCG2 (BCRP),transporter_induction,Unknown,DB01204,DB00285,No
+4212,Mitoxantrone,5656,Venlafaxine,CYP3A4,inhibition,Unknown,DB01204,DB00285,No
+4212,Mitoxantrone,5656,Venlafaxine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB00285,No
+2662,Celecoxib,124087,Desloratadine,CYP2C9,inhibition,Unknown,DB00482,DB00967,No
+5394,Temozolomide,5656,Venlafaxine,CYP3A4,inhibition,Unknown,DB00853,DB00285,No
+5394,Temozolomide,5656,Venlafaxine,CYP3A4,induction,Unknown,DB00853,DB00285,No
+3749,Irbesartan,60198,Exemestane,CYP3A4,inhibition,Unknown,DB01029,DB00990,No
+2187,Anastrozole,3961,Losartan,CYP1A2,inhibition,Unknown,DB01217,DB00678,No
+2662,Celecoxib,3007,Amphetamine,CYP2D6,inhibition,Moderate,DB00482,DB00182,No
+2585,Carvedilol,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB01136,DB00544,No
+2520,Verapamil,5426,Thalidomide,CYP3A5,induction,Moderate,DB00661,DB01041,No
+2520,Verapamil,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00661,DB01041,No
+3899,Leflunomide,4771,Phentermine,CYP2C9,induction,Unknown,DB01097,DB00191,No
+3899,Leflunomide,4771,Phentermine,CYP1A2,inhibition,Unknown,DB01097,DB00191,No
+5656,Venlafaxine,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00285,DB00990,No
+5095,Ropinirole,5426,Thalidomide,CYP1A2,inhibition,Moderate,DB00268,DB01041,No
+4927,Promethazine,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB01069,DB00530,No
+4927,Promethazine,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01069,DB00530,No
+1775,Phenytoin,3385,5-Fluorouracil,CYP2C9,inhibition,Moderate,DB00252,DB00544,Yes
+1775,Phenytoin,3385,5-Fluorouracil,CYP2C9,induction,Moderate,DB00252,DB00544,Yes
+4449,Nefazodone,5426,Thalidomide,CYP3A5,inhibition,Moderate,DB01149,DB01041,No
+4449,Nefazodone,5426,Thalidomide,CYP3A5,induction,Moderate,DB01149,DB01041,No
+2907,Cyclophosphamide,3676,Lidocaine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00281,No
+2907,Cyclophosphamide,3676,Lidocaine,CYP3A4,induction,Unknown,DB00531,DB00281,No
+2907,Cyclophosphamide,3676,Lidocaine,CYP3A4,inhibition,Unknown,DB00531,DB00281,No
+3657,Hydroxyurea,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB01005,DB00317,No
+2662,Celecoxib,2801,Clomipramine,CYP2D6,inhibition,Moderate,DB00482,DB01242,No
+3957,Loratadine,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00455,DB01254,No
+3957,Loratadine,3062316,Dasatinib,CYP3A4,induction,Moderate,DB00455,DB01254,No
+3957,Loratadine,3062316,Dasatinib,CYP3A4,inhibition,Moderate,DB00455,DB01254,No
+3348,Fexofenadine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00950,DB00317,No
+3348,Fexofenadine,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00950,DB00317,No
+3749,Irbesartan,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01029,DB01101,No
+3690,Ifosfamide,4594,Prilosec,CYP2C19,inhibition,Unknown,DB01181,DB00338,No
+3690,Ifosfamide,4594,Prilosec,CYP3A4,induction,Unknown,DB01181,DB00338,No
+3365,Fluconazole,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00196,DB00317,No
+3365,Fluconazole,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00196,DB00317,No
+2265,Azathioprine,667490,6-Mercaptopurine,HPRT1,inhibition,Major,DB00993,DB01033,Yes
+3749,Irbesartan,5426,Thalidomide,CYP1A2,inhibition,Unknown,DB01029,DB01041,No
+2907,Cyclophosphamide,3339,Fenofibrate,CYP3A4,induction,Moderate,DB00531,DB01039,No
+2907,Cyclophosphamide,3339,Fenofibrate,CYP2C9,inhibition,Moderate,DB00531,DB01039,No
+2478,Busulfan,2907,Cyclophosphamide,CYP3A4,induction,Moderate,DB01008,DB00531,Yes
+2478,Busulfan,2907,Cyclophosphamide,CYP3A4,inhibition,Moderate,DB01008,DB00531,Yes
+2375,Bicalutamide,3157,Doxazosin,CYP2C19,inhibition,Unknown,DB01128,DB00590,No
+5291,Imatinib,5556,Triazolam,CYP2C9,inhibition,Moderate,DB00619,DB00897,No
+2187,Anastrozole,4917,Prochlorperazine,CYP3A4,inhibition,Unknown,DB01217,DB00433,No
+1983,Acetaminophen,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB01254,No
+1983,Acetaminophen,3062316,Dasatinib,CYP3A4,induction,Unknown,DB00316,DB01254,No
+1983,Acetaminophen,3062316,Dasatinib,CYP3A4,inhibition,Unknown,DB00316,DB01254,No
+3348,Fexofenadine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00950,DB00398,No
+3348,Fexofenadine,216239,Sorafenib,CYP2D6,inhibition,Moderate,DB00950,DB00398,No
+5426,Thalidomide,119607,Valdecoxib,PTGS2,inhibition,Unknown,DB01041,DB00580,No
+3961,Losartan,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00678,DB00990,No
+3899,Leflunomide,104865,Bosentan,CYP2C9,induction,Major,DB01097,DB00559,No
+3899,Leflunomide,104865,Bosentan,CYP2C9,inhibition,Major,DB01097,DB00559,No
+3386,Fluoxetine,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00472,DB00990,No
+2662,Celecoxib,4236,Modafinil,CYP3A4,inhibition,Unknown,DB00482,DB00745,No
+2662,Celecoxib,4236,Modafinil,CYP3A4,induction,Unknown,DB00482,DB00745,No
+3121,Valproic Acid,3899,Leflunomide,CYP2C9,inhibition,Major,DB00313,DB01097,No
+3152,Donepezil,123631,Gefitinib,CYP2C9,inhibition,Minor,DB00843,DB00317,No
+2662,Celecoxib,5556,Triazolam,CYP2C9,inhibition,Unknown,DB00482,DB00897,No
+3385,5-Fluorouracil,3825,Ketoprofen,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00544,DB01009,No
+3385,5-Fluorouracil,3825,Ketoprofen,CYP2C9,inhibition,Unknown,DB00544,DB01009,No
+3657,Hydroxyurea,3658,Hydroxyzine,CYP2D6,inhibition,Unknown,DB01005,DB00557,No
+3488,Glibenclamide,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01016,DB01101,No
+3016,Diazepam,3902,Letrozole,CYP3A4,inhibition,Unknown,DB00829,DB01006,No
+3385,5-Fluorouracil,3957,Loratadine,CYP2C9,inhibition,Unknown,DB00544,DB00455,No
+2375,Bicalutamide,3397,Flutamide,CYP3A4,inhibition,Unknown,DB01128,DB00499,Yes
+3386,Fluoxetine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00472,DB00398,No
+3386,Fluoxetine,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00472,DB00398,No
+5426,Thalidomide,65999,Telmisartan,CYP2C19,inhibition,Unknown,DB01041,DB00966,No
+3899,Leflunomide,5472,Ticlopidine,CYP1A2,inhibition,Unknown,DB01097,DB00208,No
+3345,Fentanyl,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB00813,DB00619,No
+3345,Fentanyl,5291,Imatinib,CYP3A4,inhibition,Major,DB00813,DB00619,No
+5073,Risperidone,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00734,DB00619,No
+5073,Risperidone,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00734,DB00619,No
+4679,Pantoprazole,216239,Sorafenib,CYP1A2,induction,Unknown,DB00213,DB00398,No
+4679,Pantoprazole,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00213,DB00398,No
+4679,Pantoprazole,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00213,DB00398,No
+2375,Bicalutamide,3345,Fentanyl,CYP3A4,inhibition,Unknown,DB01128,DB00813,No
+5426,Thalidomide,124087,Desloratadine,CYP1A2,inhibition,Unknown,DB01041,DB00967,No
+2520,Verapamil,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00661,DB00531,Yes
+2520,Verapamil,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00661,DB00531,Yes
+2520,Verapamil,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_induction,Unknown,DB00661,DB00531,Yes
+2520,Verapamil,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00661,DB00531,Yes
+2907,Cyclophosphamide,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB00531,DB01181,Yes
+2907,Cyclophosphamide,3690,Ifosfamide,CYP3A4,induction,Moderate,DB00531,DB01181,Yes
+4485,Nifedipine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01115,DB00317,No
+4485,Nifedipine,123631,Gefitinib,ABCB1 (P-gp),transporter_induction,Moderate,DB01115,DB00317,No
+4485,Nifedipine,123631,Gefitinib,CYP3A4,induction,Moderate,DB01115,DB00317,No
+4485,Nifedipine,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB01115,DB00317,No
+5291,Imatinib,5394,Temozolomide,CYP3A4,inhibition,Moderate,DB00619,DB00853,Yes
+5291,Imatinib,5394,Temozolomide,CYP3A4,induction,Moderate,DB00619,DB00853,Yes
+2803,Clonidine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00575,DB00619,No
+2803,Clonidine,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00575,DB00619,No
+60953,Capecitabine,119607,Valdecoxib,CYP2C9,inhibition,Unknown,DB01101,DB00580,No
+5090,Rofecoxib,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00533,DB01101,No
+2662,Celecoxib,4195,Midodrine,CYP2D6,inhibition,Unknown,DB00482,DB00211,No
+4829,Pioglitazone,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01132,DB01101,No
+1983,Acetaminophen,2187,Anastrozole,CYP3A4,induction,Unknown,DB00316,DB01217,No
+1983,Acetaminophen,2187,Anastrozole,CYP1A2,inhibition,Unknown,DB00316,DB01217,No
+2662,Celecoxib,3690,Ifosfamide,CYP3A4,inhibition,Unknown,DB00482,DB01181,Yes
+2662,Celecoxib,3690,Ifosfamide,CYP3A4,induction,Unknown,DB00482,DB01181,Yes
+2375,Bicalutamide,3478,Glipizide,CYP3A4,inhibition,Unknown,DB01128,DB01067,No
+3333,Felodipine,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB01023,DB01097,No
+2662,Celecoxib,56959,Ranolazine,CYP3A4,inhibition,Minor,DB00482,DB00243,No
+3386,Fluoxetine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00472,DB00317,No
+3386,Fluoxetine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00472,DB00317,No
+3899,Leflunomide,119607,Valdecoxib,CYP2C9,inhibition,Major,DB01097,DB00580,No
+5291,Imatinib,5735,Zopiclone,CYP3A4,inhibition,Unknown,DB00619,DB01198,No
+4171,Metoprolol,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00264,DB00317,No
+4171,Metoprolol,123631,Gefitinib,CYP2C19,inhibition,Unknown,DB00264,DB00317,No
+2083,Salbutamol,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB01001,DB01204,No
+3385,5-Fluorouracil,3463,Gemfibrozil,CYP2C8,induction,Unknown,DB00544,DB01241,No
+3385,5-Fluorouracil,3463,Gemfibrozil,CYP1A2,inhibition,Unknown,DB00544,DB01241,No
+2375,Bicalutamide,3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",CYP2C9,inhibition,Unknown,DB01128,DB00222,No
+3386,Fluoxetine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00472,DB01101,No
+3749,Irbesartan,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB01029,DB01097,No
+2083,Salbutamol,3062316,Dasatinib,CYP3A4,inhibition,Moderate,DB01001,DB01254,No
+2162,Amlodipine,2187,Anastrozole,CYP1A2,inhibition,Unknown,DB00381,DB01217,No
+2662,Celecoxib,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00482,DB01101,No
+3657,Hydroxyurea,5002,Quetiapine,CYP2D6,inhibition,Unknown,DB01005,DB01224,No
+5556,Triazolam,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00897,DB00398,No
+4212,Mitoxantrone,4236,Modafinil,CYP3A4,inhibition,Unknown,DB01204,DB00745,No
+4212,Mitoxantrone,4236,Modafinil,CYP3A4,induction,Unknown,DB01204,DB00745,No
+3365,Fluconazole,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00196,DB01101,No
+2375,Bicalutamide,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB01128,DB00213,No
+2375,Bicalutamide,4679,Pantoprazole,CYP3A4,induction,Unknown,DB01128,DB00213,No
+4178,Mexiletine,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00379,DB00317,No
+4946,Propranolol,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00571,DB00619,No
+4946,Propranolol,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00571,DB00619,No
+2802,Clonazepam,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB01068,DB00531,No
+2802,Clonazepam,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB01068,DB00531,No
+54454,Simvastatin,82146,Bexarotene,CYP3A4,induction,Moderate,DB00641,DB00307,No
+54454,Simvastatin,82146,Bexarotene,CYP3A4,inhibition,Moderate,DB00641,DB00307,No
+3121,Valproic Acid,3690,Ifosfamide,CYP3A4,inhibition,Unknown,DB00313,DB01181,No
+3121,Valproic Acid,3690,Ifosfamide,CYP3A4,induction,Unknown,DB00313,DB01181,No
+3883,Lansoprazole,4212,Mitoxantrone,CYP3A4,induction,Unknown,DB00448,DB01204,No
+3883,Lansoprazole,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00448,DB01204,No
+3883,Lansoprazole,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00448,DB01204,No
+3883,Lansoprazole,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00448,DB01204,No
+4595,Ondansetron,176870,Erlotinib,CYP1A2,inhibition,Unknown,DB00904,DB00530,No
+3690,Ifosfamide,4679,Pantoprazole,CYP2C9,inhibition,Unknown,DB01181,DB00213,No
+3690,Ifosfamide,4679,Pantoprazole,CYP3A4,induction,Unknown,DB01181,DB00213,No
+1983,Acetaminophen,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00316,DB00544,No
+54454,Simvastatin,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00641,DB00530,No
+54454,Simvastatin,176870,Erlotinib,CYP3A4,induction,Unknown,DB00641,DB00530,No
+54454,Simvastatin,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00641,DB00530,No
+5291,Imatinib,41781,Torasemide,CYP2C19,inhibition,Moderate,DB00619,DB00214,No
+3961,Losartan,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00678,DB00853,No
+3961,Losartan,5394,Temozolomide,CYP3A4,induction,Unknown,DB00678,DB00853,No
+5426,Thalidomide,60953,Capecitabine,CYP2C9,inhibition,Major,DB01041,DB01101,No
+1983,Acetaminophen,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00316,DB00947,No
+1983,Acetaminophen,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00316,DB00947,No
+4168,Metoclopramide,216239,Sorafenib,CYP2D6,inhibition,Unknown,DB01233,DB00398,No
+2244,Aspirin,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00945,DB00544,No
+2585,Carvedilol,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB01136,DB01204,No
+2585,Carvedilol,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB01136,DB01204,No
+2585,Carvedilol,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB01204,No
+3899,Leflunomide,54454,Simvastatin,CYP2C9,inhibition,Major,DB01097,DB00641,No
+3899,Leflunomide,54454,Simvastatin,CYP2C9,induction,Major,DB01097,DB00641,No
+2907,Cyclophosphamide,4911,Probenecid,CYP2C9,inhibition,Unknown,DB00531,DB01032,No
+2907,Cyclophosphamide,4911,Probenecid,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01032,No
+2907,Cyclophosphamide,4911,Probenecid,CYP3A4,induction,Unknown,DB00531,DB01032,No
+2802,Clonazepam,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01068,DB00398,No
+3152,Donepezil,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00843,DB01005,No
+4829,Pioglitazone,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01132,DB00619,No
+4829,Pioglitazone,5291,Imatinib,CYP3A4,induction,Moderate,DB01132,DB00619,No
+2764,Ciprofloxacin,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00537,DB00619,No
+2764,Ciprofloxacin,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00537,DB00619,No
+3385,5-Fluorouracil,5391,Temazepam,CYP2C9,inhibition,Unknown,DB00544,DB00231,No
+2907,Cyclophosphamide,3478,Glipizide,CYP3A4,induction,Moderate,DB00531,DB01067,No
+2907,Cyclophosphamide,3478,Glipizide,CYP3A4,inhibition,Moderate,DB00531,DB01067,No
+2907,Cyclophosphamide,5391,Temazepam,CYP3A4,induction,Unknown,DB00531,DB00231,No
+2907,Cyclophosphamide,5391,Temazepam,CYP3A4,inhibition,Unknown,DB00531,DB00231,No
+5291,Imatinib,54454,Simvastatin,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00619,DB00641,Yes
+5291,Imatinib,54454,Simvastatin,CYP3A4,induction,Moderate,DB00619,DB00641,Yes
+5291,Imatinib,54454,Simvastatin,CYP3A4,inhibition,Moderate,DB00619,DB00641,Yes
+2375,Bicalutamide,3961,Losartan,CYP3A4,inhibition,Unknown,DB01128,DB00678,No
+2375,Bicalutamide,2585,Carvedilol,CYP3A4,inhibition,Unknown,DB01128,DB01136,No
+5291,Imatinib,150311,Ezetimibe,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00619,DB00973,No
+5291,Imatinib,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB00619,DB00973,No
+2162,Amlodipine,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00381,DB01097,No
+3345,Fentanyl,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB00813,DB01181,No
+3345,Fentanyl,3690,Ifosfamide,CYP3A4,induction,Moderate,DB00813,DB01181,No
+4594,Prilosec,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00338,DB00570,No
+444,Bupropion,3902,Letrozole,CYP2A6,inhibition,Unknown,DB01156,DB01006,No
+2083,Salbutamol,2375,Bicalutamide,CYP3A4,inhibition,Moderate,DB01001,DB01128,No
+2907,Cyclophosphamide,3825,Ketoprofen,CYP2C9,induction,Unknown,DB00531,DB01009,No
+2907,Cyclophosphamide,3825,Ketoprofen,CYP2C9,inhibition,Unknown,DB00531,DB01009,No
+1978,Acebutolol,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01193,DB00531,No
+1978,Acebutolol,2907,Cyclophosphamide,CYP2D6,inhibition,Unknown,DB01193,DB00531,No
+2405,Bisoprolol,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00612,DB00531,No
+2405,Bisoprolol,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00612,DB00531,No
+3899,Leflunomide,4583,Ofloxacin,CYP1A2,inhibition,Unknown,DB01097,DB01165,No
+3365,Fluconazole,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00196,DB00990,No
+2907,Cyclophosphamide,4539,Norfloxacin,CYP3A4,induction,Minor,DB00531,DB01059,No
+2907,Cyclophosphamide,4539,Norfloxacin,CYP3A4,inhibition,Minor,DB00531,DB01059,No
+4927,Promethazine,216239,Sorafenib,CYP2C9,inhibition,Moderate,DB01069,DB00398,No
+4927,Promethazine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01069,DB00398,No
+2662,Celecoxib,4911,Probenecid,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00482,DB01032,No
+2662,Celecoxib,4911,Probenecid,CYP2C9,inhibition,Unknown,DB00482,DB01032,No
+2662,Celecoxib,4911,Probenecid,CYP3A4,induction,Unknown,DB00482,DB01032,No
+3767,Isoniazid,3899,Leflunomide,CYP2C9,inhibition,Major,DB00951,DB01097,No
+2803,Clonidine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00575,DB01204,No
+2803,Clonidine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00575,DB01204,No
+2803,Clonidine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00575,DB01204,No
+2585,Carvedilol,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01136,DB01101,No
+54454,Simvastatin,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00641,DB00947,No
+54454,Simvastatin,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00641,DB00947,No
+3902,Letrozole,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB01006,DB00973,No
+5291,Imatinib,104865,Bosentan,CYP3A4,induction,Moderate,DB00619,DB00559,No
+5291,Imatinib,104865,Bosentan,CYP3A4,inhibition,Moderate,DB00619,DB00559,No
+3690,Ifosfamide,3883,Lansoprazole,CYP3A4,induction,Unknown,DB01181,DB00448,No
+3690,Ifosfamide,3883,Lansoprazole,CYP3A4,inhibition,Unknown,DB01181,DB00448,No
+2662,Celecoxib,3637,Hydralazine,CYP3A4,inhibition,Unknown,DB00482,DB01275,No
+2662,Celecoxib,2955,Dapsone,PTGS2,inhibition,Unknown,DB00482,DB00250,No
+2662,Celecoxib,2955,Dapsone,CYP2C9,induction,Unknown,DB00482,DB00250,No
+3690,Ifosfamide,4595,Ondansetron,CYP3A4,inhibition,Unknown,DB01181,DB00904,No
+3690,Ifosfamide,4595,Ondansetron,CYP3A4,induction,Unknown,DB01181,DB00904,No
+5394,Temozolomide,13342,Vinblastine,CYP3A4,inhibition,Moderate,DB00853,DB00570,No
+5394,Temozolomide,13342,Vinblastine,CYP3A4,induction,Moderate,DB00853,DB00570,No
+2478,Busulfan,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB01008,DB01181,No
+2478,Busulfan,3690,Ifosfamide,CYP3A4,induction,Moderate,DB01008,DB01181,No
+3899,Leflunomide,4909,Primidone,CYP1A2,induction,Unknown,DB01097,DB00794,No
+3899,Leflunomide,4909,Primidone,CYP2C9,inhibition,Unknown,DB01097,DB00794,No
+2662,Celecoxib,4189,Miconazole,CYP3A4,inhibition,Moderate,DB00482,DB01110,No
+5394,Temozolomide,150311,Ezetimibe,CYP3A4,inhibition,Unknown,DB00853,DB00973,No
+5394,Temozolomide,150311,Ezetimibe,CYP3A4,induction,Unknown,DB00853,DB00973,No
+2907,Cyclophosphamide,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01254,No
+2907,Cyclophosphamide,3062316,Dasatinib,CYP3A4,induction,Unknown,DB00531,DB01254,No
+2907,Cyclophosphamide,3062316,Dasatinib,CYP3A4,inhibition,Unknown,DB00531,DB01254,No
+2375,Bicalutamide,4485,Nifedipine,CYP3A4,induction,Unknown,DB01128,DB01115,No
+2375,Bicalutamide,4485,Nifedipine,CYP3A4,inhibition,Unknown,DB01128,DB01115,No
+2662,Celecoxib,110635,Tadalafil,CYP3A4,inhibition,Unknown,DB00482,DB00820,No
+2578,Carmustine,3121,Valproic Acid,CYP1A2,inhibition,Unknown,DB00262,DB00313,No
+3657,Hydroxyurea,4205,Mirtazapine,CYP2D6,induction,Unknown,DB01005,DB00370,No
+3657,Hydroxyurea,4205,Mirtazapine,CYP2D6,inhibition,Unknown,DB01005,DB00370,No
+3899,Leflunomide,4236,Modafinil,CYP1A2,induction,Unknown,DB01097,DB00745,No
+3899,Leflunomide,4236,Modafinil,CYP1A2,inhibition,Unknown,DB01097,DB00745,No
+3902,Letrozole,4205,Mirtazapine,CYP3A4,inhibition,Unknown,DB01006,DB00370,No
+3690,Ifosfamide,4616,Oxazepam,CYP3A4,inhibition,Moderate,DB01181,DB00842,No
+3690,Ifosfamide,4616,Oxazepam,CYP3A4,induction,Moderate,DB01181,DB00842,No
+2083,Salbutamol,3397,Flutamide,CYP3A4,inhibition,Moderate,DB01001,DB00499,No
+3657,Hydroxyurea,3749,Irbesartan,CYP2D6,inhibition,Unknown,DB01005,DB01029,No
+2907,Cyclophosphamide,4058,Meperidine,CYP3A4,induction,Unknown,DB00531,DB00454,No
+2907,Cyclophosphamide,4058,Meperidine,CYP3A4,inhibition,Unknown,DB00531,DB00454,No
+2162,Amlodipine,3397,Flutamide,CYP1A2,inhibition,Unknown,DB00381,DB00499,No
+41781,Torasemide,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00214,DB00317,No
+2083,Salbutamol,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB01001,DB00947,No
+444,Bupropion,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB01156,DB00544,No
+3385,5-Fluorouracil,3676,Lidocaine,CYP1A2,inhibition,Unknown,DB00544,DB00281,No
+2662,Celecoxib,77993,Eletriptan,CYP3A4,induction,Unknown,DB00482,DB00216,No
+2662,Celecoxib,77993,Eletriptan,CYP2D6,inhibition,Unknown,DB00482,DB00216,No
+4205,Mirtazapine,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00370,DB00530,No
+4205,Mirtazapine,176870,Erlotinib,CYP2D6,induction,Unknown,DB00370,DB00530,No
+2662,Celecoxib,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00482,DB01204,No
+3676,Lidocaine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00281,DB00317,No
+3676,Lidocaine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00281,DB00317,No
+4158,Methylphenidate,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB00422,DB00530,No
+3016,Diazepam,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00829,DB00317,No
+3016,Diazepam,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00829,DB00317,No
+3961,Losartan,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00678,DB00619,No
+3961,Losartan,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00678,DB00619,No
+3657,Hydroxyurea,5656,Venlafaxine,CYP2D6,inhibition,Unknown,DB01005,DB00285,No
+2162,Amlodipine,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00381,DB00544,No
+3016,Diazepam,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00829,DB01097,No
+2187,Anastrozole,3488,Glibenclamide,CYP3A4,inhibition,Unknown,DB01217,DB01016,No
+2118,Alprazolam,2375,Bicalutamide,CYP3A4,inhibition,Unknown,DB00404,DB01128,No
+4236,Modafinil,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00745,DB00853,No
+4236,Modafinil,5394,Temozolomide,CYP3A4,induction,Unknown,DB00745,DB00853,No
+2756,Cimetidine,3385,5-Fluorouracil,CYP2C9,inhibition,Minor,DB00501,DB00544,No
+2756,Cimetidine,3385,5-Fluorouracil,SLC22A7,transporter_inhibition,Minor,DB00501,DB00544,No
+3657,Hydroxyurea,4634,Oxybutynin,CYP2D6,inhibition,Unknown,DB01005,DB01062,No
+5090,Rofecoxib,123631,Gefitinib,CYP3A4,induction,Unknown,DB00533,DB00317,No
+5090,Rofecoxib,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00533,DB00317,No
+2764,Ciprofloxacin,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00537,DB00947,No
+2118,Alprazolam,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00404,DB01204,No
+2554,Carbamazepine,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00564,DB00544,No
+2554,Carbamazepine,3385,5-Fluorouracil,CYP1A2,induction,Unknown,DB00564,DB00544,No
+2578,Carmustine,4583,Ofloxacin,CYP1A2,inhibition,Minor,DB00262,DB01165,No
+3672,"Ibuprofen, (+-)-",216239,Sorafenib,CYP2C9,inhibition,Unknown,DB01050,DB00398,No
+3672,"Ibuprofen, (+-)-",216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01050,DB00398,No
+2802,Clonazepam,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01068,DB00619,No
+3365,Fluconazole,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00196,DB00619,No
+3365,Fluconazole,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00196,DB00619,No
+4212,Mitoxantrone,5578,Trimethoprim,ABCB1 (P-gp),transporter_induction,Unknown,DB01204,DB00440,No
+4212,Mitoxantrone,5578,Trimethoprim,CYP3A4,inhibition,Unknown,DB01204,DB00440,No
+4212,Mitoxantrone,5578,Trimethoprim,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB00440,No
+3957,Loratadine,60198,Exemestane,CYP3A4,induction,Unknown,DB00455,DB00990,No
+3957,Loratadine,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00455,DB00990,No
+3345,Fentanyl,3397,Flutamide,CYP3A4,inhibition,Unknown,DB00813,DB00499,No
+5426,Thalidomide,5578,Trimethoprim,CYP2C9,inhibition,Unknown,DB01041,DB00440,No
+5426,Thalidomide,123631,Gefitinib,CYP3A5,induction,Unknown,DB01041,DB00317,No
+5426,Thalidomide,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01041,DB00317,No
+5291,Imatinib,27661,Isosorbide Mononitrate,CYP3A4,inhibition,Unknown,DB00619,DB01020,No
+3957,Loratadine,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00455,DB00530,No
+3957,Loratadine,176870,Erlotinib,CYP3A4,induction,Unknown,DB00455,DB00530,No
+3957,Loratadine,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00455,DB00530,No
+5073,Risperidone,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00734,DB00317,No
+5073,Risperidone,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00734,DB00317,No
+2375,Bicalutamide,5656,Venlafaxine,CYP3A4,inhibition,Moderate,DB01128,DB00285,No
+1775,Phenytoin,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00252,DB01204,No
+1775,Phenytoin,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00252,DB01204,No
+1775,Phenytoin,4212,Mitoxantrone,CYP3A4,induction,Unknown,DB00252,DB01204,No
+1775,Phenytoin,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00252,DB01204,No
+4205,Mirtazapine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00370,DB01101,No
+2662,Celecoxib,176870,Erlotinib,CYP2D6,inhibition,Unknown,DB00482,DB00530,No
+3121,Valproic Acid,5426,Thalidomide,CYP3A5,induction,Moderate,DB00313,DB01041,No
+3121,Valproic Acid,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00313,DB01041,No
+3676,Lidocaine,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00281,DB00990,No
+4634,Oxybutynin,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01062,DB00619,No
+5391,Temazepam,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00231,DB01101,No
+3899,Leflunomide,4943,Propofol,CYP1A2,inhibition,Unknown,DB01097,DB00818,No
+3385,5-Fluorouracil,3559,Haloperidol,CYP2C9,inhibition,Unknown,DB00544,DB00502,No
+2812,Clotrimazole,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_induction,Unknown,DB00257,DB00531,No
+2812,Clotrimazole,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00257,DB00531,No
+2812,Clotrimazole,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00257,DB00531,No
+2812,Clotrimazole,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00257,DB00531,No
+4205,Mirtazapine,5291,Imatinib,CYP2D6,induction,Moderate,DB00370,DB00619,No
+4205,Mirtazapine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00370,DB00619,No
+2187,Anastrozole,3339,Fenofibrate,CYP2C9,inhibition,Unknown,DB01217,DB01039,No
+3902,Letrozole,5291,Imatinib,CYP3A4,inhibition,Unknown,DB01006,DB00619,No
+2955,Dapsone,5291,Imatinib,CYP3A4,inhibition,Moderate,DB00250,DB00619,No
+2955,Dapsone,5291,Imatinib,CYP2C9,induction,Moderate,DB00250,DB00619,No
+4212,Mitoxantrone,34312,Oxcarbazepine,CYP3A4,induction,Unknown,DB01204,DB00776,No
+4212,Mitoxantrone,34312,Oxcarbazepine,CYP3A4,inhibition,Unknown,DB01204,DB00776,No
+3333,Felodipine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01023,DB00619,No
+3333,Felodipine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01023,DB00619,No
+3333,Felodipine,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB01023,DB00544,No
+2812,Clotrimazole,3899,Leflunomide,CYP2C9,inhibition,Major,DB00257,DB01097,No
+5394,Temozolomide,110635,Tadalafil,CYP3A4,induction,Unknown,DB00853,DB00820,No
+5394,Temozolomide,110635,Tadalafil,CYP3A4,inhibition,Unknown,DB00853,DB00820,No
+2907,Cyclophosphamide,124087,Desloratadine,CYP2C9,inhibition,Unknown,DB00531,DB00967,No
+2907,Cyclophosphamide,124087,Desloratadine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00967,No
+2907,Cyclophosphamide,124087,Desloratadine,CYP2C9,induction,Unknown,DB00531,DB00967,No
+3702,Indapamide,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00808,DB00619,No
+5426,Thalidomide,216239,Sorafenib,CYP3A5,induction,Moderate,DB01041,DB00398,No
+5426,Thalidomide,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB01041,DB00398,No
+4205,Mirtazapine,123631,Gefitinib,CYP2D6,induction,Unknown,DB00370,DB00317,No
+4205,Mirtazapine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00370,DB00317,No
+2662,Celecoxib,4539,Norfloxacin,CYP3A4,inhibition,Moderate,DB00482,DB01059,No
+2662,Celecoxib,5215,Sulfadiazine,CYP2C9,inhibition,Moderate,DB00482,DB00359,No
+4829,Pioglitazone,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB01132,DB00530,No
+4829,Pioglitazone,176870,Erlotinib,CYP3A4,induction,Unknown,DB01132,DB00530,No
+34312,Oxcarbazepine,216239,Sorafenib,CYP3A4,inhibition,Moderate,DB00776,DB00398,No
+34312,Oxcarbazepine,216239,Sorafenib,CYP3A4,induction,Moderate,DB00776,DB00398,No
+2662,Celecoxib,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00482,DB00570,Yes
+2895,Cyclobenzaprine,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00924,DB00398,No
+3152,Donepezil,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00843,DB00544,No
+2955,Dapsone,5426,Thalidomide,CYP3A5,induction,Moderate,DB00250,DB01041,No
+2955,Dapsone,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00250,DB01041,No
+2662,Celecoxib,4748,Perphenazine,CYP2D6,inhibition,Moderate,DB00482,DB00850,No
+3385,5-Fluorouracil,3386,Fluoxetine,CYP1A2,inhibition,Unknown,DB00544,DB00472,No
+4205,Mirtazapine,216239,Sorafenib,CYP2D6,induction,Moderate,DB00370,DB00398,No
+4205,Mirtazapine,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00370,DB00398,No
+4158,Methylphenidate,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00422,DB00317,No
+3961,Losartan,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00678,DB01101,No
+3676,Lidocaine,3902,Letrozole,CYP2A6,inhibition,Unknown,DB00281,DB01006,No
+3657,Hydroxyurea,4485,Nifedipine,CYP2D6,inhibition,Unknown,DB01005,DB01115,No
+2554,Carbamazepine,123631,Gefitinib,CYP3A4,induction,Moderate,DB00564,DB00317,Yes
+2554,Carbamazepine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00564,DB00317,Yes
+2554,Carbamazepine,123631,Gefitinib,ABCB1 (P-gp),transporter_induction,Moderate,DB00564,DB00317,Yes
+2554,Carbamazepine,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00564,DB00317,Yes
+4236,Modafinil,5291,Imatinib,CYP1A2,induction,Minor,DB00745,DB00619,No
+4236,Modafinil,5291,Imatinib,CYP3A4,inhibition,Minor,DB00745,DB00619,No
+3152,Donepezil,5291,Imatinib,CYP3A4,inhibition,Minor,DB00843,DB00619,No
+3333,Felodipine,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01023,DB00317,No
+3333,Felodipine,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01023,DB00317,No
+3385,5-Fluorouracil,5426,Thalidomide,CYP2C9,inhibition,Major,DB00544,DB01041,No
+2520,Verapamil,176870,Erlotinib,CYP2C8,inhibition,Moderate,DB00661,DB00530,No
+2520,Verapamil,176870,Erlotinib,ABCB1 (P-gp),transporter_induction,Moderate,DB00661,DB00530,No
+2520,Verapamil,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Moderate,DB00661,DB00530,No
+2554,Carbamazepine,5291,Imatinib,ABCB1 (P-gp),transporter_induction,Major,DB00564,DB00619,Yes
+2554,Carbamazepine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB00564,DB00619,Yes
+2554,Carbamazepine,5291,Imatinib,CYP3A4,inhibition,Major,DB00564,DB00619,Yes
+2554,Carbamazepine,5291,Imatinib,CYP1A2,induction,Major,DB00564,DB00619,Yes
+4212,Mitoxantrone,4829,Pioglitazone,CYP3A4,inhibition,Unknown,DB01204,DB01132,No
+4212,Mitoxantrone,4829,Pioglitazone,CYP3A4,induction,Unknown,DB01204,DB01132,No
+4236,Modafinil,5426,Thalidomide,CYP3A5,induction,Unknown,DB00745,DB01041,No
+4236,Modafinil,5426,Thalidomide,CYP2C19,inhibition,Unknown,DB00745,DB01041,No
+2764,Ciprofloxacin,3690,Ifosfamide,CYP3A4,inhibition,Minor,DB00537,DB01181,No
+2764,Ciprofloxacin,3690,Ifosfamide,CYP3A4,induction,Minor,DB00537,DB01181,No
+3333,Felodipine,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB01023,DB00853,No
+3333,Felodipine,5394,Temozolomide,CYP3A4,induction,Unknown,DB01023,DB00853,No
+2187,Anastrozole,5735,Zopiclone,CYP3A4,inhibition,Unknown,DB01217,DB01198,No
+2520,Verapamil,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00661,DB00947,No
+3767,Isoniazid,5426,Thalidomide,CYP2E1,induction,Moderate,DB00951,DB01041,No
+3767,Isoniazid,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00951,DB01041,No
+2092,Alfuzosin,2375,Bicalutamide,CYP3A4,inhibition,Moderate,DB00346,DB01128,No
+2576,Carisoprodol,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00395,DB01041,No
+3902,Letrozole,4634,Oxybutynin,CYP3A4,inhibition,Unknown,DB01006,DB01062,No
+2803,Clonidine,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00575,DB01005,No
+2662,Celecoxib,74989,"3-(4-(4-Chlorophenyl)cyclohexyl)-4-hydroxynaphthalene-1,2-dione",CYP2C9,inhibition,Unknown,DB00482,DB01117,No
+2662,Celecoxib,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00482,DB00398,No
+2662,Celecoxib,216239,Sorafenib,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00482,DB00398,No
+3902,Letrozole,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB01006,DB01204,No
+3365,Fluconazole,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00196,DB01254,No
+3365,Fluconazole,3062316,Dasatinib,CYP3A4,inhibition,Moderate,DB00196,DB01254,No
+3121,Valproic Acid,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00313,DB00619,No
+4539,Norfloxacin,5394,Temozolomide,CYP3A4,inhibition,Minor,DB01059,DB00853,No
+4539,Norfloxacin,5394,Temozolomide,CYP3A4,induction,Minor,DB01059,DB00853,No
+3658,Hydroxyzine,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB00557,DB00317,No
+3902,Letrozole,5073,Risperidone,CYP3A4,inhibition,Unknown,DB01006,DB00734,No
+2375,Bicalutamide,3883,Lansoprazole,CYP3A4,induction,Unknown,DB01128,DB00448,No
+2375,Bicalutamide,3883,Lansoprazole,CYP3A4,inhibition,Unknown,DB01128,DB00448,No
+4173,Metronidazole,60953,Capecitabine,CYP2C9,inhibition,Moderate,DB00916,DB01101,No
+5090,Rofecoxib,5291,Imatinib,CYP3A4,induction,Unknown,DB00533,DB00619,No
+5090,Rofecoxib,5291,Imatinib,CYP3A4,inhibition,Unknown,DB00533,DB00619,No
+3690,Ifosfamide,4173,Metronidazole,CYP3A4,inhibition,Unknown,DB01181,DB00916,No
+3690,Ifosfamide,4173,Metronidazole,CYP3A4,induction,Unknown,DB01181,DB00916,No
+3690,Ifosfamide,5656,Venlafaxine,CYP3A4,inhibition,Moderate,DB01181,DB00285,No
+3690,Ifosfamide,5656,Venlafaxine,CYP3A4,induction,Moderate,DB01181,DB00285,No
+3488,Glibenclamide,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB01016,DB00853,No
+3488,Glibenclamide,5394,Temozolomide,CYP3A4,induction,Unknown,DB01016,DB00853,No
+444,Bupropion,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01156,DB00317,No
+4212,Mitoxantrone,4485,Nifedipine,ABCB1 (P-gp),transporter_induction,Moderate,DB01204,DB01115,No
+4212,Mitoxantrone,4485,Nifedipine,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01204,DB01115,No
+4212,Mitoxantrone,4485,Nifedipine,CYP3A4,induction,Moderate,DB01204,DB01115,No
+4212,Mitoxantrone,4485,Nifedipine,CYP3A4,inhibition,Moderate,DB01204,DB01115,No
+3157,Doxazosin,5291,Imatinib,CYP2D6,inhibition,Unknown,DB00590,DB00619,No
+3157,Doxazosin,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00590,DB00619,No
+4212,Mitoxantrone,5391,Temazepam,CYP3A4,inhibition,Unknown,DB01204,DB00231,No
+4679,Pantoprazole,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00213,DB00570,No
+4679,Pantoprazole,13342,Vinblastine,ABCB1 (P-gp),transporter_induction,Unknown,DB00213,DB00570,No
+4679,Pantoprazole,13342,Vinblastine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00213,DB00570,No
+4679,Pantoprazole,13342,Vinblastine,CYP3A4,induction,Unknown,DB00213,DB00570,No
+2801,Clomipramine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01242,DB00531,No
+2801,Clomipramine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB01242,DB00531,No
+2801,Clomipramine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB01242,DB00531,No
+2118,Alprazolam,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB00404,DB00398,No
+4173,Metronidazole,5453,Thiotepa,CYP3A4,inhibition,Unknown,DB00916,DB04572,No
+3657,Hydroxyurea,4927,Promethazine,CYP2D6,inhibition,Unknown,DB01005,DB01069,No
+2585,Carvedilol,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB00317,No
+2585,Carvedilol,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01136,DB00317,No
+3658,Hydroxyzine,5291,Imatinib,CYP2D6,inhibition,Unknown,DB00557,DB00619,No
+3957,Loratadine,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB00455,DB01101,No
+2153,Theophylline,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00277,DB01097,No
+5656,Venlafaxine,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00285,DB01254,No
+5656,Venlafaxine,3062316,Dasatinib,CYP3A4,inhibition,Moderate,DB00285,DB01254,No
+5656,Venlafaxine,3062316,Dasatinib,ABCG2 (BCRP),transporter_induction,Moderate,DB00285,DB01254,No
+119607,Valdecoxib,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00580,DB00317,No
+2554,Carbamazepine,4212,Mitoxantrone,CYP3A4,induction,Unknown,DB00564,DB01204,No
+2554,Carbamazepine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00564,DB01204,No
+2554,Carbamazepine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00564,DB01204,No
+2554,Carbamazepine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00564,DB01204,No
+2801,Clomipramine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01242,DB00619,No
+2801,Clomipramine,5291,Imatinib,CYP3A4,inhibition,Moderate,DB01242,DB00619,No
+3883,Lansoprazole,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB00448,DB01254,Yes
+3883,Lansoprazole,3062316,Dasatinib,CYP3A4,inhibition,Major,DB00448,DB01254,Yes
+3883,Lansoprazole,3062316,Dasatinib,CYP1A2,induction,Major,DB00448,DB01254,Yes
+2756,Cimetidine,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00501,DB01097,No
+4946,Propranolol,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00571,DB00317,No
+4946,Propranolol,123631,Gefitinib,CYP2C19,inhibition,Unknown,DB00571,DB00317,No
+3749,Irbesartan,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB01029,DB01204,No
+3121,Valproic Acid,3062316,Dasatinib,CYP1A2,inhibition,Unknown,DB00313,DB01254,No
+2520,Verapamil,5394,Temozolomide,CYP3A4,induction,Unknown,DB00661,DB00853,No
+2520,Verapamil,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00661,DB00853,No
+5291,Imatinib,34312,Oxcarbazepine,CYP3A4,induction,Moderate,DB00619,DB00776,No
+5291,Imatinib,34312,Oxcarbazepine,CYP2C19,inhibition,Moderate,DB00619,DB00776,No
+3339,Fenofibrate,60953,Capecitabine,CYP2C9,inhibition,Unknown,DB01039,DB01101,No
+5291,Imatinib,71616,Voriconazole,CYP3A4,inhibition,Moderate,DB00619,DB00582,No
+3902,Letrozole,4173,Metronidazole,CYP3A4,inhibition,Unknown,DB01006,DB00916,No
+4543,Nortriptyline,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00540,DB00317,No
+2478,Busulfan,3883,Lansoprazole,CYP3A4,induction,Unknown,DB01008,DB00448,No
+2478,Busulfan,3883,Lansoprazole,CYP3A4,inhibition,Unknown,DB01008,DB00448,No
+176870,Erlotinib,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00530,DB00398,No
+176870,Erlotinib,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00530,DB00398,No
+3385,5-Fluorouracil,3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",CYP2C9,inhibition,Unknown,DB00544,DB00222,No
+3657,Hydroxyurea,4158,Methylphenidate,CYP2D6,inhibition,Unknown,DB01005,DB00422,No
+3121,Valproic Acid,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00313,DB00530,No
+2907,Cyclophosphamide,104865,Bosentan,CYP3A4,induction,Moderate,DB00531,DB00559,No
+2907,Cyclophosphamide,104865,Bosentan,CYP3A4,inhibition,Moderate,DB00531,DB00559,No
+5035,Raloxifene,123631,Gefitinib,CYP3A4,inhibition,Unknown,DB00481,DB00317,No
+5291,Imatinib,5656,Venlafaxine,ABCG2 (BCRP),transporter_induction,Moderate,DB00619,DB00285,No
+5291,Imatinib,5656,Venlafaxine,CYP3A4,inhibition,Moderate,DB00619,DB00285,No
+5291,Imatinib,5656,Venlafaxine,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00619,DB00285,No
+3121,Valproic Acid,3385,5-Fluorouracil,CYP2C9,inhibition,Unknown,DB00313,DB00544,No
+3121,Valproic Acid,3385,5-Fluorouracil,CYP2A6,induction,Unknown,DB00313,DB00544,No
+2764,Ciprofloxacin,5453,Thiotepa,CYP3A4,inhibition,Minor,DB00537,DB04572,No
+1983,Acetaminophen,3397,Flutamide,CYP1A2,inhibition,Unknown,DB00316,DB00499,No
+1983,Acetaminophen,3397,Flutamide,CYP3A4,induction,Unknown,DB00316,DB00499,No
+2907,Cyclophosphamide,3899,Leflunomide,CYP2C9,induction,Major,DB00531,DB01097,No
+2907,Cyclophosphamide,3899,Leflunomide,CYP2C9,inhibition,Major,DB00531,DB01097,No
+4158,Methylphenidate,5291,Imatinib,CYP2D6,inhibition,Unknown,DB00422,DB00619,No
+3715,Indomethacin,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00328,DB00317,No
+3715,Indomethacin,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB00328,DB00317,No
+1046,Pyrazinamide,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00339,DB00531,No
+1046,Pyrazinamide,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00339,DB00531,No
+2764,Ciprofloxacin,176870,Erlotinib,CYP1A2,inhibition,Moderate,DB00537,DB00530,No
+2764,Ciprofloxacin,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00537,DB00530,No
+3365,Fluconazole,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00196,DB00947,No
+2907,Cyclophosphamide,3784,Isradipine,CYP3A4,induction,Unknown,DB00531,DB00270,No
+2907,Cyclophosphamide,3784,Isradipine,CYP3A4,inhibition,Unknown,DB00531,DB00270,No
+4173,Metronidazole,104741,Fulvestrant,CYP3A4,inhibition,Unknown,DB00916,DB00947,No
+4829,Pioglitazone,123631,Gefitinib,CYP2C9,inhibition,Unknown,DB01132,DB00317,No
+4829,Pioglitazone,123631,Gefitinib,CYP3A4,induction,Unknown,DB01132,DB00317,No
+2725,(+-)-Chlorpheniramine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB01114,DB00531,No
+2725,(+-)-Chlorpheniramine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB01114,DB00531,No
+3016,Diazepam,176870,Erlotinib,CYP2C8,inhibition,Unknown,DB00829,DB00530,No
+2907,Cyclophosphamide,3702,Indapamide,CYP3A4,induction,Moderate,DB00531,DB00808,No
+2907,Cyclophosphamide,3702,Indapamide,CYP3A4,inhibition,Moderate,DB00531,DB00808,No
+3652,Hydroxychloroquine,5291,Imatinib,CYP2D6,inhibition,Moderate,DB01611,DB00619,No
+2907,Cyclophosphamide,5735,Zopiclone,CYP3A4,induction,Unknown,DB00531,DB01198,No
+2907,Cyclophosphamide,5735,Zopiclone,CYP3A4,inhibition,Unknown,DB00531,DB01198,No
+2554,Carbamazepine,216239,Sorafenib,ABCB1 (P-gp),transporter_induction,Moderate,DB00564,DB00398,Yes
+2554,Carbamazepine,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00564,DB00398,Yes
+2554,Carbamazepine,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00564,DB00398,Yes
+2554,Carbamazepine,216239,Sorafenib,CYP1A2,induction,Moderate,DB00564,DB00398,Yes
+3690,Ifosfamide,5394,Temozolomide,CYP3A4,inhibition,Moderate,DB01181,DB00853,No
+3690,Ifosfamide,5394,Temozolomide,CYP3A4,induction,Moderate,DB01181,DB00853,No
+1978,Acebutolol,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB01193,DB01005,No
+2187,Anastrozole,4205,Mirtazapine,CYP3A4,inhibition,Unknown,DB01217,DB00370,No
+4236,Modafinil,216239,Sorafenib,CYP1A2,induction,Moderate,DB00745,DB00398,No
+4236,Modafinil,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB00745,DB00398,No
+2118,Alprazolam,3690,Ifosfamide,CYP3A4,inhibition,Moderate,DB00404,DB01181,No
+2118,Alprazolam,3690,Ifosfamide,CYP3A4,induction,Moderate,DB00404,DB01181,No
+3365,Fluconazole,13342,Vinblastine,CYP3A4,inhibition,Moderate,DB00196,DB00570,Yes
+3365,Fluconazole,13342,Vinblastine,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00196,DB00570,Yes
+3365,Fluconazole,13342,Vinblastine,ABCB1 (P-gp),transporter_induction,Moderate,DB00196,DB00570,Yes
+2907,Cyclophosphamide,4158,Methylphenidate,CYP2D6,inhibition,Unknown,DB00531,DB00422,No
+3152,Donepezil,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00843,DB01204,No
+3690,Ifosfamide,4927,Promethazine,CYP2C9,induction,Moderate,DB01181,DB01069,No
+3690,Ifosfamide,4927,Promethazine,CYP2C9,inhibition,Moderate,DB01181,DB01069,No
+2578,Carmustine,2764,Ciprofloxacin,CYP1A2,inhibition,Minor,DB00262,DB00537,No
+3961,Losartan,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00678,DB01204,No
+3961,Losartan,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00678,DB01204,No
+3961,Losartan,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00678,DB01204,No
+5035,Raloxifene,3062316,Dasatinib,CYP3A4,inhibition,Unknown,DB00481,DB01254,No
+3152,Donepezil,3899,Leflunomide,CYP2C9,inhibition,Unknown,DB00843,DB01097,No
+3657,Hydroxyurea,5095,Ropinirole,CYP2D6,inhibition,Unknown,DB01005,DB00268,No
+34312,Oxcarbazepine,123631,Gefitinib,CYP3A4,induction,Moderate,DB00776,DB00317,No
+34312,Oxcarbazepine,123631,Gefitinib,CYP2C19,inhibition,Moderate,DB00776,DB00317,No
+3696,Imipramine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00458,DB01204,No
+3696,Imipramine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00458,DB01204,No
+3696,Imipramine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00458,DB01204,No
+1775,Phenytoin,176870,Erlotinib,CYP2C8,inhibition,Moderate,DB00252,DB00530,Yes
+1775,Phenytoin,176870,Erlotinib,CYP3A4,induction,Moderate,DB00252,DB00530,Yes
+1775,Phenytoin,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00252,DB00317,Yes
+1775,Phenytoin,123631,Gefitinib,CYP3A4,induction,Moderate,DB00252,DB00317,Yes
+1775,Phenytoin,123631,Gefitinib,CYP2C9,inhibition,Moderate,DB00252,DB00317,Yes
+2477,Buspirone,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00490,DB00531,No
+2477,Buspirone,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00490,DB00531,No
+2477,Buspirone,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00490,DB00531,No
+2662,Celecoxib,71616,Voriconazole,CYP3A4,inhibition,Moderate,DB00482,DB00582,Yes
+2083,Salbutamol,216239,Sorafenib,CYP3A4,inhibition,Moderate,DB01001,DB00398,No
+4058,Meperidine,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00454,DB01204,No
+4539,Norfloxacin,216239,Sorafenib,CYP1A2,inhibition,Moderate,DB01059,DB00398,No
+2477,Buspirone,4212,Mitoxantrone,CYP3A4,inhibition,Unknown,DB00490,DB01204,No
+2477,Buspirone,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00490,DB01204,No
+2477,Buspirone,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00490,DB01204,No
+4463,Nevirapine,13342,Vinblastine,CYP3A4,inhibition,Moderate,DB00238,DB00570,No
+4463,Nevirapine,13342,Vinblastine,CYP3A4,induction,Moderate,DB00238,DB00570,No
+2662,Celecoxib,4659569,Tolcapone,CYP2C9,inhibition,Unknown,DB00482,DB00323,No
+4158,Methylphenidate,216239,Sorafenib,CYP2D6,inhibition,Unknown,DB00422,DB00398,No
+1775,Phenytoin,3690,Ifosfamide,CYP3A4,inhibition,Unknown,DB00252,DB01181,No
+1775,Phenytoin,3690,Ifosfamide,CYP3A4,induction,Unknown,DB00252,DB01181,No
+4205,Mirtazapine,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB00370,DB00853,No
+4205,Mirtazapine,5394,Temozolomide,CYP3A4,induction,Unknown,DB00370,DB00853,No
+4485,Nifedipine,5394,Temozolomide,CYP3A4,inhibition,Unknown,DB01115,DB00853,No
+4485,Nifedipine,5394,Temozolomide,CYP3A4,induction,Unknown,DB01115,DB00853,No
+1978,Acebutolol,2375,Bicalutamide,CYP2D6,inhibition,Unknown,DB01193,DB01128,No
+2907,Cyclophosphamide,5073,Risperidone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00734,No
+2907,Cyclophosphamide,5073,Risperidone,CYP3A4,induction,Unknown,DB00531,DB00734,No
+2907,Cyclophosphamide,5073,Risperidone,CYP3A4,inhibition,Unknown,DB00531,DB00734,No
+4771,Phentermine,216239,Sorafenib,CYP2C9,induction,Unknown,DB00191,DB00398,No
+4771,Phentermine,216239,Sorafenib,CYP1A2,inhibition,Unknown,DB00191,DB00398,No
+3345,Fentanyl,13342,Vinblastine,CYP3A4,inhibition,Unknown,DB00813,DB00570,No
+3345,Fentanyl,13342,Vinblastine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00813,DB00570,No
+3345,Fentanyl,13342,Vinblastine,ABCB1 (P-gp),transporter_induction,Unknown,DB00813,DB00570,No
+1775,Phenytoin,2187,Anastrozole,CYP3A4,inhibition,Unknown,DB00252,DB01217,No
+1775,Phenytoin,2187,Anastrozole,CYP3A4,induction,Unknown,DB00252,DB01217,No
+71616,Voriconazole,176870,Erlotinib,CYP3A4,inhibition,Moderate,DB00582,DB00530,Yes
+123631,Gefitinib,1349907,Methimazole,CYP3A4,inhibition,Unknown,DB00317,DB00763,No
+4634,Oxybutynin,216239,Sorafenib,CYP3A4,inhibition,Unknown,DB01062,DB00398,No
+2907,Cyclophosphamide,3333,Felodipine,CYP3A4,induction,Unknown,DB00531,DB01023,No
+2907,Cyclophosphamide,3333,Felodipine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01023,No
+2907,Cyclophosphamide,3333,Felodipine,CYP3A4,inhibition,Unknown,DB00531,DB01023,No
+3715,Indomethacin,216239,Sorafenib,CYP2C9,inhibition,Unknown,DB00328,DB00398,No
+3715,Indomethacin,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00328,DB00398,No
+3157,Doxazosin,3657,Hydroxyurea,CYP2D6,inhibition,Unknown,DB00590,DB01005,No
+2554,Carbamazepine,3690,Ifosfamide,CYP3A4,inhibition,Unknown,DB00564,DB01181,No
+2554,Carbamazepine,3690,Ifosfamide,CYP3A4,induction,Unknown,DB00564,DB01181,No
+2719,Chloroquine,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00608,DB00531,No
+2719,Chloroquine,2907,Cyclophosphamide,CYP3A4,induction,Unknown,DB00608,DB00531,No
+2719,Chloroquine,2907,Cyclophosphamide,CYP3A4,inhibition,Unknown,DB00608,DB00531,No
+1775,Phenytoin,60953,Capecitabine,CYP2C9,inhibition,Moderate,DB00252,DB01101,Yes
+1775,Phenytoin,60953,Capecitabine,CYP2C9,induction,Moderate,DB00252,DB01101,Yes
+3825,Ketoprofen,216239,Sorafenib,ABCC4 (MRP4),transporter_inhibition,Unknown,DB01009,DB00398,No
+3825,Ketoprofen,216239,Sorafenib,CYP2C9,inhibition,Unknown,DB01009,DB00398,No
+2907,Cyclophosphamide,4499,Nisoldipine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00401,No
+2907,Cyclophosphamide,4499,Nisoldipine,CYP3A4,induction,Unknown,DB00531,DB00401,No
+2907,Cyclophosphamide,4499,Nisoldipine,CYP3A4,inhibition,Unknown,DB00531,DB00401,No
+4173,Metronidazole,60198,Exemestane,CYP3A4,inhibition,Unknown,DB00916,DB00990,No
+4058,Meperidine,5426,Thalidomide,CYP2C19,inhibition,Moderate,DB00454,DB01041,No
+1978,Acebutolol,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01193,DB00317,No
+1978,Acebutolol,123631,Gefitinib,CYP2D6,inhibition,Unknown,DB01193,DB00317,No
+4212,Mitoxantrone,4539,Norfloxacin,CYP3A4,inhibition,Minor,DB01204,DB01059,No
+2520,Verapamil,3397,Flutamide,CYP1A2,inhibition,Unknown,DB00661,DB00499,No
+444,Bupropion,2375,Bicalutamide,CYP3A4,inhibition,Unknown,DB01156,DB01128,No
+4679,Pantoprazole,5394,Temozolomide,CYP3A4,induction,Unknown,DB00213,DB00853,No
+4595,Ondansetron,5394,Temozolomide,CYP3A4,induction,Unknown,DB00904,DB00853,No
+2771,Citalopram,5394,Temozolomide,CYP3A4,induction,Unknown,DB00215,DB00853,No
+2244,Aspirin,3397,Flutamide,CYP2C19,induction,Unknown,DB00945,DB00499,No
+2802,Clonazepam,5394,Temozolomide,CYP3A4,induction,Unknown,DB01068,DB00853,No
+3902,Letrozole,5090,Rofecoxib,CYP3A4,induction,Unknown,DB01006,DB00533,No
+3345,Fentanyl,5426,Thalidomide,CYP3A5,induction,Moderate,DB00813,DB01041,No
+4679,Pantoprazole,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB00213,DB01254,Yes
+4679,Pantoprazole,3062316,Dasatinib,CYP1A2,induction,Major,DB00213,DB01254,Yes
+4917,Prochlorperazine,5394,Temozolomide,CYP3A4,induction,Unknown,DB00433,DB00853,No
+4594,Prilosec,5394,Temozolomide,CYP3A4,induction,Unknown,DB00338,DB00853,No
+4679,Pantoprazole,176870,Erlotinib,CYP1A2,induction,Major,DB00213,DB00530,Yes
+4679,Pantoprazole,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Major,DB00213,DB00530,Yes
+2118,Alprazolam,5426,Thalidomide,CYP3A5,induction,Moderate,DB00404,DB01041,No
+2662,Celecoxib,34312,Oxcarbazepine,CYP3A4,induction,Unknown,DB00482,DB00776,No
+2471,Bumetanide,5426,Thalidomide,PTGS2,induction,Unknown,DB00887,DB01041,No
+5073,Risperidone,5426,Thalidomide,CYP3A5,induction,Moderate,DB00734,DB01041,No
+2578,Carmustine,4679,Pantoprazole,CYP1A2,induction,Unknown,DB00262,DB00213,No
+2895,Cyclobenzaprine,5394,Temozolomide,CYP3A4,induction,Unknown,DB00924,DB00853,No
+4634,Oxybutynin,5426,Thalidomide,CYP3A5,induction,Unknown,DB01062,DB01041,No
+2662,Celecoxib,104865,Bosentan,CYP3A4,induction,Moderate,DB00482,DB00559,No
+5394,Temozolomide,5734,Zonisamide,CYP3A4,induction,Unknown,DB00853,DB00909,No
+2554,Carbamazepine,5394,Temozolomide,CYP3A4,induction,Unknown,DB00564,DB00853,No
+2554,Carbamazepine,2662,Celecoxib,CYP3A4,induction,Unknown,DB00564,DB00482,No
+5090,Rofecoxib,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00533,DB00947,No
+444,Bupropion,5394,Temozolomide,CYP3A4,induction,Unknown,DB01156,DB00853,No
+2585,Carvedilol,5394,Temozolomide,CYP3A4,induction,Unknown,DB01136,DB00853,No
+5394,Temozolomide,5732,Zolpidem,CYP3A4,induction,Unknown,DB00853,DB00425,No
+2244,Aspirin,2907,Cyclophosphamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00945,DB00531,No
+2244,Aspirin,2907,Cyclophosphamide,CYP2C9,induction,Unknown,DB00945,DB00531,No
+5391,Temazepam,5394,Temozolomide,CYP3A4,induction,Unknown,DB00231,DB00853,No
+2803,Clonidine,5426,Thalidomide,CYP3A5,induction,Moderate,DB00575,DB01041,No
+4679,Pantoprazole,60198,Exemestane,CYP3A4,induction,Unknown,DB00213,DB00990,No
+1775,Phenytoin,5394,Temozolomide,CYP3A4,induction,Unknown,DB00252,DB00853,No
+3902,Letrozole,4679,Pantoprazole,CYP3A4,induction,Unknown,DB01006,DB00213,No
+2478,Busulfan,4679,Pantoprazole,CYP3A4,induction,Unknown,DB01008,DB00213,No
+4679,Pantoprazole,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00213,DB00947,No
+2662,Celecoxib,5394,Temozolomide,CYP3A4,induction,Unknown,DB00482,DB00853,No
+1775,Phenytoin,2478,Busulfan,CYP3A4,induction,Moderate,DB00252,DB01008,Yes
+3339,Fenofibrate,5394,Temozolomide,CYP3A4,induction,Unknown,DB01039,DB00853,No
+3902,Letrozole,4829,Pioglitazone,CYP3A4,induction,Unknown,DB01006,DB01132,No
+2662,Celecoxib,4909,Primidone,CYP3A4,induction,Unknown,DB00482,DB00794,No
+5152,Salmeterol,5426,Thalidomide,CYP3A5,induction,Unknown,DB00938,DB01041,No
+3702,Indapamide,5394,Temozolomide,CYP3A4,induction,Unknown,DB00808,DB00853,No
+2907,Cyclophosphamide,3476,"1H-Pyrrole-1-carboxamide, 3-ethyl-2,5-dihydro-4-methyl-N-2-4-(trans-4-methylcyclohexyl)aminocarbonylaminosulfonylphenylethyl-2-oxo-",CYP2C9,induction,Moderate,DB00531,DB00222,No
+5394,Temozolomide,176870,Erlotinib,CYP3A4,induction,Unknown,DB00853,DB00530,Yes
+4829,Pioglitazone,60198,Exemestane,CYP3A4,induction,Unknown,DB01132,DB00990,No
+2554,Carbamazepine,3902,Letrozole,CYP3A4,induction,Unknown,DB00564,DB01006,No
+2471,Bumetanide,216326,Lenalidomide,PTGS2,induction,Unknown,DB00887,DB00480,No
+4829,Pioglitazone,5394,Temozolomide,CYP3A4,induction,Unknown,DB01132,DB00853,No
+5394,Temozolomide,34312,Oxcarbazepine,CYP3A4,induction,Unknown,DB00853,DB00776,No
+5002,Quetiapine,5394,Temozolomide,CYP3A4,induction,Unknown,DB01224,DB00853,No
+2405,Bisoprolol,5394,Temozolomide,CYP3A4,induction,Unknown,DB00612,DB00853,No
+2554,Carbamazepine,104741,Fulvestrant,CYP3A4,induction,Unknown,DB00564,DB00947,No
+5394,Temozolomide,5578,Trimethoprim,CYP3A4,induction,Unknown,DB00853,DB00440,No
+2662,Celecoxib,4991,Pyridostigmine,CYP3A4,induction,Unknown,DB00482,DB00545,No
+5090,Rofecoxib,60198,Exemestane,CYP3A4,induction,Unknown,DB00533,DB00990,No
+5152,Salmeterol,5394,Temozolomide,CYP3A4,induction,Unknown,DB00938,DB00853,No
+2554,Carbamazepine,60198,Exemestane,CYP3A4,induction,Moderate,DB00564,DB00990,Yes
+3152,Donepezil,5394,Temozolomide,CYP3A4,induction,Unknown,DB00843,DB00853,No
+2578,Carmustine,3883,Lansoprazole,CYP1A2,induction,Unknown,DB00262,DB00448,No
+4616,Oxazepam,5394,Temozolomide,CYP3A4,induction,Unknown,DB00842,DB00853,No
+5090,Rofecoxib,5394,Temozolomide,CYP3A4,induction,Unknown,DB00533,DB00853,No
+3902,Letrozole,34312,Oxcarbazepine,CYP3A4,induction,Moderate,DB01006,DB00776,No
+3440,Furosemide,667490,6-Mercaptopurine,SLCO1B3? (OATP),transporter_inhibition,Unknown,DB00695,DB01033,No
+3676,Lidocaine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00281,DB00480,No
+3365,Fluconazole,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00196,DB00480,No
+3345,Fentanyl,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00813,DB00480,No
+2520,Verapamil,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00661,DB00480,No
+2520,Verapamil,216326,Lenalidomide,ABCB1 (P-gp),transporter_induction,Unknown,DB00661,DB00480,No
+4679,Pantoprazole,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00213,DB00480,No
+2554,Carbamazepine,216326,Lenalidomide,ABCB1 (P-gp),transporter_induction,Unknown,DB00564,DB00480,No
+2554,Carbamazepine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00564,DB00480,No
+3385,5-Fluorouracil,4212,Mitoxantrone,ABCG2 (BCRP),transporter_inhibition,Moderate,DB00544,DB01204,No
+4091,Metformin,5291,Imatinib,SLC22A2,transporter_inhibition,Unknown,DB00331,DB00619,No
+2585,Carvedilol,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB00480,No
+2764,Ciprofloxacin,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00537,DB00480,No
+3883,Lansoprazole,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00448,DB00480,No
+3348,Fexofenadine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00950,DB01204,No
+3348,Fexofenadine,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00950,DB01204,No
+3899,Leflunomide,65999,Telmisartan,ABCG2 (BCRP),transporter_inhibition,Unknown,DB01097,DB00966,No
+5656,Venlafaxine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00285,DB00480,No
+3488,Glibenclamide,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01016,DB00480,No
+3348,Fexofenadine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00950,DB00480,No
+2812,Clotrimazole,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00257,DB00480,No
+2812,Clotrimazole,216326,Lenalidomide,ABCB1 (P-gp),transporter_induction,Unknown,DB00257,DB00480,No
+5291,Imatinib,5401,Terazosin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00619,DB01162,No
+3676,Lidocaine,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00281,DB00305,No
+1983,Acetaminophen,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00316,DB00305,No
+3108,Dipyridamole,3385,5-Fluorouracil,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00975,DB00544,No
+54454,Simvastatin,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Major,DB00641,DB00480,No
+5090,Rofecoxib,667490,6-Mercaptopurine,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00533,DB01033,No
+2162,Amlodipine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00381,DB00480,No
+3385,5-Fluorouracil,65999,Telmisartan,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00544,DB00966,No
+2907,Cyclophosphamide,3157,Doxazosin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00590,No
+4212,Mitoxantrone,4583,Ofloxacin,ABCC1,transporter_inhibition,Minor,DB01204,DB01165,No
+2662,Celecoxib,3108,Dipyridamole,ABCC4 (MRP4),transporter_inhibition,Moderate,DB00482,DB00975,No
+3672,"Ibuprofen, (+-)-",3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB01050,DB01254,No
+4212,Mitoxantrone,4927,Promethazine,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB01069,No
+4212,Mitoxantrone,4927,Promethazine,ABCB1 (P-gp),transporter_induction,Unknown,DB01204,DB01069,No
+2907,Cyclophosphamide,4893,Prazosin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00457,No
+3157,Doxazosin,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00590,DB00480,No
+3108,Dipyridamole,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00975,DB00480,No
+3108,Dipyridamole,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00975,DB00317,No
+3883,Lansoprazole,119182,Clofarabine,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00448,DB00631,No
+3961,Losartan,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00678,DB00480,No
+4171,Metoprolol,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00264,DB01204,No
+4171,Metoprolol,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00264,DB01204,No
+2477,Buspirone,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00490,DB00480,No
+3333,Felodipine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01023,DB00480,No
+5401,Terazosin,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01162,DB00480,No
+3878,Lamotrigine,5291,Imatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00555,DB00619,No
+4679,Pantoprazole,119182,Clofarabine,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00213,DB00631,No
+2471,Bumetanide,3385,5-Fluorouracil,SLC22A7,transporter_inhibition,Unknown,DB00887,DB00544,No
+4679,Pantoprazole,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00213,DB00305,No
+2907,Cyclophosphamide,3108,Dipyridamole,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00975,No
+3440,Furosemide,216239,Sorafenib,ABCC2 (MRP2),transporter_inhibition,Unknown,DB00695,DB00398,No
+4212,Mitoxantrone,68740,Zoledronic Acid,ABCC1,transporter_inhibition,Unknown,DB01204,DB00399,No
+5291,Imatinib,59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00619,DB11868,No
+4171,Metoprolol,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00264,DB00480,No
+5401,Terazosin,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01162,DB00398,No
+2244,Aspirin,4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB00945,DB01204,No
+2244,Aspirin,4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00945,DB01204,No
+2244,Aspirin,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Major,DB00945,DB01254,No
+3672,"Ibuprofen, (+-)-",4212,Mitoxantrone,ABCB1 (P-gp),transporter_induction,Unknown,DB01050,DB01204,No
+3672,"Ibuprofen, (+-)-",4212,Mitoxantrone,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01050,DB01204,No
+4927,Promethazine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01069,DB00480,No
+3121,Valproic Acid,667490,6-Mercaptopurine,SLCO1B3? (OATP),transporter_inhibition,Unknown,DB00313,DB01033,No
+5746,Mitomycin C,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00305,DB00317,No
+2708,Chlorambucil,54454,Simvastatin,SLCO1A2 (OATP1A2),transporter_inhibition,Unknown,DB00291,DB00641,No
+2907,Cyclophosphamide,59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB11868,No
+2907,Cyclophosphamide,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB00480,No
+3957,Loratadine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00455,DB00480,No
+59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,123631,Gefitinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB11868,DB00317,No
+2585,Carvedilol,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB00530,No
+4212,Mitoxantrone,5358,Sumatriptan,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB00669,No
+4212,Mitoxantrone,5358,Sumatriptan,ABCB1 (P-gp),transporter_induction,Unknown,DB01204,DB00669,No
+3823,"1-(4-(4-((2-(2,4-Dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)piperazin-1-yl)ethanone",216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01026,DB00480,No
+3386,Fluoxetine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00472,DB00480,No
+13342,Vinblastine,68740,Zoledronic Acid,ABCC1,transporter_inhibition,Unknown,DB00570,DB00399,No
+13342,Vinblastine,68740,Zoledronic Acid,ABCC1,transporter_induction,Unknown,DB00570,DB00399,No
+3672,"Ibuprofen, (+-)-",667490,6-Mercaptopurine,SLCO1B3? (OATP),transporter_inhibition,Unknown,DB01050,DB01033,No
+4946,Propranolol,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00571,DB00480,No
+4171,Metoprolol,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00264,DB01254,No
+65999,Telmisartan,176870,Erlotinib,ABCG2 (BCRP),transporter_inhibition,Unknown,DB00966,DB00530,No
+4485,Nifedipine,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01115,DB00480,No
+4485,Nifedipine,216326,Lenalidomide,ABCB1 (P-gp),transporter_induction,Unknown,DB01115,DB00480,No
+2907,Cyclophosphamide,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Moderate,DB00531,DB00305,No
+3108,Dipyridamole,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00975,DB00305,No
+2662,Celecoxib,667490,6-Mercaptopurine,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00482,DB01033,No
+3333,Felodipine,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01023,DB00305,No
+2764,Ciprofloxacin,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Minor,DB00537,DB00305,No
+59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,216239,Sorafenib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB11868,DB00398,No
+2585,Carvedilol,3062316,Dasatinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01136,DB01254,No
+4212,Mitoxantrone,59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,ABCB1 (P-gp),transporter_induction,Unknown,DB01204,DB11868,No
+4212,Mitoxantrone,59708,alpha-ethyl-2-oxo-1-Pyrrolidineacetamide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB01204,DB11868,No
+4212,Mitoxantrone,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Moderate,DB01204,DB00305,No
+4212,Mitoxantrone,5746,Mitomycin C,ABCB1 (P-gp),transporter_induction,Moderate,DB01204,DB00305,No
+2907,Cyclophosphamide,5401,Terazosin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00531,DB01162,No
+2520,Verapamil,667490,6-Mercaptopurine,ABCC4 (MRP4),transporter_inhibition,Unknown,DB00661,DB01033,No
+3157,Doxazosin,176870,Erlotinib,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00590,DB00530,No
+5746,Mitomycin C,54454,Simvastatin,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00305,DB00641,No
+3016,Diazepam,5746,Mitomycin C,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00829,DB00305,No
+5578,Trimethoprim,216326,Lenalidomide,ABCB1 (P-gp),transporter_induction,Unknown,DB00440,DB00480,No
+5578,Trimethoprim,216326,Lenalidomide,ABCB1 (P-gp),transporter_inhibition,Unknown,DB00440,DB00480,No

@@ -1,0 +1,80 @@
+drug_A,drug_B,drug_A_pubchem_title,drug_B_pubchem_title,enzymes,ddinter_severity,n_trial_AEs
+Methotrexate,Trimethoprim,"Methotrexate, (A+-)-",Trimethoprim,ABCB1 (P-gp),Major,185
+Cyclophosphamide,Thalidomide,Cyclophosphamide,Thalidomide,CYP2C19;CYP3A5,Major,130
+Carboplatin,Sorafenib,"Azane;cyclobutane-1,1-dicarboxylic acid;platinum",Sorafenib,ABCC2 (MRP2),Major,63
+Celecoxib,Tamoxifen,Celecoxib,"(E,Z)-Tamoxifen",CYP3A4,Major,27
+Thalidomide,Vincristine,Thalidomide,Vincristine,CYP3A5,Major,16
+Tamoxifen,Thalidomide,"(E,Z)-Tamoxifen",Thalidomide,CYP2C19;CYP3A5,Major,10
+Cyclophosphamide,Thiotepa,Cyclophosphamide,Thiotepa,CYP2B6;CYP3A4,Major,1
+Methotrexate,6-Mercaptopurine,"Methotrexate, (A+-)-",6-Mercaptopurine,SLCO1B3? (OATP),Minor,199
+Doxorubicin,Vincristine,Doxorubicin (Adriamycin) HCl,Vincristine,ABCC1,Minor,196
+Doxorubicin,Vinblastine,Doxorubicin (Adriamycin) HCl,Vinblastine,ABCC1,Minor,69
+Vincristine,Vinblastine,Vincristine,Vinblastine,ABCB1 (P-gp);CYP3A4,Minor,65
+Cyclophosphamide,Indomethacin,Cyclophosphamide,Indomethacin,ABCB1 (P-gp);CYP2C19;CYP2C9,Minor,5
+5-Fluorouracil,Capecitabine,5-Fluorouracil,Capecitabine,CYP2C9,Moderate,465
+Methotrexate,Vincristine,"Methotrexate, (A+-)-",Vincristine,ABCB1 (P-gp),Moderate,208
+Methotrexate,Imatinib,"Methotrexate, (A+-)-",Imatinib,ABCB1 (P-gp),Moderate,188
+Cyclophosphamide,Imatinib,Cyclophosphamide,Imatinib,ABCB1 (P-gp);CYP3A4,Moderate,188
+Imatinib,Vincristine,Imatinib,Vincristine,ABCB1 (P-gp);CYP3A4,Moderate,185
+Imatinib,Dasatinib,Imatinib,Dasatinib,ABCB1 (P-gp);CYP3A4,Moderate,173
+Cyclophosphamide,5-Fluorouracil,Cyclophosphamide,5-Fluorouracil,CYP2C9,Moderate,123
+Thalidomide,Bortezomib,Thalidomide,"Bortezomib, (1S,2R)-",CYP1A2,Moderate,104
+Vincristine,Bortezomib,Vincristine,"Bortezomib, (1S,2R)-",CYP3A4,Moderate,99
+Hydroxyurea,Imatinib,Hydroxyurea,Imatinib,CYP2D6,Moderate,85
+Celecoxib,Arthrotec,Celecoxib,Arthrotec,ABCC4 (MRP4);CYP2C9,Moderate,82
+Cyclophosphamide,Ifosfamide,Cyclophosphamide,Ifosfamide,CYP3A4,Moderate,75
+Imatinib,Temozolomide,Imatinib,Temozolomide,CYP3A4,Moderate,70
+Ifosfamide,Vinblastine,Ifosfamide,Vinblastine,CYP3A4,Moderate,65
+Cyclophosphamide,Vinblastine,Cyclophosphamide,Vinblastine,ABCB1 (P-gp);CYP3A4,Moderate,62
+Doxorubicin,Methotrexate,Doxorubicin (Adriamycin) HCl,"Methotrexate, (A+-)-",ABCC1,Moderate,50
+Bicalutamide,CID 152945,Bicalutamide,CID 152945,CYP3A4,Moderate,49
+Erlotinib,Sorafenib,Erlotinib,Sorafenib,ABCB1 (P-gp);CYP1A2,Moderate,42
+Cyclophosphamide,Mitoxantrone,Cyclophosphamide,Mitoxantrone,ABCB1 (P-gp);CYP3A4,Moderate,40
+Anastrozole,Tamoxifen,Anastrozole,"(E,Z)-Tamoxifen",CYP3A4,Moderate,33
+Busulfan,Cyclophosphamide,Busulfan,Cyclophosphamide,CYP3A4,Moderate,28
+Methotrexate,Mitoxantrone,"Methotrexate, (A+-)-",Mitoxantrone,ABCB1 (P-gp),Moderate,27
+Cyclophosphamide,Tamoxifen,Cyclophosphamide,"(E,Z)-Tamoxifen",ABCB1 (P-gp);CYP3A4,Moderate,26
+Vinblastine,Carboplatin,Vinblastine,"Azane;cyclobutane-1,1-dicarboxylic acid;platinum",ABCC2 (MRP2),Moderate,26
+Acetaminophen,Methotrexate,Acetaminophen,"Methotrexate, (A+-)-",SLCO1B1 (OATP1B1),Moderate,20
+Methotrexate,Vinblastine,"Methotrexate, (A+-)-",Vinblastine,ABCB1 (P-gp),Moderate,9
+Methotrexate,Carboplatin,"Methotrexate, (A+-)-","Azane;cyclobutane-1,1-dicarboxylic acid;platinum",ABCC2 (MRP2),Moderate,4
+Celecoxib,Indomethacin,Celecoxib,Indomethacin,ABCC4 (MRP4);PTGS2,Moderate,1
+Celecoxib,Tramadol,Celecoxib,2-((Dimethylamino)methyl)-1-(3-methoxyphenyl)cyclohexanol,CYP3A4,Moderate,1
+Tamoxifen,Exemestane,"(E,Z)-Tamoxifen",Exemestane,CYP19A1;CYP3A4,Unknown,430
+Cyclophosphamide,Vincristine,Cyclophosphamide,Vincristine,ABCB1 (P-gp);CYP3A4,Unknown,293
+Cyclophosphamide,Methotrexate,Cyclophosphamide,"Methotrexate, (A+-)-",ABCB1 (P-gp),Unknown,216
+Cyclophosphamide,Bortezomib,Cyclophosphamide,"Bortezomib, (1S,2R)-",CYP3A4,Unknown,195
+Cyclophosphamide,Trimethoprim,Cyclophosphamide,Trimethoprim,ABCB1 (P-gp);CYP2C9;CYP3A4,Unknown,185
+Trimethoprim,Vincristine,Trimethoprim,Vincristine,ABCB1 (P-gp);CYP3A4,Unknown,185
+Carboplatin,Erlotinib,"Azane;cyclobutane-1,1-dicarboxylic acid;platinum",Erlotinib,ABCG2 (BCRP),Unknown,130
+Cyclophosphamide,Lenalidomide,Cyclophosphamide,Lenalidomide,ABCB1 (P-gp),Unknown,119
+Gefitinib,Erlotinib,Gefitinib,Erlotinib,ABCG2 (BCRP);CYP2D6,Unknown,102
+Anastrozole,Fulvestrant,Anastrozole,Fulvestrant,CYP3A4,Unknown,91
+Carboplatin,Gefitinib,"Azane;cyclobutane-1,1-dicarboxylic acid;platinum",Gefitinib,ABCG2 (BCRP),Unknown,77
+Ifosfamide,Vincristine,Ifosfamide,Vincristine,CYP3A4,Unknown,75
+Letrozole,Tamoxifen,Letrozole,"(E,Z)-Tamoxifen",CYP3A4,Unknown,64
+Cyclophosphamide,Capecitabine,Cyclophosphamide,Capecitabine,CYP2C9,Unknown,63
+Celecoxib,Cyclophosphamide,Celecoxib,Cyclophosphamide,CYP3A4,Unknown,62
+Celecoxib,Vinblastine,Celecoxib,Vinblastine,CYP3A4,Unknown,62
+Celecoxib,Vincristine,Celecoxib,Vincristine,CYP3A4,Unknown,62
+Celecoxib,Ifosfamide,Celecoxib,Ifosfamide,CYP3A4,Unknown,62
+Mitoxantrone,Vincristine,Mitoxantrone,Vincristine,ABCB1 (P-gp);CYP3A4,Unknown,40
+Anastrozole,Exemestane,Anastrozole,Exemestane,CYP19A1,Unknown,35
+Anastrozole,Cyclophosphamide,Anastrozole,Cyclophosphamide,CYP3A4,Unknown,26
+Tamoxifen,Capecitabine,"(E,Z)-Tamoxifen",Capecitabine,CYP2C9,Unknown,26
+5-Fluorouracil,Tamoxifen,5-Fluorouracil,"(E,Z)-Tamoxifen",CYP2C9,Unknown,26
+Anastrozole,Capecitabine,Anastrozole,Capecitabine,CYP2C9,Unknown,26
+Anastrozole,5-Fluorouracil,Anastrozole,5-Fluorouracil,CYP2C9,Unknown,26
+Temozolomide,Sorafenib,Temozolomide,Sorafenib,CYP3A4,Unknown,22
+Celecoxib,5-Fluorouracil,Celecoxib,5-Fluorouracil,ABCC4 (MRP4);CYP2C9,Unknown,13
+Celecoxib,Capecitabine,Celecoxib,Capecitabine,CYP2C9,Unknown,13
+Celecoxib,Temozolomide,Celecoxib,Temozolomide,CYP3A4,Unknown,13
+Ifosfamide,Bortezomib,Ifosfamide,"Bortezomib, (1S,2R)-",CYP3A4,Unknown,10
+Cyclophosphamide,Prilosec,Cyclophosphamide,Prilosec,CYP2C19;CYP3A4,Unknown,5
+Arsenic Trioxide,Bortezomib,Arsenic Trioxide,"Bortezomib, (1S,2R)-",CYP3A4,Unknown,4
+5-Fluorouracil,Gefitinib,5-Fluorouracil,Gefitinib,ABCG2 (BCRP);CYP2C9,Unknown,3
+Bicalutamide,Flutamide,Bicalutamide,Flutamide,CYP3A4,Unknown,3
+Letrozole,Exemestane,Letrozole,Exemestane,CYP19A1,Unknown,3
+Temozolomide,Bortezomib,Temozolomide,"Bortezomib, (1S,2R)-",CYP3A4,Unknown,3
+Anastrozole,Letrozole,Anastrozole,Letrozole,CYP19A1,Unknown,3
+Temozolomide,Erlotinib,Temozolomide,Erlotinib,CYP3A4,Unknown,1

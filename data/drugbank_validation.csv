@@ -1,0 +1,74 @@
+drug_A,drug_B,DrugBank_A,DrugBank_B,enzymes,severity,drugbank_hard_proven
+Lansoprazole,Dasatinib,DB00448,DB01254,"ABCB1 (P-gp), CYP1A2, CYP3A4",Major,Yes
+Thalidomide,Cyclophosphamide,DB01041,DB00531,"CYP2C19, CYP3A5",Major,Yes
+Busulfan,Metronidazole,DB01008,DB00916,CYP3A4,Major,Yes
+Erlotinib,Pantoprazole,DB00530,DB00213,"ABCG2 (BCRP), CYP1A2",Major,Yes
+6-Mercaptopurine,Azathioprine,DB01033,DB00993,HPRT1,Major,Yes
+Dasatinib,Fentanyl,DB01254,DB00813,"ABCB1 (P-gp), CYP3A4",Major,Yes
+Carbamazepine,Imatinib,DB00564,DB00619,"ABCB1 (P-gp), CYP1A2, CYP3A4",Major,Yes
+Ketorolac,Celecoxib,DB00465,DB00482,PTGS2,Major,Yes
+Thiotepa,Cyclophosphamide,DB04572,DB00531,"CYP2B6, CYP3A4",Major,Yes
+Lansoprazole,Erlotinib,DB00448,DB00530,"ABCG2 (BCRP), CYP1A2, CYP2C8",Major,Yes
+Dasatinib,Pantoprazole,DB01254,DB00213,"ABCB1 (P-gp), CYP1A2",Major,Yes
+Cyclophosphamide,Indomethacin,DB00531,DB00328,"ABCB1 (P-gp), CYP2C19, CYP2C9",Minor,Yes
+Temozolomide,Valproic Acid,DB00853,DB00313,CYP3A4,Minor,Yes
+Imatinib,Hydroxyurea,DB00619,DB01005,CYP2D6,Moderate,Yes
+Phenytoin,Capecitabine,DB00252,DB01101,CYP2C9,Moderate,Yes
+Diflunisal,Celecoxib,DB00861,DB00482,PTGS2,Moderate,Yes
+Capecitabine,5-Fluorouracil,DB01101,DB00544,CYP2C9,Moderate,Yes
+Labetalol,Celecoxib,DB00598,DB00482,CYP2D6,Moderate,Yes
+Fluconazole,Vinblastine,DB00196,DB00570,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Busulfan,Cyclophosphamide,DB01008,DB00531,CYP3A4,Moderate,Yes
+Propranolol,Celecoxib,DB00571,DB00482,CYP2D6,Moderate,Yes
+Temozolomide,Imatinib,DB00853,DB00619,CYP3A4,Moderate,Yes
+Cyclophosphamide,5-Fluorouracil,DB00531,DB00544,CYP2C9,Moderate,Yes
+Metoprolol,Celecoxib,DB00264,DB00482,CYP2D6,Moderate,Yes
+Imatinib,Dasatinib,DB00619,DB01254,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Gefitinib,Phenytoin,DB00317,DB00252,"ABCB1 (P-gp), CYP2C9, CYP3A4",Moderate,Yes
+Gefitinib,Carbamazepine,DB00317,DB00564,"ABCB1 (P-gp), CYP2C9, CYP3A4",Moderate,Yes
+Ifosfamide,Vinblastine,DB01181,DB00570,CYP3A4,Moderate,Yes
+Celecoxib,Cimetidine,DB00482,DB00501,CYP3A4,Moderate,Yes
+Busulfan,Phenytoin,DB01008,DB00252,CYP3A4,Moderate,Yes
+Busulfan,Acetaminophen,DB01008,DB00316,CYP3A4,Moderate,Yes
+Vinblastine,Cyclophosphamide,DB00570,DB00531,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Phenytoin,5-Fluorouracil,DB00252,DB00544,CYP2C9,Moderate,Yes
+Ifosfamide,Cyclophosphamide,DB01181,DB00531,CYP3A4,Moderate,Yes
+Celecoxib,Voriconazole,DB00482,DB00582,CYP3A4,Moderate,Yes
+Bupropion,Cyclophosphamide,DB01156,DB00531,CYP3A4,Moderate,Yes
+Erlotinib,Voriconazole,DB00530,DB00582,CYP3A4,Moderate,Yes
+Mitoxantrone,Cyclophosphamide,DB01204,DB00531,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Celecoxib,Carvedilol,DB00482,DB01136,CYP2D6,Moderate,Yes
+Imatinib,Acetaminophen,DB00619,DB00316,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Fluconazole,Celecoxib,DB00196,DB00482,CYP3A4,Moderate,Yes
+Etodolac,Celecoxib,DB00749,DB00482,CYP2C9,Moderate,Yes
+Aspirin,Celecoxib,DB00945,DB00482,PTGS2,Moderate,Yes
+Sorafenib,Carbamazepine,DB00398,DB00564,"ABCB1 (P-gp), CYP1A2",Moderate,Yes
+Exemestane,Carbamazepine,DB00990,DB00564,CYP3A4,Moderate,Yes
+Valproic Acid,Celecoxib,DB00313,DB00482,CYP3A4,Moderate,Yes
+Imatinib,Cyclophosphamide,DB00619,DB00531,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Fluoxetine,Celecoxib,DB00472,DB00482,CYP3A4,Moderate,Yes
+Imatinib,Simvastatin,DB00619,DB00641,"ABCB1 (P-gp), CYP3A4",Moderate,Yes
+Phenytoin,Erlotinib,DB00252,DB00530,"CYP2C8, CYP3A4",Moderate,Yes
+Vinblastine,Celecoxib,DB00570,DB00482,CYP3A4,Unknown,Yes
+Prilosec,Cyclophosphamide,DB00338,DB00531,"CYP2C19, CYP3A4",Unknown,Yes
+Bisoprolol,Celecoxib,DB00612,DB00482,CYP2D6,Unknown,Yes
+Celecoxib,Cyclophosphamide,DB00482,DB00531,CYP3A4,Unknown,Yes
+Anastrozole,5-Fluorouracil,DB01217,DB00544,CYP2C9,Unknown,Yes
+Gefitinib,5-Fluorouracil,DB00317,DB00544,"ABCG2 (BCRP), CYP2C9",Unknown,Yes
+Fluconazole,Cyclophosphamide,DB00196,DB00531,"ABCB1 (P-gp), CYP3A4",Unknown,Yes
+Diazepam,Celecoxib,DB00829,DB00482,CYP3A4,Unknown,Yes
+Anastrozole,Capecitabine,DB01217,DB01101,CYP2C9,Unknown,Yes
+Capecitabine,Cyclophosphamide,DB01101,DB00531,CYP2C9,Unknown,Yes
+Ifosfamide,Celecoxib,DB01181,DB00482,CYP3A4,Unknown,Yes
+Exemestane,Letrozole,DB00990,DB01006,CYP19A1,Unknown,Yes
+Temozolomide,Erlotinib,DB00853,DB00530,CYP3A4,Unknown,Yes
+Flutamide,Bicalutamide,DB00499,DB01128,CYP3A4,Unknown,Yes
+Fulvestrant,Anastrozole,DB00947,DB01217,CYP3A4,Unknown,Yes
+Anastrozole,Cyclophosphamide,DB01217,DB00531,CYP3A4,Unknown,Yes
+Celecoxib,Acebutolol,DB00482,DB01193,CYP2D6,Unknown,Yes
+Anastrozole,Letrozole,DB01217,DB01006,CYP19A1,Unknown,Yes
+Cyclophosphamide,Trimethoprim,DB00531,DB00440,"ABCB1 (P-gp), CYP2C9, CYP3A4",Unknown,Yes
+Phenytoin,Celecoxib,DB00252,DB00482,"CYP2C9, CYP3A4",Unknown,Yes
+Exemestane,Anastrozole,DB00990,DB01217,CYP19A1,Unknown,Yes
+Verapamil,Cyclophosphamide,DB00661,DB00531,"ABCB1 (P-gp), CYP3A4",Unknown,Yes
+Nifedipine,Celecoxib,DB01115,DB00482,CYP3A4,Unknown,Yes

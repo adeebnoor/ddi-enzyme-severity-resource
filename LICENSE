@@ -1,0 +1,53 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Adeeb Noor
+
+The data files, documentation and interactive browser contained in this
+repository are licensed under the Creative Commons Attribution 4.0
+International License.
+
+You are free to:
+
+  Share  — copy and redistribute the material in any medium or format
+  Adapt  — remix, transform, and build upon the material for any purpose,
+           even commercially
+
+under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
+
+  No additional restrictions — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license
+  permits.
+
+The full legal code of this licence is available at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is available at:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+SUGGESTED ATTRIBUTION
+
+  Noor, A. An enzyme-resolved dataset linking drug interaction mechanisms to
+  clinical severity grades. https://github.com/adeebnoor/ddi-enzyme-severity-resource
+  Licensed under CC BY 4.0.
+
+THIRD-PARTY SOURCE DATA
+
+This licence applies to the derived, harmonised tables released here. The
+upstream source datasets (GoldD3R, DDInter 2.0, PubChem, UniProt, HPO,
+DrugBank, KEGG, MIMIC-IV demo, LIDDI, Micromedex) remain subject to their own
+terms; see the provenance table in README.md. Content from sources whose terms
+do not permit redistribution is represented only as aggregate counts and is not
+included in this repository.
+
+DISCLAIMER
+
+This resource is provided for research purposes. It is not medical advice and
+must not be used as a sole basis for clinical decision-making. The material is
+provided "as is", without warranty of any kind.

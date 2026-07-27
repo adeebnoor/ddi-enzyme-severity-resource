@@ -1,0 +1,1901 @@
+drug_A,drug_B,enzymes,mechanism,severity,in_trial,trial_AEs,in_trueDDI
+Methotrexate,Trimethoprim,ABCB1 (P-gp),"transporter induction, transporter inhibition",Major,Yes,185,Yes
+Cyclophosphamide,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Major,Yes,130,Yes
+Carboplatin,Sorafenib,ABCC2 (MRP2),transporter inhibition,Major,Yes,63,Yes
+Celecoxib,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Major,Yes,27,Yes
+Thalidomide,Vincristine,CYP3A5,CYP induction,Major,Yes,16,No
+Tamoxifen,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Major,Yes,10,Yes
+Cyclophosphamide,Thiotepa,"CYP2B6, CYP3A4","CYP induction, CYP inhibition",Major,Yes,1,Yes
+Bupropion,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Leflunomide,Rofecoxib,CYP1A2,CYP inhibition,Major,No,0,No
+Erythromycin,Leflunomide,CYP1A2,CYP inhibition,Major,No,0,No
+Fluconazole,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Major,No,0,No
+Aspirin,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Bupropion,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Major,No,0,Yes
+Celecoxib,Ketorolac,PTGS2,CYP inhibition,Major,No,0,Yes
+Citalopram,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Major,No,0,No
+Ketoprofen,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Celecoxib,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Etodolac,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Fentanyl,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Major,No,0,No
+Citalopram,Sorafenib,CYP3A4,CYP inhibition,Major,No,0,No
+Leflunomide,Pioglitazone,CYP2C9,CYP inhibition,Major,No,0,No
+Arthrotec,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Carbamazepine,Bortezomib,CYP1A2,"CYP induction, CYP inhibition",Major,No,0,Yes
+Vincristine,Voriconazole,CYP3A4,CYP inhibition,Major,No,0,Yes
+Ibuprofen,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Fenofibrate,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Itrizole,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Fluoxetine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Ondansetron,Arsenic Trioxide,CYP3A4,CYP inhibition,Major,No,0,Yes
+Paroxetine,Tamoxifen,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Leflunomide,Lovastatin,CYP2C9,"CYP induction, CYP inhibition",Major,No,0,No
+Fluconazole,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Phenytoin,Leflunomide,CYP2C9,"CYP induction, CYP inhibition",Major,No,0,No
+Indomethacin,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Acetaminophen,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Busulfan,Metronidazole,CYP3A4,CYP inhibition,Major,No,0,Yes
+Bicalutamide,Citalopram,CYP2D6,CYP inhibition,Major,No,0,No
+Lansoprazole,Erlotinib,"ABCG2 (BCRP), CYP1A2, CYP2C8","CYP induction, CYP inhibition, transporter inhibition",Major,No,0,Yes
+Ifosfamide,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Major,No,0,No
+Medroxyprogesterone,Bosentan,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Major,No,0,Yes
+Leflunomide,Oxaprozin,CYP2C9,CYP inhibition,Major,No,0,No
+Arsenic Trioxide,Palonosetron,CYP3A4,CYP inhibition,Major,No,0,No
+Leflunomide,Thalidomide,CYP2C9,CYP inhibition,Major,No,0,No
+Atorvastatin EP Impurity B,Leflunomide,CYP2C9,"CYP induction, CYP inhibition",Major,No,0,No
+Carbamazepine,Leflunomide,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Major,No,0,No
+Ifosfamide,Thiotepa,"CYP2B6, CYP3A4","CYP induction, CYP inhibition",Major,No,0,No
+Hydroxychloroquine,Tamoxifen,CYP2D6,CYP inhibition,Major,No,0,No
+Azathioprine,6-Mercaptopurine,HPRT1,CYP inhibition,Major,No,0,Yes
+Leflunomide,Bosentan,CYP2C9,"CYP induction, CYP inhibition",Major,No,0,No
+Valproic Acid,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Anzemet,Mitoxantrone,CYP3A4,CYP inhibition,Major,No,0,No
+Cimetidine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Fentanyl,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Major,No,0,No
+Leflunomide,Valdecoxib,CYP2C9,CYP inhibition,Major,No,0,No
+Thalidomide,Capecitabine,CYP2C9,CYP inhibition,Major,No,0,No
+Leflunomide,Simvastatin,CYP2C9,"CYP induction, CYP inhibition",Major,No,0,No
+Isoniazid,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+Ciprofloxacin,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Major,No,0,Yes
+Prochlorperazine,Arsenic Trioxide,CYP3A4,CYP inhibition,Major,No,0,No
+Clotrimazole,Leflunomide,CYP2C9,CYP inhibition,Major,No,0,No
+5-Fluorouracil,Thalidomide,CYP2C9,CYP inhibition,Major,No,0,No
+Carbamazepine,Imatinib,"ABCB1 (P-gp), CYP1A2, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Citalopram,Arsenic Trioxide,CYP3A4,CYP inhibition,Major,No,0,Yes
+Lansoprazole,Dasatinib,"ABCB1 (P-gp), CYP1A2, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Major,No,0,Yes
+Anzemet,Arsenic Trioxide,CYP3A4,CYP inhibition,Major,No,0,No
+Anzemet,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Major,No,0,No
+Cyclophosphamide,Leflunomide,CYP2C9,"CYP induction, CYP inhibition",Major,No,0,No
+Ritonavir,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Arthrotec,Dasatinib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Major,No,0,No
+Ritonavir,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Major,No,0,Yes
+Itrizole,Dasatinib,"ABCB1 (P-gp), CYP1A1, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Major,No,0,Yes
+Pantoprazole,Dasatinib,"ABCB1 (P-gp), CYP1A2","CYP induction, transporter inhibition",Major,No,0,Yes
+Pantoprazole,Erlotinib,"ABCG2 (BCRP), CYP1A2","CYP induction, transporter inhibition",Major,No,0,Yes
+Indomethacin,Methotrexate,ABCC2 (MRP2),transporter inhibition,Major,No,0,Yes
+Lansoprazole,Methotrexate,ABCB1 (P-gp),transporter inhibition,Major,No,0,Yes
+Ketoprofen,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Major,No,0,Yes
+Methotrexate,Pantoprazole,ABCB1 (P-gp),transporter inhibition,Major,No,0,Yes
+Diflunisal,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Major,No,0,No
+Ofloxacin,Arsenic Trioxide,ABCC2 (MRP2),"transporter induction, transporter inhibition",Major,No,0,Yes
+Simvastatin,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Major,No,0,Yes
+Ibuprofen,Dasatinib,ABCB1 (P-gp),transporter inhibition,Major,No,0,No
+Arthrotec,Methotrexate,ABCC1,transporter inhibition,Major,No,0,Yes
+Etodolac,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Major,No,0,Yes
+Ibuprofen,Methotrexate,ABCC1,transporter inhibition,Major,No,0,Yes
+Aspirin,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Major,No,0,Yes
+Lovastatin,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Major,No,0,No
+Flurbiprofen,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Major,No,0,Yes
+Aspirin,Dasatinib,ABCB1 (P-gp),transporter inhibition,Major,No,0,No
+Atorvastatin EP Impurity B,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Major,No,0,Yes
+Furosemide,Arsenic Trioxide,ABCC2 (MRP2),"transporter induction, transporter inhibition",Major,No,0,Yes
+Amoxicillin,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Major,No,0,Yes
+Clopidogrel,Dasatinib,ABCB1 (P-gp),transporter inhibition,Major,No,0,No
+Tamoxifen,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Major,No,0,No
+5-Fluorouracil,Capecitabine,CYP2C9,CYP inhibition,Moderate,Yes,465,Yes
+Methotrexate,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,Yes,208,Yes
+Cyclophosphamide,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,Yes,188,Yes
+Methotrexate,Imatinib,ABCB1 (P-gp),transporter inhibition,Moderate,Yes,188,Yes
+Imatinib,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,Yes,185,Yes
+Imatinib,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,Yes,173,Yes
+Cyclophosphamide,5-Fluorouracil,CYP2C9,"CYP induction, CYP inhibition",Moderate,Yes,123,Yes
+Thalidomide,Bortezomib,CYP1A2,CYP inhibition,Moderate,Yes,104,No
+Vincristine,Bortezomib,CYP3A4,CYP inhibition,Moderate,Yes,99,Yes
+Hydroxyurea,Imatinib,CYP2D6,CYP inhibition,Moderate,Yes,85,Yes
+Celecoxib,Arthrotec,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Moderate,Yes,82,Yes
+Cyclophosphamide,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,Yes,75,Yes
+Imatinib,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Moderate,Yes,70,Yes
+Ifosfamide,Vinblastine,CYP3A4,"CYP induction, CYP inhibition",Moderate,Yes,65,Yes
+Cyclophosphamide,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,Yes,62,Yes
+Doxorubicin,Methotrexate,ABCC1,transporter inhibition,Moderate,Yes,50,Yes
+Bicalutamide,CID 152945,CYP3A4,CYP inhibition,Moderate,Yes,49,No
+Erlotinib,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Moderate,Yes,42,No
+Cyclophosphamide,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,Yes,40,Yes
+Anastrozole,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,Yes,33,Yes
+Busulfan,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,Yes,28,Yes
+Methotrexate,Mitoxantrone,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,Yes,27,Yes
+Cyclophosphamide,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,Yes,26,Yes
+Vinblastine,Carboplatin,ABCC2 (MRP2),"transporter induction, transporter inhibition",Moderate,Yes,26,Yes
+Acetaminophen,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Moderate,Yes,20,No
+Methotrexate,Vinblastine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,Yes,9,Yes
+Methotrexate,Carboplatin,ABCC2 (MRP2),transporter inhibition,Moderate,Yes,4,Yes
+Celecoxib,Indomethacin,"ABCC4 (MRP4), PTGS2","CYP inhibition, transporter inhibition",Moderate,Yes,1,Yes
+Celecoxib,Tramadol,CYP3A4,CYP inhibition,Moderate,Yes,1,No
+Fluoxetine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Metoprolol,Imatinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Celecoxib,Fluconazole,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Celecoxib,Loratadine,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Dapsone,Bortezomib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Itrizole,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Celecoxib,Risperidone,CYP3A4,CYP inhibition,Moderate,No,0,No
+Carvedilol,Celecoxib,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Promethazine,Tamoxifen,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,Ibuprofen,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Celecoxib,Citalopram,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Amlodipine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Donepezil,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Ciprofloxacin,Thalidomide,"CYP1A2, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Glibenclamide,CYP3A4,CYP inhibition,Moderate,No,0,No
+Lovastatin,Bortezomib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Propranolol,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Ondansetron,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Carvedilol,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Ifosfamide,Imatinib,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Leflunomide,Metronidazole,CYP2C9,CYP inhibition,Moderate,No,0,No
+Celecoxib,Venlafaxine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Metoprolol,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Celecoxib,Timolol,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Ofloxacin,Thalidomide,CYP1A2,CYP inhibition,Moderate,No,0,No
+Modafinil,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Metronidazole,Bortezomib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Glimepiride,Imatinib,CYP2C9,CYP inhibition,Moderate,No,0,No
+Temazepam,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,No
+Celecoxib,Ketoprofen,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Amlodipine,Thalidomide,"CYP1A2, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Amitriptyline,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Ciprofloxacin,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Citalopram,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,Yes
+Thalidomide,Timolol,CYP2C19,CYP inhibition,Moderate,No,0,Yes
+Voriconazole,Bortezomib,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Metronidazole,Thalidomide,CYP2C9,CYP inhibition,Moderate,No,0,No
+Valproic Acid,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Clopidogrel,Bortezomib,CYP1A2,CYP inhibition,Moderate,No,0,No
+Celecoxib,Prochlorperazine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Celecoxib,Haloperidol,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Metronidazole,CYP3A4,CYP inhibition,Moderate,No,0,No
+5-Fluorouracil,Metronidazole,CYP2C9,CYP inhibition,Moderate,No,0,Yes
+Celecoxib,Gemfibrozil,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Carbamazepine,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Paroxetine,Thalidomide,CYP2C9,CYP inhibition,Moderate,No,0,No
+Phenytoin,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Thalidomide,Venlafaxine,CYP2C19,CYP inhibition,Moderate,No,0,No
+Lovastatin,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Prochlorperazine,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Loperamide,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Imatinib,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Salbutamol,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Quetiapine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,Promethazine,CYP2C9,CYP inhibition,Moderate,No,0,No
+Clonazepam,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Fluoxetine,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Cyclophosphamide,Glibenclamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,No
+Imatinib,Zolpidem,CYP3A4,CYP inhibition,Moderate,No,0,No
+Thalidomide,Simvastatin,CYP2C9,"CYP induction, CYP inhibition",Moderate,No,0,No
+Metronidazole,Vincristine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Ciprofloxacin,CYP3A4,CYP inhibition,Moderate,No,0,No
+Glimepiride,Bortezomib,CYP2C9,CYP inhibition,Moderate,No,0,No
+Glipizide,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Clotrimazole,Bortezomib,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Nortriptyline,CYP2D6,CYP inhibition,Moderate,No,0,No
+Pioglitazone,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Ifosfamide,Zolpidem,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Acetaminophen,Busulfan,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Glibenclamide,Leflunomide,"ABCG2 (BCRP), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Mitoxantrone,Thiotepa,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Clopidogrel,CYP2C9,CYP inhibition,Moderate,No,0,No
+Glibenclamide,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Risperidone,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,Irbesartan,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Busulfan,Itrizole,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Itrizole,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Clonazepam,Thalidomide,CYP2E1,CYP inhibition,Moderate,No,0,Yes
+Fenofibrate,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Fluoxetine,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Cyclophosphamide,Metronidazole,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Losartan,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Celecoxib,Diflunisal,PTGS2,CYP inhibition,Moderate,No,0,Yes
+Bicalutamide,Prochlorperazine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Mirtazapine,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Busulfan,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Labetalol,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Fluconazole,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Thalidomide,Zolpidem,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Celecoxib,Ticlopidine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Carbamazepine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Acetaminophen,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,No
+Metoprolol,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,Yes
+Quetiapine,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Tamoxifen,Venlafaxine,"ABCB1 (P-gp), ABCG2 (BCRP), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Erythromycin,Gefitinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Celecoxib,Chloroquine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Ondansetron,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Doxepin,CYP2D6,CYP inhibition,Moderate,No,0,No
+Fluconazole,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Timolol,Gefitinib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Celecoxib,Fluvoxamine,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Meclizine,Thalidomide,CYP1A2,CYP inhibition,Moderate,No,0,Yes
+Verapamil,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,Imipramine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Doxazosin,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,No
+Celecoxib,Flurbiprofen,"ABCC4 (MRP4), PTGS2","CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Amitriptyline,Celecoxib,CYP2D6,CYP inhibition,Moderate,No,0,No
+Phenytoin,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Celecoxib,Trazodone,CYP2D6,CYP inhibition,Moderate,No,0,No
+Celecoxib,Nabumetone,PTGS2,CYP inhibition,Moderate,No,0,Yes
+Itrizole,Medroxyprogesterone,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Nifedipine,Thalidomide,"CYP1A2, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Verapamil,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Imatinib,Capecitabine,CYP2C9,CYP inhibition,Moderate,No,0,No
+Celecoxib,Ondansetron,CYP2D6,CYP inhibition,Moderate,No,0,No
+Cyclobenzaprine,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Carbamazepine,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Prochlorperazine,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Leflunomide,Torasemide,CYP2C9,CYP inhibition,Moderate,No,0,No
+Celecoxib,Isoniazid,CYP3A4,CYP inhibition,Moderate,No,0,No
+Itrizole,Bortezomib,"CYP1A1, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Carbamazepine,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,5-Aminosalicylic Acid,PTGS2,CYP inhibition,Moderate,No,0,No
+Diazepam,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Glipizide,Leflunomide,CYP2C9,CYP inhibition,Moderate,No,0,No
+Capecitabine,Sorafenib,CYP2C9,CYP inhibition,Moderate,No,0,No
+Citalopram,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Atorvastatin EP Impurity B,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,No
+Mirtazapine,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Nefazodone,Medroxyprogesterone,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Etodolac,CYP2C9,CYP inhibition,Moderate,No,0,Yes
+Celecoxib,Darifenacin,CYP2D6,CYP inhibition,Moderate,No,0,No
+Celecoxib,Paroxetine,CYP2C9,CYP inhibition,Moderate,No,0,Yes
+Quetiapine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Loperamide,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Diazepam,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Nortriptyline,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Atorvastatin EP Impurity B,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Fluconazole,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Ondansetron,Dasatinib,CYP1A2,CYP inhibition,Moderate,No,0,No
+Simvastatin,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Ondansetron,Thalidomide,"CYP1A2, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Promethazine,Imatinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Celecoxib,Oxaprozin,PTGS2,CYP inhibition,Moderate,No,0,No
+Nifedipine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Bumetanide,Celecoxib,PTGS2,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Atorvastatin EP Impurity B,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Tamoxifen,Tramadol,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Prilosec,Gefitinib,CYP2C19,CYP inhibition,Moderate,No,0,Yes
+Loratadine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,No
+Glimepiride,Leflunomide,CYP2C9,CYP inhibition,Moderate,No,0,No
+Promethazine,Thalidomide,CYP2C9,CYP inhibition,Moderate,No,0,Yes
+Erythromycin,Medroxyprogesterone,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Leflunomide,Losartan,CYP1A2,CYP inhibition,Moderate,No,0,No
+Celecoxib,Valproic Acid,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Celecoxib,Mefenamic Acid,CYP2C9,CYP inhibition,Moderate,No,0,Yes
+Cyclophosphamide,Hydroxyurea,CYP2D6,CYP inhibition,Moderate,No,0,No
+Ofloxacin,Tamoxifen,"ABCC2 (MRP2), CYP1A2","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Busulfan,Mitoxantrone,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Trimipramine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Ciprofloxacin,Dasatinib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Clotrimazole,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Celecoxib,CYP2D6,CYP inhibition,Moderate,No,0,Yes
+Thalidomide,Arsenic Trioxide,CYP1A1,CYP inhibition,Moderate,No,0,Yes
+Lansoprazole,Imatinib,"ABCB1 (P-gp), CYP1A2, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Celecoxib,Aripiprazole,CYP2D6,"CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Cimetidine,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Prochlorperazine,Sorafenib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Ciprofloxacin,Gefitinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Venlafaxine,Sorafenib,"ABCB1 (P-gp), ABCG2 (BCRP), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Pantoprazole,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Glipizide,Bortezomib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Ondansetron,Sorafenib,CYP1A2,CYP inhibition,Moderate,No,0,No
+Clotrimazole,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Ofloxacin,Dasatinib,CYP1A2,CYP inhibition,Moderate,No,0,No
+Aspirin,Celecoxib,PTGS2,CYP inhibition,Moderate,No,0,Yes
+Thalidomide,Voriconazole,"CYP2C9, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Fluconazole,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Atorvastatin EP Impurity B,Bexarotene,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Bicalutamide,Ketoconazole,CYP3A4,CYP inhibition,Moderate,No,0,No
+Ibuprofen,Imatinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Celecoxib,Fenofibrate,CYP2C9,CYP inhibition,Moderate,No,0,No
+Ciprofloxacin,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Celecoxib,Zafirlukast,CYP3A4,CYP inhibition,Moderate,No,0,No
+Lansoprazole,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Bupropion,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Glibenclamide,Bortezomib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Atorvastatin EP Impurity B,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Imipramine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Propranolol,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Bicalutamide,Simvastatin,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Lovastatin,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Hydroxyzine,Sorafenib,CYP2D6,CYP inhibition,Moderate,No,0,No
+Thalidomide,Oxcarbazepine,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Ifosfamide,Mitoxantrone,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Rac-Efavirenz,Vincristine,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Celecoxib,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Alprazolam,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Ifosfamide,Prochlorperazine,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Paroxetine,Imatinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Mitoxantrone,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Medroxyprogesterone,Atazanavir,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Felodipine,Thalidomide,"CYP2C9, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Imipramine,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,No
+Donepezil,Sorafenib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Simvastatin,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,No
+Fluconazole,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Atorvastatin EP Impurity B,Bicalutamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Bicalutamide,Tolterodine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Amphetamine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Verapamil,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Ropinirole,Thalidomide,CYP1A2,CYP inhibition,Moderate,No,0,Yes
+Ketoconazole,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Phenytoin,5-Fluorouracil,CYP2C9,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Nefazodone,Thalidomide,CYP3A5,"CYP induction, CYP inhibition",Moderate,No,0,No
+Respules,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Amitriptyline,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,Clomipramine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Loratadine,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,No
+Tramadol,Sorafenib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Fluconazole,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Nifedipine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Cyclophosphamide,Fenofibrate,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Triazolam,CYP2C9,CYP inhibition,Moderate,No,0,No
+Carbamazepine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Fexofenadine,Sorafenib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Fluoxetine,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Risperidone,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Nifedipine,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Vincristine,Simvastatin,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Celecoxib,Ritonavir,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Imatinib,Timolol,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Celecoxib,Rac-Efavirenz,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Phenytoin,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Salbutamol,Dasatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Propranolol,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Simvastatin,Bexarotene,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Torasemide,CYP2C19,CYP inhibition,Moderate,No,0,No
+Atorvastatin EP Impurity B,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Pioglitazone,Imatinib,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Cyclophosphamide,Glipizide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Simvastatin,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Fentanyl,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Salbutamol,Bicalutamide,CYP3A4,CYP inhibition,Moderate,No,0,No
+Dapsone,Vincristine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Promethazine,Sorafenib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Mitoxantrone,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Imatinib,Bosentan,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Temozolomide,Vinblastine,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Busulfan,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Miconazole,CYP3A4,CYP inhibition,Moderate,No,0,No
+Ifosfamide,Oxazepam,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Salbutamol,Flutamide,CYP3A4,CYP inhibition,Moderate,No,0,No
+Salmeterol,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Losartan,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Hydroxyzine,Tamoxifen,CYP2D6,CYP inhibition,Moderate,No,0,No
+Clonazepam,Imatinib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Fluconazole,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Lovastatin,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Bicalutamide,Venlafaxine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Erythromycin,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Fluconazole,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Valproic Acid,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Mirtazapine,Imatinib,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Dapsone,Imatinib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Tamoxifen,Aripiprazole,CYP2D6,"CYP induction, CYP inhibition",Moderate,No,0,No
+Felodipine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Thalidomide,Sorafenib,"CYP1A2, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Norfloxacin,CYP3A4,CYP inhibition,Moderate,No,0,No
+Celecoxib,Sulfadiazine,CYP2C9,CYP inhibition,Moderate,No,0,No
+Oxcarbazepine,Sorafenib,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Dapsone,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Moderate,No,0,No
+Celecoxib,Perphenazine,CYP2D6,CYP inhibition,Moderate,No,0,No
+Mirtazapine,Sorafenib,"CYP1A2, CYP2D6","CYP induction, CYP inhibition",Moderate,No,0,No
+Tamoxifen,Trimipramine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Clomipramine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Lovastatin,Imatinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Carbamazepine,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Verapamil,Erlotinib,"ABCB1 (P-gp), ABCG2 (BCRP), CYP2C8","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Arthrotec,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Salbutamol,Arsenic Trioxide,CYP3A4,CYP inhibition,Moderate,No,0,No
+Isoniazid,Thalidomide,"CYP2C19, CYP2E1","CYP induction, CYP inhibition",Moderate,No,0,No
+Alfuzosin,Bicalutamide,CYP3A4,CYP inhibition,Moderate,No,0,No
+Carisoprodol,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,No
+Fluconazole,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Vincristine,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Metronidazole,Capecitabine,CYP2C9,CYP inhibition,Moderate,No,0,Yes
+Ifosfamide,Venlafaxine,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Mitoxantrone,Nifedipine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Ritonavir,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Venlafaxine,Dasatinib,"ABCB1 (P-gp), ABCG2 (BCRP), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Doxepin,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,Yes
+Clomipramine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Imatinib,Oxcarbazepine,"CYP2C19, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Voriconazole,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Erythromycin,Bortezomib,CYP1A2,CYP inhibition,Moderate,No,0,Yes
+Cyclophosphamide,Bosentan,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Venlafaxine,"ABCB1 (P-gp), ABCG2 (BCRP), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Ifosfamide,Paroxetine,CYP2C9,"CYP induction, CYP inhibition",Moderate,No,0,No
+Ciprofloxacin,Erlotinib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Doxepin,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Cyclophosphamide,Indapamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Imatinib,Tolterodine,CYP3A4,CYP inhibition,Moderate,No,0,No
+Hydroxychloroquine,Imatinib,CYP2D6,CYP inhibition,Moderate,No,0,No
+Carbamazepine,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Ifosfamide,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Modafinil,Sorafenib,CYP1A2,"CYP induction, CYP inhibition",Moderate,No,0,No
+Alprazolam,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Fluconazole,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,Yes
+Rac-Efavirenz,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Nortriptyline,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Ifosfamide,Promethazine,CYP2C9,"CYP induction, CYP inhibition",Moderate,No,0,No
+Oxcarbazepine,Gefitinib,"CYP2C19, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,No
+Phenytoin,Erlotinib,"CYP2C8, CYP3A4","CYP induction, CYP inhibition",Moderate,No,0,Yes
+Phenytoin,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Moderate,No,0,Yes
+Celecoxib,Voriconazole,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Salbutamol,Sorafenib,CYP3A4,CYP inhibition,Moderate,No,0,No
+Norfloxacin,Sorafenib,CYP1A2,CYP inhibition,Moderate,No,0,No
+Tamoxifen,Torasemide,CYP2C19,CYP inhibition,Moderate,No,0,No
+Nevirapine,Vinblastine,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Tamoxifen,Trazodone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Moderate,No,0,No
+Norfloxacin,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Moderate,No,0,No
+Voriconazole,Erlotinib,CYP3A4,CYP inhibition,Moderate,No,0,Yes
+Loperamide,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Moderate,No,0,No
+Phenytoin,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Moderate,No,0,Yes
+Meperidine,Thalidomide,CYP2C19,CYP inhibition,Moderate,No,0,Yes
+Fentanyl,Thalidomide,CYP3A5,CYP induction,Moderate,No,0,Yes
+Alprazolam,Thalidomide,CYP3A5,CYP induction,Moderate,No,0,Yes
+Risperidone,Thalidomide,CYP3A5,CYP induction,Moderate,No,0,Yes
+Celecoxib,Bosentan,CYP3A4,CYP induction,Moderate,No,0,No
+Clonidine,Thalidomide,CYP3A5,CYP induction,Moderate,No,0,Yes
+Phenytoin,Busulfan,CYP3A4,CYP induction,Moderate,No,0,Yes
+Medroxyprogesterone,Oxcarbazepine,CYP3A4,CYP induction,Moderate,No,0,Yes
+(3H)granisetron,Thalidomide,CYP3A5,CYP induction,Moderate,No,0,No
+Cyclophosphamide,Glimepiride,CYP2C9,CYP induction,Moderate,No,0,No
+Carbamazepine,Exemestane,CYP3A4,CYP induction,Moderate,No,0,No
+Letrozole,Oxcarbazepine,CYP3A4,CYP induction,Moderate,No,0,No
+Methotrexate,Norfloxacin,SLCO1B1 (OATP1B1),transporter inhibition,Moderate,No,0,No
+Valproic Acid,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Moderate,No,0,No
+Doxorubicin,Ofloxacin,ABCC1,transporter inhibition,Moderate,No,0,No
+Lovastatin,Methotrexate,ABCC2 (MRP2),transporter inhibition,Moderate,No,0,No
+5-Fluorouracil,Mitoxantrone,ABCG2 (BCRP),transporter inhibition,Moderate,No,0,No
+Methotrexate,Ofloxacin,ABCC2 (MRP2),transporter inhibition,Moderate,No,0,No
+Methotrexate,Simvastatin,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Erythromycin,Methotrexate,"ABCB1 (P-gp), ABCC1","transporter induction, transporter inhibition",Moderate,No,0,No
+Doxorubicin,Mitoxantrone,ABCC1,transporter inhibition,Moderate,No,0,No
+Methotrexate,Tamoxifen,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,No,0,No
+Furosemide,Carboplatin,ABCC2 (MRP2),transporter inhibition,Moderate,No,0,Yes
+Itrizole,Methotrexate,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Moderate,No,0,No
+Hydrochlorothiazide,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Moderate,No,0,No
+Carbamazepine,Methotrexate,"ABCB1 (P-gp), ABCC2 (MRP2)","transporter induction, transporter inhibition",Moderate,No,0,No
+Theophylline,Methotrexate,SLC22A7,transporter inhibition,Moderate,No,0,No
+Carboplatin,Bortezomib,SLC31A1,transporter inhibition,Moderate,No,0,No
+Clotrimazole,Methotrexate,"ABCB1 (P-gp), ABCC2 (MRP2)","transporter induction, transporter inhibition",Moderate,No,0,No
+Fluconazole,Methotrexate,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Doxorubicin,Verapamil,ABCC1,transporter inhibition,Moderate,No,0,Yes
+Pantoprazole,Carboplatin,ABCG2 (BCRP),transporter inhibition,Moderate,No,0,No
+Celecoxib,Dipyridamole,ABCC4 (MRP4),transporter inhibition,Moderate,No,0,No
+Phenytoin,Methotrexate,ABCC2 (MRP2),transporter inhibition,Moderate,No,0,Yes
+Doxorubicin,Ritonavir,ABCC1,"transporter induction, transporter inhibition",Moderate,No,0,Yes
+Methotrexate,Rofecoxib,ABCC4 (MRP4),transporter inhibition,Moderate,No,0,Yes
+Glibenclamide,Megestrol,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Vincristine,Carboplatin,ABCC2 (MRP2),transporter inhibition,Moderate,No,0,No
+Methotrexate,Pioglitazone,SLCO1B1,transporter inhibition,Moderate,No,0,No
+Lansoprazole,Carboplatin,ABCG2 (BCRP),transporter inhibition,Moderate,No,0,No
+Enalapril,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Moderate,No,0,No
+Ciprofloxacin,Methotrexate,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,Yes
+Carbamazepine,Megestrol,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,No,0,Yes
+Phenytoin,Megestrol,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,Yes
+Gemfibrozil,Methotrexate,SLCO1B1,transporter inhibition,Moderate,No,0,No
+Paroxetine,Dasatinib,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Imatinib,Carboplatin,ABCG2 (BCRP),transporter inhibition,Moderate,No,0,No
+Methotrexate,Zoledronic Acid,ABCC1,transporter inhibition,Moderate,No,0,No
+Celecoxib,Methotrexate,ABCC4 (MRP4),transporter inhibition,Moderate,No,0,Yes
+Mitoxantrone,Carboplatin,ABCG2 (BCRP),transporter inhibition,Moderate,No,0,No
+Methotrexate,Ritonavir,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,No,0,Yes
+Loperamide,Dasatinib,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+5-Fluorouracil,Methotrexate,ABCC3,transporter inhibition,Moderate,No,0,No
+Ketoconazole,Methotrexate,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Tamoxifen,Mitomycin C,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,No,0,No
+Cyclophosphamide,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Atorvastatin EP Impurity B,Methotrexate,ABCC2 (MRP2),transporter inhibition,Moderate,No,0,No
+Doxorubicin,Erythromycin,ABCC1,transporter inhibition,Moderate,No,0,No
+Mitoxantrone,Mitomycin C,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,No,0,No
+Methotrexate,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Moderate,No,0,No
+Mitomycin C,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Moderate,No,0,Yes
+Methotrexate,Nefazodone,ABCB1 (P-gp),transporter induction,Moderate,No,0,No
+Methotrexate,6-Mercaptopurine,SLCO1B3? (OATP),transporter inhibition,Minor,Yes,199,Yes
+Doxorubicin,Vincristine,ABCC1,transporter inhibition,Minor,Yes,196,Yes
+Doxorubicin,Vinblastine,ABCC1,"transporter induction, transporter inhibition",Minor,Yes,69,Yes
+Vincristine,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Minor,Yes,65,Yes
+Cyclophosphamide,Indomethacin,"ABCB1 (P-gp), CYP2C19, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Minor,Yes,5,Yes
+Prilosec,Bortezomib,CYP3A4,CYP inhibition,Minor,No,0,No
+Celecoxib,Tolterodine,CYP2D6,CYP inhibition,Minor,No,0,No
+Modafinil,Erlotinib,CYP1A2,"CYP induction, CYP inhibition",Minor,No,0,No
+Citalopram,Imatinib,CYP3A4,CYP inhibition,Minor,No,0,No
+Valproic Acid,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Minor,No,0,No
+Tamoxifen,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Minor,No,0,No
+Atorvastatin EP Impurity B,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Minor,No,0,No
+Pantoprazole,Bortezomib,CYP1A2,"CYP induction, CYP inhibition",Minor,No,0,No
+Clopidogrel,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Minor,No,0,No
+Ciprofloxacin,5-Fluorouracil,CYP1A2,CYP inhibition,Minor,No,0,No
+Ciprofloxacin,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Minor,No,0,No
+Pioglitazone,Medroxyprogesterone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Minor,No,0,No
+Citalopram,Bortezomib,CYP3A4,CYP inhibition,Minor,No,0,No
+Cyclophosphamide,Ondansetron,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Minor,No,0,No
+Busulfan,Ciprofloxacin,CYP3A4,CYP inhibition,Minor,No,0,No
+Ciprofloxacin,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Minor,No,0,No
+Ciprofloxacin,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Minor,No,0,No
+Celecoxib,Donepezil,CYP2D6,CYP inhibition,Minor,No,0,No
+Ciprofloxacin,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Minor,No,0,No
+Metronidazole,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Minor,No,0,No
+Verapamil,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Minor,No,0,No
+5-Fluorouracil,Ofloxacin,CYP1A2,CYP inhibition,Minor,No,0,No
+Donepezil,Gefitinib,CYP2C9,CYP inhibition,Minor,No,0,No
+Celecoxib,Ranolazine,CYP3A4,CYP inhibition,Minor,No,0,No
+Propranolol,Bortezomib,CYP1A2,CYP inhibition,Minor,No,0,No
+Modafinil,Bortezomib,CYP1A2,"CYP induction, CYP inhibition",Minor,No,0,No
+Cyclophosphamide,Norfloxacin,CYP3A4,"CYP induction, CYP inhibition",Minor,No,0,No
+Cimetidine,5-Fluorouracil,"CYP2C9, SLC22A7","CYP inhibition, transporter inhibition",Minor,No,0,No
+Carmustine,Ofloxacin,CYP1A2,CYP inhibition,Minor,No,0,No
+Diazepam,Bortezomib,CYP1A2,CYP inhibition,Minor,No,0,No
+Modafinil,Imatinib,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Minor,No,0,No
+Donepezil,Imatinib,CYP3A4,CYP inhibition,Minor,No,0,No
+Ciprofloxacin,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Minor,No,0,No
+Norfloxacin,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Minor,No,0,No
+Tolterodine,Gefitinib,CYP2C9,CYP inhibition,Minor,No,0,No
+Ciprofloxacin,Thiotepa,CYP3A4,CYP inhibition,Minor,No,0,No
+Carmustine,Ciprofloxacin,CYP1A2,CYP inhibition,Minor,No,0,No
+Mitoxantrone,Norfloxacin,CYP3A4,CYP inhibition,Minor,No,0,No
+Methotrexate,Levetiracetam,ABCC2 (MRP2),transporter inhibition,Minor,No,0,No
+Ofloxacin,Carboplatin,ABCC2 (MRP2),transporter inhibition,Minor,No,0,No
+Ofloxacin,Vincristine,ABCC2 (MRP2),transporter inhibition,Minor,No,0,No
+Chloroquine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Minor,No,0,No
+Mitoxantrone,Ofloxacin,ABCC1,transporter inhibition,Minor,No,0,No
+5-Fluorouracil,Vincristine,ABCC3,transporter inhibition,Minor,No,0,No
+Ciprofloxacin,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Minor,No,0,No
+Tamoxifen,Exemestane,"CYP19A1, CYP3A4","CYP induction, CYP inhibition",Unknown,Yes,430,Yes
+Cyclophosphamide,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,Yes,293,Yes
+Cyclophosphamide,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,Yes,216,Yes
+Cyclophosphamide,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,195,Yes
+Cyclophosphamide,Trimethoprim,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,Yes,185,Yes
+Trimethoprim,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,Yes,185,Yes
+Carboplatin,Erlotinib,ABCG2 (BCRP),transporter inhibition,Unknown,Yes,130,Yes
+Cyclophosphamide,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,Yes,119,No
+Gefitinib,Erlotinib,"ABCG2 (BCRP), CYP2D6","CYP inhibition, transporter inhibition",Unknown,Yes,102,No
+Anastrozole,Fulvestrant,CYP3A4,CYP inhibition,Unknown,Yes,91,Yes
+Carboplatin,Gefitinib,ABCG2 (BCRP),transporter inhibition,Unknown,Yes,77,Yes
+Ifosfamide,Vincristine,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,75,Yes
+Letrozole,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,64,Yes
+Cyclophosphamide,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,Yes,63,Yes
+Celecoxib,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,62,Yes
+Celecoxib,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,62,Yes
+Celecoxib,Vincristine,CYP3A4,CYP inhibition,Unknown,Yes,62,Yes
+Celecoxib,Vinblastine,CYP3A4,CYP inhibition,Unknown,Yes,62,Yes
+Mitoxantrone,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,Yes,40,Yes
+Anastrozole,Exemestane,CYP19A1,CYP inhibition,Unknown,Yes,35,Yes
+Anastrozole,Capecitabine,CYP2C9,CYP inhibition,Unknown,Yes,26,Yes
+Anastrozole,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,Yes,26,Yes
+5-Fluorouracil,Tamoxifen,CYP2C9,CYP inhibition,Unknown,Yes,26,Yes
+Anastrozole,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,26,Yes
+Tamoxifen,Capecitabine,CYP2C9,CYP inhibition,Unknown,Yes,26,Yes
+Temozolomide,Sorafenib,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,22,No
+Celecoxib,5-Fluorouracil,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Unknown,Yes,13,No
+Celecoxib,Capecitabine,CYP2C9,CYP inhibition,Unknown,Yes,13,No
+Celecoxib,Temozolomide,CYP3A4,CYP induction,Unknown,Yes,13,No
+Ifosfamide,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,10,Yes
+Cyclophosphamide,Prilosec,"CYP2C19, CYP3A4","CYP induction, CYP inhibition",Unknown,Yes,5,Yes
+Arsenic Trioxide,Bortezomib,CYP3A4,CYP inhibition,Unknown,Yes,4,No
+5-Fluorouracil,Gefitinib,"ABCG2 (BCRP), CYP2C9","CYP inhibition, transporter inhibition",Unknown,Yes,3,Yes
+Letrozole,Exemestane,CYP19A1,CYP inhibition,Unknown,Yes,3,Yes
+Anastrozole,Letrozole,CYP19A1,CYP inhibition,Unknown,Yes,3,Yes
+Temozolomide,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Unknown,Yes,3,No
+Bicalutamide,Flutamide,CYP3A4,CYP inhibition,Unknown,Yes,3,Yes
+Temozolomide,Erlotinib,CYP3A4,CYP induction,Unknown,Yes,1,Yes
+Acetaminophen,Letrozole,"CYP2A6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Diazepam,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Enalapril,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Dapsone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Amlodipine,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Propofol,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Zolpidem,CYP2D6,CYP inhibition,Unknown,No,0,No
+Letrozole,Loratadine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Prilosec,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Zolpidem,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Temazepam,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Aspirin,Sorafenib,"ABCB1 (P-gp), CYP2C19, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Salbutamol,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Leflunomide,Zopiclone,CYP2C9,CYP inhibition,Unknown,No,0,No
+Paroxetine,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Lansoprazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acetaminophen,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Hydroxychloroquine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Respules,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+5-Fluorouracil,Nifedipine,"ABCC3, CYP1A2, CYP2C9","CYP induction, CYP inhibition, transporter induction",Unknown,No,0,No
+Acetaminophen,Bortezomib,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Metoprolol,CYP2D6,CYP inhibition,Unknown,No,0,No
+Zolpidem,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Nisoldipine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclobenzaprine,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Pantoprazole,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+5-Fluorouracil,Simvastatin,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Aspirin,Tamoxifen,"ABCB1 (P-gp), CYP2C19, CYP2C9","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Prilosec,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Lansoprazole,Leflunomide,"ABCG2 (BCRP), CYP1A2, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Irbesartan,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Zolpidem,Sorafenib,CYP1A2,CYP inhibition,Unknown,No,0,No
+3-(1-Methylpyrrolidin-2-yl)pyridine,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Enalapril,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Haloperidol,"ABCB1 (P-gp), CYP2D6, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Metronidazole,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Prochlorperazine,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fluoxetine,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Fentanyl,CYP3A4,CYP inhibition,Unknown,No,0,No
+Thalidomide,Tolterodine,CYP2C19,CYP inhibition,Unknown,No,0,No
+Celecoxib,Doxazosin,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Isradipine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clopidogrel,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Metoprolol,Tamoxifen,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Pioglitazone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+5-Fluorouracil,Ondansetron,CYP1A2,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Propranolol,CYP1A2,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Indapamide,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clopidogrel,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Letrozole,Methimazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Oxybutynin,CYP3A4,CYP inhibition,Unknown,No,0,No
+Zolpidem,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Lidocaine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Ropinirole,CYP2D6,CYP inhibition,Unknown,No,0,No
+Modafinil,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Pilocarpine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Felodipine,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Losartan,CYP1A2,CYP inhibition,Unknown,No,0,No
+Buspirone,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Ondansetron,CYP3A4,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Leflunomide,Trimethoprim,CYP2C9,CYP inhibition,Unknown,No,0,No
+Carvedilol,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mirtazapine,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Metoclopramide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Ezetimibe,CYP3A4,CYP inhibition,Unknown,No,0,No
+Theophylline,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Glibenclamide,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Prilosec,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Prochlorperazine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Lenalidomide,"ABCB1 (P-gp), PTGS2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mitoxantrone,Prochlorperazine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Lidocaine,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Temozolomide,Simvastatin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Simvastatin,CYP2D6,CYP inhibition,Unknown,No,0,No
+Loratadine,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amlodipine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Anastrozole,Loratadine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Ezetimibe,CYP3A4,CYP inhibition,Unknown,No,0,No
+Felodipine,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amoxicillin,Bortezomib,CYP2C19,CYP inhibition,Unknown,No,0,No
+Fenofibrate,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Prilosec,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,Yes
+Clopidogrel,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Leflunomide,Nifedipine,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Capecitabine,Desloratadine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Pantoprazole,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Azelastine,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cimetidine,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Atovaquone,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clopidogrel,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Tolterodine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Losartan,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Celecoxib,Nefazodone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metoclopramide,Erlotinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Citalopram,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ibuprofen,Tamoxifen,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Glibenclamide,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Lidocaine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Irbesartan,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Atorvastatin EP Impurity B,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Leflunomide,Venlafaxine,"ABCG2 (BCRP), CYP2C9","CYP inhibition, transporter induction",Unknown,No,0,No
+Salbutamol,Anastrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Enalapril,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Leflunomide,Tolterodine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Fluconazole,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Bicalutamide,Glibenclamide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Propranolol,Erlotinib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Imatinib,Desloratadine,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Nifedipine,Erlotinib,"ABCB1 (P-gp), CYP2C8, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Clopidogrel,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Unknown,No,0,No
+Pantoprazole,Imatinib,"ABCB1 (P-gp), CYP1A2, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Anastrozole,Carvedilol,CYP1A2,CYP inhibition,Unknown,No,0,No
+Meperidine,Vinblastine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Aspirin,Thalidomide,CYP2C19,"CYP induction, CYP inhibition",Unknown,No,0,No
+Furosemide,Methotrexate,"ABCC2 (MRP2), PGD, SLCO1B1 (OATP1B1)","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclobenzaprine,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pantoprazole,Thalidomide,"CYP1A2, CYP2C19","CYP induction, CYP inhibition",Unknown,No,0,No
+Ofloxacin,Erlotinib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Amitriptyline,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Aspirin,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Metoprolol,CYP2D6,CYP inhibition,Unknown,No,0,No
+Simvastatin,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Amlodipine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Busulfan,Fluconazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Aspirin,Imatinib,"ABCB1 (P-gp), CYP2C19, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Cyclobenzaprine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Lidocaine,Thalidomide,"CYP1A2, CYP3A5","CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Lansoprazole,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Lovastatin,Erlotinib,"ABCB1 (P-gp), CYP2C8","CYP inhibition, transporter inhibition",Unknown,No,0,No
+5-Fluorouracil,Ibuprofen,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Pioglitazone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Alprazolam,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Phenytoin,Celecoxib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,Yes
+Atorvastatin EP Impurity B,Fulvestrant,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Verapamil,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Losartan,Erlotinib,"ABCB1 (P-gp), CYP2C8","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fenofibrate,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pantoprazole,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Leflunomide,Temazepam,CYP2C9,CYP inhibition,Unknown,No,0,No
+Metronidazole,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ondansetron,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Loperamide,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Erythromycin,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Ropinirole,CYP1A2,CYP inhibition,Unknown,No,0,No
+Bortezomib,Ezetimibe,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Rofecoxib,"ABCC4 (MRP4), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fentanyl,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clonazepam,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fentanyl,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Losartan,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Diazepam,CYP1A2,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Celecoxib,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Isosorbide Mononitrate,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bupropion,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Prilosec,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fentanyl,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Amlodipine,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ondansetron,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clopidogrel,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Ciprofloxacin,Leflunomide,CYP1A2,CYP inhibition,Unknown,No,0,No
+Fluconazole,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Lidocaine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Citalopram,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Verapamil,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Alprazolam,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+(3H)granisetron,Bortezomib,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Aspirin,Lenalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Nifedipine,Bortezomib,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Enalapril,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Voriconazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Pantoprazole,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Leflunomide,Propranolol,CYP1A2,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Voriconazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metoclopramide,Bortezomib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Ibuprofen,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Amlodipine,Letrozole,CYP2A6,CYP inhibition,Unknown,No,0,No
+Glimepiride,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Methylphenidate,Bortezomib,CYP2D6,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Pioglitazone,CYP2C9,CYP inhibition,Unknown,No,0,No
+Oxazepam,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Irbesartan,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Leflunomide,Nisoldipine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Verapamil,5-Fluorouracil,"ABCC3, CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Paroxetine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Losartan,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Metronidazole,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Loratadine,Thalidomide,CYP2C19,"CYP induction, CYP inhibition",Unknown,No,0,No
+Torasemide,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Losartan,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mitoxantrone,Tolterodine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Quetiapine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Leflunomide,Triazolam,CYP2C9,CYP inhibition,Unknown,No,0,No
+Amlodipine,Bicalutamide,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Tolterodine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anzemet,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Alprazolam,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Pioglitazone,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Loperamide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Arthrotec,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Metoprolol,Sorafenib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Bicalutamide,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Methylphenidate,Tamoxifen,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Cerivastatin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Pantoprazole,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Leflunomide,Norfloxacin,CYP1A2,CYP inhibition,Unknown,No,0,No
+Oxazepam,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Aspirin,Gefitinib,"ABCB1 (P-gp), CYP2C19, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Carmustine,Ondansetron,CYP1A2,CYP inhibition,Unknown,No,0,No
+Memantine,Tamoxifen,CYP2B6,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Ondansetron,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Venlafaxine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Prilosec,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bortezomib,Palonosetron,CYP1A2,CYP inhibition,Unknown,No,0,No
+Celecoxib,Propofol,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ketoprofen,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bupropion,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Pantoprazole,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Clopidogrel,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Sorafenib,"ABCB1 (P-gp), CYP1A2, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Ofloxacin,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Raloxifene,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Ciprofloxacin,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Fexofenadine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Tolterodine,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Ezetimibe,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fexofenadine,Bortezomib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Letrozole,"CYP2A6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Mirtazapine,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Amlodipine,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Valdecoxib,CYP2C9,CYP inhibition,Unknown,No,0,Yes
+Ibuprofen,Ifosfamide,"CYP2C9, PTGS1","CYP induction, CYP inhibition",Unknown,No,0,No
+Alprazolam,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clopidogrel,Flutamide,CYP1A2,CYP inhibition,Unknown,No,0,No
+Diazepam,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Atovaquone,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Arthrotec,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fluconazole,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Lansoprazole,CYP2D6,CYP inhibition,Unknown,No,0,No
+Ibuprofen,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Ritonavir,CYP2D6,CYP inhibition,Unknown,No,0,Yes
+Glibenclamide,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Propranolol,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Tolterodine,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Lovastatin,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Arsenic Trioxide,Simvastatin,"ABCB1 (P-gp), ABCC2 (MRP2), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Aspirin,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Salbutamol,Celecoxib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Metoclopramide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Lansoprazole,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Diazepam,CYP3A4,CYP inhibition,Unknown,No,0,Yes
+Pantoprazole,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Clotrimazole,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Leflunomide,Desloratadine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Mirtazapine,Bortezomib,"CYP1A2, CYP2D6","CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Nevirapine,CYP2D6,CYP inhibition,Unknown,No,0,Yes
+Enalapril,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Bupropion,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Risperidone,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Glimepiride,CYP2C9,CYP inhibition,Unknown,No,0,No
+Amlodipine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Phentermine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Simvastatin,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Exemestane,Ezetimibe,CYP3A4,CYP inhibition,Unknown,No,0,No
+Verapamil,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Nabumetone,Lenalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Imatinib,Telmisartan,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Loperamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Enalapril,CYP3A4,CYP inhibition,Unknown,No,0,No
+Citalopram,Gefitinib,CYP2C19,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Oxazepam,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clonidine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Almotriptan,CYP2D6,CYP inhibition,Unknown,No,0,No
+Propranolol,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Simvastatin,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Oxybutynin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Diazepam,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Leflunomide,Paroxetine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclobenzaprine,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Citalopram,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Lovastatin,Sorafenib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Salbutamol,Erlotinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Diazepam,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Salbutamol,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Tamoxifen,Temazepam,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Torasemide,Sorafenib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Ibuprofen,Lenalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Metoclopramide,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Losartan,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Unknown,No,0,No
+Bicalutamide,Ibuprofen,CYP2C9,CYP inhibition,Unknown,No,0,No
+Fluconazole,Erlotinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Raloxifene,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bupropion,Anastrozole,CYP1A2,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Bicalutamide,Isosorbide Mononitrate,CYP3A4,CYP inhibition,Unknown,No,0,No
+Zolpidem,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mirtazapine,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Propranolol,"ABCB1 (P-gp), CYP2D6, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Salbutamol,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Imatinib,Temazepam,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Simvastatin,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Haloperidol,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP2D6","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Itrizole,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Acetaminophen,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Fulvestrant,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Palonosetron,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Famciclovir,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Losartan,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Leflunomide,Loratadine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Letrozole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fentanyl,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Doxazosin,Sorafenib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+5-Fluorouracil,Glipizide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Temozolomide,Vincristine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Nifedipine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Famciclovir,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Diazepam,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Verapamil,Leflunomide,"ABCG2 (BCRP), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Itrizole,Thalidomide,"CYP2E1, CYP3A5","CYP induction, CYP inhibition",Unknown,No,0,No
+Bicalutamide,Arthrotec,CYP2C9,CYP inhibition,Unknown,No,0,No
+Temazepam,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Losartan,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fentanyl,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Alprazolam,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Promethazine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Anastrozole,Simvastatin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Citalopram,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Clonazepam,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fluconazole,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Lenalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Indomethacin,Lenalidomide,"ABCB1 (P-gp), PTGS2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Tamoxifen,Fulvestrant,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Bicalutamide,Rofecoxib,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Rofecoxib,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Bupropion,Sorafenib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Leflunomide,Pantoprazole,"ABCG2 (BCRP), CYP1A2, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Pioglitazone,Sorafenib,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Promethazine,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Prochlorperazine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Rivastigmine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Risperidone,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Clonidine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Amlodipine,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Ondansetron,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Ondansetron,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,(3H)granisetron,CYP2D6,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acetaminophen,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Losartan,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amlodipine,Erlotinib,"ABCB1 (P-gp), CYP2C8","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Carvedilol,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Torasemide,"CYP2C19, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Letrozole,Simvastatin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Ketoconazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Amlodipine,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Venlafaxine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Amlodipine,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amlodipine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Fentanyl,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Thalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Bisoprolol,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fenofibrate,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Prilosec,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,Yes
+Nifedipine,Sorafenib,"ABCB1 (P-gp), CYP1A2, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Thalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Anastrozole,Celecoxib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Fulvestrant,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Arthrotec,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Rofecoxib,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fluoxetine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Oxazepam,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Metoprolol,Bortezomib,CYP2C19,CYP inhibition,Unknown,No,0,No
+Leflunomide,Promethazine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Anastrozole,Pioglitazone,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Felodipine,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Valproic Acid,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Clotrimazole,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Etodolac,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Atazanavir,CYP3A4,CYP inhibition,Unknown,No,0,Yes
+5-Fluorouracil,Lansoprazole,"ABCG2 (BCRP), CYP1A2, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Bicalutamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Simvastatin,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Telmisartan,Sorafenib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Nifedipine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,Yes
+Celecoxib,Simvastatin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Quetiapine,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Pantoprazole,"ABCG2 (BCRP), CYP1A2, CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Temazepam,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Clomipramine,Gefitinib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Raloxifene,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Zolpidem,CYP3A4,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Triazolam,CYP2C9,CYP inhibition,Unknown,No,0,No
+Fluoxetine,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Diazepam,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fenofibrate,Thalidomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Hydroxychloroquine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Glipizide,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Citalopram,Erlotinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Oxybutynin,CYP2C8,CYP inhibition,Unknown,No,0,No
+Loperamide,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Amlodipine,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Tamoxifen,Simvastatin,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Fenofibrate,Bexarotene,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Carbamazepine,Carmustine,CYP1A2,"CYP induction, CYP inhibition",Unknown,No,0,No
+Ofloxacin,Imatinib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Clonazepam,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fentanyl,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Aspirin,Bicalutamide,"CYP2C19, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Acetaminophen,Exemestane,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Lovastatin,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Valproic Acid,"CYP2A6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Glimepiride,Sorafenib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ibuprofen,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Leflunomide,Mirtazapine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Lovastatin,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Verapamil,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Paroxetine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Verapamil,Celecoxib,"ABCC4 (MRP4), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Oxybutynin,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Citalopram,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Atazanavir,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Propranolol,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,CID 152945,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Doxazosin,Gefitinib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mexiletine,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Methadone,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fexofenadine,Imatinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Bisoprolol,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,Yes
+Verapamil,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Telmisartan,Bortezomib,CYP2C19,CYP inhibition,Unknown,No,0,No
+Fexofenadine,Erlotinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Clopidogrel,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Respules,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Glipizide,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Promethazine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Clonidine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Metronidazole,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Glipizide,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Carvedilol,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Meperidine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Fluconazole,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Loratadine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Fentanyl,Erlotinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fentanyl,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Salmeterol,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Temazepam,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Venlafaxine,"ABCG2 (BCRP), CYP2C9","CYP inhibition, transporter induction",Unknown,No,0,No
+Salbutamol,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Indapamide,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Loperamide,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acebutolol,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,Yes
+Salbutamol,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Tamoxifen,Triazolam,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Metoprolol,Erlotinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Bicalutamide,Zolpidem,CYP3A4,CYP inhibition,Unknown,No,0,No
+Carvedilol,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Letrozole,Venlafaxine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Fexofenadine,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Fluoxetine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Exemestane,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Ciprofloxacin,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Gemfibrozil,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Salbutamol,Gefitinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ezetimibe,Erlotinib,"ABCG2 (BCRP), UGT1A1","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Glibenclamide,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amlodipine,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Zopiclone,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Isosorbide Mononitrate,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fentanyl,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Triazolam,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Formoterol,CYP2D6,CYP inhibition,Unknown,No,0,No
+Lidocaine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Irbesartan,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Felodipine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Alprazolam,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Diazepam,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Simvastatin,Exemestane,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clonidine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Doxorubicin,Indomethacin,"ABCC1, UGT2B7","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Rofecoxib,Thalidomide,PTGS2,CYP inhibition,Unknown,No,0,No
+Bupropion,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Carvedilol,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Venlafaxine,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Exemestane,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acetazolamide,Celecoxib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Nifedipine,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Busulfan,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mirtazapine,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Irbesartan,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Methotrexate,Raloxifene,AOX1,CYP inhibition,Unknown,No,0,No
+Carbamazepine,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Glipizide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clonidine,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Prochlorperazine,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lovastatin,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+5-Fluorouracil,Mirtazapine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Isoniazid,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Glimepiride,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Respules,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Fentanyl,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Ibuprofen,CYP2C9,CYP inhibition,Unknown,No,0,No
+Arthrotec,5-Fluorouracil,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Rofecoxib,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Methimazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Valproic Acid,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Venlafaxine,Erlotinib,"ABCG2 (BCRP), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Temazepam,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Clopidogrel,CYP2C9,CYP inhibition,Unknown,No,0,No
+Diazepam,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Ibuprofen,"ABCB1 (P-gp), CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Clonidine,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Fluoxetine,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Zolpidem,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Ibuprofen,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Anzemet,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Thiotepa,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Ciprofloxacin,CYP1A2,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Loperamide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Tolterodine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Raloxifene,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Clopidogrel,CYP2C9,CYP inhibition,Unknown,No,0,No
+Capecitabine,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Clotrimazole,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Bupropion,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clotrimazole,5-Fluorouracil,"ABCC3, CYP2C9","CYP inhibition, transporter induction",Unknown,No,0,No
+Pioglitazone,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Celecoxib,Palonosetron,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Aspirin,CYP2C9,CYP inhibition,Unknown,No,0,No
+Aspirin,Bortezomib,"CYP2C19, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+5-Fluorouracil,Paroxetine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bupropion,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Anzemet,CYP2D6,CYP inhibition,Unknown,No,0,No
+3-(1-Methylpyrrolidin-2-yl)pyridine,5-Fluorouracil,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Atorvastatin EP Impurity B,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Fluconazole,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Chlordiazepoxide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Methylphenidate,CYP2D6,CYP inhibition,Unknown,No,0,No
+Clonidine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Amlodipine,Celecoxib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Alprazolam,Anastrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Zolpidem,CYP2C9,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Bortezomib,CYP1A2,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Zolpidem,CYP1A2,CYP inhibition,Unknown,No,0,No
+Celecoxib,Clotrimazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Ezetimibe,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Leflunomide,Zolpidem,CYP2C9,CYP inhibition,Unknown,No,0,No
+Isosorbide Mononitrate,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Metoprolol,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Loratadine,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Paroxetine,"ABCB1 (P-gp), CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Rofecoxib,"ABCC4 (MRP4), CYP3A4, PTGS2","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Fexofenadine,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Letrozole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Glipizide,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Tolterodine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Zolpidem,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Isosorbide Mononitrate,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Leflunomide,Ropinirole,CYP1A2,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Zolpidem,CYP2D6,CYP inhibition,Unknown,No,0,No
+Fluconazole,Thiotepa,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Glibenclamide,"ABCC3, CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+(3H)granisetron,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Prilosec,CYP2C19,CYP inhibition,Unknown,No,0,No
+Anastrozole,Arthrotec,CYP1A2,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Promethazine,"ABCB1 (P-gp), CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Fentanyl,Gefitinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anastrozole,Fluoxetine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Irbesartan,Sorafenib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Naloxone,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Ketoconazole,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Irbesartan,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Irbesartan,CYP1A2,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Anzemet,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Loratadine,CYP2D6,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Prilosec,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Verapamil,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metoclopramide,Vinblastine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Metoclopramide,Imatinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Fenofibrate,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Letrozole,Losartan,CYP3A4,CYP inhibition,Unknown,No,0,No
+Oxybutynin,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fentanyl,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Arthrotec,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amitriptyline,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Metoclopramide,Tamoxifen,CYP2D6,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Oxybutynin,CYP3A4,CYP inhibition,Unknown,No,0,No
+Salbutamol,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Letrozole,Raloxifene,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Letrozole,CYP2A6,CYP inhibition,Unknown,No,0,No
+Felodipine,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metronidazole,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Valproic Acid,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Alprazolam,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Hydroxyzine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Metoclopramide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Loratadine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Temazepam,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pantoprazole,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Diazepam,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clotrimazole,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Lansoprazole,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Ifosfamide,Simvastatin,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Amitriptyline,Anastrozole,CYP1A2,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Desloratadine,"ABCB1 (P-gp), CYP1A2","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Fentanyl,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Hydroxyzine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Leflunomide,Nortriptyline,CYP2C9,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Irbesartan,CYP1A2,CYP inhibition,Unknown,No,0,No
+Nifedipine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Carvedilol,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Valproic Acid,Letrozole,CYP2A6,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acetaminophen,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Atorvastatin EP Impurity B,Celecoxib,"ABCC4 (MRP4), CYP2D6, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amoxicillin,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Glibenclamide,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Cyclobenzaprine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Ondansetron,Vinblastine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Busulfan,Diazepam,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Cyclobenzaprine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Celecoxib,Itrizole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Carvedilol,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Tamoxifen,Isosorbide Mononitrate,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Ondansetron,CYP1A2,CYP inhibition,Unknown,No,0,No
+Anzemet,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Clonazepam,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Carvedilol,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Nortriptyline,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Prochlorperazine,Vinblastine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Raloxifene,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Anastrozole,Venlafaxine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Erlotinib,"ABCB1 (P-gp), CYP2C8, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Zopiclone,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Salbutamol,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Thalidomide,"CYP1A2, CYP2C19","CYP induction, CYP inhibition",Unknown,No,0,No
+Promethazine,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Celecoxib,Trimethoprim,CYP2C9,CYP inhibition,Unknown,No,0,Yes
+Lovastatin,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ibuprofen,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Venlafaxine,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Quetiapine,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Verapamil,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Propranolol,CYP1A2,CYP inhibition,Unknown,No,0,No
+Cyclobenzaprine,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Telmisartan,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Letrozole,Lovastatin,CYP3A4,CYP inhibition,Unknown,No,0,No
+Prochlorperazine,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Zolpidem,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lansoprazole,Exemestane,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Arthrotec,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Busulfan,Valproic Acid,CYP3A4,CYP inhibition,Unknown,No,0,No
+Carmustine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Paroxetine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Venlafaxine,"ABCB1 (P-gp), ABCG2 (BCRP), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Desloratadine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Clopidogrel,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Temozolomide,Venlafaxine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Irbesartan,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Anastrozole,Losartan,CYP1A2,CYP inhibition,Unknown,No,0,No
+Carvedilol,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Rac-Efavirenz,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,Yes
+Leflunomide,Phentermine,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Atorvastatin EP Impurity B,Erlotinib,"ABCB1 (P-gp), CYP2C8, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Venlafaxine,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clonazepam,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Tamoxifen,Tolterodine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Promethazine,Erlotinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Lidocaine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Hydroxyurea,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Loratadine,Bortezomib,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Irbesartan,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fexofenadine,Gefitinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Irbesartan,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Ifosfamide,Prilosec,"CYP2C19, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Tamoxifen,Gefitinib,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+(3H)granisetron,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Irbesartan,Thalidomide,CYP1A2,CYP inhibition,Unknown,No,0,No
+Etodolac,Tamoxifen,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Doxazosin,CYP2C19,CYP inhibition,Unknown,No,0,No
+Anastrozole,Prochlorperazine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Methimazole,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Arthrotec,Flutamide,CYP1A2,CYP inhibition,Unknown,No,0,No
+Acetaminophen,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Thalidomide,Valdecoxib,PTGS2,CYP inhibition,Unknown,No,0,No
+Paroxetine,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Itrizole,Thiotepa,CYP2B6,CYP inhibition,Unknown,No,0,No
+Losartan,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Buspirone,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Doxazosin,Bortezomib,CYP2C19,CYP inhibition,Unknown,No,0,No
+Fluoxetine,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Modafinil,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Triazolam,CYP2C9,CYP inhibition,Unknown,No,0,No
+Respules,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+5-Fluorouracil,Ketoprofen,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Tamoxifen,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Hydroxyurea,Hydroxyzine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Triazolam,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Letrozole,Tramadol,CYP3A4,CYP inhibition,Unknown,No,0,No
+Glibenclamide,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Diazepam,Letrozole,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Loratadine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Atorvastatin EP Impurity B,5-Fluorouracil,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Thalidomide,Telmisartan,CYP2C19,CYP inhibition,Unknown,No,0,No
+Leflunomide,Ticlopidine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Pantoprazole,Sorafenib,"ABCB1 (P-gp), CYP1A2","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Bicalutamide,Fentanyl,CYP3A4,CYP inhibition,Unknown,No,0,No
+Thalidomide,Desloratadine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Verapamil,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Clonidine,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Capecitabine,Valdecoxib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Rofecoxib,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Midodrine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Pioglitazone,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Ketoprofen,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Naloxone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Acetaminophen,Anastrozole,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Bicalutamide,Glipizide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Felodipine,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Fluoxetine,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Pioglitazone,Vincristine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Imatinib,Zopiclone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metoprolol,Gefitinib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Salbutamol,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Gemfibrozil,"CYP1A2, CYP2C8","CYP induction, CYP inhibition",Unknown,No,0,No
+Bicalutamide,Glimepiride,CYP2C9,CYP inhibition,Unknown,No,0,No
+Fluoxetine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Irbesartan,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Propofol,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Diazepam,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Amlodipine,Anastrozole,CYP1A2,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Quetiapine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Triazolam,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Oxybutynin,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Loratadine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Mitoxantrone,Modafinil,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fluconazole,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Pantoprazole,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Mexiletine,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Clonazepam,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+(3H)granisetron,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Valproic Acid,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Lansoprazole,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Ondansetron,Erlotinib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Fexofenadine,Tamoxifen,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Ifosfamide,Pantoprazole,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Acetaminophen,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Clopidogrel,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Simvastatin,Erlotinib,"ABCB1 (P-gp), CYP2C8, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Losartan,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acetaminophen,Fulvestrant,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Metoclopramide,Sorafenib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Aspirin,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Carvedilol,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Tramadol,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Probenecid,"ABCB1 (P-gp), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Clonazepam,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Donepezil,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Ciprofloxacin,Imatinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Risperidone,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Temazepam,CYP2C9,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Temazepam,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Bicalutamide,Losartan,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Carvedilol,CYP3A4,CYP inhibition,Unknown,No,0,No
+Imatinib,Ezetimibe,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Amlodipine,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Oxazepam,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Prilosec,Vinblastine,CYP3A4,CYP inhibition,Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Bortezomib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Bupropion,Letrozole,CYP2A6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Ketoprofen,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acebutolol,Cyclophosphamide,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Zopiclone,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bisoprolol,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Pilocarpine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Leflunomide,Ofloxacin,CYP1A2,CYP inhibition,Unknown,No,0,No
+Fenofibrate,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Fluconazole,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Vincristine,Gefitinib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Ciprofloxacin,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Rofecoxib,Arsenic Trioxide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Probenecid,"ABCC4 (MRP4), CYP2C9, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Clopidogrel,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Anastrozole,Atorvastatin EP Impurity B,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Clonidine,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Paroxetine,Sorafenib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Carvedilol,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Simvastatin,Fulvestrant,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,(3H)granisetron,CYP2D6,"CYP induction, CYP inhibition",Unknown,No,0,No
+Letrozole,Ezetimibe,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bortezomib,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Ifosfamide,Lansoprazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Tramadol,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Hydralazine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Celecoxib,Dapsone,"CYP2C9, PTGS2","CYP induction, CYP inhibition",Unknown,No,0,No
+Ifosfamide,Ondansetron,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+CID 152945,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Leflunomide,Primidone,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Famciclovir,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Temozolomide,Ezetimibe,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Dasatinib,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Anzemet,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Nifedipine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Venlafaxine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Tadalafil,CYP3A4,CYP inhibition,Unknown,No,0,No
+Carmustine,Valproic Acid,CYP1A2,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Mirtazapine,CYP2D6,"CYP induction, CYP inhibition",Unknown,No,0,No
+Leflunomide,Modafinil,CYP1A2,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Erythromycin,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Letrozole,Mirtazapine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Temozolomide,Arsenic Trioxide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Irbesartan,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Meperidine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Amlodipine,Flutamide,CYP1A2,CYP inhibition,Unknown,No,0,No
+Torasemide,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Tramadol,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Salbutamol,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bupropion,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Lidocaine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Celecoxib,Eletriptan,"CYP2D6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Mirtazapine,Erlotinib,"CYP2C8, CYP2D6","CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lidocaine,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Methylphenidate,Erlotinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Diazepam,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Loperamide,Gefitinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Hydroxyurea,Venlafaxine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Amlodipine,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Diazepam,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Anastrozole,Glibenclamide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Arthrotec,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Alprazolam,Bicalutamide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Trazodone,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Modafinil,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Oxybutynin,CYP2D6,CYP inhibition,Unknown,No,0,No
+Rofecoxib,Gefitinib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Ciprofloxacin,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Verapamil,Arsenic Trioxide,"ABCB1 (P-gp), ABCC2 (MRP2), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,Yes
+Alprazolam,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Carbamazepine,5-Fluorouracil,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Ibuprofen,Sorafenib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mitoxantrone,Trimethoprim,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Loratadine,Exemestane,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fentanyl,Flutamide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Thalidomide,Trimethoprim,CYP2C9,CYP inhibition,Unknown,No,0,No
+Bicalutamide,Enalapril,CYP3A4,CYP inhibition,Unknown,No,0,No
+Thalidomide,Gefitinib,"CYP2C9, CYP3A5","CYP induction, CYP inhibition",Unknown,No,0,No
+Imatinib,Isosorbide Mononitrate,CYP3A4,CYP inhibition,Unknown,No,0,No
+3-(1-Methylpyrrolidin-2-yl)pyridine,Gefitinib,"CYP1A1, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Loratadine,Erlotinib,"ABCB1 (P-gp), CYP2C8, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Risperidone,Gefitinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Phenytoin,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,Yes
+Indomethacin,Tamoxifen,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Mirtazapine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Erlotinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Lidocaine,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Oxazepam,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Bupropion,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Oxybutynin,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Temazepam,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Leflunomide,Propofol,CYP1A2,CYP inhibition,Unknown,No,0,No
+Doxepin,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Ketoprofen,Tamoxifen,CYP2C9,CYP inhibition,Unknown,No,0,No
+5-Fluorouracil,Haloperidol,CYP2C9,CYP inhibition,Unknown,No,0,No
+Etodolac,Bortezomib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Clotrimazole,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Anastrozole,Fenofibrate,CYP2C9,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Letrozole,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,Oxcarbazepine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Celecoxib,Thiothixene (USAN:USP),CYP2D6,CYP inhibition,Unknown,No,0,No
+Felodipine,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Temozolomide,Tadalafil,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Desloratadine,"ABCB1 (P-gp), CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Indapamide,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mirtazapine,Gefitinib,"CYP2C9, CYP2D6","CYP induction, CYP inhibition",Unknown,No,0,No
+Irbesartan,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Losartan,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Rivastigmine,Erlotinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pioglitazone,Erlotinib,"CYP2C8, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Itrizole,Arsenic Trioxide,"ABCB1 (P-gp), CYP1A1, CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclobenzaprine,Sorafenib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Donepezil,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,No
+Vincristine,Arsenic Trioxide,"ABCB1 (P-gp), ABCC2 (MRP2), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+5-Fluorouracil,Fluoxetine,CYP1A2,CYP inhibition,Unknown,No,0,No
+Clopidogrel,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Methylphenidate,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Losartan,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Arthrotec,Thalidomide,CYP2C19,CYP inhibition,Unknown,No,0,No
+Lidocaine,Letrozole,CYP2A6,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Nifedipine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Paroxetine,Erlotinib,"ABCB1 (P-gp), CYP2C8","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Felodipine,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mitoxantrone,Pioglitazone,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Mitoxantrone,Bortezomib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Modafinil,Thalidomide,"CYP2C19, CYP3A5","CYP induction, CYP inhibition",Unknown,No,0,No
+Diazepam,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Rac-Efavirenz,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,Yes
+Felodipine,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Anastrozole,Zopiclone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Vincristine,Ezetimibe,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Verapamil,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Valdecoxib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Tamoxifen,Ezetimibe,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Letrozole,Oxybutynin,CYP3A4,CYP inhibition,Unknown,No,0,No
+Arthrotec,Erlotinib,"ABCB1 (P-gp), CYP2C8","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Clonidine,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Tolterodine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Atovaquone,CYP2C9,CYP inhibition,Unknown,No,0,No
+Celecoxib,Sorafenib,"ABCC4 (MRP4), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Letrozole,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Valproic Acid,Imatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Alprazolam,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pilocarpine,Tamoxifen,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyzine,Gefitinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Letrozole,Risperidone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Loperamide,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Bicalutamide,Lansoprazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Rofecoxib,Bortezomib,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Vincristine,Isosorbide Mononitrate,CYP3A4,CYP inhibition,Unknown,No,0,No
+Rofecoxib,Imatinib,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Ifosfamide,Metronidazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Enalapril,Sorafenib,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Loperamide,Erlotinib,"ABCB1 (P-gp), CYP2C8","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Glibenclamide,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Bupropion,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Doxazosin,Imatinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Rofecoxib,Vincristine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Mitoxantrone,Temazepam,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pantoprazole,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Clomipramine,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Alprazolam,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metronidazole,Thiotepa,CYP3A4,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Promethazine,CYP2D6,CYP inhibition,Unknown,No,0,No
+Carvedilol,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Hydroxyzine,Imatinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Loratadine,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Erythromycin,5-Fluorouracil,"CYP1A2, SLC22A7","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Theophylline,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Rac-Efavirenz,5-Fluorouracil,CYP2C9,CYP inhibition,Unknown,No,0,Yes
+Valdecoxib,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Carbamazepine,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Cimetidine,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Propranolol,Gefitinib,"ABCB1 (P-gp), CYP2C19","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Irbesartan,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Clomipramine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Lovastatin,Capecitabine,CYP2C9,"CYP induction, CYP inhibition",Unknown,No,0,No
+Valproic Acid,Dasatinib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Verapamil,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fenofibrate,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Timolol,Bortezomib,CYP2C19,CYP inhibition,Unknown,No,0,No
+Letrozole,Metronidazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Nortriptyline,Gefitinib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Busulfan,Lansoprazole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+5-Fluorouracil,Glimepiride,CYP2C9,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Methylphenidate,CYP2D6,CYP inhibition,Unknown,No,0,No
+Valproic Acid,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Arthrotec,Capecitabine,CYP2C9,CYP inhibition,Unknown,No,0,No
+Raloxifene,Gefitinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Lovastatin,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Valproic Acid,5-Fluorouracil,"CYP2A6, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Cyclophosphamide,Ritonavir,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,Yes
+Acetaminophen,Flutamide,"CYP1A2, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Ketotifen,Methotrexate,PGD,CYP inhibition,Unknown,No,0,No
+Clopidogrel,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Methylphenidate,Imatinib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Indomethacin,Gefitinib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Pyrazinamide,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Fluconazole,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Isradipine,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Bortezomib,Valdecoxib,CYP2C9,CYP inhibition,Unknown,No,0,No
+Tramadol,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Metronidazole,Fulvestrant,CYP3A4,CYP inhibition,Unknown,No,0,No
+Vincristine,Palonosetron,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pioglitazone,Gefitinib,"CYP2C9, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Chlorpheniramine,Cyclophosphamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Imatinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Diazepam,Erlotinib,CYP2C8,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Zopiclone,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Propranolol,Arsenic Trioxide,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter inhibition",Unknown,No,0,Yes
+Acebutolol,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Anastrozole,Mirtazapine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Thiotepa,"CYP2B6, CYP3A4","CYP induction, CYP inhibition",Unknown,No,0,No
+Mitoxantrone,Tramadol,CYP3A4,CYP inhibition,Unknown,No,0,No
+Tamoxifen,CID 152945,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Vincristine,CID 152945,CYP3A4,CYP inhibition,Unknown,No,0,No
+Mitoxantrone,CID 152945,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Methylphenidate,CYP2D6,CYP inhibition,Unknown,No,0,No
+Donepezil,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Losartan,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Raloxifene,Dasatinib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Donepezil,Leflunomide,CYP2C9,CYP inhibition,Unknown,No,0,No
+Hydroxyurea,Ropinirole,CYP2D6,CYP inhibition,Unknown,No,0,No
+Imipramine,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Doxazosin,Tamoxifen,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Buspirone,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Buspirone,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Meperidine,Mitoxantrone,CYP3A4,CYP inhibition,Unknown,No,0,No
+Arsenic Trioxide,Ezetimibe,"ABCC2 (MRP2), CYP3A4","CYP inhibition, transporter induction",Unknown,No,0,No
+Buspirone,Mitoxantrone,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Celecoxib,Tolcapone,CYP2C9,CYP inhibition,Unknown,No,0,No
+Tamoxifen,Timolol,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Methylphenidate,Sorafenib,CYP2D6,CYP inhibition,Unknown,No,0,No
+Celecoxib,Arsenic Trioxide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Phenytoin,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,Yes
+Mirtazapine,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Lovastatin,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Meperidine,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Nifedipine,Temozolomide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acebutolol,Bicalutamide,CYP2D6,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Risperidone,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Phentermine,Sorafenib,"CYP1A2, CYP2C9","CYP induction, CYP inhibition",Unknown,No,0,No
+Fentanyl,Vinblastine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Phenytoin,Anastrozole,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Lidocaine,Vincristine,"ABCB1 (P-gp), CYP3A4","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Gefitinib,Methimazole,CYP3A4,CYP inhibition,Unknown,No,0,No
+Temozolomide,Tramadol,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Oxybutynin,Sorafenib,CYP3A4,CYP inhibition,Unknown,No,0,No
+Cyclophosphamide,Felodipine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Nisoldipine,Tamoxifen,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Indomethacin,Sorafenib,"ABCB1 (P-gp), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Mexiletine,Bortezomib,CYP1A2,CYP inhibition,Unknown,No,0,No
+Doxazosin,Hydroxyurea,CYP2D6,CYP inhibition,Unknown,No,0,No
+Carbamazepine,Ifosfamide,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Hydroxyurea,Itrizole,CYP2D6,CYP inhibition,Unknown,No,0,No
+Isradipine,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Chloroquine,Cyclophosphamide,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+Chlorpheniramine,Vincristine,CYP3A4,CYP inhibition,Unknown,No,0,No
+Ketoprofen,Sorafenib,"ABCC4 (MRP4), CYP2C9","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Nisoldipine,"ABCB1 (P-gp), CYP3A4","CYP induction, CYP inhibition, transporter inhibition",Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Gefitinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Metronidazole,Exemestane,CYP3A4,CYP inhibition,Unknown,No,0,No
+Nifedipine,Arsenic Trioxide,"ABCB1 (P-gp), ABCC2 (MRP2), CYP3A4","CYP induction, CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Acebutolol,Gefitinib,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter inhibition",Unknown,No,0,No
+Tamoxifen,Zopiclone,CYP3A4,"CYP induction, CYP inhibition",Unknown,No,0,No
+Acebutolol,Tamoxifen,"ABCB1 (P-gp), CYP2D6","CYP inhibition, transporter induction, transporter inhibition",Unknown,No,0,No
+Verapamil,Flutamide,CYP1A2,CYP inhibition,Unknown,No,0,No
+Bupropion,Bicalutamide,CYP3A4,CYP inhibition,Unknown,No,0,No
+Pantoprazole,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Ondansetron,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Citalopram,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Aspirin,Flutamide,CYP2C19,CYP induction,Unknown,No,0,No
+Clonazepam,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Letrozole,Rofecoxib,CYP3A4,CYP induction,Unknown,No,0,No
+Loperamide,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Prochlorperazine,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Prilosec,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Celecoxib,Oxcarbazepine,CYP3A4,CYP induction,Unknown,No,0,No
+Bumetanide,Thalidomide,PTGS2,CYP induction,Unknown,No,0,No
+Carvedilol,Carboplatin,XDH,CYP induction,Unknown,No,0,No
+Carmustine,Pantoprazole,CYP1A2,CYP induction,Unknown,No,0,No
+Cyclobenzaprine,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Oxybutynin,Thalidomide,CYP3A5,CYP induction,Unknown,No,0,No
+Temozolomide,Zonisamide,CYP3A4,CYP induction,Unknown,No,0,No
+Carbamazepine,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Carbamazepine,Celecoxib,CYP3A4,CYP induction,Unknown,No,0,No
+Rofecoxib,Fulvestrant,CYP3A4,CYP induction,Unknown,No,0,No
+Bupropion,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Carvedilol,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Temozolomide,Zolpidem,CYP3A4,CYP induction,Unknown,No,0,No
+Aspirin,Cyclophosphamide,"ABCB1 (P-gp), CYP2C9","CYP induction, transporter inhibition",Unknown,No,0,No
+Temazepam,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Pantoprazole,Exemestane,CYP3A4,CYP induction,Unknown,No,0,No
+Phenytoin,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,Yes
+Letrozole,Pantoprazole,CYP3A4,CYP induction,Unknown,No,0,No
+Busulfan,Pantoprazole,CYP3A4,CYP induction,Unknown,No,0,No
+Enalapril,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Pantoprazole,Fulvestrant,CYP3A4,CYP induction,Unknown,No,0,No
+(3H)granisetron,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Fenofibrate,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Minoxidil,Bortezomib,PTGS1,CYP induction,Unknown,No,0,No
+Letrozole,Pioglitazone,CYP3A4,CYP induction,Unknown,No,0,No
+Celecoxib,Primidone,CYP3A4,CYP induction,Unknown,No,0,No
+Salmeterol,Thalidomide,CYP3A5,CYP induction,Unknown,No,0,No
+Indapamide,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Pioglitazone,Exemestane,CYP3A4,CYP induction,Unknown,No,0,No
+Carbamazepine,Letrozole,CYP3A4,CYP induction,Unknown,No,0,No
+Bumetanide,Lenalidomide,PTGS2,CYP induction,Unknown,No,0,No
+Arthrotec,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Pioglitazone,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Temozolomide,Oxcarbazepine,CYP3A4,CYP induction,Unknown,No,0,No
+Quetiapine,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Temozolomide,Tolterodine,CYP3A4,CYP induction,Unknown,No,0,No
+Bisoprolol,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Carbamazepine,Fulvestrant,CYP3A4,CYP induction,Unknown,No,0,No
+Temozolomide,Trimethoprim,CYP3A4,CYP induction,Unknown,No,0,No
+Celecoxib,Pyridostigmine,CYP3A4,CYP induction,Unknown,No,0,No
+Rofecoxib,Exemestane,CYP3A4,CYP induction,Unknown,No,0,No
+Salmeterol,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+3-(1-Methylpyrrolidin-2-yl)pyridine,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Thalidomide,CID 152945,CYP3A5,CYP induction,Unknown,No,0,No
+Donepezil,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Anzemet,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Carmustine,Lansoprazole,CYP1A2,CYP induction,Unknown,No,0,No
+Oxazepam,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Rofecoxib,Temozolomide,CYP3A4,CYP induction,Unknown,No,0,No
+Furosemide,6-Mercaptopurine,SLCO1B3? (OATP),transporter inhibition,Unknown,No,0,No
+Methotrexate,Nifedipine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Methotrexate,Ezetimibe,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Amitriptyline,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Metoprolol,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Lidocaine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Fluconazole,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Verapamil,Methotrexate,"ABCB1 (P-gp), ABCC2 (MRP2)","transporter induction, transporter inhibition",Unknown,No,0,No
+Terazosin,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Fentanyl,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Verapamil,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Lidocaine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Enalapril,5-Fluorouracil,SLC22A7,transporter inhibition,Unknown,No,0,No
+Enalapril,Gefitinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Metoprolol,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Pantoprazole,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Vincristine,Levetiracetam,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Felodipine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Bumetanide,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Unknown,No,0,No
+Loratadine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Carbamazepine,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Glibenclamide,Carboplatin,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Metformin,Imatinib,SLC22A2,transporter inhibition,Unknown,No,0,No
+Fexofenadine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Carvedilol,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Cimetidine,Methotrexate,"ABCB1 (P-gp), SLCO1B1 (OATP1B1)","transporter induction, transporter inhibition",Unknown,No,0,No
+Ciprofloxacin,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Lansoprazole,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxepin,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Arsenic Trioxide,ABCC2 (MRP2),"transporter induction, transporter inhibition",Unknown,No,0,No
+Methotrexate,Promethazine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Sumatriptan,"ABCB1 (P-gp), SLCO1A2 (OATP1A2)","transporter induction, transporter inhibition",Unknown,No,0,No
+Methotrexate,Telmisartan,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Paroxetine,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Fexofenadine,Mitoxantrone,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Leflunomide,Telmisartan,ABCG2 (BCRP),transporter inhibition,Unknown,No,0,No
+Venlafaxine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxepin,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Glibenclamide,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Paroxetine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Fexofenadine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Clotrimazole,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Doxorubicin,Atazanavir,ABCC1,transporter inhibition,Unknown,No,0,Yes
+Baclofen,Methotrexate,SLCO1B3? (OATP),transporter inhibition,Unknown,No,0,No
+Imatinib,Terazosin,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Acetazolamide,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Unknown,No,0,No
+Promethazine,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Phosphonatoformate,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Unknown,No,0,Yes
+Methotrexate,Atazanavir,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,Yes
+Lidocaine,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Acetaminophen,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Dasatinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Dipyridamole,5-Fluorouracil,ABCC4 (MRP4),transporter inhibition,Unknown,No,0,No
+Fentanyl,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Dactinomycin (USP),Cyclophosphamide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Indomethacin,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Rofecoxib,6-Mercaptopurine,ABCC4 (MRP4),transporter inhibition,Unknown,No,0,No
+Vincristine,Zoledronic Acid,ABCC1,transporter inhibition,Unknown,No,0,No
+Enalapril,Erlotinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Desloratadine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Ibuprofen,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Amlodipine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Clomipramine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+5-Fluorouracil,Telmisartan,ABCG2 (BCRP),transporter inhibition,Unknown,No,0,No
+Cyclophosphamide,Doxazosin,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Propranolol,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Furosemide,Tamoxifen,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Methotrexate,Venlafaxine,"ABCB1 (P-gp), ABCG2 (BCRP)","transporter induction, transporter inhibition",Unknown,No,0,No
+8-iso Prostaglandin E1,Methotrexate,ABCC4 (MRP4),transporter inhibition,Unknown,No,0,No
+Sumatriptan,Tamoxifen,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Mitoxantrone,Promethazine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Imipramine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Cyclophosphamide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Cyclophosphamide,Prazosin,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Verapamil,Carboplatin,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Doxazosin,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Scopolamine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Mitoxantrone,Paroxetine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+1-(2-Methyl-3-sulfanylpropanoyl)proline,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Dipyridamole,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Dipyridamole,Gefitinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Lansoprazole,Clofarabine,ABCG2 (BCRP),transporter inhibition,Unknown,No,0,No
+Enalapril,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Losartan,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxorubicin,Ibuprofen,ABCC1,transporter inhibition,Unknown,No,0,No
+Metoprolol,Mitoxantrone,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Buspirone,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Losartan,Methotrexate,SLCO1B1 (OATP1B1),transporter inhibition,Unknown,No,0,No
+Carvedilol,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxorubicin,Glibenclamide,ABCC1,transporter inhibition,Unknown,No,0,No
+Methotrexate,Terazosin,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Felodipine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Terazosin,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Azelastine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Lamotrigine,Imatinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Pantoprazole,Clofarabine,ABCG2 (BCRP),transporter inhibition,Unknown,No,0,No
+Bumetanide,5-Fluorouracil,SLC22A7,transporter inhibition,Unknown,No,0,No
+Dactinomycin (USP),Valproic Acid,SLC22A5,transporter inhibition,Unknown,No,0,No
+Buspirone,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Pantoprazole,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Cyclophosphamide,Dipyridamole,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Dactinomycin (USP),Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Cyclophosphamide,Scopolamine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Loperamide,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Furosemide,Sorafenib,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Mitoxantrone,Zoledronic Acid,ABCC1,transporter inhibition,Unknown,No,0,No
+Imatinib,Levetiracetam,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Metoprolol,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Terazosin,Sorafenib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Aspirin,Mitoxantrone,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Ibuprofen,Mitoxantrone,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Methotrexate,Nisoldipine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Aspirin,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Amlodipine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Nadolol,Sorafenib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Paroxetine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Itrizole,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Enalapril,Dasatinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Fluoxetine,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Promethazine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Valproic Acid,6-Mercaptopurine,SLCO1B3? (OATP),transporter inhibition,Unknown,No,0,No
+Doxazosin,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Furosemide,Vincristine,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Dactinomycin (USP),Amlodipine,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Mitomycin C,Gefitinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxorubicin,Arthrotec,ABCC1,transporter inhibition,Unknown,No,0,No
+Chlorambucil,Simvastatin,SLCO1A2 (OATP1A2),transporter inhibition,Unknown,No,0,No
+Cyclophosphamide,Levetiracetam,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Loratadine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Levetiracetam,Gefitinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Carvedilol,Erlotinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Loperamide,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Vincristine,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Methotrexate,Propafenone,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Metoprolol,Arsenic Trioxide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,Yes
+Mitoxantrone,Sumatriptan,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Ketoconazole,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Fluoxetine,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Vinblastine,Zoledronic Acid,ABCC1,"transporter induction, transporter inhibition",Unknown,No,0,No
+Methotrexate,Nitrazepam,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Acetaminophen,Dactinomycin (USP),ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Indomethacin,Carboplatin,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Metformin,Vincristine,SLC22A3,transporter inhibition,Unknown,No,0,No
+Nizatidine,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Ibuprofen,6-Mercaptopurine,SLCO1B3? (OATP),transporter inhibition,Unknown,No,0,No
+Dipyridamole,Methotrexate,ABCC4 (MRP4),transporter inhibition,Unknown,No,0,No
+Loperamide,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Methotrexate,Miconazole,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Glibenclamide,Methotrexate,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Propranolol,Lenalidomide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxazosin,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Metoprolol,Dasatinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Dactinomycin (USP),Carbamazepine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Dactinomycin (USP),Methotrexate,ABCC1,transporter inhibition,Unknown,No,0,No
+Lamotrigine,Tamoxifen,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Telmisartan,Erlotinib,ABCG2 (BCRP),transporter inhibition,Unknown,No,0,No
+Carboplatin,Telmisartan,ABCC2 (MRP2),transporter inhibition,Unknown,No,0,No
+Nifedipine,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Ritonavir,Carboplatin,"ABCC2 (MRP2), ABCG2 (BCRP)","transporter induction, transporter inhibition",Unknown,No,0,Yes
+Dipyridamole,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Dipyridamole,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Celecoxib,6-Mercaptopurine,ABCC4 (MRP4),transporter inhibition,Unknown,No,0,No
+Felodipine,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Arthrotec,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Levetiracetam,Sorafenib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Carvedilol,Dasatinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Mitoxantrone,Levetiracetam,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Paroxetine,Arsenic Trioxide,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Cyclophosphamide,Terazosin,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Fexofenadine,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Verapamil,6-Mercaptopurine,ABCC4 (MRP4),transporter inhibition,Unknown,No,0,No
+Dactinomycin (USP),1-(2-Methyl-3-sulfanylpropanoyl)proline,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Doxazosin,Erlotinib,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Mitomycin C,Simvastatin,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Diazepam,Mitomycin C,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Carboplatin,Dasatinib,ABCG2 (BCRP),transporter inhibition,Unknown,No,0,No
+Lamotrigine,Vincristine,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Vincristine,Telmisartan,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Trimethoprim,Lenalidomide,ABCB1 (P-gp),"transporter induction, transporter inhibition",Unknown,No,0,No
+Methadone,Methotrexate,ABCB1 (P-gp),transporter inhibition,Unknown,No,0,No
+Venlafaxine,Carboplatin,ABCG2 (BCRP),transporter induction,Unknown,No,0,No
+Methotrexate,Trazodone,ABCB1 (P-gp),transporter induction,Unknown,No,0,No
+Clotrimazole,Carboplatin,ABCC2 (MRP2),transporter induction,Unknown,No,0,No
+Nifedipine,Carboplatin,ABCC2 (MRP2),transporter induction,Unknown,No,0,No
