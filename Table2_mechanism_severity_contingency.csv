@@ -1,0 +1,10 @@
+Mechanism,Minor,Moderate,Major,Total,% Major
+Synergistic,9,278,259,546,47.4
+MetabolismInhibition,1,52,198,251,78.9
+MetabolismInduction,3,52,54,109,49.5
+ProteinBinding,0,6,20,26,76.9
+Additive,2,15,1,18,5.6
+TransporterInhibition,0,0,8,8,100.0
+MultiPathways,0,4,0,4,0.0
+TransporterInduction,0,0,1,1,100.0
+TOTAL,15,407,541,963,56.2

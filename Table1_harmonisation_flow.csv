@@ -1,0 +1,8 @@
+Stage,Count
+GoldD3R mechanistically labelled pairs,"12,493"
+Unique GoldD3R CUIs,"1,601"
+CUIs mapped via Wikidata P2892 (73.0%),"1,168"
+Matched GoldD3R–DDInter pairs (overlap),"1,604"
+– with ≥1 D3 mechanism label,"1,064"
+– with 0 mechanism labels (excluded from tests),540 (33.7%)
+"Mechanism-annotated, non-Unknown analysis set (N)",963

@@ -1,0 +1,6 @@
+Hypothesis,OR,95% CI,FDR q,Verdict,Any-position OR,E-value
+H1 MetabolismInhibition → Major,4.02,2.87–5.63,3×10⁻¹⁷,Supported,1.67 (1.29–2.16),7.5
+H2 Synergistic → Moderate,2.32,1.77–3.02,1×10⁻⁹,Supported,2.70 (2.05–3.56),4.1
+H3 ProteinBinding → non-Major,0.38,0.15–0.94,0.054,Not supported (nominal only),–,–
+H4 MetabolismInduction → Major,0.74,0.50–1.10,0.15,Not supported,0.72 (n.s.),–
+H5 TransporterInhibition → Major,13.46,0.77–233.9,0.018,Exploratory (n = 8),1.40 (n.s.),–
