@@ -432,7 +432,7 @@ Stated plainly so that reusers do not over-read the resource.
 
 | Source | Role | Identifier |
 | --- | --- | --- |
-| GoldD3R (D3-derived) | Mechanistic DDI corpus, UMLS CUI-indexed | — |
+| GoldD3R (D3-derived) | Mechanistic DDI corpus, UMLS CUI-indexed | (https://doi.org/10.1093/jamia/ocw128) |
 | DDInter 2.0 | Clinical severity grades and mechanism layer | [doi:10.1093/nar/gkae726](https://doi.org/10.1093/nar/gkae726) |
 | PubChem | Compound identifiers and titles | [doi:10.1093/nar/gkac956](https://doi.org/10.1093/nar/gkac956) |
 | UniProt | Enzyme/transporter protein accessions | [doi:10.1093/nar/gkac1052](https://doi.org/10.1093/nar/gkac1052) |
