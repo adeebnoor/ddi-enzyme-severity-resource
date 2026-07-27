@@ -59,7 +59,7 @@ git clone https://github.com/adeebnoor/ddi-enzyme-severity-resource.git
 | `figures/` | جميع الأشكال بصيغتَي PNG وSVG مع شرح كل شكل في `FIGURES.md` |
 | `scripts/make_figures.py` | يعيد توليد كل الأشكال من ملفات البيانات مباشرة |
 | `examples/quickstart.py` | ستة أمثلة عملية جاهزة للتشغيل |
-| `validate.py` | يعيد اشتقاق كل الأرقام الموثَّقة (١٧٧ رقماً) من البيانات نفسها |
+| `validate.py` | يعيد اشتقاق كل الأرقام الموثَّقة (٢١٩ رقماً) من البيانات نفسها |
 | `CHECKSUMS.sha256` | بصمات SHA-256 لكل ملف |
 
 ## التحقّق من سلامة السجل

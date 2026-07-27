@@ -310,6 +310,44 @@ check("of those, graded Major",
 
 check("Micromedex pairs mapped", db["Micromedex pairs mapped"], "72")
 
+# ----------------------------------- machine-readable tables (tables/)
+TABLES = Path(__file__).parent / "tables"
+if TABLES.exists():
+    def tcsv(name):
+        with open(TABLES / name, encoding="utf-8", newline="") as fh:
+            return list(csv.DictReader(fh))
+
+    t4 = {r["Enzyme / transporter"]: r for r in tcsv("Table4_enzyme_odds_ratios.csv")}
+    for enz, st_row in stats.items():
+        if enz in t4:
+            check(f"Table 4 n pairs {enz}", t4[enz]["n pairs"], st_row["n_pairs"])
+            check(f"Table 4 OR {enz}", float(t4[enz]["OR"]), float(st_row["OR"]))
+
+    t6 = {r["Assigned severity"]: r for r in tcsv("Table6_drugbank_validation_by_severity.csv")}
+    for grade in ("Major", "Moderate", "Minor", "Unknown"):
+        d = sum(v["sev"] == grade for v in _pairs.values())
+        n = sum(v["sev"] == grade and v["hp"] for v in _pairs.values())
+        check(f"Table 6 n {grade}", int(t6[grade]["Pairs in resource (n)"]), d)
+        check(f"Table 6 confirmed {grade}",
+              int(t6[grade]["Confirmed hard-proven (n)"]), n)
+
+    t7 = {r["Assigned severity"]: r for r in tcsv("Table7_trueddi_validation_by_severity.csv")}
+    for grade in ("Major", "Moderate", "Minor", "Unknown"):
+        d = sum(1 for r in ddi if r["severity"] == grade)
+        n = sum(1 for r in ddi if r["severity"] == grade and r["in_trueDDI"] == "Yes")
+        check(f"Table 7 n {grade}", int(t7[grade]["Pairs in resource (n)"]), d)
+        check(f"Table 7 in trueDDI {grade}",
+              int(t7[grade]["Present in trueDDI (n)"]), n)
+
+    t8 = {r["Assigned severity"]: r for r in tcsv("Table8_kegg_validation_by_severity.csv")}
+    for grade in ("Major", "Moderate", "Minor", "Unknown"):
+        d = sum(1 for r in kegg if r["our_severity"] == grade)
+        n = sum(1 for r in kegg
+                if r["our_severity"] == grade and r["in_kegg_ddi"] == "True")
+        check(f"Table 8 n {grade}", int(t8[grade]["Pairs mapped to KEGG (n)"]), d)
+        check(f"Table 8 in KEGG {grade}",
+              int(t8[grade]["Present in KEGG DDI set (n)"]), n)
+
 # ------------------------------------------------------------------- report
 print(f"validate.py — {checks} documented figures checked against the released data")
 if failures:
