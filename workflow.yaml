@@ -3,8 +3,9 @@
   "release_version": "2.3.0",
   "snapshot_date": "2026-10-05",
   "archive": {
-    "reserved_doi": "10.5281/zenodo.23169653",
-    "status": "unpublished_draft"
+    "doi": "10.5281/zenodo.23169653",
+    "status": "published_version_2.3.0",
+    "repository_documentation": "post_publication_citation_and_licence_status_updates_scientific_files_unchanged_not_zip_byte_equivalence"
   },
   "original_source_reconstruction": "incomplete_exact_current_record_derivation",
   "source_manifest": "sources/sources.csv",

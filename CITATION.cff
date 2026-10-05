@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 title: An enzyme-resolved dataset linking drug interaction mechanisms to clinical severity grades
-message: Cite this dataset version; DOI 10.5281/zenodo.23169653 is reserved for an unpublished Zenodo draft and is not a published dataset DOI.
+message: Cite this dataset version by its Zenodo DOI.
+doi: 10.5281/zenodo.23169653
 type: dataset
 authors:
   - family-names: Noor
