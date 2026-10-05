@@ -45,10 +45,13 @@ print(cyp2c9_major[["drug_A", "drug_B", "enzymes", "mechanism"]]
 
 
 # ---------------------------------------------------------------------------
-banner(2, "Severity profile of each enzyme (long format is easier to group)")
+banner(2, "Severity occurrence profile of accession-backed genes")
 
 pairs = pd.read_csv(DERIVED / "enzyme_pair_severity.csv")
-profile = (pairs.groupby(["enzyme_gene", "severity"]).size()
+audit = pd.read_csv(DATA / "protein_annotation_audit.csv")
+resolved = audit[audit.annotation_resolution == "verified_unique_human_gene"]
+pairs = pairs.merge(resolved[["source_uniprot", "official_primary_gene"]], left_on="uniprot", right_on="source_uniprot", how="left", validate="many_to_one")
+profile = (pairs.dropna(subset=["official_primary_gene"]).groupby(["official_primary_gene", "severity"]).size()
            .unstack(fill_value=0)
            .reindex(columns=["Major", "Moderate", "Minor", "Unknown", "NotFound"],
                     fill_value=0))

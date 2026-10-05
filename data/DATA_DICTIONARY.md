@@ -1,6 +1,6 @@
 # Data dictionary
 
-Enzyme-resolved DDI research resource, review snapshot 2.1.0. Author code is MIT; author contributions are licensed only within rights the author owns. Missing upstream source permissions remain unresolved.
+Enzyme-resolved DDI research resource, review snapshot 2.2.0. Author code is MIT; author contributions are licensed only within rights the author owns. Missing upstream source permissions remain unresolved.
 
 **Third-party content.** DDInter 2.0 severity grades (CC BY-NC-SA 4.0) are not
 redistributed: the public tables carry DDInter identifiers, and
@@ -37,11 +37,11 @@ The primary resource: one row per drug pair.
 | `ddinter_ids_A` | string | DDInter 2.0 identifier(s) of drug A; semicolon-separated where the compound maps to several (16 CIDs do) |
 | `ddinter_ids_B` | string | DDInter 2.0 identifier(s) of drug B |
 | `enzymes` | string | Source-attributed protein label(s); may include shared targets rather than a proven pharmacokinetic mechanism, comma-separated gene symbols; transporter symbols carry a parenthesised common alias, e.g. `ABCB1 (P-gp)` |
-| `mechanism` | string | Mechanism class(es), comma-separated. Controlled values: `CYP inhibition`, `CYP induction`, `transporter inhibition`, `transporter induction` |
+| `mechanism` | string | Mechanism class(es), comma-separated. Historical controlled values: `CYP inhibition`, `CYP induction`, `transporter inhibition`, `transporter induction`. The CYP-labelled classes include general Enzyme and shared-target relations under the recovered D3 rules; they are not exclusively CYP pharmacokinetic mechanisms |
 
-Composition: 240 distinct drugs; 35 distinct source protein labels (34 after bare-symbol grouping);
+Composition: 240 distinct drugs; 35 distinct source protein labels and 35 accession-backed current human genes;
 mechanism-class occurrences CYP inhibition 1,547, transporter inhibition 667,
-CYP induction 630, transporter induction 228. Clinical-trial and trueDDI flags were withdrawn because their exact provenance could not be established.
+CYP induction 630, transporter induction 228. Clinical-trial and reference pair flags are excluded. Correct recovered trueDDI and DrugBank raw snapshots reproduce historical memberships; aggregate-only results are in reference_membership_aggregate.csv.
 
 **Severity.** `scripts/rebuild_severity.py` writes
 `data/derived/ddi_enzyme_database_with_severity.csv`, this table plus `severity`:
@@ -69,8 +69,8 @@ Long format: one row per pair × enzyme × direction.
 | `CID_B` | integer | PubChem Compound ID of drug B |
 | `drug_B` | string | Drug B name — same caveat as `drug_A` |
 | `enzyme_gene` | string | Single source protein label; not a validated causal attribution or independently verified HGNC mapping |
-| `uniprot` | string | UniProt accession for that protein. **Not a reliable normalisation key** — `SLCO1B1 (OATP1B1)` carries `Q4U2R8` while bare `SLCO1B1` carries `Q9Y6L6`, although both denote the same transporter |
-| `direction` | enum | Mechanism class for this pair × enzyme row: `inhibition`, `induction`, `transporter_inhibition`, `transporter_induction`. The bare terms denote CYP-mediated mechanisms; the `transporter_`-prefixed terms denote transporter-mediated ones |
+| `uniprot` | string | Preserved source UniProt accession. Current official audit resolves Q4U2R8 to SLC22A6, Q8TCC7 to SLC22A8, and Q9Y6L6 to SLCO1B1; two raw gene labels conflict with their accessions. Group using protein_annotation_audit.csv, not raw label stripping |
+| `direction` | enum | Mechanism class for this pair × enzyme row: `inhibition`, `induction`, `transporter_inhibition`, `transporter_induction`. The bare terms denote historical general Enzyme-rule attributions, including metabolism, substrate and has_target relations; the `transporter_`-prefixed terms denote historical transporter-rule attributions |
 
 Occurrences of `direction` are 1,547 `inhibition`, 667
 `transporter_inhibition`, 630 `induction` and 228 `transporter_induction`, which
@@ -85,10 +85,7 @@ input to `pipeline/enzyme_severity_stats.py`.
 
 ### `enzyme_severity_stats.csv` — 9 rows
 
-Per-enzyme association with `Major` severity, for the nine enzymes carrying at
-least **10 non-`Unknown`, inhibition-direction pairs**. (Fourteen enzymes have
-≥10 pairs overall; the inhibition and non-`Unknown` restrictions are what reduce
-the set to nine.)
+Per-gene association with `Major` severity, using verified accession-backed human identities for nine genes with at least **10 Major/Moderate/Minor inhibition-direction pairs**. The frozen official audit resolves all 35 accessions; unresolved annotations would be excluded (zero here). True SLCO1B1 has two graded pairs and is ineligible; corrected SLC22A6/OAT1 has 12 graded pairs, including six Major.
 
 | Column | Type | Description |
 | --- | --- | --- |
@@ -106,43 +103,17 @@ the set to nine.)
 | `q_fdr` | float | Benjamini–Hochberg FDR-adjusted *q*-value |
 | `direction_effect` | enum | `enriched_Major` or `depleted_Major` |
 
-Only `CYP2C9` (OR 2.78, *q* = 0.002) and `CYP3A4` (OR 0.44, *q* = 0.005)
-reach FDR significance; `SLCO1B1 (OATP1B1)` is nominal only (OR 3.92,
-*p* = 0.018, *q* = 0.055). Gene labels are normalised to the bare symbol before
-aggregation, and the comparator is all other graded inhibition-attributed pairs
-(disjoint arms); see `pipeline/enzyme_severity_stats.py`. The other seven rows do not reach the FDR threshold and are released for completeness; the
-`direction_effect` label on a non-significant row describes the point estimate
-only and must not be read as a finding.
+`CYP2C9` (OR 2.78, q=0.002), `CYP3A4` (OR 0.44, q=0.005) and `SLC22A6 (OAT1)` (OR 5.24, 95% CI 1.65–16.64, q=0.022) reach FDR<0.05 in this exploratory snapshot. The other six rows do not. Grouping uses verified accession-backed human genes; exposed and comparator arms are disjoint. True SLCO1B1 has two graded pairs and fails the minimum-10 threshold. The prior merged raw SLCO-labelled biological estimate is withdrawn because it conflated SLCO1B1 and SLC22A6. A non-significant row's `direction_effect` describes its point estimate only, not a finding. Protein identity resolution does not validate the underlying drug-pair relation.
 
-### `enzyme_phenotype_enrichment.csv` — 434 rows
-
-FDR-significant enzyme × adverse-event associations, covering 7 enzymes and
-338 distinct HPO terms.
-
-| Column | Type | Description |
-| --- | --- | --- |
-| `enzyme` | string | Enzyme / transporter gene symbol |
-| `HPO` | string | Human Phenotype Ontology term identifier, e.g. `HP:0012410` |
-| `AE_name` | string | HPO term label |
-| `observed` | integer | Observed enzyme–phenotype observation count |
-| `expected` | float | Expected count under the background model |
-| `log2FE` | float | log₂ fold enrichment of `observed` over `expected` |
-| `p` | float | Uncorrected *p*-value |
-| `q` | float | FDR-adjusted *q*-value |
-
-**Selected-only exploratory layer.** These previously reported signatures are not causal enzyme-attributable risk estimates. The original ontology snapshot, full observation matrix, all non-significant tests and correction universe are absent. Raw p and adjusted q are reported values, not independently recomputable from this selected-only export.
-
----
-
-## Historical reported aggregate comparisons
+## Descriptive historical reference comparisons
 
 ### `drugbank_validation_summary.csv` — 8 rows (`metric`, `value`)
 
-Reported counts from an unavailable original source snapshot: 1,172 enzyme pairs
+Exact author-held input snapshot recovered (16,316 unique pairs, dated correspondence 16 January 2017), reproducing 1,172 enzyme pairs
 DrugBank-mapped; 73 hard-proven confirmed (11 `Major`, 37 `Moderate`, 2
 `Minor`, 23 `Unknown`); 72 Micromedex pairs mapped, 35 in the intersection with
 the hard-proven set. Confirmation rate by grade: `Major` 25.0%, `Moderate`
-15.0%, `Minor` 7.7%, `Unknown` 2.7%; Cochran–Armitage trend *p* = 1.8 × 10⁻¹⁸.
+15.0%, `Minor` 7.7%, `Unknown` 2.7%. The Micromedex counts are historical reported aggregates; their licensed original input is not reconstructed.
 
 ### `kegg_validation_summary.csv` — 13 rows (`metric`, `value`)
 
@@ -189,18 +160,11 @@ locally.
 
 ## Known naming variation
 
-Enzyme labels retain source-level variation and should be normalised before
-aggregating:
+Raw source labels are preserved and must not be grouped by stripping aliases alone:
 
-- `SLCO1B1` and `SLCO1B1 (OATP1B1)` both occur and denote the same transporter,
-  **under two different UniProt accessions** (`Q9Y6L6`, the reviewed SwissProt
-  entry, and `Q4U2R8`). The statistics merge them
-  (*n* = 14); the raw labels are retained in this file.
-- `SLCO1B3? (OATP)` retains an upstream uncertainty marker (`?`) indicating a
-  tentative attribution in the source annotation.
-- Transporter symbols carry parenthesised aliases (`ABCB1 (P-gp)`,
-  `ABCG2 (BCRP)`, `ABCC2 (MRP2)`, `ABCC4 (MRP4)`, `SLCO1A2 (OATP1A2)`); CYP,
-  UGT, SLC and other symbols do not.
+- `SLCO1B1 (OATP1B1)` uses Q4U2R8, officially SLC22A6/OAT1. Bare `SLCO1B1` uses Q9Y6L6 and resolves to SLCO1B1; they are different proteins.
+- `SLCO1B3? (OATP)` uses Q8TCC7, officially SLC22A8/OAT3. The uncertainty marker does not repair the misidentification.
+- The frozen official crosswalk resolves all 35 accessions to current reviewed human genes; 33 raw symbols agree and two conflict. This resolves identifier identity only, leaving historical pair-level attributions subject to the source boundary.
 
 ---
 
@@ -211,28 +175,22 @@ metadata are in `sources/sources.csv`. Runnable release processing steps and exa
 script hashes are in `workflow.yaml`. Database publications identify a resource,
 not the exact historical input version. The deposited GoldD3R export is contextual;
 no documented transformation connects it to the primary enzyme-detail branch.
-Original enzyme-detail files, clinical-grading download snapshot and external
-comparison snapshots are absent. Structural validation and local grade rebuilding
-do not constitute complete original-source reconstruction.
+Original D3 Java/query logic is recovered: enzyme match combines an inhibits/induces relation with metabolism, substrate or has_target relation, protein type Enzyme, querying both drug orders. Transporter match combines transported-by with inhibits/induces and protein type Transporter. Two complete historical candidate graphs are recovered and assessed. The first matches 2256/3072 deposited CID–UniProt–direction keys, with 816 missing and 1675 extra within deposited pairs; the second yields zero core keys. Neither reconstructs exact current inputs or the original superset selection.
+
+The correct author-held trueDDI reference and DrugBank subset are recovered with exact hashes and dated archival correspondence. Their membership aggregates reproduce, but provider releases, actual export creation dates and clinical independence are not established by this audit. KEGG original snapshot remains unavailable. The incomplete phenotype layer is withdrawn entirely.
+
+### `reference_membership_aggregate.csv` — 10 rows
+
+Columns: `reference` (trueDDI or DrugBank), `grade` (All, Major, Moderate, Minor, Unknown), `resource_pairs`, `testable_pairs`, `reference_pairs` (integer counts), and `interpretation` (descriptive membership scope). trueDDI All = 229/1,900; DrugBank All = 73/1,172 testable out of 1,900 resource pairs. Each resource's per-grade denominators sum to its All row. Exact authorized source files can regenerate aggregates with scripts/rebuild_reference_membership.py; pair flags and raw input content are not exported.
 
 ## What the enzyme attribution does and does not mean
 
-The `enzymes` / `enzyme_gene` columns record the protein to which the source
-annotation attributes the interaction. For the great majority of rows that is a
-metabolising enzyme or a membrane transporter, which is the intended reading.
-A small number of rows are different in kind and should be handled explicitly:
+The `enzymes` / `enzyme_gene` columns record historical protein attribution. Recovered rules admit metabolism, substrate and shared-target relations; the historical CYP-labelled classes are not proof of a exclusively CYP-mediated pharmacokinetic mechanism. The separate current accession audit resolves protein identity, not the accuracy of this attribution.
 
-- **Shared pharmacodynamic target, not a pharmacokinetic mechanism.** 26 of the
-  1,900 pairs (1.4%) are attributed *only* to a gene of this type — `PTGS2`
-  (COX-2) for celecoxib + ketorolac, `CYP19A1` for anastrozole + letrozole
-  (both are aromatase inhibitors, so `CYP19A1` is their shared target rather
-  than the enzyme metabolising either one), `HPRT1`, `XDH`, `AOX1`, `PGD`,
-  `PTGS1`, `SLC31A1`. Two of the 26 are graded `Major`.
-- **Prodrug–metabolite pairs.** 5-fluorouracil + capecitabine and
-  azathioprine + 6-mercaptopurine appear as interacting pairs, but in each case
-  one member is a prodrug of the other. These co-occurrences are genuine in the
-  source data but are not drug–drug interactions in the mechanistic sense.
+Twenty-six primary pairs contain only labels in an analyst-defined target/atypical annotation set (`CYP19A1`, `PTGS1`, `PTGS2`, `HPRT1`, `XDH`, `AOX1`, `PGD`, `SLC31A1`); two are graded Major. This is a reproducible screening count, not a validated classification that every such pair acts only through shared pharmacodynamic targets. Prodrug/metabolite and combination-product labels also occur. Benchmark users should review these categories and define exclusions for their task explicitly.
 
+### `protein_annotation_audit.csv` — 35 rows
 
-Benchmark builders should exclude both categories; the row counts above make
-that a cheap filter.
+Separate curation record; original pair and attribution snapshots are unchanged. `source_label` and `source_uniprot` join the raw long table. `canonical_uniprot` and `canonical_accession_status` report the official accession (all current primary accessions); `official_primary_gene`, `organism` and `entry_reviewed` identify the current primary gene and species (all reviewed Homo sapiens). `source_symbol_matches_official` is No only for Q4U2R8 and Q8TCC7. `long_rows` counts original attribution rows. `annotation_resolution` is `verified_unique_human_gene` for all 35; unresolved or ambiguous entries must be excluded from gene analyses. `retrieved_date`, `uniprot_release` and `source_url` freeze acquisition metadata (2026-10-05; 2026_03). `interpretation` explicitly separates protein identity from validation of the drug-pair relation.
+
+`sources/uniprot_accession_gene_snapshot.tsv` contains the exact official 35-entry response, with HTTP release headers preserved beside it. UniProt Consortium annotations are CC BY 4.0 under their source terms. Browser-generated exports add `official_genes`, a semicolon-separated aggregate of accession-backed identities per unordered primary pair; raw `enzymes` remains separate.

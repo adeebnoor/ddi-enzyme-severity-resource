@@ -1,6 +1,6 @@
 enzyme,gene_symbol,n_pairs,n_major,pct_major,comparator_n,comparator_major,OR,CI_lo,CI_hi,p,q_fdr,direction_effect
+SLC22A6 (OAT1),SLC22A6,12,6,50.0,412,71,4.80,1.51,15.32,1.10e-02,0.033,enriched_Major
 CYP2C9,CYP2C9,75,28,37.3,349,49,3.65,2.09,6.37,1.03e-05,9.23e-05,enriched_Major
-SLCO1B1 (OATP1B1),SLCO1B1,14,6,42.9,410,71,3.58,1.21,10.64,2.62e-02,0.079,enriched_Major
 ABCB1 (P-gp),ABCB1,34,11,32.4,390,66,2.35,1.09,5.05,3.52e-02,0.079,enriched_Major
 ABCC2 (MRP2),ABCC2,17,4,23.5,407,73,1.41,0.45,4.44,5.26e-01,0.591,enriched_Major
 ABCC1,ABCC1,13,2,15.4,411,75,0.81,0.18,3.75,1.00e+00,1.000,depleted_Major

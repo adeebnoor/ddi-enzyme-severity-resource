@@ -10,10 +10,14 @@ authors:
 abstract: >-
   Author-derived review snapshot of 1900 drug pairs, 240 drugs and 35 source
   protein labels. DDInter clinical grades are reconstructed locally from the
-  user's authorised download. Original enzyme-detail sources and transformations
-  are missing, so complete original-source reconstruction is not claimed.
-  Includes exploratory statistics, reported aggregate external comparisons,
-  selected-only phenotype associations and a self-contained browser.
+  user's authorised download. Original D3 rule logic is recovered; complete
+  graph-to-current-record reconstruction remains unresolved. All 35 protein
+  accessions have a frozen current human gene audit; two source symbol conflicts
+  are resolved separately while raw annotations are preserved.
+  Includes exploratory statistics, recovered descriptive author-reference membership
+  comparisons, reported KEGG aggregates and a self-contained browser. The incomplete
+  selected phenotype layer is withdrawn. Original D3 rule logic is recovered; exact
+  full graph-to-current-record identity remains unresolved.
 keywords:
   - drug-drug interactions
   - cytochrome P450
@@ -22,5 +26,5 @@ keywords:
   - data provenance
 repository-code: https://github.com/adeebnoor/ddi-enzyme-severity-resource
 url: https://github.com/adeebnoor/ddi-enzyme-severity-resource
-version: 2.1.0
+version: 2.2.0
 date-released: 2026-10-05

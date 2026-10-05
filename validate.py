@@ -58,9 +58,6 @@ def tcsv(name):
 
 
 # ------------------------------------------------------------- statistics helpers
-def gene_symbol(label):
-    return re.split(r"[\s(]", label.strip(), maxsplit=1)[0].rstrip("?")
-
 
 def fisher_two_sided(a, b, c, d):
     r1, r2, c1, n = a + b, c + d, a + c, a + b + c + d
@@ -97,7 +94,8 @@ DOCUMENTED_ROWS = {
     "cid_drugbank_crosswalk.csv": 255,
     "enzyme_severity_stats.csv": 9,
     "enzyme_severity_stats_single_enzyme.csv": 9,
-    "enzyme_phenotype_enrichment.csv": 434,
+    "reference_membership_aggregate.csv": 10,
+    "protein_annotation_audit.csv": 35,
     "severity_summary.csv": 5,
     "drugbank_validation_summary.csv": 8,
     "kegg_validation_summary.csv": 13,
@@ -211,13 +209,7 @@ def check_stats_file(fname, n_included):
 stats = check_stats_file("enzyme_severity_stats.csv", 549)
 check_stats_file("enzyme_severity_stats_single_enzyme.csv", 424)
 check("FDR-significant enzymes",
-      {s["gene_symbol"] for s in stats if float(s["q_fdr"]) < 0.05}, {"CYP2C9", "CYP3A4"})
-
-# ---- phenotype layer
-pheno = rows("enzyme_phenotype_enrichment.csv")
-check("phenotype distinct enzymes", len({r["enzyme"] for r in pheno}), 7)
-check("phenotype distinct HPO terms", len({r["HPO"] for r in pheno}), 338)
-check("phenotype all FDR-significant", all(float(r["q"]) < 0.05 for r in pheno), True)
+      {s["gene_symbol"] for s in stats if float(s["q_fdr"]) < 0.05}, {"CYP2C9", "CYP3A4", "SLC22A6"})
 
 # ---- external-validation summaries (aggregate counts only) and their tables
 db = summary("drugbank_validation_summary.csv")
@@ -283,7 +275,6 @@ check("primary required columns", set(ddi[0]), {"drug_A","drug_B","CID_A","CID_B
 for name in ("SupplementaryTableS1_enzyme_statistics.csv", "SupplementaryTableS2_single_enzyme_sensitivity.csv"):
     source = "enzyme_severity_stats.csv" if "S1_" in name else "enzyme_severity_stats_single_enzyme.csv"
     check(f"{name} identical to data statistics", tcsv(name), rows(source))
-check("S4 identical to selected phenotype file", tcsv("SupplementaryTableS4_selected_phenotype.csv"), pheno)
 source_manifest = rows(ROOT / "sources" / "sources.csv")
 for entry in source_manifest:
     if entry["snapshot_path"] and entry["snapshot_status"] == "available_public":
@@ -291,10 +282,48 @@ for entry in source_manifest:
         check(f"source manifest file exists {entry['source_id']}", path.is_file(), True)
         if path.is_file():
             check(f"source manifest hash {entry['source_id']}", hashlib.sha256(path.read_bytes()).hexdigest(), entry["sha256"])
-    if entry["snapshot_status"] != "available_public":
+    if entry["snapshot_status"] == "known_author_held_private_not_redistributed":
+        check(f"private source hash valid {entry['source_id']}", bool(re.fullmatch(r"[0-9a-f]{64}", entry["sha256"])), True)
+        check(f"private source not deposited {entry['source_id']}", entry["snapshot_path"], "")
+    elif entry["snapshot_status"] != "available_public":
         check(f"missing snapshot hash honest {entry['source_id']}", entry["sha256"], "unknown")
+# Recovered reference metadata and aggregate arithmetic. No pair flags are public.
+ref = rows("reference_membership_aggregate.csv")
+for source, n, testable, k, grade_counts in (
+    ("trueDDI", 1900, 1900, 229, {"Major":42,"Moderate":118,"Minor":5,"Unknown":64}),
+    ("DrugBank", 1900, 1172, 73, {"Major":11,"Moderate":37,"Minor":2,"Unknown":23}),
+):
+    records = {r["grade"]:r for r in ref if r["reference"] == source}
+    total = records["All"]
+    check(f"{source} aggregate All", tuple(int(total[c]) for c in ("resource_pairs","testable_pairs","reference_pairs")), (n,testable,k))
+    check(f"{source} grade membership counts", {g:int(records[g]["reference_pairs"]) for g in grade_counts}, grade_counts)
+    for col in ("resource_pairs","testable_pairs","reference_pairs"):
+        check(f"{source} aggregate sum {col}", sum(int(records[g][col]) for g in grade_counts), int(total[col]))
+    for grade in grade_counts:
+        check(f"{source} valid count bounds {grade}", 0 <= int(records[grade]["reference_pairs"]) <= int(records[grade]["testable_pairs"]) <= int(records[grade]["resource_pairs"]), True)
+    table_source = "trueDDI author reference" if source == "trueDDI" else "DrugBank"
+    s3 = {r["grade"]:r for r in tcsv("SupplementaryTableS3_external_aggregate_counts.csv") if r["resource"] == table_source}
+    check(f"{source} S3 memberships agree", {g:int(s3[g]["confirmed_pairs"]) for g in grade_counts}, grade_counts)
+identities = rows(ROOT / "sources" / "recovered_reference_sources.csv")
+check("recovered private input hash set", {r["sha256"] for r in identities}, {"04d70f5575199bd9095d0730c6171b58aecbfbbcac157445e14913191f486f02", "8a36d3ccda8a54f8241f3db1cf83031972ee86090d9328901194b968ec86b057"})
+check("withdrawn phenotype CSV absent", (DATA / "enzyme_phenotype_enrichment.csv").exists(), False)
+check("withdrawn S4 absent", any(TABLES.glob("*S4*")), False)
+
+graph_audit = json.loads((ROOT / "sources" / "historical_graph_audit_summary.json").read_text())
+check("graph audit exact core identity", graph_audit["baseline_core_sha256"], hashlib.sha256((DATA / "enzyme_pair_attribution.csv").read_bytes()).hexdigest())
+for name in ("DDID_Data", "completeDDInew"):
+    archive = graph_audit[name]["archive_identity"]
+    canonical = json.dumps(archive["files"], sort_keys=True, separators=(",", ":")).encode()
+    check(f"{name} private archive file-list digest", hashlib.sha256(canonical).hexdigest(), archive["file_manifest_sha256"])
+    check(f"{name} private archive file count", len(archive["files"]), archive["file_count"])
+    check(f"{name} private archive byte count", sum(r["bytes"] for r in archive["files"]), archive["bytes"])
+first = graph_audit["DDID_Data"]
+check("historical graph current-key partition", first["matched_core_accession_keys"]+first["missing_core_accession_keys"], first["core_accession_keys"])
+check("historical graph candidate-key partition", first["matched_core_accession_keys"]+first["extra_accession_keys_within_core_pairs"], first["derived_unique_accession_keys_within_core_pairs"])
+check("both historical candidates lack exact core identity", (graph_audit["DDID_Data"]["exact_match"], graph_audit["completeDDInew"]["exact_match"]), (False,False))
+
 workflow = json.loads((ROOT / "workflow.yaml").read_text())
-check("workflow original reconstruction status", workflow["original_source_reconstruction"], "incomplete_missing_upstream_snapshots")
+check("workflow original reconstruction status", workflow["original_source_reconstruction"], "incomplete_exact_current_record_derivation")
 for step in workflow["steps"]:
     if step.get("script"):
         path = ROOT / step["script"]
@@ -303,11 +332,32 @@ for step in workflow["steps"]:
 html = (ROOT / "docs" / "index.html").read_text()
 embedded = json.loads(re.search(r"const DATA=(\[.*?\]);", html).group(1))
 check("browser primary record count", len(embedded), len(ddi))
-check("browser embedded values match public primary table", [{k:v for k,v in r.items() if k != "severity"} for r in embedded], ddi)
+check("browser embedded values match public primary table", [{k:v for k,v in r.items() if k not in {'severity', 'official_genes'}} for r in embedded], ddi)
 check("browser has no embedded severity grades", {r["severity"] for r in embedded}, {""})
 check("browser contains no withdrawn pair flags", any(x in html for x in ("in_trial", "trial_AEs", "in_trueDDI")), False)
 check("browser no third-party scripts", bool(re.search(r"<script[^>]+src=", html)), False)
 
+# Protein identity is audited separately from the original pair attribution.
+audit = rows("protein_annotation_audit.csv")
+mapping = {r["source_uniprot"]:r["official_primary_gene"] for r in audit
+           if r["annotation_resolution"]=="verified_unique_human_gene"}
+check("audit covers exact raw label/accession set", {(r["source_label"],r["source_uniprot"]) for r in audit}, {(r["enzyme_gene"],r["uniprot"]) for r in pairs})
+check("all 35 accessions uniquely resolved", len(mapping), 35)
+check("all audited entries human", {r["organism"] for r in audit}, {"Homo sapiens (Human)"})
+check("all audited entries reviewed", {r["entry_reviewed"] for r in audit}, {"reviewed"})
+check("all canonical accessions current", all(r["source_uniprot"]==r["canonical_uniprot"] and r["canonical_accession_status"]=="current_primary_accession" for r in audit), True)
+check("audit retrieval and release", {(r["retrieved_date"],r["uniprot_release"]) for r in audit}, {("2026-10-05","2026_03")})
+official_snapshot = {r["Entry"]:r for r in csv.DictReader((ROOT / "sources" / "uniprot_accession_gene_snapshot.tsv").open(encoding="utf-8"), delimiter="\t")}
+check("official snapshot accession set", set(official_snapshot), set(mapping))
+check("audit exact official identity fields", {(r["source_uniprot"],r["official_primary_gene"],r["organism"],r["entry_reviewed"]) for r in audit}, {(a,r["Gene Names (primary)"],r["Organism"],r["Reviewed"]) for a,r in official_snapshot.items()})
+check("audit exact long attribution counts", {r["source_uniprot"]:int(r["long_rows"]) for r in audit}, dict(Counter(r["uniprot"] for r in pairs)))
+check("exact two source label mismatches", {r["source_uniprot"] for r in audit if r["source_symbol_matches_official"]=="No"}, {"Q4U2R8","Q8TCC7"})
+check("accession identity corrections", (mapping["Q4U2R8"],mapping["Q8TCC7"],mapping["Q9Y6L6"]), ("SLC22A6","SLC22A8","SLCO1B1"))
+official = {}
+for r in pairs:
+    official.setdefault(key(r),set()).add(mapping[r["uniprot"]])
+check("browser exact official gene joins", {key(r):r["official_genes"] for r in embedded}, {k:";".join(sorted(v)) for k,v in official.items()})
+check("main legacy OATP row withdrawn", "SLCO1B1" in {r["gene_symbol"] for r in stats}, False)
 public_checks = checks
 
 # ============================================================= SEVERITY TIER
@@ -327,7 +377,9 @@ if severity_tier:
         key = tuple(sorted((r["CID_A"], r["CID_B"])))
         _sev[key] = r["severity"]
         if r["direction"] in ("inhibition", "transporter_inhibition"):
-            _inh.setdefault(key, set()).add(gene_symbol(r["enzyme_gene"]))
+            gene = mapping.get(r["uniprot"])
+            if gene:
+                _inh.setdefault(key, set()).add(gene)
     _incl = {k: g for k, g in _inh.items() if _sev[k] in {"Major", "Moderate", "Minor"}}
     check("graded inhibition-attributed pairs", len(_incl), 549)
     for fname, sub in (("enzyme_severity_stats.csv", _incl),

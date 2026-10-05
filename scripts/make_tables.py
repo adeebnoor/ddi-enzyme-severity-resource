@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Regenerate release inventory, boundary table and supplementary workbook.
 
-S1, S2 and S4 copy the public numeric records exactly. S3 is an author-supplied
-aggregate export; its original licensed source snapshots are unavailable and
-this script does not claim to recompute that external comparison.
+S1 and S2 copy the public numeric records exactly. S3 combines recovered
+author-reference membership aggregates for DrugBank/trueDDI and a reported
+KEGG aggregate. Raw sources are not redistributed; the separate reference
+rebuild script reproduces the first two comparisons from authorised copies.
 Requires openpyxl for the workbook; the CSV files use only the standard library.
 """
 import csv
@@ -33,9 +34,10 @@ def main():
         "cid_drugbank_crosswalk.csv": "PubChem CID to DrugBank identifier bridge; identifier-only export",
         "enzyme_severity_stats.csv": "Nine tested symbols among 549 graded inhibition-attributed pairs; exploratory reuse",
         "enzyme_severity_stats_single_enzyme.csv": "Sensitivity analysis among 424 graded pairs with one inhibition-attributed symbol",
-        "enzyme_phenotype_enrichment.csv": "434 selected previously reported significant associations; full test universe unavailable",
+        "protein_annotation_audit.csv": "35 verified current human gene identities by UniProt accession; 33 source symbols agree and 2 conflict",
+        "reference_membership_aggregate.csv": "Recovered author-reference membership counts: trueDDI and DrugBank; descriptive comparison",
         "severity_summary.csv": "Aggregate counts only: 93 Major, 419 Moderate, 50 Minor, 1338 Unknown, total 1900",
-        "drugbank_validation_summary.csv": "Historical reported aggregate comparison; original source snapshot unavailable",
+        "drugbank_validation_summary.csv": "Historical aggregate comparison; recovered 16316-pair author source reproduces 1172 testable / 73 matched pairs",
         "kegg_validation_summary.csv": "Historical reported aggregate comparison; original source snapshot unavailable",
         "liddi_coverage_comparison.csv": "Historical reported coverage comparison; original match intermediate unavailable",
     }
@@ -51,7 +53,6 @@ def main():
     for source, target in (
         ("enzyme_severity_stats.csv", "SupplementaryTableS1_enzyme_statistics.csv"),
         ("enzyme_severity_stats_single_enzyme.csv", "SupplementaryTableS2_single_enzyme_sensitivity.csv"),
-        ("enzyme_phenotype_enrichment.csv", "SupplementaryTableS4_selected_phenotype.csv"),
     ):
         write(target, read(ROOT / "data" / source))
     from openpyxl import Workbook
@@ -62,8 +63,7 @@ def main():
              "Table2_source_reproducibility_boundaries.csv": "Table2_Boundaries",
              "SupplementaryTableS1_enzyme_statistics.csv": "S1_Enzyme_Statistics",
              "SupplementaryTableS2_single_enzyme_sensitivity.csv": "S2_Single_Enzyme",
-             "SupplementaryTableS3_external_aggregate_counts.csv": "S3_Reported_Aggregates",
-             "SupplementaryTableS4_selected_phenotype.csv": "S4_Selected_Phenotype"}
+             "SupplementaryTableS3_external_aggregate_counts.csv": "S3_Reported_Aggregates"}
     for filename, title in names.items():
         data = read(TABLES / filename)
         ws = wb.create_sheet(title)
@@ -82,7 +82,7 @@ def main():
             for cell in cells:
                 cell.alignment = Alignment(vertical="top", wrap_text=True)
     wb.save(TABLES / "SupplementaryTables.xlsx")
-    print("Generated Tables 1-2, supplementary S1/S2/S4, and SupplementaryTables.xlsx; S3 retained as reported aggregate record.")
+    print("Generated Tables 1-2, supplementary S1/S2, and SupplementaryTables.xlsx; S3 retained as reported aggregate record.")
 
 
 if __name__ == "__main__":

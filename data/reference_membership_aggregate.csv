@@ -1,0 +1,11 @@
+reference,grade,resource_pairs,testable_pairs,reference_pairs,interpretation
+trueDDI,All,1900,1900,229,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+trueDDI,Major,93,93,42,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+trueDDI,Moderate,419,419,118,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+trueDDI,Minor,50,50,5,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+trueDDI,Unknown,1338,1338,64,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+DrugBank,All,1900,1172,73,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+DrugBank,Major,93,44,11,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+DrugBank,Moderate,419,246,37,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+DrugBank,Minor,50,26,2,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction
+DrugBank,Unknown,1338,856,23,Recovered author-archived membership comparison; independence/clinical validation not established by reproduction

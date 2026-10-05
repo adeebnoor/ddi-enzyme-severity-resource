@@ -157,9 +157,7 @@ def save(fig, stem):
 
 # ============================================================ figure 1
 def fig_enzyme_forest():
-    """Per-enzyme odds of Major severity. Emphasis form: the two enzymes that
-    survive FDR correction carry the diverging pair; the seven that do not are
-    grey, because they are null results and must not read as trends."""
+    """Per-gene exploratory association using frozen accession-backed identities."""
     st = rows("enzyme_severity_stats.csv")
     st.sort(key=lambda r: float(r["OR"]))
 
@@ -209,7 +207,7 @@ def fig_enzyme_forest():
         handletextpad=0.8, borderaxespad=0.6)
     _nsig = sum(float(r["q_fdr"]) < 0.05 for r in st)
     titles(fig, ax, "Exploratory enzyme-associated severity comparisons",
-           "Odds of a Major-severity grade for graded pairs inhibiting each enzyme, "
+           "Accession-backed genes; odds of Major severity for attributed inhibition pairs, "
            "versus all other graded inhibition pairs.\n"
            f"{_nsig} of {len(st)} results survive FDR correction; "
            f"the other {len(st) - _nsig} do not reach the threshold and are grey.")
@@ -218,53 +216,37 @@ def fig_enzyme_forest():
 
 # ============================================================ figure 2
 def fig_severity_confirmation():
-    """Assigned severity predicts independent confirmation, in two unrelated
-    external gold standards. Two series -> categorical slots 1 and 2."""
-    kg = summary("kegg_validation_summary.csv")
+    """Three historical reported membership comparisons; separate denominators."""
     grades = ["Major", "Moderate", "Minor", "Unknown"]
-
-    # Aggregate per-grade counts only: pair-level DrugBank and KEGG flags are not
-    # redistributed (third-party terms), so both series come from Tables 6 and 8.
-    def table(name):
-        with open(ROOT / "tables" / name, encoding="utf-8", newline="") as fh:
-            return {r["Assigned severity"]: r for r in csv.DictReader(fh)}
     with open(ROOT / "tables" / "SupplementaryTableS3_external_aggregate_counts.csv", encoding="utf-8") as fh:
         aggregate = list(csv.DictReader(fh))
-    db = {r["grade"]: r for r in aggregate if r["resource"] == "DrugBank"}
-    kgrows = {r["grade"]: r for r in aggregate if r["resource"] == "KEGG"}
-    den = {g: int(db[g]["testable_pairs"]) for g in grades}
-    drugbank = [100 * int(db[g]["confirmed_pairs"]) / den[g] for g in grades]
-    kegg = [100 * int(kgrows[g]["confirmed_pairs"]) / int(kgrows[g]["testable_pairs"]) for g in grades]
-
-    fig, ax = plt.subplots(figsize=(8.8, 4.4))
-    # limits first: hbar measures its corner radius and thickness cap in pixels
-    ax.set_ylim(len(grades) - 0.45, -0.55)     # inverted, explicit
-    ax.set_xlim(0, 44)
-    h = 0.26                      # bar thickness, leaves air in the band
-    off = 0.165                   # half-offset -> a clear surface gap between bars
-    for i, g in enumerate(grades):
-        hbar(ax, i - off, drugbank[i], h, BLUE)
-        hbar(ax, i + off, kegg[i], h, ORANGE)
-        ax.annotate(f"{drugbank[i]:.1f}%", xy=(drugbank[i], i - off),
-                    xytext=(7, 0), textcoords="offset points", va="center",
-                    fontsize=9, color=INK_2)
-        ax.annotate(f"{kegg[i]:.1f}%", xy=(kegg[i], i + off), xytext=(7, 0),
-                    textcoords="offset points", va="center", fontsize=9,
-                    color=INK_2)
-
+    series = [("DrugBank", "DrugBank archived subset", BLUE),
+              ("KEGG", "KEGG reported aggregate", ORANGE),
+              ("trueDDI author reference", "Author-labelled trueDDI reference", "#2c8a7b")]
+    by_source = {source: {r["grade"]: r for r in aggregate if r["resource"] == source}
+                 for source, label, color in series}
+    fig, ax = plt.subplots(figsize=(10.6, 5.8))
+    ax.set_ylim(len(grades) - 0.4, -0.7)
+    ax.set_xlim(0, 55)
+    for j, (source, label, color) in enumerate(series):
+        for i, grade in enumerate(grades):
+            row = by_source[source][grade]
+            rate = 100 * int(row["confirmed_pairs"]) / int(row["testable_pairs"])
+            y = i + (j - 1) * 0.23
+            hbar(ax, y, rate, 0.18, color)
+            ax.annotate(f"{rate:.1f}%", xy=(rate, y), xytext=(7, 0),
+                        textcoords="offset points", va="center", fontsize=9, color=INK_2)
     ax.set_yticks(range(len(grades)))
-    ax.set_yticklabels([f"{g}\nDB n={den[g]:,}; KEGG n={int(kgrows[g]['testable_pairs']):,}" for g in grades], fontsize=9.5,
-                       color=INK_2, linespacing=1.5)
-    ax.set_xlabel("Pairs present in the reported comparison set (%)", fontsize=9.5)
+    ax.set_yticklabels([f"{g}\nDB n={by_source['DrugBank'][g]['testable_pairs']}; KEGG n={by_source['KEGG'][g]['testable_pairs']}\nAuthor ref n={by_source['trueDDI author reference'][g]['testable_pairs']}"
+                        for g in grades], fontsize=8.5, color=INK_2, linespacing=1.3)
+    ax.set_xlabel("Pairs present in the reported reference set (%)", fontsize=9.5)
     style(ax)
-
-    ax.legend(handles=[
-        Line2D([], [], color=BLUE, linewidth=7, label="DrugBank reported aggregate"),
-        Line2D([], [], color=ORANGE, linewidth=7, label="KEGG reported aggregate"),
-    ], loc="lower right", frameon=False, fontsize=9, labelcolor=INK_2)
-    titles(fig, ax, "Reported aggregate external concordance",
-           "Per-grade denominators differ between the two comparison sets. Original source snapshots and\n"
-           "extraction workflows are unavailable; these historical counts are descriptive, not new independent validation.")
+    ax.legend(handles=[Line2D([], [], color=color, linewidth=7, label=label)
+                       for source, label, color in series], loc="lower right", frameon=False,
+              fontsize=9, labelcolor=INK_2)
+    titles(fig, ax, "Descriptive historical reference membership",
+           "DrugBank and author-labelled trueDDI counts reproduce from exact recovered author-held input snapshots.\n"
+           "KEGG remains a reported aggregate. Denominators differ; reproduction does not establish independent clinical validation.")
     save(fig, "fig4_external_concordance")
 
 
@@ -334,41 +316,10 @@ def fig_mechanism_classes():
                         [i[0] for i in items]], fontsize=10, color=INK_2)
     ax.set_xlabel("Pair occurrences", fontsize=9.5)
     style(ax)
-    titles(fig, ax, "How the interactions are mediated",
-           "A pair may carry more than one mechanism class, so occurrences "
-           "exceed the number of pairs.")
-    save(fig, "supp_fig2_mechanism_classes")
-
-
-# ============================================================ figure 5
-def fig_phenotype_enrichment():
-    """Top enzyme-phenotype signatures by fold enrichment. One hue: the bar
-    length already carries magnitude."""
-    ph = rows("enzyme_phenotype_enrichment.csv")
-    ph.sort(key=lambda r: float(r["log2FE"]), reverse=True)
-    top = ph[:12][::-1]
-
-    fig, ax = plt.subplots(figsize=(8.8, 5.2))
-    mx = max(float(r["log2FE"]) for r in top)
-    ax.set_xlim(0, mx * 1.14)
-    ax.set_ylim(-0.6, len(top) - 0.4)
-    for i, r in enumerate(top):
-        hbar(ax, i, float(r["log2FE"]), 0.44, BLUE)
-    ax.set_yticks(range(len(top)))
-    ax.set_yticklabels(
-        [f"{r['AE_name'][:44]}\n{r['enzyme']} · {int(float(r['observed'])):,} obs"
-         for r in top], fontsize=8.5, color=INK_2, linespacing=1.45)
-    for i, r in enumerate(top):
-        ax.annotate(f"{float(r['log2FE']):.2f}", xy=(float(r["log2FE"]), i),
-                    xytext=(7, 0), textcoords="offset points", va="center",
-                    fontsize=9, color=INK_2)
-    ax.set_xlabel("log₂ fold enrichment over the background model", fontsize=9.5)
-    style(ax)
-    titles(fig, ax, "Selected exploratory phenotype signatures",
-           "Top 12 of 434 FDR-significant associations. These are "
-           "drug-class-MEDIATED descriptive signatures,\nnot causal. The full tested universe is unavailable; FDR cannot be recomputed.")
-    save(fig, "supp_fig1_phenotype_selected")
-
+    titles(fig, ax, "Reported mechanism-class occurrences",
+           "Historical CYP-labelled classes include general Enzyme annotations and shared targets.\n"
+           "A pair may carry several classes, so occurrences exceed the number of pairs.")
+    save(fig, "supp_fig1_mechanism_classes")
 
 
 def fig_provenance():
@@ -383,8 +334,9 @@ def fig_provenance():
     box(.2,4.45,2.65,1.0,"GoldD3R author export\n21,897 pairs; 12,493 labelled\nExact deposited file hashed")
     box(.2,2.8,2.65,1.0,"Contextual harmonisation\nHistorical results not regenerated\nOriginal intermediates absent",True)
     arrow(1.52,4.4,1.52,3.86,True)
-    ax.text(1.52,1.9,"No documented derivation link\nto the enzyme-resolved resource",ha="center",va="center",fontsize=9.5,color=INK_2,linespacing=1.5)
-    box(3.6,4.45,2.85,1.0,"Original enzyme-detail inputs\nSource snapshot absent\nTransformation unavailable",True)
+    box(.2,.85,2.65,1.05,"UniProt identity audit\n35 reviewed human accessions\n2 source symbols corrected")
+    arrow(2.92,1.38,3.5,1.38)
+    box(3.6,4.45,2.85,1.0,"Original D3 enzyme branch\nHistorical graph + rules recovered\nCurrent-record identity unresolved",True)
     box(3.6,2.8,2.85,1.0,"Released author-derived snapshots\n1,900 unique drug pairs\n3,072 pair–protein–direction rows")
     arrow(5.03,4.4,5.03,3.86,True)
     box(7.15,4.45,2.65,1.0,"User-acquired DDInter 2.0 CSVs\nSource-specific terms apply\nNot deposited as clinical grades",True)
@@ -393,8 +345,8 @@ def fig_provenance():
     arrow(6.53,3.3,7.05,3.3)
     box(3.6,.85,2.85,1.05,"Exploratory association example\n549 graded inhibition pairs\n424 single-enzyme sensitivity pairs")
     arrow(7.95,2.73,6.1,1.96)
-    box(7.15,.85,2.65,1.05,"Historical external aggregates\nDrugBank / KEGG inputs absent\nNo source-level reanalysis claim",True)
-    ax.text(.2,.1,"Solid: deposited/exported processing. Dashed: missing original inputs or historical reported layer. Unknown metadata remain explicit.",ha="left",fontsize=9,color=INK_2)
+    box(7.15,.85,2.65,1.05,"Historical reference comparison\nDrugBank / trueDDI recovered\nKEGG snapshot unresolved",True)
+    ax.text(.2,.1,"Solid: deposited/exported steps. Dashed: current-record lineage unresolved or historical reported layer. Identity does not validate pair relations.",ha="left",fontsize=9,color=INK_2)
     fig.suptitle("Provenance and reproducibility boundaries",x=.075,ha="left",fontsize=14,fontweight="bold")
     save(fig,"fig1_provenance")
 
@@ -405,5 +357,4 @@ if __name__ == "__main__":
     fig_severity_confirmation()
     fig_severity_composition()
     fig_mechanism_classes()
-    fig_phenotype_enrichment()
     print("Done.")

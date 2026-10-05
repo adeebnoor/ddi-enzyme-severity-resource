@@ -3,8 +3,9 @@
 
 Why this script exists
 ----------------------
-DDInter 2.0 is distributed under CC BY-NC-SA 4.0, which is not compatible with the
-CC BY 4.0 licence of this record, so the severity grades are not redistributed here.
+DDInter 2.0 is distributed under its own CC BY-NC-SA 4.0 terms. Clinical grades
+are excluded from this public record; obtain an authorised provider download
+and follow the source terms when reconstructing or reusing them.
 The public tables instead carry the DDInter identifiers of both drugs in every pair.
 Download DDInter 2.0 yourself (https://ddinter2.scbdd.com/download/, free for
 non-commercial use under its own terms) and run:

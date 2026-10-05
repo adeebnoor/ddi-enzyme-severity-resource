@@ -1,0 +1,355 @@
+{
+  "audit_date": "2026-10-05",
+  "status": "historical_graphs_recovered_but_exact_current_core_not_reconstructed",
+  "baseline_core_sha256": "a43e37c6aac4074a823647f10c9fb476b022b4d34ffb7f9559a4bc31fa1ef6f6",
+  "key_comparison": "canonical unordered integer CID pair + UniProt accession + mechanism direction; raw labels evaluated separately, never silently relabelled",
+  "DDID_Data": {
+    "archive_identity": {
+      "file_count": 27,
+      "bytes": 1944828267,
+      "file_manifest_sha256": "95017a520c88defcea778235188e3e528ae622f0a534b896cfe5c3a2f6e749d5",
+      "manifest_encoding": "UTF-8 JSON list sorted by filename, keys sorted, separators comma/colon, no whitespace",
+      "files": [
+        {
+          "name": "GOSP.dat",
+          "bytes": 243269632,
+          "sha256": "1db347ee0f64ae5f7c932337f3a41a391ececa7a26a308a2c96310161a2d9cc6"
+        },
+        {
+          "name": "GOSP.idn",
+          "bytes": 8388608,
+          "sha256": "538dbbe6611b4a452328588836b0ae7516909bfa0dc5579e45ff08315bfcaad6"
+        },
+        {
+          "name": "GPOS.dat",
+          "bytes": 251658240,
+          "sha256": "f8943e92fe2a0f52e69b9f8da5459bf4f187db8d5b20f1456b795ee8e6f6aa91"
+        },
+        {
+          "name": "GPOS.idn",
+          "bytes": 8388608,
+          "sha256": "71f0151fdbaf80db7543bdd929d89663f878f5568333b56194a254ef23210ee7"
+        },
+        {
+          "name": "GSPO.dat",
+          "bytes": 251658240,
+          "sha256": "e34f863f78fe3dd9e4fc63d9e72a53e215a1ae4fcb43a63d1f262cc013f68429"
+        },
+        {
+          "name": "GSPO.idn",
+          "bytes": 8388608,
+          "sha256": "4ef33a3aa0b82af78a5271f809e9e67a2e88855d04fa7d48b54a89c58c119893"
+        },
+        {
+          "name": "OSP.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "OSP.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "OSPG.dat",
+          "bytes": 243269632,
+          "sha256": "57fbdb353b2ff31fc7636b2f2d84b7af1dfa4d98bcd20da03cde821e171e1d93"
+        },
+        {
+          "name": "OSPG.idn",
+          "bytes": 8388608,
+          "sha256": "94463d71da602b5e69e8999787cec777881c4bc86a786257ae71f483dbb89f04"
+        },
+        {
+          "name": "POS.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "POS.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "POSG.dat",
+          "bytes": 251658240,
+          "sha256": "e98aedb3fd9c99ae6d13e03ebf2246bf7e7496defbd5b65ad4f9b18df75eeb2a"
+        },
+        {
+          "name": "POSG.idn",
+          "bytes": 8388608,
+          "sha256": "1b9fc6475af4e2116f012bdaaec0b2087a5ecf2afca7be0320235c7726d3b9c4"
+        },
+        {
+          "name": "SPO.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "SPO.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "SPOG.dat",
+          "bytes": 251658240,
+          "sha256": "b687c873215f1b6e85ae8693db160ec52e17b18a06ace3bc03d0580b9666396e"
+        },
+        {
+          "name": "SPOG.idn",
+          "bytes": 8388608,
+          "sha256": "3a71cbf98496c3a4df4cae300421e1249b84ab24fe782a8ddda011291cf3ad76"
+        },
+        {
+          "name": "journal.jrnl",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "node2id.dat",
+          "bytes": 100663296,
+          "sha256": "b19b0f7cae812e3237d1c2a70eb64935cc5a544507a25fe1b3671c45a45f682a"
+        },
+        {
+          "name": "node2id.idn",
+          "bytes": 8388608,
+          "sha256": "cb1247633ad69639f593e92ebeb0676699e54dcf4f2a057be7a02913b1035582"
+        },
+        {
+          "name": "nodes.dat",
+          "bytes": 208386411,
+          "sha256": "d6a9c47e3091e7541ffb111c2ba3e366dcafbb6605762dbde8cf71b74fd28317"
+        },
+        {
+          "name": "prefix2id.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "prefix2id.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "prefixIdx.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "prefixIdx.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "prefixes.dat",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "graph_triples": 3042274,
+    "pubchem_xref_rows": 6676,
+    "mapped_core_cids": 208,
+    "core_cids": 240,
+    "pairs_with_both_cids_mapped": 1545,
+    "core_pairs": 1900,
+    "derived_unique_accession_keys_within_core_pairs": 3931,
+    "matched_core_accession_keys": 2256,
+    "missing_core_accession_keys": 816,
+    "extra_accession_keys_within_core_pairs": 1675,
+    "core_accession_keys": 3072,
+    "exact_match": false,
+    "raw_label_matches": 0,
+    "diagnostic_gene_label_matches": 2253,
+    "complete_flat_export_triples": 667565,
+    "complete_flat_export_sha256": "aa430744e51964eecc72d57ff800a77a104a70f9650cc0bfcf5a59b14787d51c",
+    "old_and_new_official_jena_flat_exports_byte_identical": true
+  },
+  "completeDDInew": {
+    "archive_identity": {
+      "file_count": 27,
+      "bytes": 882384525,
+      "file_manifest_sha256": "383c92b4a67c4e42953e4ed1ce93fa87cb053b421ecd0cda06ab4570b4902433",
+      "manifest_encoding": "UTF-8 JSON list sorted by filename, keys sorted, separators comma/colon, no whitespace",
+      "files": [
+        {
+          "name": "GOSP.dat",
+          "bytes": 117440512,
+          "sha256": "5e0af42917584c602eb6396b28cacb806afc2a89e932ad78d6a65f9316a06651"
+        },
+        {
+          "name": "GOSP.idn",
+          "bytes": 8388608,
+          "sha256": "4b4ad9c3bf1c3615c16d62f19a3dcd8c792986bd52fa488303de688e9c54d35d"
+        },
+        {
+          "name": "GPOS.dat",
+          "bytes": 117440512,
+          "sha256": "3e66c86ed81ad43bb9c7f6777a8c1e4c7d4285be9848f6ef7c4234b63e8e3cb1"
+        },
+        {
+          "name": "GPOS.idn",
+          "bytes": 8388608,
+          "sha256": "0a37902ffd40d6242d28372ca6b817d3825fe3cdc6d8dc169eb1e4cf00f71c3a"
+        },
+        {
+          "name": "GSPO.dat",
+          "bytes": 125829120,
+          "sha256": "b071659adee28f4d5405316a8c48882f0eb1d51da09c1f36395b4b6e253b1353"
+        },
+        {
+          "name": "GSPO.idn",
+          "bytes": 8388608,
+          "sha256": "249f2ac143500657b8cd4dd0f5da555b0c6a9aee38f2d8c13e4c32aebf7311dc"
+        },
+        {
+          "name": "OSP.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "OSP.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "OSPG.dat",
+          "bytes": 117440512,
+          "sha256": "2a1ee053d28eb819b341d846b0a0c20a0551b882daefb8c83fc2d3b87474836e"
+        },
+        {
+          "name": "OSPG.idn",
+          "bytes": 8388608,
+          "sha256": "1e5a070342deefa2d9f358d624a946c0382b8cd678dc84e145a02060831678d6"
+        },
+        {
+          "name": "POS.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "POS.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "POSG.dat",
+          "bytes": 117440512,
+          "sha256": "d3399031519320a2cdd93b750bd2f712551f0a13f7155a27deb717bfaa11bffb"
+        },
+        {
+          "name": "POSG.idn",
+          "bytes": 8388608,
+          "sha256": "b1759529d243b9ef685588d90ea9cfba36745f1c140105a20ff2db536094394f"
+        },
+        {
+          "name": "SPO.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "SPO.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "SPOG.dat",
+          "bytes": 125829120,
+          "sha256": "4e1f416a2bb444e9ccadc3f8f5f00e88add511a13727f1782538742d0c75391b"
+        },
+        {
+          "name": "SPOG.idn",
+          "bytes": 8388608,
+          "sha256": "4d0809d5e209296574dc0b273c5fa55f8079370fdba61707b68b015ffdcb6a11"
+        },
+        {
+          "name": "journal.jrnl",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "node2id.dat",
+          "bytes": 8388608,
+          "sha256": "36dee026fc0e4d9f29e8038cdc30d57662e03bcf52b5bcc01e727a10c36f0a0d"
+        },
+        {
+          "name": "node2id.idn",
+          "bytes": 8388608,
+          "sha256": "36b325cd142bff22b8933d9beae113afcc9d27ce6e46a97a9fd7e815b0713257"
+        },
+        {
+          "name": "nodes.dat",
+          "bytes": 9969293,
+          "sha256": "1732e6d0b35559be920f07b594eccb72cdf28384d9a5befaf1efc6f8ee46b443"
+        },
+        {
+          "name": "prefix2id.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "prefix2id.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "prefixIdx.dat",
+          "bytes": 8388608,
+          "sha256": "1d50bee2b0f2935978d6b32404cc168e93c71fb0bb95d4691955280a7f83c63c"
+        },
+        {
+          "name": "prefixIdx.idn",
+          "bytes": 8388608,
+          "sha256": "a184e236d2cf202eb67946d909c73c285db42d1471bd7a7806287de07b06a81e"
+        },
+        {
+          "name": "prefixes.dat",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    "graph_triples": 1845731,
+    "ddi_association_nodes": 68183,
+    "drug_nodes": 1617,
+    "enzyme_or_transporter_typed_nodes": 0,
+    "pubchem_xref_rows": 0,
+    "derived_core_accession_keys": 0,
+    "matched_core_accession_keys": 0,
+    "exact_match": false,
+    "branch": "CUI-indexed DDI association corpus, not drug-protein pharmacology relation graph",
+    "nonempty_protein_ontology_pathway_values": 480,
+    "nonempty_non_unclassified_plaintext_pk_mechanisms": 82,
+    "named_source_counts": {
+      "Kegg": 26329,
+      "Drugbank": 11840,
+      "Twosides": 9921,
+      "OSCAR": 7753,
+      "SemMedDB": 3605,
+      "NDF-RT": 2598,
+      "ONC-NonInteruptive": 2079,
+      "DDI-Corpus-2013": 1282,
+      "ONC-HighPriority": 1150,
+      "DDI-Corpus-2011": 573,
+      "DIKB": 560,
+      "NLM-Corpus": 246,
+      "PK-Corpus": 165,
+      "CredibleMeds": 82
+    },
+    "annotation_date_values": "literal None in all 68183 records"
+  },
+  "protein_identity_crosscheck": {
+    "Q4U2R8": "SLC22A6 in archivedgraph; does notidentify SLCO1B1",
+    "Q9Y6L6": "SLCO1B1 in archivedgraph",
+    "Q8TCC7": "SLC22A8 in archivedgraph; does notidentify SLCO1B3",
+    "Q9NPD5": "SLCO1B3 in archivedgraph"
+  },
+  "limits": [
+    "Existing published pairs were tested; this does not reproduce the original upstream superset or selection.",
+    "Exact source editions, current core-producing graph/mapping inputs and redistribution rights are not established by archived file hashes or timestamps.",
+    "Firstgraph targetedprovenance/version/licence queries found no records. Secondgraph names source resources, but provides no verified source editions or licence grant; annotation dates are placeholder None.",
+    "Both Jena4.10 and original-eraJena2.10 fail a multijoin on an archivedindex. Successful complete flat extraction is byte-identical across both versions; Python joins are used.",
+    "No raw graph data, credentials, private correspondence or signeddownloadURLs are included in this summary."
+  ],
+  "source_provenance": "Author-held historical graph archives recovered during this audit. Archived file-copy timestamps do not identify provider releases, original export creation dates or redistribution rights."
+}

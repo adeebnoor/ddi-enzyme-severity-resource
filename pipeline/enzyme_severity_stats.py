@@ -9,8 +9,9 @@ Output: data/enzyme_severity_stats.csv               (tested enzymes, primary an
 
 Analysis rule (stated in the Methods of the Data Descriptor):
 
-  * Gene labels are normalised to the bare source symbol before aggregation
-    ("SLCO1B1 (OATP1B1)" and "SLCO1B1" -> SLCO1B1; "SLCO1B3? (OATP)" -> SLCO1B3).
+  * Protein accessions are mapped to verified unique human genes using the
+    frozen data/protein_annotation_audit.csv. Unresolved rows are excluded.
+    This resolves protein identity, not the validity of a drug-protein relation.
   * Unit of analysis: the unique unordered drug pair.
   * Included pairs: severity in {Major, Moderate, Minor} and at least one
     inhibition-direction attribution (direction = inhibition or transporter_inhibition).
@@ -28,7 +29,6 @@ Requires: Python 3.10+, scipy.
 """
 import csv
 import math
-import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -38,14 +38,26 @@ ROOT = Path(__file__).resolve().parents[1]
 INHIBITION = {"inhibition", "transporter_inhibition"}
 GRADED = {"Major", "Moderate", "Minor"}
 MIN_PAIRS = 10
-# display label used in tables and figures (alias kept for readability)
-DISPLAY = {"SLCO1B1": "SLCO1B1 (OATP1B1)", "ABCB1": "ABCB1 (P-gp)",
-           "ABCC2": "ABCC2 (MRP2)", "ABCC4": "ABCC4 (MRP4)", "ABCG2": "ABCG2 (BCRP)",
-           "SLCO1A2": "SLCO1A2 (OATP1A2)", "SLCO1B3": "SLCO1B3 (OATP)"}
+# Common aliases are display aids; grouping uses accession-backed primary genes.
+DISPLAY = {"SLC22A6": "SLC22A6 (OAT1)", "SLC22A8": "SLC22A8 (OAT3)",
+           "SLCO1B1": "SLCO1B1 (OATP1B1)", "ABCB1": "ABCB1 (P-gp)",
+           "ABCC2": "ABCC2 (MRP2)", "ABCC4": "ABCC4 (MRP4)", "ABCG2": "ABCG2 (BCRP)"}
 
 
-def gene_symbol(label: str) -> str:
-    return re.split(r"[\s(]", label.strip(), maxsplit=1)[0].rstrip("?")
+def accession_genes():
+    with (ROOT / "data" / "protein_annotation_audit.csv").open(encoding="utf-8", newline="") as fh:
+        audit = list(csv.DictReader(fh))
+    mapping = {}
+    for row in audit:
+        if row["annotation_resolution"] != "verified_unique_human_gene":
+            continue
+        if row["organism"] != "Homo sapiens (Human)" or not row["official_primary_gene"] or len(row["official_primary_gene"].split()) != 1:
+            raise ValueError("Invalid verified gene-resolution record.")
+        accession, gene = row["source_uniprot"], row["official_primary_gene"]
+        if accession in mapping and mapping[accession] != gene:
+            raise ValueError("Conflicting accession-to-gene resolution.")
+        mapping[accession] = gene
+    return mapping
 
 
 def odds_ratio(a, b, c, d):
@@ -69,6 +81,8 @@ def bh(pvals):
 
 def load():
     sev, genes = {}, defaultdict(set)
+    mapping = accession_genes()
+    excluded_rows = 0
     src = ROOT / "data" / "derived" / "enzyme_pair_severity.csv"
     if not src.exists():
         raise SystemExit("Run scripts/rebuild_severity.py <your DDInter 2.0 download> first.")
@@ -77,8 +91,13 @@ def load():
             pair = tuple(sorted((r["CID_A"], r["CID_B"])))
             sev[pair] = r["severity"]
             if r["direction"] in INHIBITION:
-                genes[pair].add(gene_symbol(r["enzyme_gene"]))
+                gene = mapping.get(r["uniprot"])
+                if gene:
+                    genes[pair].add(gene)
+                else:
+                    excluded_rows += 1
     included = {p: g for p, g in genes.items() if sev[p] in GRADED}
+    print(f"Unresolved inhibition-attribution rows excluded: {excluded_rows}")
     return sev, included
 
 
