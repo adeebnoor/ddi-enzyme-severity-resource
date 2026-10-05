@@ -2,9 +2,12 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Copyright (c) 2026 Adeeb Noor
 
-The data files, documentation and interactive browser contained in this
-repository are licensed under the Creative Commons Attribution 4.0
-International License.
+MIT applies to author-written code (validate.py, scripts/, pipeline/, examples/).
+CC BY 4.0 applies to original author-written documentation, figures and original
+contributions to derived tables only to the extent the author owns those rights.
+It does not relicense third-party content or establish permissions for unresolved
+upstream enzyme-detail inputs. Original source terms continue to apply. See
+sources/sources.csv and README.md for explicit rights and provenance boundaries.
 
 You are free to:
 
@@ -39,15 +42,38 @@ SUGGESTED ATTRIBUTION
 
 THIRD-PARTY SOURCE DATA
 
-This licence applies to the derived, harmonised tables released here. The
-upstream source datasets (GoldD3R, DDInter 2.0, PubChem, UniProt, HPO,
-DrugBank, KEGG, MIMIC-IV demo, LIDDI, Micromedex) remain subject to their own
-terms; see the provenance table in README.md. Content from sources whose terms
-do not permit redistribution is represented only as aggregate counts and is not
-included in this repository.
+The rights of the original enzyme-detail source snapshot are unresolved. No
+blanket licence guarantee is asserted for that absent source or for source-derived
+annotations. The deposited GoldD3R file is an author-supplied export whose exact
+upstream permissions have not been independently established in this review.
+DDInter pair-level clinical grades, DrugBank and KEGG pair-level content, MIMIC
+content and private trial/trueDDI material are excluded from this release.
+Use local reconstructed DDInter grades under DDInter's own terms.
 
 DISCLAIMER
 
 This resource is provided for research purposes. It is not medical advice and
 must not be used as a sole basis for clinical decision-making. The material is
 provided "as is", without warranty of any kind.
+
+MIT LICENSE (code)
+
+Copyright (c) 2026 Adeeb Noor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,10 @@
+enzyme,gene_symbol,n_pairs,n_major,pct_major,comparator_n,comparator_major,OR,CI_lo,CI_hi,p,q_fdr,direction_effect
+CYP2C9,CYP2C9,75,28,37.3,349,49,3.65,2.09,6.37,1.03e-05,9.23e-05,enriched_Major
+SLCO1B1 (OATP1B1),SLCO1B1,14,6,42.9,410,71,3.58,1.21,10.64,2.62e-02,0.079,enriched_Major
+ABCB1 (P-gp),ABCB1,34,11,32.4,390,66,2.35,1.09,5.05,3.52e-02,0.079,enriched_Major
+ABCC2 (MRP2),ABCC2,17,4,23.5,407,73,1.41,0.45,4.44,5.26e-01,0.591,enriched_Major
+ABCC1,ABCC1,13,2,15.4,411,75,0.81,0.18,3.75,1.00e+00,1.000,depleted_Major
+CYP1A2,CYP1A2,31,3,9.7,393,74,0.46,0.14,1.56,3.30e-01,0.425,depleted_Major
+CYP2C19,CYP2C19,35,3,8.6,389,74,0.40,0.12,1.34,1.69e-01,0.253,depleted_Major
+CYP3A4,CYP3A4,145,13,9.0,279,64,0.33,0.18,0.62,3.05e-04,0.001,depleted_Major
+CYP2D6,CYP2D6,32,2,6.2,392,75,0.28,0.07,1.21,9.23e-02,0.166,depleted_Major

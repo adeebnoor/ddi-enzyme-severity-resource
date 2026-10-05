@@ -10,13 +10,23 @@ pandas is used here only because it is what most reusers will reach for).
 
 Each example prints a short, readable result so you can check the recipe does
 what the comment says before adapting it.
+
+Severity grades come from DDInter 2.0 (CC BY-NC-SA 4.0) and are not redistributed in
+this record. Recipes 1-3 and 6 need them: first run
+    python3 scripts/rebuild_severity.py <your DDInter 2.0 download>
+which writes data/derived/. Recipes 4 and 5 run on the public files alone.
 """
+import sys
 
 from pathlib import Path
 
 import pandas as pd
 
 DATA = Path(__file__).resolve().parent.parent / "data"
+DERIVED = DATA / "derived"
+if not (DERIVED / "ddi_enzyme_database_with_severity.csv").exists():
+    sys.exit("Run scripts/rebuild_severity.py <your DDInter 2.0 download> first "
+             "(DDInter grades are not redistributed in this record).")
 
 
 def banner(n, title):
@@ -24,9 +34,9 @@ def banner(n, title):
 
 
 # ---------------------------------------------------------------------------
-banner(1, "Every Major-severity interaction mediated by CYP2C9")
+banner(1, "Every Major-severity pair annotated with CYP2C9")
 
-ddi = pd.read_csv(DATA / "ddi_enzyme_database.csv")
+ddi = pd.read_csv(DERIVED / "ddi_enzyme_database_with_severity.csv")
 cyp2c9_major = ddi[(ddi.severity == "Major")
                    & ddi.enzymes.str.contains("CYP2C9", na=False)]
 print(f"{len(cyp2c9_major)} pairs\n")
@@ -37,10 +47,10 @@ print(cyp2c9_major[["drug_A", "drug_B", "enzymes", "mechanism"]]
 # ---------------------------------------------------------------------------
 banner(2, "Severity profile of each enzyme (long format is easier to group)")
 
-pairs = pd.read_csv(DATA / "enzyme_pair_severity.csv")
+pairs = pd.read_csv(DERIVED / "enzyme_pair_severity.csv")
 profile = (pairs.groupby(["enzyme_gene", "severity"]).size()
            .unstack(fill_value=0)
-           .reindex(columns=["Major", "Moderate", "Minor", "Unknown"],
+           .reindex(columns=["Major", "Moderate", "Minor", "Unknown", "NotFound"],
                     fill_value=0))
 profile["total"] = profile.sum(axis=1)
 print(profile.sort_values("total", ascending=False).head(10).to_string())
@@ -61,29 +71,29 @@ print(hits[["partner", "enzymes", "mechanism", "severity"]]
 
 
 # ---------------------------------------------------------------------------
-banner(4, "Only the externally corroborated pairs")
+banner(4, "Exact single-enzyme attribution subset")
 
-# in_trueDDI and in_trial are independent flags; requiring both is the
-# strictest filter the resource supports.
-strict = ddi[(ddi.in_trueDDI == "Yes") & (ddi.in_trial == "Yes")]
-print(f"{len(strict)} pairs are in BOTH the trueDDI gold set and the "
-      f"clinical-trial set\n")
-print(strict.sort_values("trial_AEs", ascending=False)
-      [["drug_A", "drug_B", "enzymes", "severity", "trial_AEs"]]
-      .head(8).to_string(index=False))
+# Source labels describe annotations, not independent external confirmation.
+single = ddi[ddi.enzymes.str.split(",").map(len) == 1]
+print(f"{len(single)} primary pairs have one source protein label")
+print(single[["drug_A", "drug_B", "enzymes", "mechanism"]].head(8).to_string(index=False))
 
 
 # ---------------------------------------------------------------------------
 banner(5, "Joining to DrugBank via the crosswalk")
 
 cross = pd.read_csv(DATA / "cid_drugbank_crosswalk.csv")
-flagged = pd.read_csv(DATA / "enzyme_pair_drugbank_flagged.csv")
-print("The pair table already carries DrugBank accessions (DB_A, DB_B); use the "
-      "crosswalk\nwhen you are starting from PubChem CIDs of your own.\n")
-print(f"crosswalk: {len(cross)} CID → DrugBank mappings")
-confirmed = flagged[flagged.drugbank_hard_proven == "Yes"]
-print(f"pair rows independently confirmed in DrugBank: {len(confirmed)}\n")
-print(confirmed[["drug_A", "drug_B", "DB_A", "DB_B", "enzyme_gene", "severity"]]
+print(f"crosswalk: {len(cross)} PubChem CID -> DrugBank accession mappings\n")
+cid_cols = [c for c in cross.columns if "cid" in c.lower()]
+db_cols = [c for c in cross.columns if c not in cid_cols]
+m = (ddi.merge(cross, left_on="CID_A", right_on=cid_cols[0], how="left")
+        .merge(cross, left_on="CID_B", right_on=cid_cols[0], how="left",
+               suffixes=("_A", "_B")))
+both = m.dropna(subset=[f"{db_cols[0]}_A", f"{db_cols[0]}_B"])
+print(f"{len(both)} of {len(ddi)} pairs have DrugBank accessions for both drugs.")
+print("DrugBank interaction content itself is not redistributed (DrugBank terms);\n"
+      "join these accessions to your own licensed DrugBank release.\n")
+print(both[["drug_A", "drug_B", f"{db_cols[0]}_A", f"{db_cols[0]}_B"]]
       .head(6).to_string(index=False))
 
 
@@ -96,8 +106,8 @@ print(f"{n_unknown:,} of {len(ddi):,} pairs ({100 * n_unknown / len(ddi):.0f}%) 
 print("Unknown means DDInter records no clinical grade — NOT that the pair is\n"
       "safe. For a supervised task, drop these rows or model them as missing;\n"
       "do not treat them as negatives.\n")
-graded = ddi[ddi.severity != "Unknown"]
-print(f"Rows suitable for supervised use: {len(graded)}")
+graded = ddi[ddi.severity.isin(["Major", "Moderate", "Minor"])]
+print(f"Rows carrying observed grades (additional benchmark exclusions still required): {len(graded)}")
 print(graded.severity.value_counts().to_string())
 
 print("\nDone. See ../README.md for the full file inventory and the caveats "

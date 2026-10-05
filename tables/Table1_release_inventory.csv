@@ -1,0 +1,12 @@
+file,rows,record
+data/ddi_enzyme_database.csv,1900,Primary unique unordered drug pairs; identifiers and source annotations; no clinical grades or withdrawn validation flags
+data/enzyme_pair_attribution.csv,3072,Long-format pair x source protein label x direction annotations
+data/cid_severity_bridge.csv,448,Candidate PubChem CID to DDInter identifier bridge; 240 non-empty display names
+data/cid_drugbank_crosswalk.csv,255,PubChem CID to DrugBank identifier bridge; identifier-only export
+data/enzyme_severity_stats.csv,9,Nine tested symbols among 549 graded inhibition-attributed pairs; exploratory reuse
+data/enzyme_severity_stats_single_enzyme.csv,9,Sensitivity analysis among 424 graded pairs with one inhibition-attributed symbol
+data/enzyme_phenotype_enrichment.csv,434,434 selected previously reported significant associations; full test universe unavailable
+data/severity_summary.csv,5,"Aggregate counts only: 93 Major, 419 Moderate, 50 Minor, 1338 Unknown, total 1900"
+data/drugbank_validation_summary.csv,8,Historical reported aggregate comparison; original source snapshot unavailable
+data/kegg_validation_summary.csv,13,Historical reported aggregate comparison; original source snapshot unavailable
+data/liddi_coverage_comparison.csv,7,Historical reported coverage comparison; original match intermediate unavailable

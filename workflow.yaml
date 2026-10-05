@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "release_version": "2.1.0",
+  "snapshot_date": "2026-10-05",
+  "archive": {
+    "reserved_doi": "10.5281/zenodo.23169653",
+    "status": "unpublished_draft"
+  },
+  "original_source_reconstruction": "incomplete_missing_upstream_snapshots",
+  "source_manifest": "sources/sources.csv",
+  "clinical_grade_fingerprint": "aa59130abacc7ef80249c419bc693b9d417d91d2dfc489ff25adf17fb2fc7609",
+  "branches": [
+    {
+      "id": "contextual_goldd3r",
+      "input": "sources/GoldD3R.txt",
+      "link_to_enzyme_branch": "unestablished",
+      "original_transformation_status": "unavailable"
+    },
+    {
+      "id": "enzyme_primary",
+      "original_input": "unavailable enzyme-detail input files",
+      "released_exports": [
+        "data/ddi_enzyme_database.csv",
+        "data/enzyme_pair_attribution.csv"
+      ],
+      "original_transformation_status": "unavailable"
+    },
+    {
+      "id": "external_aggregates",
+      "original_inputs": "unavailable DrugBank and KEGG snapshots",
+      "released_exports": [
+        "tables/SupplementaryTableS3_external_aggregate_counts.csv"
+      ],
+      "interpretation": "historical_descriptive_reported_values"
+    },
+    {
+      "id": "selected_phenotype",
+      "original_inputs": "unavailable full observation and testing universe",
+      "released_exports": [
+        "data/enzyme_phenotype_enrichment.csv"
+      ],
+      "interpretation": "selected_only_exploratory_usage_no_reanalysis_claim"
+    }
+  ],
+  "steps": [
+    {
+      "id": "severity_join",
+      "script": "scripts/rebuild_severity.py",
+      "script_sha256": "b2db12a5636d932d130e234d807e0c2eefb63ccb08bc75156b19919d469fd3e4",
+      "inputs": [
+        "data/ddi_enzyme_database.csv",
+        "data/enzyme_pair_attribution.csv",
+        "user_authorised_DDInter_CSVs"
+      ],
+      "outputs": [
+        "data/derived/ddi_enzyme_database_with_severity.csv",
+        "data/derived/enzyme_pair_severity.csv"
+      ],
+      "status": "requires_external_authorised_source_download"
+    },
+    {
+      "id": "enzyme_statistics",
+      "script": "pipeline/enzyme_severity_stats.py",
+      "script_sha256": "aa08c32b896ce828c4b6f73a9266dba5fdff3f078c4262470906bb39ec23201c",
+      "inputs": [
+        "data/derived/enzyme_pair_severity.csv"
+      ],
+      "outputs": [
+        "data/enzyme_severity_stats.csv",
+        "data/enzyme_severity_stats_single_enzyme.csv"
+      ],
+      "status": "recomputable_after_reference_grade_fingerprint_match"
+    },
+    {
+      "id": "browser",
+      "script": "scripts/make_browser.py",
+      "script_sha256": "963c3d69fddd88e7c7a1361dfecf11458d015d51a19a4a87487181c0f436451c",
+      "inputs": [
+        "data/ddi_enzyme_database.csv"
+      ],
+      "outputs": [
+        "docs/index.html"
+      ],
+      "status": "recomputable_from_public_snapshots"
+    },
+    {
+      "id": "tables",
+      "script": "scripts/make_tables.py",
+      "script_sha256": "00c163c479f41d059cb1230db3f4394e918b72f35c1d8d9c4fba969a8e1cf892",
+      "inputs": [
+        "data/*.csv",
+        "sources/sources.csv",
+        "tables/SupplementaryTableS3_external_aggregate_counts.csv"
+      ],
+      "outputs": [
+        "tables/Table1_release_inventory.csv",
+        "tables/Table2_source_reproducibility_boundaries.csv",
+        "tables/SupplementaryTableS1_enzyme_statistics.csv",
+        "tables/SupplementaryTableS2_single_enzyme_sensitivity.csv",
+        "tables/SupplementaryTableS4_selected_phenotype.csv",
+        "tables/SupplementaryTables.xlsx"
+      ],
+      "status": "recomputable_from_public_exports_not_original_external_sources"
+    },
+    {
+      "id": "figures",
+      "script": "scripts/make_figures.py",
+      "script_sha256": "42ad1b6e26a006568606f7cd6a76d311884c7a33399533a97e4977cf889ee075",
+      "inputs": [
+        "data/*.csv",
+        "tables/SupplementaryTableS3_external_aggregate_counts.csv"
+      ],
+      "outputs": [
+        "figures/*.png",
+        "figures/*.svg",
+        "figures/*.pdf"
+      ],
+      "status": "summaries_recomputable_from_public_exports_provenance_diagram_documents_boundaries"
+    },
+    {
+      "id": "validation",
+      "script": "validate.py",
+      "script_sha256": "ec34235ece0d44c5c2390cae8c5c85b45a15e9520079312505e9333e5352f1ee",
+      "inputs": [
+        "data/*.csv",
+        "tables/*.csv",
+        "sources/sources.csv",
+        "workflow.yaml",
+        "docs/index.html",
+        "optional_local_data/derived"
+      ],
+      "outputs": [],
+      "status": "structural_arithmetic_snapshot_identity_checks_not_upstream_source_validation"
+    }
+  ],
+  "private_material_excluded": [
+    "clinical_pair_grades",
+    "trial_and_trueDDI_private_exports",
+    "git_bundle_with_historical_restricted_data",
+    "original_source_test_slices"
+  ]
+}

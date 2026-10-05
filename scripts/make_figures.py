@@ -23,7 +23,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.path import Path as MplPath
-from matplotlib.patches import PathPatch
+from matplotlib.patches import PathPatch, FancyBboxPatch, FancyArrowPatch
 from matplotlib.lines import Line2D
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -147,8 +147,8 @@ def save(fig, stem):
     # Deterministic output: no embedded timestamp, fixed element-id salt. Two
     # runs on the same data produce byte-identical files, so CHECKSUMS.sha256
     # stays valid after regenerating the figures.
-    meta = {"png": {"Software": None}, "svg": {"Date": None}}
-    for ext in ("png", "svg"):
+    meta = {"png": {"Software": None}, "svg": {"Date": None}, "pdf": {"CreationDate": None, "ModDate": None}}
+    for ext in ("png", "svg", "pdf"):
         fig.savefig(FIGS / f"{stem}.{ext}", dpi=200, bbox_inches="tight",
                     pad_inches=0.28, metadata=meta[ext])
     plt.close(fig)
@@ -157,8 +157,8 @@ def save(fig, stem):
 
 # ============================================================ figure 1
 def fig_enzyme_forest():
-    """Per-enzyme odds of Major severity. Emphasis form: the three enzymes that
-    survive FDR correction carry the diverging pair; the six that do not are
+    """Per-enzyme odds of Major severity. Emphasis form: the two enzymes that
+    survive FDR correction carry the diverging pair; the seven that do not are
     grey, because they are null results and must not read as trends."""
     st = rows("enzyme_severity_stats.csv")
     st.sort(key=lambda r: float(r["OR"]))
@@ -207,11 +207,13 @@ def fig_enzyme_forest():
                label="Not significant after FDR correction"),
     ], loc="lower right", frameon=False, fontsize=9, labelcolor=INK_2,
         handletextpad=0.8, borderaxespad=0.6)
-    titles(fig, ax, "Which enzymes carry the severe interactions",
-           "Odds of a Major-severity grade for pairs attributed to each enzyme, "
-           "versus all other pairs.\nOnly three results survive FDR correction; "
-           "the other six are null and are shown in grey.")
-    save(fig, "fig1_enzyme_forest")
+    _nsig = sum(float(r["q_fdr"]) < 0.05 for r in st)
+    titles(fig, ax, "Exploratory enzyme-associated severity comparisons",
+           "Odds of a Major-severity grade for graded pairs inhibiting each enzyme, "
+           "versus all other graded inhibition pairs.\n"
+           f"{_nsig} of {len(st)} results survive FDR correction; "
+           f"the other {len(st) - _nsig} do not reach the threshold and are grey.")
+    save(fig, "fig3_enzyme_forest")
 
 
 # ============================================================ figure 2
@@ -221,19 +223,18 @@ def fig_severity_confirmation():
     kg = summary("kegg_validation_summary.csv")
     grades = ["Major", "Moderate", "Minor", "Unknown"]
 
-    # DrugBank rates are re-derived from the released pair table, not copied
-    # from the summary: unique pairs per grade, and how many are hard-proven.
-    pairs = {}
-    for r in rows("enzyme_pair_drugbank_flagged.csv"):
-        k = (r["CID_A"], r["CID_B"])
-        pairs.setdefault(k, {"sev": r["severity"], "hp": False})
-        if r["drugbank_hard_proven"] == "Yes":
-            pairs[k]["hp"] = True
-    den = {g: sum(v["sev"] == g for v in pairs.values()) for g in grades}
-    num = {g: sum(v["sev"] == g and v["hp"] for v in pairs.values())
-           for g in grades}
-    drugbank = [100 * num[g] / den[g] for g in grades]
-    kegg = [float(kg[f"{g}_confirm_pct"]) for g in grades]
+    # Aggregate per-grade counts only: pair-level DrugBank and KEGG flags are not
+    # redistributed (third-party terms), so both series come from Tables 6 and 8.
+    def table(name):
+        with open(ROOT / "tables" / name, encoding="utf-8", newline="") as fh:
+            return {r["Assigned severity"]: r for r in csv.DictReader(fh)}
+    with open(ROOT / "tables" / "SupplementaryTableS3_external_aggregate_counts.csv", encoding="utf-8") as fh:
+        aggregate = list(csv.DictReader(fh))
+    db = {r["grade"]: r for r in aggregate if r["resource"] == "DrugBank"}
+    kgrows = {r["grade"]: r for r in aggregate if r["resource"] == "KEGG"}
+    den = {g: int(db[g]["testable_pairs"]) for g in grades}
+    drugbank = [100 * int(db[g]["confirmed_pairs"]) / den[g] for g in grades]
+    kegg = [100 * int(kgrows[g]["confirmed_pairs"]) / int(kgrows[g]["testable_pairs"]) for g in grades]
 
     fig, ax = plt.subplots(figsize=(8.8, 4.4))
     # limits first: hbar measures its corner radius and thickness cap in pixels
@@ -252,38 +253,29 @@ def fig_severity_confirmation():
                     color=INK_2)
 
     ax.set_yticks(range(len(grades)))
-    ax.set_yticklabels([f"{g}\nn = {den[g]:,}" for g in grades], fontsize=9.5,
+    ax.set_yticklabels([f"{g}\nDB n={den[g]:,}; KEGG n={int(kgrows[g]['testable_pairs']):,}" for g in grades], fontsize=9.5,
                        color=INK_2, linespacing=1.5)
-    ax.set_xlabel("Pairs independently confirmed (%)", fontsize=9.5)
+    ax.set_xlabel("Pairs present in the reported comparison set (%)", fontsize=9.5)
     style(ax)
 
     ax.legend(handles=[
-        Line2D([], [], color=BLUE, linewidth=7, solid_capstyle="butt",
-               label="DrugBank hard-proven set   "
-                     r"(trend $p = 1.8\times10^{-18}$)"),
-        Line2D([], [], color=ORANGE, linewidth=7, solid_capstyle="butt",
-               label="Curated KEGG DDI set   "
-                     r"(trend $p = 9.6\times10^{-26}$)"),
-    ], loc="lower right", frameon=False, fontsize=9, labelcolor=INK_2,
-        handletextpad=0.9, borderaxespad=0.5, labelspacing=0.7)
-
-    titles(fig, ax, "Assigned severity predicts independent confirmation",
-           "Confirmation rate in two external gold standards that were not used "
-           "to build the resource. The DrugBank\ngradient is monotone; in KEGG, "
-           "Major and Moderate are indistinguishable, but graded pairs still "
-           "confirm\nfar more often than ungraded ones. n = pairs testable in "
-           "each gold standard.")
-    save(fig, "fig2_severity_confirmation")
+        Line2D([], [], color=BLUE, linewidth=7, label="DrugBank reported aggregate"),
+        Line2D([], [], color=ORANGE, linewidth=7, label="KEGG reported aggregate"),
+    ], loc="lower right", frameon=False, fontsize=9, labelcolor=INK_2)
+    titles(fig, ax, "Reported aggregate external concordance",
+           "Per-grade denominators differ between the two comparison sets. Original source snapshots and\n"
+           "extraction workflows are unavailable; these historical counts are descriptive, not new independent validation.")
+    save(fig, "fig4_external_concordance")
 
 
 # ============================================================ figure 3
 def fig_severity_composition():
     """Part-to-whole across an ordered scale -> stacked bar on the ordinal ramp.
     Unknown is grey: it is the absence of a grade, not a level of the scale."""
-    ddi = rows("ddi_enzyme_database.csv")
-    counts = {g: sum(r["severity"] == g for r in ddi)
-              for g in ("Major", "Moderate", "Minor", "Unknown")}
-    total = len(ddi)
+    # aggregate counts; the pair-level grades are not redistributed (DDInter licence)
+    summ = {r["grade"]: int(r["pairs"]) for r in rows("severity_summary.csv")}
+    counts = {g: summ[g] for g in ("Major", "Moderate", "Minor", "Unknown")}
+    total = summ["Total"]
 
     fig, ax = plt.subplots(figsize=(8.6, 2.3))
     x = 0.0
@@ -313,7 +305,7 @@ def fig_severity_composition():
            "“Unknown” means DDInter records no clinical grade for the pair — it "
            "does not mean the pair is safe.\nTreating it as a negative class will "
            "bias any downstream analysis.")
-    save(fig, "fig3_severity_composition")
+    save(fig, "fig2_severity_composition")
 
 
 # ============================================================ figure 4
@@ -345,7 +337,7 @@ def fig_mechanism_classes():
     titles(fig, ax, "How the interactions are mediated",
            "A pair may carry more than one mechanism class, so occurrences "
            "exceed the number of pairs.")
-    save(fig, "fig4_mechanism_classes")
+    save(fig, "supp_fig2_mechanism_classes")
 
 
 # ============================================================ figure 5
@@ -372,15 +364,43 @@ def fig_phenotype_enrichment():
                     fontsize=9, color=INK_2)
     ax.set_xlabel("log₂ fold enrichment over the background model", fontsize=9.5)
     style(ax)
-    titles(fig, ax, "Strongest enzyme–adverse-event signatures",
+    titles(fig, ax, "Selected exploratory phenotype signatures",
            "Top 12 of 434 FDR-significant associations. These are "
-           "drug-class-MEDIATED descriptive signatures,\nnot causal, "
-           "enzyme-attributable adverse-event risk.")
-    save(fig, "fig5_phenotype_enrichment")
+           "drug-class-MEDIATED descriptive signatures,\nnot causal. The full tested universe is unavailable; FDR cannot be recomputed.")
+    save(fig, "supp_fig1_phenotype_selected")
 
+
+
+def fig_provenance():
+    """Explicitly separate contextual GoldD3R and unresolved enzyme input branches."""
+    fig, ax = plt.subplots(figsize=(10.6, 6.4))
+    ax.set_xlim(0, 10); ax.set_ylim(0, 6); ax.axis("off")
+    def box(x,y,w,h,text,missing=False):
+        ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.07",facecolor="#f2f4f6" if missing else "#eaf2fc",edgecolor=GREY if missing else BLUE,linestyle="--" if missing else "-",linewidth=1.2))
+        ax.text(x+w/2,y+h/2,text,ha="center",va="center",fontsize=9.5,color=INK,linespacing=1.5)
+    def arrow(x1,y1,x2,y2,dashed=False):
+        ax.add_patch(FancyArrowPatch((x1,y1),(x2,y2),arrowstyle="-|>",mutation_scale=12,linewidth=1.1,color=INK_2,linestyle="--" if dashed else "-"))
+    box(.2,4.45,2.65,1.0,"GoldD3R author export\n21,897 pairs; 12,493 labelled\nExact deposited file hashed")
+    box(.2,2.8,2.65,1.0,"Contextual harmonisation\nHistorical results not regenerated\nOriginal intermediates absent",True)
+    arrow(1.52,4.4,1.52,3.86,True)
+    ax.text(1.52,1.9,"No documented derivation link\nto the enzyme-resolved resource",ha="center",va="center",fontsize=9.5,color=INK_2,linespacing=1.5)
+    box(3.6,4.45,2.85,1.0,"Original enzyme-detail inputs\nSource snapshot absent\nTransformation unavailable",True)
+    box(3.6,2.8,2.85,1.0,"Released author-derived snapshots\n1,900 unique drug pairs\n3,072 pair–protein–direction rows")
+    arrow(5.03,4.4,5.03,3.86,True)
+    box(7.15,4.45,2.65,1.0,"User-acquired DDInter 2.0 CSVs\nSource-specific terms apply\nNot deposited as clinical grades",True)
+    box(7.15,2.8,2.65,1.0,"Identifier join + max-grade rule\nExpected 93 / 419 / 50 / 1,338\nSHA-256 joined-grade fingerprint")
+    arrow(8.48,4.4,8.48,3.86)
+    arrow(6.53,3.3,7.05,3.3)
+    box(3.6,.85,2.85,1.05,"Exploratory association example\n549 graded inhibition pairs\n424 single-enzyme sensitivity pairs")
+    arrow(7.95,2.73,6.1,1.96)
+    box(7.15,.85,2.65,1.05,"Historical external aggregates\nDrugBank / KEGG inputs absent\nNo source-level reanalysis claim",True)
+    ax.text(.2,.1,"Solid: deposited/exported processing. Dashed: missing original inputs or historical reported layer. Unknown metadata remain explicit.",ha="left",fontsize=9,color=INK_2)
+    fig.suptitle("Provenance and reproducibility boundaries",x=.075,ha="left",fontsize=14,fontweight="bold")
+    save(fig,"fig1_provenance")
 
 if __name__ == "__main__":
     print("Regenerating figures from data/ …")
+    fig_provenance()
     fig_enzyme_forest()
     fig_severity_confirmation()
     fig_severity_composition()

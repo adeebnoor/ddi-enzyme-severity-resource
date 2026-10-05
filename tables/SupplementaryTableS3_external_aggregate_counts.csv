@@ -1,0 +1,9 @@
+resource,grade,testable_pairs,confirmed_pairs,confirmation_percent,provenance_status
+DrugBank,Major,44,11,25.0,reported_aggregate_exact_upstream_snapshot_unavailable
+DrugBank,Moderate,246,37,15.0,reported_aggregate_exact_upstream_snapshot_unavailable
+DrugBank,Minor,26,2,7.7,reported_aggregate_exact_upstream_snapshot_unavailable
+DrugBank,Unknown,856,23,2.7,reported_aggregate_exact_upstream_snapshot_unavailable
+KEGG,Major,57,20,35.1,reported_aggregate_exact_upstream_snapshot_unavailable
+KEGG,Moderate,268,95,35.4,reported_aggregate_exact_upstream_snapshot_unavailable
+KEGG,Minor,28,4,14.3,reported_aggregate_exact_upstream_snapshot_unavailable
+KEGG,Unknown,890,85,9.6,reported_aggregate_exact_upstream_snapshot_unavailable
