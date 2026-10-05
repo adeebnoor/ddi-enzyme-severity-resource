@@ -272,6 +272,14 @@ check("primary unordered pair uniqueness", len({key(r) for r in ddi}), len(ddi))
 check("no self pairs", all(r["CID_A"] != r["CID_B"] for r in ddi), True)
 check("long pair-gene-direction tuples unique", len({(key(r), r["enzyme_gene"], r["direction"]) for r in pairs}), len(pairs))
 check("primary required columns", set(ddi[0]), {"drug_A","drug_B","CID_A","CID_B","ddinter_ids_A","ddinter_ids_B","enzymes","mechanism"})
+sys.path.insert(0, str(ROOT / "scripts"))
+from rebuild_primary_snapshot import aggregate_records, assert_record_equivalence
+try:
+    assert_record_equivalence(aggregate_records(pairs, bridge), ddi)
+    primary_equivalent = True
+except ValueError:
+    primary_equivalent = False
+check("primary record contents reconstruct from attribution and bridge", primary_equivalent, True)
 for name in ("SupplementaryTableS1_enzyme_statistics.csv", "SupplementaryTableS2_single_enzyme_sensitivity.csv"):
     source = "enzyme_severity_stats.csv" if "S1_" in name else "enzyme_severity_stats_single_enzyme.csv"
     check(f"{name} identical to data statistics", tcsv(name), rows(source))
@@ -308,6 +316,11 @@ identities = rows(ROOT / "sources" / "recovered_reference_sources.csv")
 check("recovered private input hash set", {r["sha256"] for r in identities}, {"04d70f5575199bd9095d0730c6171b58aecbfbbcac157445e14913191f486f02", "8a36d3ccda8a54f8241f3db1cf83031972ee86090d9328901194b968ec86b057"})
 check("withdrawn phenotype CSV absent", (DATA / "enzyme_phenotype_enrichment.csv").exists(), False)
 check("withdrawn S4 absent", any(TABLES.glob("*S4*")), False)
+figure_stems = {"fig1_provenance", "fig2_severity_composition", "fig3_enzyme_forest",
+                "fig4_external_concordance", "supp_fig1_mechanism_classes"}
+check("released figure artifact set excludes superseded exports",
+      {p.name for p in (ROOT / "figures").iterdir() if p.suffix in {".pdf", ".png", ".svg"}},
+      {f"{stem}.{ext}" for stem in figure_stems for ext in ("pdf", "png", "svg")})
 
 graph_audit = json.loads((ROOT / "sources" / "historical_graph_audit_summary.json").read_text())
 check("graph audit exact core identity", graph_audit["baseline_core_sha256"], hashlib.sha256((DATA / "enzyme_pair_attribution.csv").read_bytes()).hexdigest())
@@ -353,6 +366,8 @@ check("audit exact official identity fields", {(r["source_uniprot"],r["official_
 check("audit exact long attribution counts", {r["source_uniprot"]:int(r["long_rows"]) for r in audit}, dict(Counter(r["uniprot"] for r in pairs)))
 check("exact two source label mismatches", {r["source_uniprot"] for r in audit if r["source_symbol_matches_official"]=="No"}, {"Q4U2R8","Q8TCC7"})
 check("accession identity corrections", (mapping["Q4U2R8"],mapping["Q8TCC7"],mapping["Q9Y6L6"]), ("SLC22A6","SLC22A8","SLCO1B1"))
+oat1_rows = [r for r in pairs if mapping.get(r["uniprot"]) == "SLC22A6"]
+check("OAT1 raw attribution rows are methotrexate-centred", (len(oat1_rows), all(4112 in key(r) for r in oat1_rows)), (18, True))
 official = {}
 for r in pairs:
     official.setdefault(key(r),set()).add(mapping[r["uniprot"]])
@@ -382,6 +397,8 @@ if severity_tier:
                 _inh.setdefault(key, set()).add(gene)
     _incl = {k: g for k, g in _inh.items() if _sev[k] in {"Major", "Moderate", "Minor"}}
     check("graded inhibition-attributed pairs", len(_incl), 549)
+    _oat1 = {k for k, g in _incl.items() if "SLC22A6" in g}
+    check("OAT1 eligible exposed pairs all contain methotrexate", (len(_oat1), all("4112" in k for k in _oat1)), (12, True))
     for fname, sub in (("enzyme_severity_stats.csv", _incl),
                        ("enzyme_severity_stats_single_enzyme.csv",
                         {k: g for k, g in _incl.items() if len(g) == 1})):

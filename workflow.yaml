@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release_version": "2.2.0",
+  "release_version": "2.3.0",
   "snapshot_date": "2026-10-05",
   "archive": {
     "reserved_doi": "10.5281/zenodo.23169653",
@@ -24,7 +24,8 @@
         "data/enzyme_pair_attribution.csv"
       ],
       "original_transformation_status": "historical_rules_recovered_candidate_graphs_do_not_exactly_reproduce_current_record",
-      "source_audit": "sources/historical_graph_audit_summary.json"
+      "source_audit": "sources/historical_graph_audit_summary.json",
+      "downstream_primary_transformation": "recomputable_record_contents_from_deposited_attribution_and_bridge_no_original_superset_selection_claim"
     },
     {
       "id": "external_aggregates",
@@ -47,6 +48,21 @@
     }
   ],
   "steps": [
+    {
+      "id": "primary_snapshot_reconstruction",
+      "script": "scripts/rebuild_primary_snapshot.py",
+      "inputs": [
+        "data/enzyme_pair_attribution.csv",
+        "data/cid_severity_bridge.csv",
+        "data/ddi_enzyme_database.csv (semantic reference only)"
+      ],
+      "outputs": [
+        "data/derived/ddi_enzyme_database_rebuilt.csv",
+        "data/derived/primary_reconstruction_audit.json"
+      ],
+      "status": "semantic_record_equivalence_historical_order_and_upstream_selection_not_reconstructed",
+      "script_sha256": "39c416221cb193669afc9108073bcc0a9d8de5cf9ec8a1c9838bd9d6b02ffb8d"
+    },
     {
       "id": "severity_join",
       "script": "scripts/rebuild_severity.py",
@@ -78,7 +94,7 @@
     {
       "id": "enzyme_statistics",
       "script": "pipeline/enzyme_severity_stats.py",
-      "script_sha256": "75025d2a900913bb2d2a508f955c7411ec7c06c2200f59b13dc2bb9ccc2ad0ef",
+      "script_sha256": "a2446d66e74d5ed57cec772d968c904cd075525518e56163b4769fd9307c6e25",
       "inputs": [
         "data/derived/enzyme_pair_severity.csv",
         "data/protein_annotation_audit.csv"
@@ -109,7 +125,7 @@
     {
       "id": "browser",
       "script": "scripts/make_browser.py",
-      "script_sha256": "aa491c3db3ff80c59b8cf4182cfa8edc849feab26468e751d9db8156cea13556",
+      "script_sha256": "72b9251b2e8e2e429560c21607c2380fc9f3ffb2bd1f483e47781491790f218b",
       "inputs": [
         "data/ddi_enzyme_database.csv",
         "data/enzyme_pair_attribution.csv",
@@ -141,7 +157,7 @@
     {
       "id": "figures",
       "script": "scripts/make_figures.py",
-      "script_sha256": "56c0516070e5f09b626f206c1f581619f78ee02b1fb7f41c8662721c3149ae17",
+      "script_sha256": "676129c57023953c754d6c5bc22098d7d61557cd2007147df16aa85af5496aab",
       "inputs": [
         "data/*.csv",
         "tables/SupplementaryTableS3_external_aggregate_counts.csv"
@@ -156,7 +172,7 @@
     {
       "id": "validation",
       "script": "validate.py",
-      "script_sha256": "46defa9802ab12c1ec2680210d4ad0db47da15f6f0f900c448677a0e415da9bc",
+      "script_sha256": "809a27928f0318dc40660f8eb7db5c7accbd1f7766c54882dfda70bd6a2bd89d",
       "inputs": [
         "data/*.csv",
         "tables/*.csv",

@@ -1,0 +1,19 @@
+{
+  "input_sha256": {
+    "attribution": "a43e37c6aac4074a823647f10c9fb476b022b4d34ffb7f9559a4bc31fa1ef6f6",
+    "bridge": "98bdc6b180cf9491caaf19e353342c6703d0e0efddf1044732c0293cf505a8cc",
+    "reference": "d879e618912303882a86e0900584b70ed1f76ae072172224ac2dfa5609686149"
+  },
+  "attribution_rows": 3072,
+  "primary_pairs": 1900,
+  "drug_count": 240,
+  "bridge_rows": 448,
+  "bridge_joined_cids": 313,
+  "bridge_unjoined_cids": 135,
+  "semantic_record_equivalence": true,
+  "output_order": "ascending numerical unordered CID pair",
+  "historical_csv_byte_equivalence_claimed": false,
+  "historical_20618_superset_selection_reconstructed": false,
+  "scope": "downstream transformation of deposited attribution and identifier snapshots",
+  "output_sha256": "a15f2a2c38777d665d2360ae525f3c73559def181662c75f8283df3d8fe39d83"
+}

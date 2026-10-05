@@ -1,13 +1,11 @@
 # Data dictionary
 
-Enzyme-resolved DDI research resource, review snapshot 2.2.0. Author code is MIT; author contributions are licensed only within rights the author owns. Missing upstream source permissions remain unresolved.
+Enzyme-resolved DDI research resource, dataset snapshot 2.3.0. Author code is MIT; author contributions are licensed only within rights the author owns. Missing upstream source permissions remain unresolved.
 
 **Third-party content.** DDInter 2.0 severity grades (CC BY-NC-SA 4.0) are not
 redistributed: the public tables carry DDInter identifiers, and
 `scripts/rebuild_severity.py` adds the grades from the user's own DDInter
-download (written to `data/derived/`, outside the public record). Pair-level
-DrugBank and KEGG content and MIMIC-IV content are not redistributed; only
-aggregate counts are.
+download (written to `data/derived/`, outside the public record). Raw DrugBank/trueDDI reference files and membership flags, and raw KEGG/MIMIC validation exports, are excluded; aggregate comparisons are supplied. This does not establish redistribution permission for the source-derived core annotations.
 
 Every file is UTF-8 CSV with a single header row and comma separators; text
 fields containing commas are double-quoted. Row counts exclude the header and
@@ -26,7 +24,7 @@ Missing values are empty fields (not `NA`, not `NaN`). Per-enzyme numeric displa
 
 ### `ddi_enzyme_database.csv` — 1,900 rows
 
-The primary resource: one row per drug pair.
+The primary resource: one row per canonical unordered CID pair. `scripts/rebuild_primary_snapshot.py` reconstructs its record contents from the deposited long attribution table and CID–DDInter bridge, aggregating unique raw protein labels and historical mechanism classes. All 1,900 records match semantically after canonical sorting; historical CSV row ordering and selection from the reported 20,618-pair upstream superset are not reconstructed. The historical description states that compound-name matching to DDInter selected record-bearing pairs; the bridge has 313 joined and 135 unjoined CIDs out of 448 candidates, with 240 CIDs retained in the primary table. The original pair inclusion/exclusion intermediate is unavailable.
 
 | Column | Type | Description |
 | --- | --- | --- |
@@ -103,7 +101,7 @@ Per-gene association with `Major` severity, using verified accession-backed huma
 | `q_fdr` | float | Benjamini–Hochberg FDR-adjusted *q*-value |
 | `direction_effect` | enum | `enriched_Major` or `depleted_Major` |
 
-`CYP2C9` (OR 2.78, q=0.002), `CYP3A4` (OR 0.44, q=0.005) and `SLC22A6 (OAT1)` (OR 5.24, 95% CI 1.65–16.64, q=0.022) reach FDR<0.05 in this exploratory snapshot. The other six rows do not. Grouping uses verified accession-backed human genes; exposed and comparator arms are disjoint. True SLCO1B1 has two graded pairs and fails the minimum-10 threshold. The prior merged raw SLCO-labelled biological estimate is withdrawn because it conflated SLCO1B1 and SLC22A6. A non-significant row's `direction_effect` describes its point estimate only, not a finding. Protein identity resolution does not validate the underlying drug-pair relation.
+`CYP2C9` (OR 2.78, *q* = 0.002), `CYP3A4` (OR 0.44, *q* = 0.005) and `SLC22A6 (OAT1)` (OR 5.24, 95% CI 1.65–16.64, *q* = 0.022) reach FDR<0.05 in this exploratory snapshot. The other six rows do not. Grouping uses verified accession-backed human genes; exposed and comparator arms are disjoint. True SLCO1B1 has two graded pairs and fails the minimum-10 threshold. The prior merged raw SLCO-labelled biological estimate is withdrawn because it conflated SLCO1B1 and SLC22A6. A non-significant row's `direction_effect` describes its point estimate only, not a finding. Protein identity resolution does not validate the underlying drug-pair relation. All 12 graded SLC22A6/OAT1 exposed pairs contain methotrexate (CID 4112), and the same 12 remain exposed in the single-gene sensitivity analysis. Removing methotrexate leaves zero OAT1 exposed pairs, so the estimate is a methotrexate-centred subset association; a general or drug-adjusted OAT1 effect is not identifiable.
 
 ## Descriptive historical reference comparisons
 

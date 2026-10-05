@@ -1,4 +1,4 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+Component-specific licences and source terms
 
 Copyright (c) 2026 Adeeb Noor
 
@@ -38,16 +38,18 @@ SUGGESTED ATTRIBUTION
 
   Noor, A. An enzyme-resolved dataset linking drug interaction mechanisms to
   clinical severity grades. https://github.com/adeebnoor/ddi-enzyme-severity-resource
-  Licensed under CC BY 4.0.
+  Attribute the author contributions under CC BY 4.0 within the stated scope;
+  author-written code is MIT. Source-derived content retains its original terms.
 
 THIRD-PARTY SOURCE DATA
 
 The rights of the original enzyme-detail source snapshot are unresolved. No
 blanket licence guarantee is asserted for that absent source or for source-derived
 annotations. The deposited GoldD3R file is an author-supplied export whose exact
-upstream permissions have not been independently established in this review.
-DDInter pair-level clinical grades, DrugBank and KEGG pair-level content, MIMIC
-content and private trial/trueDDI material are excluded from this release.
+upstream permissions have not been independently established for this snapshot.
+DDInter pair-level clinical grades, raw DrugBank/trueDDI reference files and
+membership flags, raw KEGG/MIMIC validation exports and private trial material
+are excluded. These exclusions do not certify the source-derived core rights.
 Use local reconstructed DDInter grades under DDInter's own terms.
 
 DISCLAIMER

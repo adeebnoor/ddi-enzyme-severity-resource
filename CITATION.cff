@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: An enzyme-resolved dataset linking drug interaction mechanisms to clinical severity grades
-message: Cite this repository review snapshot; DOI 10.5281/zenodo.23169653 is reserved for an unpublished Zenodo draft and is not a published dataset DOI.
+message: Cite this dataset version; DOI 10.5281/zenodo.23169653 is reserved for an unpublished Zenodo draft and is not a published dataset DOI.
 type: dataset
 authors:
   - family-names: Noor
@@ -8,16 +8,16 @@ authors:
     orcid: https://orcid.org/0000-0002-8251-1853
     affiliation: Department of Information Technology, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, Saudi Arabia
 abstract: >-
-  Author-derived review snapshot of 1900 drug pairs, 240 drugs and 35 source
-  protein labels. DDInter clinical grades are reconstructed locally from the
-  user's authorised download. Original D3 rule logic is recovered; complete
-  graph-to-current-record reconstruction remains unresolved. All 35 protein
-  accessions have a frozen current human gene audit; two source symbol conflicts
-  are resolved separately while raw annotations are preserved.
-  Includes exploratory statistics, recovered descriptive author-reference membership
-  comparisons, reported KEGG aggregates and a self-contained browser. The incomplete
-  selected phenotype layer is withdrawn. Original D3 rule logic is recovered; exact
-  full graph-to-current-record identity remains unresolved.
+  Protein-attributed dataset of 1900 drug pairs, 240 drugs and 35 source
+  protein labels. A deterministic transformation reconstructs primary record
+  contents from deposited attribution and identifier snapshots; the original
+  upstream subset selection remains unresolved. DDInter grades are reconstructed
+  locally from the user's authorised download. A frozen human accession audit
+  resolves two source symbol conflicts while preserving raw annotations.
+  Includes exploratory statistics, descriptive author-archived reference
+  membership comparisons, reported KEGG aggregates and a self-contained browser.
+  Historical D3 rules and graph candidates provide partial source support.
+  Clinical-trial flags and the incomplete phenotype layer are excluded.
 keywords:
   - drug-drug interactions
   - cytochrome P450
@@ -26,5 +26,5 @@ keywords:
   - data provenance
 repository-code: https://github.com/adeebnoor/ddi-enzyme-severity-resource
 url: https://github.com/adeebnoor/ddi-enzyme-severity-resource
-version: 2.2.0
+version: 2.3.0
 date-released: 2026-10-05

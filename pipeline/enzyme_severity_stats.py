@@ -149,4 +149,4 @@ if __name__ == "__main__":
     for r in primary:
         print(f"{r['enzyme']:20s} n={r['n_pairs']:3d} Major={r['n_major']:3d} "
               f"OR={r['OR']:.2f} ({r['CI_lo']:.2f}-{r['CI_hi']:.2f}) "
-              f"p={r['p']:.2e} q={r['q_fdr']:.3f}")
+              f"P={r['p']:.2e} q={r['q_fdr']:.3g}")

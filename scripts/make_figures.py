@@ -174,7 +174,7 @@ def fig_enzyme_forest():
         ax.plot([orv], [y], marker="o", markersize=9, color=color,
                 markeredgecolor=SURFACE, markeredgewidth=2.0, zorder=4)
         if sig:
-            ax.annotate(f"OR {orv:g}   q = {r['q_fdr']}",
+            ax.annotate(f"OR {orv:g}   $q$ = {r['q_fdr']}",
                         xy=(hi, y), xytext=(7, 0), textcoords="offset points",
                         va="center", ha="left", fontsize=9, color=INK_2)
 
@@ -210,7 +210,8 @@ def fig_enzyme_forest():
            "Accession-backed genes; odds of Major severity for attributed inhibition pairs, "
            "versus all other graded inhibition pairs.\n"
            f"{_nsig} of {len(st)} results survive FDR correction; "
-           f"the other {len(st) - _nsig} do not reach the threshold and are grey.")
+           f"the other {len(st) - _nsig} do not reach the threshold and are grey.\n"
+           "All 12 OAT1 exposed pairs contain methotrexate; no general OAT1 effect is identifiable.")
     save(fig, "fig3_enzyme_forest")
 
 
@@ -337,7 +338,7 @@ def fig_provenance():
     box(.2,.85,2.65,1.05,"UniProt identity audit\n35 reviewed human accessions\n2 source symbols corrected")
     arrow(2.92,1.38,3.5,1.38)
     box(3.6,4.45,2.85,1.0,"Original D3 enzyme branch\nHistorical graph + rules recovered\nCurrent-record identity unresolved",True)
-    box(3.6,2.8,2.85,1.0,"Released author-derived snapshots\n1,900 unique drug pairs\n3,072 pair–protein–direction rows")
+    box(3.6,2.8,2.85,1.0,"Deposited attribution + bridge\n3,072 rows → 1,900 pair records\nRecord contents rebuild exactly")
     arrow(5.03,4.4,5.03,3.86,True)
     box(7.15,4.45,2.65,1.0,"User-acquired DDInter 2.0 CSVs\nSource-specific terms apply\nNot deposited as clinical grades",True)
     box(7.15,2.8,2.65,1.0,"Identifier join + max-grade rule\nExpected 93 / 419 / 50 / 1,338\nSHA-256 joined-grade fingerprint")

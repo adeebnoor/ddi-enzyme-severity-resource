@@ -6,7 +6,7 @@ Regenerate with `python3 scripts/make_figures.py` (Matplotlib). PNG, SVG and PDF
 | --- | --- | --- |
 | fig1_provenance | Figure 1 | Diagram explicitly separates GoldD3R context from unresolved enzyme inputs and local grade reconstruction |
 | fig2_severity_composition | Figure 2 | data/severity_summary.csv; Unknown is missing grading, not safety |
-| fig3_enzyme_forest | Figure 3 | data/enzyme_severity_stats.csv; accession-backed human genes; three of nine q values <0.05 (CYP2C9, CYP3A4, SLC22A6/OAT1); true SLCO1B1 below eligibility threshold |
+| fig3_enzyme_forest | Figure 3 | data/enzyme_severity_stats.csv; accession-backed human genes; three of nine *q* values <0.05 (CYP2C9, CYP3A4, SLC22A6/OAT1); true SLCO1B1 below eligibility threshold; all 12 OAT1 exposed pairs contain methotrexate and remain identical in single-gene sensitivity |
 | fig4_external_concordance | Figure 4 | SupplementaryTableS3_external_aggregate_counts.csv; three resource-specific denominators; descriptive recovered DrugBank/trueDDI and reported KEGG memberships |
 | supp_fig1_mechanism_classes | Supplementary Figure 1 | Mechanism occurrences in primary CSV; multiple classes per pair |
 

@@ -1,6 +1,6 @@
-# Review snapshot 2.2.0
+# Dataset version 2.3.0
 
-This review revision retains 1,900 unordered drug pairs, 240 drugs, 35 raw protein labels and 3,072 attribution rows. DDInter grades remain local-only. Exploratory statistics use 549 graded inhibition-attributed pairs and a 424-pair single-symbol sensitivity set; The current official audit resolves all 35 human accessions and finds two source symbol conflicts. Q4U2R8 resolves to SLC22A6/OAT1 and Q8TCC7 to SLC22A8/OAT3. Raw labels remain unchanged; analyses now group by accession-backed identities. CYP2C9, CYP3A4 and SLC22A6/OAT1 reach FDR<0.05. The prior OATP1B1 biological estimate is withdrawn; true SLCO1B1 has two eligible graded pairs, below the minimum of 10.
+This version retains 1,900 unordered drug pairs, 240 drugs, 35 raw protein labels and 3,072 attribution rows. DDInter grades remain local-only. Exploratory statistics use 549 graded inhibition-attributed pairs and a 424-pair single-symbol sensitivity set. The current official audit resolves all 35 human accessions and finds two source symbol conflicts. Q4U2R8 resolves to SLC22A6/OAT1 and Q8TCC7 to SLC22A8/OAT3. Raw labels remain unchanged; analyses now group by accession-backed identities. CYP2C9, CYP3A4 and SLC22A6/OAT1 reach FDR<0.05. The prior OATP1B1 biological estimate is withdrawn; true SLCO1B1 has two graded pairs, below the minimum of 10.
 
 Recovered exact author-held reference inputs reproduce all 229 historical trueDDI memberships and all 73 DrugBank memberships among 1,172 testable pairs. A standard-library script verifies the raw snapshot SHA-256 and writes aggregate CSV/JSON only. Raw references and pair flags remain private. The dated correspondence establishes archived-copy provenance, not provider release, actual export creation date, permission or independent clinical validation. KEGG remains a reported historical aggregate. Figure 4 now displays all three descriptive comparisons with separate denominators.
 
@@ -8,4 +8,6 @@ The entire incomplete HPO layer, former supplementary table S4 and phenotype fig
 
 The source manifest and workflow identify exact snapshots, known provenance, unresolved metadata and script hashes. DOI 10.5281/zenodo.23169653 remains reserved for an unpublished Zenodo draft. Code licensing covers author code; no blanket licence overrides source-specific terms.
 
-Final verification counts and durable logs are recorded in the accompanying review QA report. Restricted source files, local grades and historical repository objects are excluded from the public record.
+Final verification counts and durable logs are recorded in the accompanying QA report. Restricted source files, local grades and historical repository objects are excluded from the public record.
+
+The downstream primary-table transformation is now executable: aggregate the deposited 3,072 attribution rows by canonical CID pair and join bridge display names/identifiers to reproduce all 1,900 record contents. Semantic equality is checked; historical row order and original upstream subset selection remain outside the reconstruction. All 12 graded OAT1 exposed pairs are methotrexate-centred and unchanged by single-gene sensitivity, limiting general gene-level interpretation.
