@@ -157,7 +157,7 @@
     {
       "id": "figures",
       "script": "scripts/make_figures.py",
-      "script_sha256": "676129c57023953c754d6c5bc22098d7d61557cd2007147df16aa85af5496aab",
+      "script_sha256": "9bc5d5eefbfb2ce52954d1d5c91f411bbdc0e5a17a68ca82112985fd332fa52a",
       "inputs": [
         "data/*.csv",
         "tables/SupplementaryTableS3_external_aggregate_counts.csv"

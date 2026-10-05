@@ -266,7 +266,7 @@ def fig_severity_composition():
     for g in ("Major", "Moderate", "Minor", "Unknown"):
         w = counts[g]
         color = SEV_RAMP.get(g, SEV_UNKNOWN)
-        ax.barh([0], [w], left=[x], height=0.20, color=color,
+        ax.barh([0], [w], left=[x], height=0.28, color=color,
                 edgecolor="none", zorder=3)
         # label inside only where it comfortably fits, else above the segment
         pct = 100 * w / total
@@ -276,7 +276,7 @@ def fig_severity_composition():
                     color="#ffffff" if g in ("Major", "Moderate") else INK,
                     zorder=4, linespacing=1.5)
         else:
-            ax.annotate(label, xy=(x + w / 2, 0.10), xytext=(0, 6),
+            ax.annotate(label, xy=(x + w / 2, 0.14), xytext=(0, 6),
                         textcoords="offset points", ha="center", va="bottom",
                         fontsize=9, color=INK_2, linespacing=1.4)
         x += w + gap
